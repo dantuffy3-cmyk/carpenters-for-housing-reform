@@ -1,173 +1,91 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Carpenters for Housing Reform</title>
-  <meta name="description" content="A practical licensing pathway to unlock experienced carpenters for defined renovation work and small secondary dwellings in Victoria." />
-  <style>
-    :root{
-      --bg:#0b0f14; --card:#121826; --text:#e8eef6; --muted:#a9b6c6; --line:#22304a;
-      --accent:#6ee7b7; --accent2:#60a5fa;
-    }
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);}
-    .wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px;}
-    header{padding:30px 0 10px;}
-    .tag{display:inline-block;border:1px solid var(--line);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:14px;}
-    h1{font-size:44px;line-height:1.05;margin:14px 0 10px;}
-    .lead{font-size:18px;color:var(--muted);max-width:760px;}
-    .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px;}
-    a.btn{display:inline-block;text-decoration:none;border-radius:12px;padding:12px 14px;border:1px solid var(--line);color:var(--text);}
-    a.btn.primary{border-color:transparent;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#071017;font-weight:700;}
-    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:22px;}
-    @media(min-width:860px){.grid{grid-template-columns:1fr 1fr;}}
-    section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;}
-    h2{margin:0 0 8px;font-size:20px;}
-    p,li{color:var(--muted);line-height:1.6;}
-    ul{margin:8px 0 0 18px;}
-    .full{grid-column:1/-1;}
-    .divider{height:1px;background:var(--line);margin:14px 0;}
-    label{display:block;margin:10px 0 6px;color:var(--text);font-size:14px;}
-    input,select,textarea{
-      width:100%;background:#0e1422;border:1px solid var(--line);color:var(--text);
-      border-radius:12px;padding:10px 12px;font-size:15px;
-    }
-    textarea{min-height:120px;resize:vertical;}
-    .small{font-size:13px;color:var(--muted);}
-    footer{margin-top:20px;color:var(--muted);font-size:13px;}
-    .note{border-left:4px solid var(--accent2);padding-left:12px;}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <header>
-      <span class="tag">Victoria, Australia</span>
-      <h1>Carpenters for Housing Reform</h1>
-      <p class="lead">
-        A trade-led proposal to close the licence gap, unlock experienced carpenters for defined residential work,
-        and help increase housing delivery — while keeping standards and consumer protections strong.
-      </p>
-      <div class="btns">
-        <a class="btn primary" href="#support">Support the reform</a>
-        <a class="btn" href="#proposal">Read the proposal</a>
-        <a class="btn" href="#contact">Contact</a>
-      </div>
-    </header>
+<style>
+  :root{
+    --bg:#07110b;
+    --panel:#0b1a10;
+    --card:#0f2416;
+    --text:#eafff2;
+    --muted:#b7e9c8;
+    --line:#1f5a33;
+    --green:#39ff88;      /* bright green */
+    --green2:#00d26a;     /* deeper green */
+    --accent:#7cffb0;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+  }
 
-    <div class="grid">
-      <section>
-        <h2>The problem</h2>
-        <p>
-          Builders are carrying heavy loads: council processes, contracts, insurance, compliance and project risk.
-          Delays and red tape can slow jobs down and bottleneck the trades behind them.
-        </p>
-        <p class="note">
-          Victoria needs more practical capacity — without lowering standards.
-        </p>
-      </section>
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% -10%, rgba(57,255,136,.18), transparent 60%),
+      radial-gradient(900px 500px at 90% 10%, rgba(0,210,106,.14), transparent 55%),
+      linear-gradient(180deg, var(--bg), #050b07);
+    color:var(--text);
+  }
 
-      <section>
-        <h2>The solution</h2>
-        <p>
-          Introduce a <strong>Registered Residential Carpenter</strong> pathway in Victoria.
-          Builders remain responsible for major construction. Experienced carpenters gain defined responsibility for smaller works.
-        </p>
-      </section>
+  .wrap{max-width:1020px;margin:0 auto;padding:26px 18px 70px;}
 
-      <section id="proposal" class="full">
-        <h2>Proposed division of responsibility</h2>
-        <div class="divider"></div>
-        <p><strong>Builders remain responsible for:</strong></p>
-        <ul>
-          <li>New homes (site-built or factory-built)</li>
-          <li>Major extensions, multi-storey builds, complex structural projects</li>
-          <li>Residential developments</li>
-        </ul>
-        <p style="margin-top:14px;"><strong>Registered Residential Carpenters could lead:</strong></p>
-        <ul>
-          <li>Renovations (bathrooms, laundries, general renovations)</li>
-          <li>Upgrades (windows/doors, internal alterations, structural carpentry modifications)</li>
-          <li>Decks/pergolas/verandas (where applicable)</li>
-          <li><strong>Small granny flats / studios up to 30 m²</strong> (single storey)</li>
-        </ul>
-        <p class="small" style="margin-top:10px;">
-          All work remains subject to building approvals where required. Plumbing/electrical by licensed trades. Engineering sign-off where required.
-        </p>
-      </section>
+  header{
+    border:1px solid rgba(57,255,136,.25);
+    background: linear-gradient(135deg, rgba(57,255,136,.16), rgba(0,210,106,.08));
+    border-radius:22px;
+    padding:22px 18px;
+    box-shadow: var(--shadow);
+  }
 
-      <section class="full">
-        <h2>Safety and consumer protection</h2>
-        <p>
-          This reform is not deregulation. It aims to maintain contracts, compliance, and consumer protections — while recognising proven trade experience.
-        </p>
-        <ul>
-          <li>Clear scope and limits</li>
-          <li>Bridging training in compliance/contracts/coordination</li>
-          <li>Appropriate insurance requirements</li>
-          <li>Accountability and auditability</li>
-        </ul>
-      </section>
+  .toprow{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between;}
+  .tag{
+    display:inline-flex;align-items:center;gap:10px;
+    border:1px solid rgba(57,255,136,.35);
+    padding:8px 12px;border-radius:999px;
+    color:var(--muted);font-size:13px;
+    background: rgba(7,17,11,.55);
+  }
+  .dot{width:10px;height:10px;border-radius:999px;background:var(--green);box-shadow:0 0 20px rgba(57,255,136,.6);}
 
-      <section id="support" class="full">
-        <h2>Support / feedback</h2>
-        <p>Want to support the idea or share feedback? Fill this in and we’ll keep it private and professional.</p>
+  h1{font-size:42px;line-height:1.08;margin:14px 0 10px;}
+  .lead{font-size:17px;color:var(--muted);max-width:860px;line-height:1.55;margin:0;}
 
-        <!-- IMPORTANT: Replace action="" with your form handler (Google Forms, Formspree, etc.) -->
-        <form action="" method="post">
-          <label>Name (optional)</label>
-          <input type="text" name="name" placeholder="Your name" />
+  .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+  a.btn{
+    display:inline-flex;align-items:center;gap:10px;
+    text-decoration:none;border-radius:14px;
+    padding:12px 14px;border:1px solid rgba(57,255,136,.28);
+    color:var(--text);background: rgba(7,17,11,.40);
+  }
+  a.btn.primary{
+    border-color: transparent;
+    background: linear-gradient(90deg, var(--green), var(--green2));
+    color:#031108;font-weight:800;
+    box-shadow:0 10px 22px rgba(57,255,136,.18);
+  }
+  a.btn:hover{transform: translateY(-1px);}
 
-          <label>Postcode (optional)</label>
-          <input type="text" name="postcode" placeholder="e.g. 3777" />
+  .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:16px;}
+  @media(min-width:880px){.grid{grid-template-columns:1fr 1fr;}}
 
-          <label>Role</label>
-          <select name="role">
-            <option>Carpenter</option>
-            <option>Builder</option>
-            <option>Site Supervisor</option>
-            <option>Designer / Draftsperson</option>
-            <option>Other</option>
-          </select>
+  section{
+    background: linear-gradient(180deg, rgba(15,36,22,.92), rgba(11,26,16,.92));
+    border:1px solid rgba(57,255,136,.18);
+    border-radius:18px;
+    padding:18px;
+    box-shadow: 0 10px 24px rgba(0,0,0,.25);
+  }
+  .full{grid-column:1/-1;}
+  h2{margin:0 0 10px;font-size:19px;}
+  p,li{color:var(--muted);line-height:1.62;}
+  ul{margin:10px 0 0 18px;}
 
-          <label>Message</label>
-          <textarea name="message" placeholder="Support, concerns, suggestions, or examples from site..."></textarea>
+  .divider{height:1px;background:rgba(57,255,136,.18);margin:12px 0;}
+  .callout{
+    border:1px solid rgba(57,255,136,.28);
+    background: rgba(7,17,11,.40);
+    border-radius:16px;padding:14px;
+  }
+  .kicker{margin:0 0 6px;font-weight:800;color:var(--text);}
+  .small{font-size:13px;color:rgba(183,233,200,.9);}
+  footer{margin-top:18px;color:rgba(183,233,200,.75);font-size:13px;}
 
-          <p class="small">Tip: To collect responses, connect this form to a handler (Google Form embed, Formspree, etc.).</p>
-        </form>
-      </section>
-
-      <section id="contact" class="full">
-        <h2>Contact</h2>
-        <p>
-          Dan — Carpenters for Housing Reform<br/>
-          Victoria, Australia
-        </p>
-        <p class="small">
-          (Add your contact email here when you’re ready.)
-        </p>
-      </section>
-    </div>
-
-    <footer>
-      © Carpenters for Housing Reform — Victoria-first.
-    </footer>
-  </div>
-</body>
-</html>
-<section id="support">
-
-<h2>Support Carpenters for Housing Reform Victoria</h2>
-
-<p>
-Victorian carpenters, builders, and industry professionals who support exploring
-a Registered Residential Carpenter pathway are encouraged to add their support below.
-</p>
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform?embedded=true"
-width="100%"
-height="900"
-frameborder="0">
-Loading…
-</iframe>
-
-</section>
+  /* Form */
+  iframe{border-radius:16px;overflow:hidden;border:1px solid rgba(57,255,136,.22);background:rgba(7,17,11,.35);}
+</style>
