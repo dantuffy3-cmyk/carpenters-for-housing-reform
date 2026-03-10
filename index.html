@@ -321,6 +321,52 @@
       font-size:13px;
       text-align:center;
     }
+    .image-feature{
+  position:relative;
+  overflow:hidden;
+  padding:0;
+}
+
+.image-feature .banner-img{
+  width:100%;
+  max-height:520px;
+  object-fit:cover;
+  display:block;
+  border-radius:20px;
+}
+
+.image-overlay{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:28px 24px;
+  background:linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.78) 100%);
+  border-radius:0 0 20px 20px;
+}
+
+.overlay-kicker{
+  margin:0 0 6px 0;
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:1.2px;
+  color:var(--green);
+  font-weight:700;
+}
+
+.overlay-title{
+  margin:0 0 8px 0;
+  font-size:28px;
+  line-height:1.1;
+  color:#fff;
+}
+
+.overlay-text{
+  margin:0;
+  max-width:760px;
+  color:#e8e8e8;
+  line-height:1.6;
+}
   </style>
 </head>
 <body>
@@ -476,9 +522,16 @@
   </p>
 </section>
 
-<section class="full mini-gallery">
-  <img src="carpenter-working.jpg" alt="Carpenter working on a high-end renovation">
-  <img src="finished-renovation.jpg" alt="Finished high-end residential renovation">
+<section class="full image-feature">
+  <img src="carpenter-working.jpg" alt="Carpenter working on a high-end renovation" class="banner-img">
+  <div class="image-overlay">
+    <p class="overlay-kicker">Built from real renovation experience</p>
+    <h2 class="overlay-title">Practical reform. Better housing delivery.</h2>
+    <p class="overlay-text">
+      Experienced carpenters already manage renovation work across Victoria.
+      This initiative explores how the system can better recognise that reality.
+    </p>
+  </div>
 </section>
 
       <section id="proposal" class="full">
