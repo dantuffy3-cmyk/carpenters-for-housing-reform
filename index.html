@@ -4,43 +4,41 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Carpenters for Housing Reform Victoria</title>
-  <meta name="description" content="A renovation-focused pathway for experienced carpenters in Victoria." />
+  <meta name="description" content="Industry-led reform for renovation carpentry in Victoria." />
   <style>
-  :root{
-  --bg:#050505;
-  --card:#121212;
-  --card2:#1a1a1a;
+    :root{
+      --bg:#050505;
+      --bg2:#0c0c0f;
+      --card:#121212;
+      --card2:#1b1b1f;
 
-  --text:#ffffff;
-  --muted:#cfcfcf;
+      --text:#ffffff;
+      --muted:#d2d2d7;
 
-  --line:rgba(255,255,255,.08);
+      --line:rgba(255,255,255,.08);
 
-  --green:#39ff88;
-  --purple:#7b5cff;
-  --orange:#ff7a18;
+      --green:#39ff88;
+      --purple:#7b5cff;
+      --orange:#ff7a18;
 
-  --shadow:0 12px 28px rgba(0,0,0,.35);
-}
+      --shadow:0 14px 34px rgba(0,0,0,.36);
+    }
 
     *{box-sizing:border-box}
-
-    html{
-      scroll-behavior:smooth;
-    }
+    html{scroll-behavior:smooth}
 
     body{
       margin:0;
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
       background:
-        radial-gradient(1200px 600px at 20% -10%, rgba(57,255,136,.18), transparent 60%),
-        radial-gradient(900px 500px at 90% 10%, rgba(0,210,106,.14), transparent 55%),
-        linear-gradient(180deg, var(--bg), #050b07);
+        radial-gradient(900px 500px at 15% -5%, rgba(57,255,136,.10), transparent 55%),
+        radial-gradient(700px 420px at 90% 8%, rgba(123,92,255,.10), transparent 50%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
       color:var(--text);
     }
 
     .wrap{
-      max-width:1100px;
+      max-width:1120px;
       margin:0 auto;
       padding:28px 20px 90px;
     }
@@ -54,7 +52,8 @@
       padding:12px 14px;
       border:1px solid var(--line);
       border-radius:18px;
-      background:rgba(7,17,11,.45);
+      background:rgba(255,255,255,.03);
+      backdrop-filter: blur(6px);
       box-shadow:0 8px 22px rgba(0,0,0,.22);
     }
 
@@ -68,15 +67,17 @@
     }
 
     .topnav a:hover{
-      background:rgba(57,255,136,.14);
-      color:var(--green);
+      background:rgba(123,92,255,.12);
+      color:#fff;
     }
 
     header{
-      border:1px solid rgba(57,255,136,.25);
-      background:linear-gradient(135deg, rgba(57,255,136,.16), rgba(0,210,106,.08));
-      border-radius:24px;
-      padding:24px 22px;
+      border:1px solid rgba(255,255,255,.08);
+      background:
+        linear-gradient(135deg, rgba(57,255,136,.08), rgba(123,92,255,.07)),
+        linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border-radius:26px;
+      padding:26px 24px;
       box-shadow:var(--shadow);
     }
 
@@ -86,19 +87,19 @@
       flex-wrap:wrap;
       align-items:center;
       justify-content:space-between;
-      margin-bottom:14px;
+      margin-bottom:16px;
     }
 
     .tag{
       display:inline-flex;
       align-items:center;
       gap:10px;
-      border:1px solid rgba(57,255,136,.35);
+      border:1px solid rgba(255,255,255,.08);
       padding:8px 12px;
       border-radius:999px;
       color:var(--muted);
       font-size:13px;
-      background:rgba(7,17,11,.55);
+      background:rgba(255,255,255,.03);
     }
 
     .dot{
@@ -106,20 +107,20 @@
       height:10px;
       border-radius:999px;
       background:var(--green);
-      box-shadow:0 0 20px rgba(57,255,136,.6);
+      box-shadow:0 0 18px rgba(57,255,136,.45);
     }
 
     .hero{
       display:grid;
-      grid-template-columns: 1fr;
-      gap:20px;
+      grid-template-columns:1fr;
+      gap:24px;
       align-items:center;
-      margin-top:10px;
+      margin-top:8px;
     }
 
-    @media(min-width:900px){
+    @media(min-width:920px){
       .hero{
-        grid-template-columns: 220px 1fr;
+        grid-template-columns: 300px 1fr;
       }
     }
 
@@ -127,24 +128,26 @@
       display:flex;
       justify-content:center;
       align-items:center;
+      padding:8px;
     }
 
     .logo-box img{
-  width:100%;
-  max-width:340px;
-  height:auto;
-}
+      width:100%;
+      max-width:340px;
+      height:auto;
+      display:block;
+    }
 
     .hero-copy h1{
-      font-size:42px;
-      line-height:1.08;
+      font-size:44px;
+      line-height:1.05;
       margin:0 0 12px 0;
     }
 
     .lead{
-      font-size:17px;
+      font-size:18px;
       color:var(--muted);
-      line-height:1.65;
+      line-height:1.7;
       margin:0;
       max-width:760px;
     }
@@ -163,27 +166,25 @@
       text-decoration:none;
       border-radius:16px;
       padding:13px 16px;
-      border:1px solid rgba(57,255,136,.28);
+      border:1px solid rgba(255,255,255,.08);
       color:var(--text);
-      background:rgba(7,17,11,.40);
+      background:rgba(255,255,255,.03);
       box-shadow:0 6px 18px rgba(0,0,0,.18);
       font-weight:600;
     }
 
-   .btn.primary{
-  border:none;
-  background:linear-gradient(90deg, var(--green), var(--purple));
-  color:#000;
-  font-weight:700;
-}
-
-    .btn:hover{
-      transform:translateY(-1px);
+    .btn.primary{
+      border:none;
+      background:linear-gradient(90deg, var(--green), var(--purple));
+      color:#050505;
+      font-weight:800;
     }
 
+    .btn:hover{transform:translateY(-1px)}
+
     .callout{
-      border:1px solid rgba(57,255,136,.28);
-      background:rgba(7,17,11,.40);
+      border:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(135deg, rgba(57,255,136,.06), rgba(255,122,24,.06));
       border-radius:18px;
       padding:16px;
       margin-top:18px;
@@ -192,7 +193,7 @@
     .kicker{
       margin:0 0 8px 0;
       font-weight:800;
-      color:var(--text);
+      color:#fff;
     }
 
     .support-counter{
@@ -200,10 +201,10 @@
       text-align:center;
       padding:26px 18px;
       border-radius:22px;
-      border:1px solid rgba(57,255,136,.24);
+      border:1px solid rgba(255,255,255,.08);
       background:
-        linear-gradient(135deg, rgba(57,255,136,.14), rgba(0,210,106,.08)),
-        rgba(7,17,11,.55);
+        linear-gradient(135deg, rgba(57,255,136,.10), rgba(123,92,255,.10)),
+        rgba(255,255,255,.02);
       box-shadow:var(--shadow);
     }
 
@@ -237,23 +238,21 @@
       margin-top:20px;
     }
 
-    @media(min-width:900px){
+    @media(min-width:920px){
       .grid{
         grid-template-columns:1fr 1fr;
       }
     }
 
     section{
-      background:linear-gradient(180deg, rgba(15,36,22,.94), rgba(11,26,16,.94));
-      border:1px solid rgba(57,255,136,.18);
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08);
       border-radius:20px;
       padding:22px;
       box-shadow:var(--shadow);
     }
 
-    .full{
-      grid-column:1 / -1;
-    }
+    .full{grid-column:1 / -1}
 
     h2{
       margin:0 0 12px 0;
@@ -265,13 +264,11 @@
       line-height:1.72;
     }
 
-    ul{
-      margin:10px 0 0 18px;
-    }
+    ul{margin:10px 0 0 18px}
 
     .divider{
       height:1px;
-      background:rgba(57,255,136,.18);
+      background:rgba(255,255,255,.08);
       margin:12px 0;
     }
 
@@ -279,13 +276,13 @@
       width:100%;
       display:block;
       border-radius:20px;
-      border:1px solid rgba(57,255,136,.2);
+      border:1px solid rgba(255,255,255,.08);
       box-shadow:0 12px 30px rgba(0,0,0,.35);
     }
 
     .small{
       font-size:13px;
-      color:rgba(183,233,200,.9);
+      color:#b8b8be;
     }
 
     .cta-box{
@@ -298,9 +295,31 @@
       margin:0 auto 16px auto;
     }
 
+    .mini-gallery{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:16px;
+    }
+
+    @media(min-width:920px){
+      .mini-gallery{
+        grid-template-columns:1fr 1fr;
+      }
+    }
+
+    .mini-gallery img{
+      width:100%;
+      height:300px;
+      object-fit:cover;
+      border-radius:18px;
+      border:1px solid rgba(255,255,255,.08);
+      box-shadow:0 12px 24px rgba(0,0,0,.28);
+      display:block;
+    }
+
     footer{
       margin-top:22px;
-      color:rgba(183,233,200,.75);
+      color:#b8b8be;
       font-size:13px;
       text-align:center;
     }
@@ -330,17 +349,16 @@
 
         <div class="hero-copy">
           <h1>Carpenters for Housing Reform Victoria</h1>
-
           <p class="lead">
-            A renovation-focused pathway for experienced carpenters in Victoria —
-            supporting builders, recognising trade experience, and improving housing delivery
-            while builders remain responsible for new homes and major construction.
+            Industry-led reform for renovation carpentry in Victoria — supporting builders,
+            recognising trade experience, and improving housing delivery while builders remain
+            responsible for new homes and major construction.
           </p>
 
           <div class="btns">
             <a class="btn primary" href="#support">Support the Reform</a>
             <a class="btn" href="#proposal">Read the Proposal</a>
-            <a class="btn" href="carpenters-for-housing-reform-victoria-proposal.pdf" target="_blank">Download Proposal PDF</a>
+            <a class="btn" href="proposal.pdf" target="_blank">Download Proposal PDF</a>
             <a class="btn" href="#contact">Contact</a>
           </div>
         </div>
@@ -358,12 +376,8 @@
     <section class="support-counter">
       <p class="counter-label">Victorian Trades Supporting Reform</p>
       <p class="counter-number">1</p>
-      <p class="counter-text">
-  Support is growing among experienced Victorian carpenters and renovation trades.
-</p>
-<p class="small" style="margin-top:8px; text-align:center;">
-  Updated manually as support grows.
-</p>
+      <p class="counter-text">Support is growing among experienced Victorian carpenters and renovation trades.</p>
+      <p class="small" style="margin-top:8px;">Updated manually as support grows.</p>
     </section>
 
     <div class="grid">
@@ -385,9 +399,7 @@
           </p>
         </div>
       </section>
-<section class="full">
-<img src="carpenter-renovation.jpg" class="banner-img">
-</section>
+
       <section>
         <h2>Our Goal</h2>
         <p>
@@ -396,22 +408,16 @@
         </p>
       </section>
 
-     <section>
-  <h2>Why It Makes Sense</h2>
-  <p>
-    Many experienced carpenters already coordinate renovation work and licensed trades,
-    but the current system does not provide a clear pathway for defined responsibility.
-  </p>
-  
- <p>
-    Builders remain responsible for new homes, framing, extensions and major structural construction,
-    while a renovation-focused pathway could recognise experienced carpenters already delivering
-    defined residential works across Victoria.
-  </p>
-</section>
+      <section>
+        <h2>Why It Makes Sense</h2>
         <p>
           Many experienced carpenters already coordinate renovation work and licensed trades,
           but the current system does not provide a clear pathway for defined responsibility.
+        </p>
+        <p>
+          Builders remain responsible for new homes, framing, extensions and major structural construction,
+          while a renovation-focused pathway could recognise experienced carpenters already delivering
+          defined residential works across Victoria.
         </p>
       </section>
 
@@ -439,21 +445,6 @@
         <p>
           This proposal is focused on <strong>renovation and defined carpentry works</strong> only.
           Builders remain responsible for new homes, framing, extensions, and major structural construction.
-        </p>
-      </section>
-
-      
-        <p>
-          Builders remain responsible for new homes, framing, extensions and major structural construction.
-        </p>
-        <p>
-          The proposed Registered Residential Carpenter pathway focuses specifically on
-          renovation and carpentry works such as bathrooms, kitchens, internal carpentry,
-          window replacements, decks, and small secondary dwellings.
-        </p>
-        <p>
-          This structure supports builders while recognising experienced carpenters who
-          already perform much of this work across Victoria.
         </p>
       </section>
 
@@ -490,10 +481,6 @@
           <li>Understanding of building compliance and permit requirements</li>
           <li>Coordination of licensed trades such as plumbing and electrical</li>
         </ul>
-        <p>
-          These requirements would ensure the pathway recognises experienced professionals
-          while maintaining strong standards across the residential building industry.
-        </p>
       </section>
 
       <section>
@@ -510,23 +497,17 @@
       </section>
 
       <section>
-  <h2>Industry Voices</h2>
-  <p>
-    “Experienced carpenters already carry out much of this work across Victoria.
-    A clearly defined pathway would recognise those skills while maintaining standards.”
-    — Victorian Carpenter
-  </p>
-</section>
+        <h2>Industry Voice</h2>
         <p>
           “Experienced carpenters already carry out much of this work across Victoria.
           A clearly defined pathway would recognise those skills while maintaining standards.”
           — Victorian Carpenter
         </p>
-        <p>
-          “Builders remain essential to leading new homes and major construction.
-          A renovation-focused pathway for carpenters could help unlock smaller projects.”
-          — Residential Tradesperson
-        </p>
+      </section>
+
+      <section class="full mini-gallery">
+        <img src="renovation-banner.jpg" alt="High-end renovation interior">
+        <img src="renovation-banner.jpg" alt="Residential renovation project">
       </section>
 
       <section id="proposal" class="full">
