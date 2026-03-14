@@ -1,923 +1,442 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Carpenters for Housing Reform Victoria</title>
-  <meta name="description" content="Industry-led reform for renovation carpentry in Victoria." />
-  <style>
-    :root{
-      --bg:#050505;
-      --bg2:#0c0c0f;
-      --card:#121212;
-      --card2:#1b1b1f;
-      --text:#ffffff;
-      --muted:#d2d2d7;
-      --line:rgba(255,255,255,.08);
-      --green:#39ff88;
-      --purple:#7b5cff;
-      --orange:#ff7a18;
-      --shadow:0 14px 34px rgba(0,0,0,.36);
-    }
 
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 
-    body{
-      margin:0;
-      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      background:
-        radial-gradient(900px 500px at 15% -5%, rgba(57,255,136,.08), transparent 55%),
-        radial-gradient(700px 420px at 90% 8%, rgba(123,92,255,.08), transparent 50%),
-        linear-gradient(180deg, var(--bg), var(--bg2));
-      color:var(--text);
-    }
+<title>Carpenters for Housing Reform Victoria</title>
 
-    .wrap{
-      max-width:1120px;
-      margin:0 auto;
-      padding:28px 20px 90px;
-    }
+<meta name="description" content="Industry-led reform for renovation carpentry in Victoria."/>
+<meta name="keywords" content="carpenters Victoria, renovation carpentry reform, housing reform Victoria">
 
-    .topnav{
-      display:flex;
-      justify-content:center;
-      gap:14px;
-      flex-wrap:wrap;
-      margin-bottom:20px;
-      padding:12px 14px;
-      border:1px solid var(--line);
-      border-radius:18px;
-      background:rgba(255,255,255,.03);
-      backdrop-filter: blur(6px);
-      box-shadow:0 8px 22px rgba(0,0,0,.22);
-    }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    .topnav a{
-      color:var(--text);
-      text-decoration:none;
-      font-size:14px;
-      font-weight:600;
-      padding:8px 12px;
-      border-radius:10px;
-      transition:all .2s ease;
-    }
+<style>
 
-    .topnav a:hover{
-      background:rgba(123,92,255,.12);
-      color:#fff;
-    }
+:root{
+--bg:#050505;
+--bg2:#0c0c0f;
+--card:#121212;
+--text:#ffffff;
+--muted:#cfcfd4;
+--line:rgba(255,255,255,.08);
 
-    header{
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(135deg, rgba(57,255,136,.06), rgba(123,92,255,.06)),
-        linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
-      border-radius:26px;
-      padding:26px 24px;
-      box-shadow:var(--shadow);
-    }
+--green:#39ff88;
+--purple:#7b5cff;
+--orange:#ff7a18;
 
-    .toprow{
-      display:flex;
-      gap:12px;
-      flex-wrap:wrap;
-      align-items:center;
-      justify-content:space-between;
-      margin-bottom:16px;
-    }
-
-    .tag{
-      display:inline-flex;
-      align-items:center;
-      gap:10px;
-      border:1px solid rgba(255,255,255,.08);
-      padding:8px 12px;
-      border-radius:999px;
-      color:var(--muted);
-      font-size:13px;
-      background:rgba(255,255,255,.03);
-    }
-
-    .dot{
-      width:10px;
-      height:10px;
-      border-radius:999px;
-      background:var(--green);
-      box-shadow:0 0 18px rgba(57,255,136,.45);
-    }
-
-    .hero{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:18px;
-  align-items:center;
-  margin-top:4px;
+--shadow:0 20px 44px rgba(0,0,0,.4);
 }
 
-    @media(min-width:920px){
-      .hero{
-        grid-template-columns:320px 1fr;
-      }
-    }
+*{box-sizing:border-box}
 
-    .logo-box{
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      padding:8px;
-    }
+html{scroll-behavior:smooth}
 
-    .logo-box img{
-      width:100%;
-      max-width:680px;
-      height:auto;
-      object-fit:contain;
-      display:block;
-    }
-
-    .hero-copy h1{
-  font-size:44px;
-  line-height:1.02;
-  margin:0 0 10px 0;
+body{
+margin:0;
+font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto;
+background:
+radial-gradient(900px 500px at 15% -5%, rgba(57,255,136,.08), transparent 55%),
+radial-gradient(700px 420px at 90% 8%, rgba(123,92,255,.08), transparent 50%),
+linear-gradient(180deg,var(--bg),var(--bg2));
+color:var(--text);
 }
 
-   .lead{
-  font-size:18px;
-  color:var(--muted);
-  line-height:1.62;
-  margin:0;
-  max-width:760px;
+.wrap{
+max-width:1100px;
+margin:auto;
+padding:28px 20px 90px;
 }
 
-    .btns{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      margin-top:18px;
-    }
+.topnav{
+display:flex;
+justify-content:center;
+gap:16px;
+flex-wrap:wrap;
+margin-bottom:24px;
+padding:12px 14px;
+border:1px solid var(--line);
+border-radius:18px;
+background:rgba(255,255,255,.03);
+backdrop-filter:blur(8px);
+position:sticky;
+top:16px;
+z-index:999;
+}
 
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      gap:10px;
-      text-decoration:none;
-      border-radius:16px;
-      padding:13px 16px;
-      border:1px solid rgba(255,255,255,.08);
-      color:var(--text);
-      background:rgba(255,255,255,.03);
-      box-shadow:0 6px 18px rgba(0,0,0,.18);
-      font-weight:600;
-      transition:all .2s ease;
-    }
+.topnav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+font-weight:600;
+padding:8px 12px;
+border-radius:10px;
+}
 
-    .btn.primary{
-      border:none;
-      background:linear-gradient(90deg, var(--green), var(--purple));
-      color:#050505;
-      font-weight:800;
-    }
+.topnav a:hover{
+background:rgba(123,92,255,.18);
+}
 
-    .btn:hover{
-      transform:translateY(-1px);
-    }
+header{
+border:1px solid var(--line);
+border-radius:26px;
+padding:30px;
+background:
+linear-gradient(135deg, rgba(57,255,136,.05), rgba(123,92,255,.05)),
+rgba(255,255,255,.02);
+box-shadow:var(--shadow);
+}
 
-    .callout{
-      border:1px solid rgba(255,255,255,.08);
-      background:linear-gradient(135deg, rgba(57,255,136,.06), rgba(255,122,24,.06));
-      border-radius:18px;
-      padding:16px;
-      margin-top:18px;
-    }
+.hero{
+display:grid;
+gap:26px;
+align-items:center;
+}
 
-    .kicker{
-      margin:0 0 8px 0;
-      font-weight:800;
-      color:#fff;
-    }
+@media(min-width:900px){
+.hero{grid-template-columns:320px 1fr;}
+}
 
-    .support-counter{
-      margin-top:18px;
-      text-align:center;
-      padding:26px 18px;
-      border-radius:22px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(135deg, rgba(57,255,136,.10), rgba(123,92,255,.10)),
-        rgba(255,255,255,.02);
-      box-shadow:var(--shadow);
-    }
+.logo-box img{
+width:100%;
+max-width:640px;
+}
 
-    .counter-label{
-      margin:0 0 8px 0;
-      font-size:15px;
-      text-transform:uppercase;
-      letter-spacing:1.5px;
-      color:var(--muted);
-    }
+.hero h1{
+font-size:52px;
+line-height:1.05;
+margin:0 0 10px 0;
+font-weight:800;
+}
 
-    .counter-number{
-      margin:0;
-      font-size:56px;
-      font-weight:800;
-      line-height:1;
-      color:var(--green);
-      text-shadow:0 0 18px rgba(57,255,136,.18);
-    }
+.lead{
+font-size:19px;
+color:var(--muted);
+max-width:640px;
+}
 
-    .counter-text{
-      margin:10px 0 0 0;
-      font-size:15px;
-      color:var(--muted);
-    }
+.btns{
+margin-top:20px;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
 
-    .grid{
-      display:grid;
-      grid-template-columns:1fr;
-      gap:18px;
-      margin-top:20px;
-    }
+.btn{
+padding:14px 18px;
+border-radius:14px;
+font-weight:600;
+border:1px solid var(--line);
+text-decoration:none;
+color:white;
+background:rgba(255,255,255,.04);
+}
 
-    @media(min-width:920px){
-      .grid{
-        grid-template-columns:1fr 1fr;
-      }
-    }
+.btn.primary{
+background:linear-gradient(90deg,var(--green),var(--purple));
+border:none;
+color:#050505;
+font-weight:800;
+}
 
-    section{
-      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
-      border:1px solid rgba(255,255,255,.08);
-      border-radius:20px;
-      padding:22px;
-      box-shadow:var(--shadow);
-    }
+.btn:hover{
+transform:translateY(-2px);
+}
 
-    .full{
-      grid-column:1 / -1;
-    }
+.counter{
+margin-top:24px;
+text-align:center;
+border:1px solid var(--line);
+border-radius:22px;
+padding:28px;
+background:linear-gradient(135deg, rgba(57,255,136,.08), rgba(123,92,255,.08));
+}
 
-    h2{
-      margin:0 0 12px 0;
-      font-size:21px;
-    }
+.counter-number{
+font-size:60px;
+font-weight:800;
+color:var(--green);
+}
 
-    p, li{
-      color:var(--muted);
-      line-height:1.72;
-    }
+.grid{
+display:grid;
+gap:20px;
+margin-top:24px;
+}
 
-    ul{
-      margin:10px 0 0 18px;
-    }
+@media(min-width:900px){
+.grid{grid-template-columns:1fr 1fr;}
+}
 
-    .divider{
-      height:1px;
-      background:rgba(255,255,255,.08);
-      margin:12px 0;
-    }
+section{
+background:rgba(255,255,255,.02);
+border:1px solid var(--line);
+border-radius:20px;
+padding:26px;
+box-shadow:var(--shadow);
+transition:.25s;
+}
 
-    .banner-img{
-      width:100%;
-      max-height:520px;
-      object-fit:cover;
-      display:block;
-      border-radius:20px;
-      border:1px solid rgba(255,255,255,.08);
-    }
+section:hover{
+transform:translateY(-4px);
+}
 
-    .small{
-      font-size:13px;
-      color:#b8b8be;
-    }
+.full{
+grid-column:1/-1;
+}
 
-    .cta-box{
-      text-align:center;
-      padding:28px 20px;
-    }
+h2{
+margin:0 0 10px 0;
+font-size:22px;
+}
 
-    .cta-box p{
-      max-width:760px;
-      margin:0 auto 16px auto;
-    }
+p,li{
+color:var(--muted);
+line-height:1.7;
+}
 
-    .image-feature{
-      position:relative;
-      overflow:hidden;
-      padding:0;
-    }
+ul{margin-left:18px}
 
-    .image-feature .banner-img{
-      width:100%;
-      max-height:520px;
-      object-fit:cover;
-      display:block;
-      border-radius:20px;
-    }
+.banner-img{
+width:100%;
+height:420px;
+object-fit:cover;
+border-radius:18px;
+border:1px solid var(--line);
+}
 
-    .image-overlay{
-      position:absolute;
-      left:0;
-      right:0;
-      bottom:0;
-      padding:28px 24px;
-      background:linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.78) 100%);
-      border-radius:0 0 20px 20px;
-    }
+.image-feature{
+position:relative;
+overflow:hidden;
+padding:0;
+}
 
-    .overlay-kicker{
-      margin:0 0 6px 0;
-      font-size:13px;
-      text-transform:uppercase;
-      letter-spacing:1.2px;
-      color:var(--green);
-      font-weight:700;
-    }
+.image-overlay{
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+padding:26px;
+background:linear-gradient(180deg,transparent,rgba(0,0,0,.85));
+}
 
-    .overlay-title{
-      margin:0 0 8px 0;
-      font-size:28px;
-      line-height:1.1;
-      color:#fff;
-    }
+.overlay-title{
+font-size:28px;
+margin:6px 0;
+}
 
-    .overlay-text{
-      margin:0;
-      max-width:760px;
-      color:#e8e8e8;
-      line-height:1.6;
-    }
+.cta{
+text-align:center;
+}
 
-    footer{
-      margin-top:22px;
-      color:#b8b8be;
-      font-size:13px;
-      text-align:center;
-    }
-  </style>
+footer{
+margin-top:30px;
+text-align:center;
+font-size:13px;
+color:#aaa;
+}
+
+</style>
 </head>
+
 <body>
-  <div class="wrap">
 
-    <nav class="topnav">
-      <a href="#">Home</a>
-      <a href="#proposal">Proposal</a>
-      <a href="#industry-reality">Industry Reality</a>
-      <a href="#support">Support</a>
-      <a href="#contact">Contact</a>
-    </nav>
+<div class="wrap">
 
-    <header>
-      <div class="toprow">
-        <span class="tag"><span class="dot"></span> Victoria, Australia</span>
-        <span class="tag">Industry-led · Renovation-focused · Standards-first</span>
-      </div>
+<nav class="topnav">
+<a href="#">Home</a>
+<a href="#problem">Problem</a>
+<a href="#proposal">Proposal</a>
+<a href="#benefits">Benefits</a>
+<a href="#support">Support</a>
+<a href="#contact">Contact</a>
+</nav>
 
-      <div class="hero">
-        <div class="logo-box">
-          <img src="logo.png" alt="Carpenters for Housing Reform Victoria">
-        </div>
+<header>
 
-        <div class="hero-copy">
-          <h1>Carpenters for Housing Reform Victoria</h1>
-          <p class="lead">
-            Industry-led reform for renovation carpentry in Victoria — supporting builders,
-            recognising trade experience, and improving housing delivery while builders remain
-            responsible for new homes and major construction.
-          </p>
+<div class="hero">
 
-          <div class="btns">
-            <a class="btn primary" href="#support">Support the Reform</a>
-            <a class="btn" href="#proposal">Read the Proposal</a>
-            <a class="btn" href="proposal.pdf" target="_blank">Download Proposal PDF</a>
-            <a class="btn" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="callout">
-        <p class="kicker">Supporting builders. Recognising carpenters. Strengthening housing delivery.</p>
-        <p style="margin:0;">
-          This initiative is focused on practical reform that maintains standards,
-          protects consumers, and unlocks renovation capacity across Victoria.
-        </p>
-      </div>
-    </header>
-
-    <section class="support-counter">
-      <p class="counter-label">Victorian Trades Supporting Reform</p>
-      <p class="counter-number">11</p>
-      <p class="counter-text">Support is growing among experienced Victorian carpenters and renovation trades.</p>
-      <p class="small" style="margin-top:8px;">Updated manually as support grows.</p>
-    </section>
-
-    <div class="grid">
-
-      <section class="full">
-        <img src="hero-renovation.jpg" alt="High-end renovation interior" class="banner-img">
-      </section>
-
-      <section class="full">
-        <div class="callout" style="margin-top:0;">
-          <p class="kicker" style="font-size:22px; margin-bottom:10px;">
-            A practical reform idea built from real renovation experience in Victoria.
-          </p>
-          <p style="margin:0; font-size:16px; line-height:1.7; color:var(--muted); max-width:900px;">
-            Experienced carpenters already manage renovation works, coordinate licensed trades,
-            and deliver outcomes for clients every day. This initiative explores how the licensing
-            system could better recognise that reality while keeping builders responsible for new homes
-            and major construction.
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <h2>Benefits for Victoria</h2>
-        <section class="full">
-<img src="finished-renovation.jpg" class="banner-img" alt="Completed high-end renovation">
-</section>
-        <p>
-          Recognising experienced carpenters through a renovation-focused pathway
-          could create practical benefits for the building industry, homeowners,
-          and the broader Victorian economy.
-        </p>
-        <ul>
-          <li><strong>Helping address trade shortages.</strong> Allowing experienced carpenters to take responsibility for defined renovation work could increase the number of qualified professionals able to deliver smaller residential projects across the state.</li>
-          <li><strong>Supporting builders.</strong> Builders remain responsible for new homes, structural construction, and larger projects, while experienced carpenters could assist with the growing demand for renovation work.</li>
-          <li><strong>Improving housing delivery.</strong> Smaller renovation projects may be completed more efficiently, reducing bottlenecks and helping homeowners access qualified trades.</li>
-          <li><strong>Supporting the Victorian economy.</strong> More renovation work delivered by qualified tradespeople means more legitimate contracts, more declared income, and greater tax revenue flowing through the formal economy.</li>
-          <li><strong>More affordable outcomes for homeowners.</strong> With experienced carpenters able to coordinate defined renovation projects, homeowners may benefit from more accessible pricing and greater availability of skilled trades.</li>
-        </ul>
-        <p>
-          The goal is a system that works for everyone — builders, carpenters,
-          homeowners, and the Victorian government.
-        </p>
-      </section>
-<section class="full">
-<section class="full">
-
-<h2>Policy Proposal Summary</h2>
-
-<div style="display:grid;grid-template-columns:1fr;gap:16px;margin-top:20px;">
-
-<div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);">
-<h3 style="margin-top:0;">Problem</h3>
-<p>
-Victoria's domestic building threshold of approximately $10,000 no longer reflects the real cost of renovation work. Many common projects such as bathrooms, kitchens and decks now exceed this value, yet experienced carpenters who manage these projects cannot formally take responsibility without becoming licensed builders.
-</p>
+<div class="logo-box">
+<img src="logo.png" alt="Carpenters for Housing Reform Victoria">
 </div>
 
-<div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);">
-<h3 style="margin-top:0;">Proposed Solution</h3>
-<p>
-Introduce a Registered Residential Carpenter pathway recognising experienced carpenters with significant renovation experience, allowing them to take responsibility for defined renovation projects within clear regulatory limits.
-</p>
-</div>
+<div>
 
-<div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);">
-<h3 style="margin-top:0;">Outcome</h3>
-<p>
-A clearer pathway for experienced tradespeople, improved delivery of smaller residential projects, reduced industry bottlenecks, and stronger recognition of the practical role carpenters already play in renovation construction.
-</p>
-</div>
+<h1>Carpenters for Housing Reform Victoria</h1>
 
-</div>
-
-</section>
-<h2>The Proposed Trade Pathway</h2>
-
-<p>
-The goal of this reform is not to replace builders, but to introduce a clearly defined pathway recognising highly experienced carpenters operating in the renovation sector.
+<p class="lead">
+Industry-led reform exploring a renovation-focused pathway that recognises experienced carpenters while maintaining the essential role of licensed builders in new homes and structural construction.
 </p>
 
-<div style="text-align:center;margin-top:20px">
+<div class="btns">
 
-<div style="padding:20px;border:1px solid rgba(255,255,255,.1);border-radius:14px;margin-bottom:14px">
-<strong>Qualified Carpenter</strong><br>
-Carpentry apprenticeship completed
+<a class="btn primary" href="#support">Support the Reform</a>
+
+<a class="btn" href="proposal.pdf">Download Proposal</a>
+
+<a class="btn" href="#proposal">Read Proposal</a>
+
 </div>
 
-<div style="font-size:30px;margin:10px">↓</div>
-
-<div style="padding:20px;border:1px solid rgba(57,255,136,.4);border-radius:14px;margin-bottom:14px;background:rgba(57,255,136,.05)">
-<strong>Registered Residential Carpenter (RRC)</strong><br>
-10+ years experience<br>
-Renovation focused projects
-</div>
-
-<div style="font-size:30px;margin:10px">↓</div>
-
-<div style="padding:20px;border:1px solid rgba(255,255,255,.1);border-radius:14px">
-<strong>Licensed Builder</strong><br>
-New homes<br>
-Structural construction<br>
-Major developments
 </div>
 
 </div>
 
-</section>
-     
-      <section>
-        <h2>Why the $10,000 Threshold No Longer Reflects Renovation Reality</h2>
-        <p>
-          The $10,000 threshold was designed when smaller renovation projects could
-          reasonably fall within that value. Today, however, the cost of materials,
-          labour, and compliance means that many basic renovation projects exceed
-          this threshold.
-        </p>
-        <ul>
-          <li>Bathroom renovations commonly range from $20,000–$40,000</li>
-          <li>Kitchens can range from $25,000–$70,000</li>
-          <li>Decks and outdoor structures often exceed $10,000</li>
-          <li>Internal renovations regularly surpass $15,000</li>
-        </ul>
-        <p>
-          As a result, most real-world renovation projects now fall into a regulatory
-          category designed for larger construction works, even when the project
-          is primarily carpentry-led.
-        </p>
-      </section>
+<div class="counter">
 
-      <section class="full">
-        <div class="callout" style="margin-top:0;">
-          <p class="kicker">Housing Impact</p>
-          <p style="margin:0;">
-            A renovation-focused pathway could help smaller residential projects move more efficiently
-            while maintaining strong standards, approvals, and consumer protections.
-          </p>
-        </div>
-      </section>
+<p>Victorian Trades Supporting Reform</p>
 
-      <section id="industry-reality">
-        <h2>Current Industry Reality</h2>
-        <p>
-          Across Victoria, many experienced carpenters already coordinate renovation projects,
-          manage trades such as plumbers and electricians, and oversee day-to-day site work.
-        </p>
-        <p>
-          Despite this, the current licensing structure does not provide a clear pathway for
-          experienced carpenters to take formal responsibility for defined renovation projects.
-        </p>
-      </section>
+<div class="counter-number" id="count">11</div>
 
-      <section>
-        <h2>Experience Requirements</h2>
-        <p>
-          Any Registered Residential Carpenter pathway should apply only to highly experienced
-          tradespeople with significant on-site knowledge of residential construction and renovation work.
-        </p>
-        <ul>
-          <li>Minimum of 10+ years experience in the carpentry trade</li>
-          <li>Completion of a carpentry apprenticeship</li>
-          <li>Demonstrated experience managing renovation projects</li>
-          <li>Understanding of building compliance and permit requirements</li>
-          <li>Coordination of licensed trades such as plumbing and electrical</li>
-        </ul>
-        <section>
+<p>Support from experienced Victorian carpenters and renovation trades.</p>
 
-<h2>Why Reform Is Needed</h2>
+</div>
+
+</header>
+
+<div class="grid">
+
+<section id="problem" class="full">
+
+<h2>The Problem</h2>
 
 <p>
-Victoria’s domestic building regulations generally require a registered builder
-to contract residential building work valued above approximately $10,000.
-While designed to protect consumers, this threshold no longer reflects the
-reality of modern renovation costs.
-</p>
-
-<p>
-Today many common renovation projects regularly exceed this value:
+Victoria's domestic building threshold of around $10,000 no longer reflects the real cost of modern renovation projects.
 </p>
 
 <ul>
-<li>Bathroom renovations: $20,000 – $40,000</li>
-<li>Kitchens: $25,000 – $70,000</li>
-<li>Decks and outdoor structures: $15,000+</li>
-<li>Internal renovations: often above $15,000</li>
+
+<li>Bathroom renovations commonly $20k–$40k</li>
+
+<li>Kitchens often $25k–$70k</li>
+
+<li>Decks and outdoor projects frequently exceed $15k</li>
+
 </ul>
 
 <p>
-Experienced carpenters frequently coordinate these projects, manage licensed
-trades, and oversee site progress, yet the current regulatory system does not
-provide a clear pathway recognising that responsibility.
+Many of these projects are coordinated by experienced carpenters on site, yet the current licensing framework does not clearly recognise that role.
+</p>
+
+</section>
+
+<section id="proposal">
+
+<h2>The Proposed Reform</h2>
+
+<p>
+Introduce a Registered Residential Carpenter pathway recognising experienced carpenters with significant renovation experience.
 </p>
 
 <p>
-A renovation-focused pathway would recognise experienced carpenters already
-working in this space while maintaining the essential role of registered
-builders in delivering new homes and structural construction.
+This pathway would apply to defined renovation projects while maintaining the central role of licensed builders in major construction and new homes.
 </p>
 
 </section>
-      </section>
 
-      <section>
-        <h2>Important Clarification</h2>
-        <p>
-          This initiative is not intended to replace licensed builders or alter the responsibilities
-          of builders for new homes, structural construction, or multi-storey developments.
-        </p>
-        <p>
-          The focus is strictly on exploring a renovation-focused pathway for experienced carpenters
-          within clearly defined limits.
-        </p>
-      </section>
-<section class="full">
-
-  <h2>The Problem in Numbers</h2>
-
-  <p>
-    The current domestic building threshold no longer reflects the real cost of renovation work in Victoria.
-  </p>
-
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:20px;">
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:38px;font-weight:800;color:var(--green);">$10k</div>
-      <div style="margin-top:8px;color:var(--muted);">Current threshold for domestic building work</div>
-    </div>
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:38px;font-weight:800;color:var(--purple);">$20k–$40k</div>
-      <div style="margin-top:8px;color:var(--muted);">Typical bathroom renovation</div>
-    </div>
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:38px;font-weight:800;color:var(--orange);">$25k–$70k</div>
-      <div style="margin-top:8px;color:var(--muted);">Typical kitchen renovation</div>
-    </div>
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:38px;font-weight:800;color:var(--green);">$15k+</div>
-      <div style="margin-top:8px;color:var(--muted);">Typical decks and outdoor structures</div>
-    </div>
-
-  </div>
-
-  <p style="margin-top:20px;">
-    In practice, this means many common renovation jobs now exceed the threshold, even when they are primarily carpentry-led projects already managed by experienced tradespeople on site.
-  </p>
-
-</section>
-      <section class="full image-feature">
-
-  <img src="highend-reno.jpg" class="banner-img" alt="High-end bathroom renovation in Victoria">
-
-  <div class="image-overlay">
-    <p class="overlay-kicker">Renovation reality</p>
-    <h2 class="overlay-title">Modern renovation projects regularly exceed $10,000</h2>
-    <p class="overlay-text">
-      Bathrooms, kitchens and interior renovations often exceed $20,000–$40,000.
-      These projects are commonly coordinated by experienced carpenters already
-      managing trades and site work.
-    </p>
-  </div>
-
-</section>
-      <section>
-        <h2>Industry Voice</h2>
-        <p>
-          “Experienced carpenters already carry out much of this work across Victoria.
-          A clearly defined pathway would recognise those skills while maintaining standards.”
-          — Victorian Carpenter
-        </p>
-      </section>
-
-      <section class="full image-feature">
-        <img src="carpenter-working.jpg" alt="Carpenter working on a high-end renovation" class="banner-img">
-        <div class="image-overlay">
-          <p class="overlay-kicker">Built from real renovation experience</p>
-          <h2 class="overlay-title">Practical reform. Better housing delivery.</h2>
-          <p class="overlay-text">
-            Experienced carpenters already manage renovation work across Victoria.
-            This initiative explores how the system can better recognise that reality.
-          </p>
-        </div>
-      </section>
 <section>
 
-<h2>How Other States Approach Trade Licensing</h2>
-
-<p>
-Other Australian states recognise trade contractor licensing systems that allow
-qualified tradespeople to take responsibility for specific categories of building work.
-</p>
-
-<p>
-For example, Queensland operates a trade contractor licensing framework through
-the QBCC where carpenters and other trades can hold their own licences and
-contract work within defined scopes.
-</p>
-
-<p>
-Exploring a renovation-focused pathway for experienced carpenters in Victoria
-could achieve similar recognition while maintaining the essential role of
-registered builders in leading new homes and major structural construction.
-</p>
-
-</section>
-      <section>
-
-<h2>How Other States Approach Trade Licensing</h2>
-
-<p>
-Other Australian states recognise trade contractor licensing systems that allow
-qualified tradespeople to take responsibility for specific categories of building work.
-</p>
-
-<p>
-For example, Queensland operates a trade contractor licensing framework through
-the QBCC where carpenters and other trades can hold their own licences and
-contract work within defined scopes.
-</p>
-
-<p>
-Exploring a renovation-focused pathway for experienced carpenters in Victoria
-could achieve similar recognition while maintaining the essential role of
-registered builders in leading new homes and major structural construction.
-</p>
-        <section class="full">
-
-  <h2>The Renovation Economy</h2>
-
-  <p>
-    Renovation work is a major part of Victoria’s residential construction activity,
-    yet the current regulatory structure does not clearly recognise experienced
-    carpenters who already coordinate much of this work on site.
-  </p>
-
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:20px;">
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:34px;font-weight:800;color:var(--green);">$20k–$40k</div>
-      <div style="margin-top:8px;color:var(--muted);">Typical bathroom renovation</div>
-    </div>
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:34px;font-weight:800;color:var(--purple);">$25k–$70k</div>
-      <div style="margin-top:8px;color:var(--muted);">Typical kitchen renovation</div>
-    </div>
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:34px;font-weight:800;color:var(--orange);">$15k+</div>
-      <div style="margin-top:8px;color:var(--muted);">Typical decks and outdoor projects</div>
-    </div>
-
-    <div style="padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02);text-align:center;">
-      <div style="font-size:34px;font-weight:800;color:var(--green);">$10k</div>
-      <div style="margin-top:8px;color:var(--muted);">Current threshold around where builder contracting rules begin to apply</div>
-    </div>
-
-  </div>
-
-  <p style="margin-top:20px;">
-    In practice, this means a large share of real renovation work now sits above
-    the current threshold, even when the project is primarily carpentry-led and
-    already being coordinated by experienced tradespeople.
-  </p>
-
-</section>
-<section>
-  <h2>How Other States Approach Trade Licensing</h2>
-
-  <p>
-    Other Australian states recognise trade contractor licensing systems that allow
-    qualified tradespeople to take responsibility for specific categories of building work.
-  </p>
-
-  <p>
-    For example, Queensland operates a trade contractor licensing framework where
-    carpenters and other trades can hold their own licences and contract work within
-    defined scopes.
-  </p>
-
-  <p>
-    Exploring a renovation-focused pathway for experienced carpenters in Victoria
-    could achieve similar recognition while maintaining the essential role of
-    registered builders in leading new homes and major structural construction.
-  </p>
-</section>
-</section>
-      <section id="proposal" class="full">
-        <h2>Proposed Division of Responsibility</h2>
-        <div class="divider"></div>
-
-        <div class="callout" style="margin-top:0;">
-          <p class="kicker">Clear boundary (important)</p>
-          <p style="margin:0;">
-            This pathway is <strong>renovation-focused</strong>. It is <strong>not intended to cover
-            new-home framing or new home construction</strong>.
-          </p>
-        </div>
-
-        <p style="margin-top:14px;"><strong>Builders remain responsible for:</strong></p>
-        <ul>
-          <li>All new homes (site-built or factory-built)</li>
-          <li>All new-home framing and structural builds</li>
-          <li>Extensions and major structural alterations</li>
-          <li>Multi-storey builds, complex projects, residential developments</li>
-        </ul>
-
-        <p style="margin-top:14px;"><strong>Registered Residential Carpenters could lead (renovation-focused):</strong></p>
-        <ul>
-          <li>Bathrooms, laundries, kitchens (renovation coordination)</li>
-          <li>Window and door upgrades / replacement</li>
-          <li>Internal fit-off carpentry (doors, trim, hardware, finish carpentry)</li>
-          <li>Decks / pergolas / verandas (where applicable)</li>
-          <li><strong>Small granny flats / studios up to 30 m²</strong> (single storey)</li>
-          <li>Repair / rectification carpentry works within defined limits</li>
-        </ul>
-
-        <p class="small" style="margin-top:10px;">
-          Plumbing/electrical by licensed trades. Engineering sign-off where required.
-          Approvals obtained where required. Clear scope and limits to manage risk and protect consumers.
-        </p>
-      </section>
-
-      <section>
-        <h2>Timing Matters</h2>
-        <p>
-          Victoria is currently undergoing significant building industry reform,
-          including the establishment of the Building and Plumbing Commission
-          and new consumer protection legislation.
-        </p>
-        <p>
-          As government and industry work together to strengthen the residential
-          construction system, there is an opportunity to explore practical
-          improvements that reflect how building projects already operate
-          on site.
-        </p>
-        <p>
-          Carpenters for Housing Reform Victoria aims to contribute to that
-          conversation by proposing a renovation-focused pathway that supports
-          builders, recognises experienced carpenters, and improves housing
-          delivery across the state.
-        </p>
-      </section>
-
-      <section class="full">
-        <h2>Founder</h2>
-        <p>
-          Founded by <strong>Daniel Sonsie, Victorian Carpenter</strong>. This initiative welcomes constructive input from carpenters,
-          builders, regulators, and industry organisations across Victoria.
-        </p>
-      </section>
-
-      <section id="support" class="full">
-        <div class="cta-box">
-          <section class="full">
-<p style="margin-top:18px;font-size:14px;color:var(--muted);">
-Early industry support is currently being gathered from experienced Victorian carpenters working in residential renovation and construction.
-</p>
-<h2>Industry Support</h2>
-
-<p>
-Carpenters for Housing Reform Victoria is gaining early support from experienced carpenters across the state who believe the renovation sector needs a clearer pathway recognising trade experience.
-</p>
+<h2>Experience Requirements</h2>
 
 <ul>
-<li>Victorian renovation carpenters</li>
-<li>Residential carpentry contractors</li>
-<li>Trades coordinating renovation projects</li>
-<li>Builders supporting practical reform</li>
+
+<li>Completed carpentry apprenticeship</li>
+
+<li>10+ years industry experience</li>
+
+<li>Demonstrated renovation project management</li>
+
+<li>Coordination of licensed trades</li>
+
 </ul>
 
+</section>
+
+<section id="benefits">
+
+<h2>Benefits for Victoria</h2>
+
+<ul>
+
+<li>More renovation capacity</li>
+
+<li>Reduced industry bottlenecks</li>
+
+<li>Better recognition of trade experience</li>
+
+<li>Improved housing delivery</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Other States</h2>
+
 <p>
-Support is currently being gathered through the website and will continue to grow as more industry professionals engage with the proposal.
+Several Australian states operate trade contractor licensing systems allowing qualified trades to contract work within defined scopes.
+</p>
+
+<p>
+Exploring a similar renovation pathway in Victoria could recognise industry experience while maintaining strong standards.
 </p>
 
 </section>
-          <h2>Support the Reform</h2>
-          <p>
-            Carpenters for Housing Reform Victoria is inviting constructive support and feedback from
-            experienced carpenters, builders, and other industry professionals across the state.
-          </p>
 
-          <div class="callout" style="margin:14px auto 18px auto; max-width:760px;">
-            <p class="kicker">Join the initiative</p>
-            <p style="margin:0;">
-              If you support exploring a renovation-focused pathway for experienced carpenters in Victoria,
-              use the button below to open the support form.
-            </p>
-          </div>
+<section class="full image-feature">
 
-         <div class="btns" style="justify-content:center;">
-  <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank">
-    Open Support Form
-  </a>
+<img src="carpenter-working.jpg" class="banner-img">
+
+<div class="image-overlay">
+
+<h2 class="overlay-title">Built from real renovation experience</h2>
+
+<p>Experienced carpenters already manage renovation projects across Victoria.</p>
+
 </div>
-      </section>
 
-      <section id="contact" class="full">
-        <h2>Contact</h2>
-        <p class="small">
-          Email: <a href="mailto:admin@sonsiecarpentry.com" style="color: var(--green); text-decoration:none;">admin@sonsiecarpentry.com</a>
-        </p>
-      </section>
+</section>
 
-    </div>
+<section id="support" class="full cta">
 
-    <footer>© Carpenters for Housing Reform Victoria — Victoria-first.</footer>
-  </div>
+<h2>Support the Reform</h2>
+
+<p>
+Industry professionals are invited to provide support or feedback on the proposal.
+</p>
+
+<a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank">
+Open Support Form
+</a>
+
+</section>
+
+<section id="contact" class="full">
+
+<h2>Contact</h2>
+
+<p>
+Email: admin@sonsiecarpentry.com
+</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p><strong>Carpenters for Housing Reform Victoria</strong></p>
+
+<p>Industry-led renovation reform initiative.</p>
+
+<p>Founded by Daniel Sonsie, Victorian Carpenter</p>
+
+</footer>
+
+</div>
+
 </body>
 </html>
