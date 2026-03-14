@@ -25,7 +25,55 @@
       --radius: 18px;
       --max: 1180px;
     }
+.support-grid {
+  align-items: stretch;
+}
 
+.support-intro {
+  margin-bottom: 0.9rem;
+  color: var(--muted);
+}
+
+.support-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.support-list li {
+  margin: 0.65rem 0;
+  color: var(--text);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+
+.faq-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.3rem;
+  box-shadow: var(--shadow);
+}
+
+.faq-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.08rem;
+}
+
+.faq-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+@media (max-width: 980px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
     * {
       box-sizing: border-box;
     }
@@ -750,59 +798,149 @@
   </section>
 
   <section id="support">
-    <div class="container">
-      <div class="section-head">
-        <span class="kicker">Industry Support</span>
-        <h2>Real reform starts with real support from the people doing the work.</h2>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Industry Support</span>
+      <h2>Real reform starts with real support from the people doing the work.</h2>
+      <p>
+        This proposal is being shaped through feedback from carpenters, builders, trades,
+        and industry professionals who understand how residential renovation work actually
+        operates on site.
+      </p>
+    </div>
+
+    <div class="grid-2 support-grid">
+      <div class="card">
+        <h3>Current supporter count</h3>
+        <p style="margin-bottom: 1rem;">
+          Update this number as support grows. Momentum matters.
+        </p>
+        <div class="metric" style="box-shadow:none;">
+          <strong id="supporterCount">11</strong>
+          <span>Supporting trades and industry voices</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>How supporters can help</h3>
+        <p class="support-intro">
+          The most valuable support is practical, evidence-based input from people working in the industry.
+        </p>
+        <ul class="support-list">
+          <li>Share real renovation examples from the field</li>
+          <li>Explain where current licensing creates bottlenecks</li>
+          <li>Support a regulated middle-tier licence pathway</li>
+          <li>Contribute feedback to strengthen the proposal</li>
+          <li>Help demonstrate real industry demand for reform</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="movement-roadmap" class="highlight">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">How Reform Builds</span>
+      <h2>From industry support to serious policy reform.</h2>
+      <p>
+        Reform does not happen through opinion alone. It builds through awareness,
+        evidence, and a practical proposal decision-makers can properly assess.
+      </p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <h3>Build awareness</h3>
         <p>
-          This proposal is being built through feedback from carpenters, builders, trades, and industry professionals
-          who understand how residential renovation work actually operates on site.
+          Use the website and industry conversations to clearly explain the problem:
+          Victoria’s licensing framework no longer matches the reality of modern renovation work.
         </p>
       </div>
 
-      <div class="grid-2">
-        <div class="card">
-          <h3>Current supporter count</h3>
-          <p style="margin-bottom: 1rem;">
-            Update this number as support grows. Momentum matters.
-          </p>
-          <div class="metric" style="box-shadow:none;">
-            <strong id="supporterCount">11</strong>
-            <span>Supporting trades and industry voices</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>How supporters can help</h3>
-          <ul class="clean">
-            <li>Share practical renovation examples from the field</li>
-            <li>Explain where current licensing creates bottlenecks</li>
-            <li>Support a regulated middle-tier pathway</li>
-            <li>Contribute feedback to refine the proposal</li>
-            <li>Help demonstrate industry demand for reform</li>
-          </ul>
-        </div>
+      <div class="step">
+        <h3>Gather evidence</h3>
+        <p>
+          Collect testimonials, project examples, and practical feedback from carpenters,
+          builders, and trades working in residential renovation.
+        </p>
       </div>
 
-      <div style="height: 1.2rem;"></div>
-
-      <div class="steps">
-        <div class="step">
-          <h3>Build awareness</h3>
-          <p>Use the website to explain the problem clearly and professionally.</p>
-        </div>
-        <div class="step">
-          <h3>Gather evidence</h3>
-          <p>Collect testimonials, project examples, and support from industry professionals.</p>
-        </div>
-        <div class="step">
-          <h3>Present reform</h3>
-          <p>Turn support into a policy-grade proposal that regulators and decision-makers can review seriously.</p>
-        </div>
+      <div class="step">
+        <h3>Present reform</h3>
+        <p>
+          Turn industry support into a policy-grade reform proposal that regulators,
+          government, and industry bodies can review seriously.
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+  <section id="safeguards">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Safeguards & Common Questions</span>
+      <h2>A practical reform must protect standards, builders, and consumers.</h2>
+      <p>
+        The Registered Residential Carpenter proposal is designed to improve regulatory fit
+        while preserving clear builder responsibilities and consumer protections.
+      </p>
+    </div>
 
+    <div class="faq-grid">
+      <div class="faq-card">
+        <h3>Will this reduce building standards?</h3>
+        <p>
+          No. The proposal strengthens accountability by recognising experienced renovation
+          specialists within a defined and regulated framework rather than leaving renovation
+          work in a grey area.
+        </p>
+      </div>
+
+      <div class="faq-card">
+        <h3>Does this replace registered builders?</h3>
+        <p>
+          No. Builders would remain responsible for new homes, structural work, major
+          extensions, and larger residential projects. The proposal is intended to support,
+          not replace, builder licensing.
+        </p>
+      </div>
+
+      <div class="faq-card">
+        <h3>Does this add unnecessary complexity?</h3>
+        <p>
+          No. It simplifies a mismatch that already exists by creating a clear middle-tier
+          pathway between carpenter and builder for appropriate renovation work.
+        </p>
+      </div>
+
+      <div class="faq-card">
+        <h3>How would the scope stay clear?</h3>
+        <p>
+          The licence would apply to defined non-structural residential renovation work,
+          while structural construction, major extensions, and new dwellings remain within
+          builder scope.
+        </p>
+      </div>
+
+      <div class="faq-card">
+        <h3>What about homeowner protection?</h3>
+        <p>
+          Any serious reform should include appropriate insurance, written contracts,
+          compliance requirements, and clear accountability for the work being performed.
+        </p>
+      </div>
+
+      <div class="faq-card">
+        <h3>Why is this needed now?</h3>
+        <p>
+          Because the economic reality of modern renovations has changed. Bathrooms,
+          kitchens, decks, and internal works now regularly exceed thresholds that no longer
+          reflect normal residential renovation practice.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
   <section>
     <div class="container">
       <div class="cta">
