@@ -564,7 +564,92 @@
       .nav-links {
         width: 100%;
       }
-    }
+    }.evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.evidence-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 1.35rem;
+  box-shadow: var(--shadow);
+}
+
+.evidence-label {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.1);
+  color: var(--brand);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.evidence-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.12rem;
+}
+
+.evidence-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.evidence-note {
+  margin-top: 1.2rem;
+  background: #f3f7fa;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  color: var(--muted);
+}
+
+.contact-upgrade-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.contact-info-card,
+.contact-form-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 1.4rem;
+  box-shadow: var(--shadow);
+}
+
+.contact-row {
+  margin-bottom: 1rem;
+}
+
+.contact-row strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 980px) {
+  .evidence-grid,
+  .contact-upgrade-grid,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+    
   </style>
 </head>
 <body>
@@ -814,7 +899,55 @@
       </div>
     </div>
   </section>
+<section id="field-evidence">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Field Evidence</span>
+      <h2>What this looks like in the real world.</h2>
+      <p>
+        This reform is based on how renovation work already operates on site across Victoria.
+        These examples help show the gap between regulation and reality.
+      </p>
+    </div>
 
+    <div class="evidence-grid">
+      <div class="evidence-card">
+        <div class="evidence-label">Example 1</div>
+        <h3>Bathroom renovation</h3>
+        <p>
+          A bathroom renovation may involve demolition, framing adjustments, sheeting,
+          fix-outs, coordination of plumbing and electrical, waterproofing sequencing,
+          and finishing trades — often led on site by an experienced carpenter.
+        </p>
+      </div>
+
+      <div class="evidence-card">
+        <div class="evidence-label">Example 2</div>
+        <h3>Kitchen and internal renovation</h3>
+        <p>
+          Many kitchen and internal renovation projects require carpentry-led coordination
+          across multiple trades while remaining renovation-focused rather than new-home
+          or structural building work.
+        </p>
+      </div>
+
+      <div class="evidence-card">
+        <div class="evidence-label">Example 3</div>
+        <h3>Decks, pergolas, and external works</h3>
+        <p>
+          Outdoor structures and associated upgrades regularly exceed legacy value thresholds,
+          even where the work remains practical, trade-led, and well within the capability
+          of highly experienced carpenters.
+        </p>
+      </div>
+    </div>
+
+    <div class="evidence-note">
+      <strong>Next step:</strong> replace these general examples over time with real supporter
+      submissions, project examples, and quotes from the field.
+    </div>
+  </div>
+</section>
   <section id="support">
     <div class="container">
       <div class="section-head">
@@ -956,136 +1089,135 @@
       </div>
     </div>
   </section>
+<section id="contact" class="highlight">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Support the Reform</span>
+      <h2>Help build the case for a smarter renovation licensing model.</h2>
+      <p>
+        If you are a carpenter, builder, trade, supplier, homeowner, or industry professional,
+        you can help strengthen this proposal by sharing your experience.
+      </p>
+    </div>
 
-  <section id="contact" class="highlight">
-    <div class="container">
-      <div class="section-head">
-        <span class="kicker">Support the Reform</span>
-        <h2>Help build the case for a smarter renovation licensing model.</h2>
-        <p>
-          If you are a carpenter, builder, trade, supplier, homeowner, or industry professional,
-          you can help strengthen this proposal by sharing your experience.
-        </p>
+    <div class="contact-upgrade-grid">
+      <div class="contact-info-card">
+        <h3>Contact</h3>
+
+        <div class="contact-row">
+          <strong>Email</strong>
+          <a href="mailto:admin@sonsiecarpentry.com">admin@sonsiecarpentry.com</a>
+        </div>
+
+        <div class="contact-row">
+          <strong>Project</strong>
+          <span>Carpenters for Housing Reform Victoria</span>
+        </div>
+
+        <div class="contact-row">
+          <strong>Founder</strong>
+          <span>Daniel Sonsie</span>
+        </div>
+
+        <div class="contact-row">
+          <strong>Purpose</strong>
+          <span>Advocating for a Registered Residential Carpenter pathway in Victoria</span>
+        </div>
+
+        <div class="contact-row">
+          <strong>What helps most</strong>
+          <span>Real renovation examples, bottlenecks, testimonials, and practical policy feedback</span>
+        </div>
       </div>
 
-      <div class="contact-upgrade-grid">
-        <div class="contact-info-card">
-          <h3>Contact</h3>
+      <div class="contact-form-card">
+        <h3>Add Your Support</h3>
 
-          <div class="contact-row">
-            <strong>Email</strong>
-            <a href="mailto:admin@sonsiecarpentry.com">admin@sonsiecarpentry.com</a>
-          </div>
+        <form action="https://formsubmit.co/admin@sonsiecarpentry.com" method="POST">
+          <input type="hidden" name="_subject" value="New support submission - Carpenters for Housing Reform Victoria">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
 
-          <div class="contact-row">
-            <strong>Project</strong>
-            <span>Carpenters for Housing Reform Victoria</span>
-          </div>
-
-          <div class="contact-row">
-            <strong>Founder</strong>
-            <span>Daniel Sonsie</span>
-          </div>
-
-          <div class="contact-row">
-            <strong>Purpose</strong>
-            <span>Advocating for a Registered Residential Carpenter pathway in Victoria</span>
-          </div>
-
-          <div class="contact-row">
-            <strong>What helps most</strong>
-            <span>Real renovation examples, bottlenecks, testimonials, and practical policy feedback</span>
-          </div>
-        </div>
-
-        <div class="contact-form-card">
-          <h3>Add Your Support</h3>
-
-          <form action="https://formsubmit.co/admin@sonsiecarpentry.com" method="POST">
-            <input type="hidden" name="_subject" value="New support submission - Carpenters for Housing Reform Victoria">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="table">
-
-            <div class="form-grid">
-              <div>
-                <label for="fullName">Full name</label>
-                <input id="fullName" name="Full Name" type="text" required>
-              </div>
-
-              <div>
-                <label for="role">Role</label>
-                <select id="role" name="Role" required>
-                  <option value="">Select your role</option>
-                  <option>Carpenter</option>
-                  <option>Builder</option>
-                  <option>Plumber</option>
-                  <option>Electrician</option>
-                  <option>Supplier</option>
-                  <option>Designer</option>
-                  <option>Homeowner</option>
-                  <option>Other Industry Professional</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-grid">
-              <div>
-                <label for="email">Email</label>
-                <input id="email" name="Email" type="email" required>
-              </div>
-
-              <div>
-                <label for="region">Region / Suburb</label>
-                <input id="region" name="Region / Suburb" type="text" placeholder="Optional">
-              </div>
-            </div>
-
-            <div class="form-grid">
-              <div>
-                <label for="experience">Years in trade</label>
-                <input id="experience" name="Years in Trade" type="text" placeholder="e.g. 18 years">
-              </div>
-
-              <div>
-                <label for="publicQuote">Can we quote your support publicly?</label>
-                <select id="publicQuote" name="Permission to Quote Publicly">
-                  <option value="">Select</option>
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              </div>
+          <div class="form-grid">
+            <div>
+              <label for="fullName">Full name</label>
+              <input id="fullName" name="Full Name" type="text" required>
             </div>
 
             <div>
-              <label for="example">Example of a renovation bottleneck</label>
-              <textarea
-                id="example"
-                name="Example of Renovation Bottleneck"
-                placeholder="Describe a job, project type, or licensing issue that shows why reform is needed."
-                required
-              ></textarea>
+              <label for="role">Role</label>
+              <select id="role" name="Role" required>
+                <option value="">Select your role</option>
+                <option>Carpenter</option>
+                <option>Builder</option>
+                <option>Plumber</option>
+                <option>Electrician</option>
+                <option>Designer</option>
+                <option>Supplier</option>
+                <option>Homeowner</option>
+                <option>Other Industry Professional</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="Email" type="email" required>
             </div>
 
             <div>
-              <label for="message">Additional comments</label>
-              <textarea
-                id="message"
-                name="Additional Comments"
-                placeholder="Any extra thoughts, support, or practical feedback."
-              ></textarea>
+              <label for="region">Region / Suburb</label>
+              <input id="region" name="Region / Suburb" type="text" placeholder="Optional">
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div>
+              <label for="experience">Years in trade</label>
+              <input id="experience" name="Years in Trade" type="text" placeholder="e.g. 18 years">
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit Support</button>
+            <div>
+              <label for="publicQuote">Can we quote your support publicly?</label>
+              <select id="publicQuote" name="Permission to Quote Publicly">
+                <option value="">Select</option>
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </div>
+          </div>
 
-            <p class="form-note">
-              This form helps gather real-world evidence to strengthen the proposal and show
-              industry demand for reform.
-            </p>
-          </form>
-        </div>
+          <div>
+            <label for="example">Example of a renovation bottleneck</label>
+            <textarea
+              id="example"
+              name="Example of Renovation Bottleneck"
+              placeholder="Describe a job, project type, or licensing issue that shows why reform is needed."
+              required
+            ></textarea>
+          </div>
+
+          <div>
+            <label for="message">Additional comments</label>
+            <textarea
+              id="message"
+              name="Additional Comments"
+              placeholder="Any extra thoughts, support, or practical feedback."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Support</button>
+
+          <p class="form-note">
+            This form helps gather real-world evidence to strengthen the proposal and show
+            industry demand for reform.
+          </p>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <footer>
     <div class="container footer-wrap">
