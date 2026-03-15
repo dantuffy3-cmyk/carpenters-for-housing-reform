@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Carpenters for Housing Reform Victoria</title>
-  <meta name="description" content="Carpenters for Housing Reform Victoria is advocating for a Registered Residential Carpenter licence pathway to improve renovation capacity, support builders, and recognise experienced carpenters in Victoria." />
+  <meta name="description" content="Carpenters for Housing Reform Victoria is advocating for a Registered Residential Carpenter pathway to improve renovation capacity, support builders, and recognise experienced carpenters in Victoria." />
   <meta name="theme-color" content="#0f1720" />
 
   <meta property="og:title" content="Carpenters for Housing Reform Victoria" />
   <meta property="og:description" content="A practical renovation-focused licensing reform proposal for Victoria." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://dantuffy3-cmyk.github.io/carpenters-for-housing-reform/" />
+  <meta property="og:image" content="hero-renovation.jpg" />
 
   <style>
     :root {
@@ -18,14 +19,19 @@
       --bg-soft: #16212d;
       --panel: #ffffff;
       --panel-soft: #f5f7fa;
+      --panel-alt: #eef3f6;
       --text: #17202a;
       --muted: #5b6773;
       --line: #d9e1e8;
       --brand: #0f766e;
       --brand-dark: #0b5d57;
       --accent: #c0841a;
+      --green: #39ff88;
+      --purple: #7b5cff;
+      --orange: #ff7a18;
       --white: #ffffff;
       --shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+      --shadow-dark: 0 16px 36px rgba(0, 0, 0, 0.24);
       --radius: 20px;
       --max: 1180px;
     }
@@ -52,7 +58,7 @@
     .topbar {
       position: sticky;
       top: 0;
-      z-index: 50;
+      z-index: 100;
       background: rgba(15, 23, 32, 0.94);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(255,255,255,0.08);
@@ -128,99 +134,185 @@
       background: rgba(255,255,255,0.08);
     }
 
-    .hero {
+    .btn-dark {
+      background: linear-gradient(90deg, var(--green), var(--purple));
+      color: #050505;
+      box-shadow: var(--shadow-dark);
+    }
+
+    .btn-dark:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.03);
+    }
+
+    .hero-shell {
       background:
-        radial-gradient(circle at top right, rgba(15, 118, 110, 0.22), transparent 26%),
-        radial-gradient(circle at left, rgba(192, 132, 26, 0.14), transparent 20%),
-        linear-gradient(180deg, #0f1720 0%, #16212d 100%);
+        radial-gradient(900px 500px at 15% -5%, rgba(57,255,136,.08), transparent 55%),
+        radial-gradient(700px 420px at 90% 8%, rgba(123,92,255,.08), transparent 50%),
+        linear-gradient(180deg, #0f1720 0%, #111a25 100%);
       color: var(--white);
-      padding: 5.2rem 0 4.5rem;
+      padding: 2.2rem 0 3rem;
     }
 
-    .hero-wrap {
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      gap: 2rem;
+    .hero-card-wrap {
+      border: 1px solid rgba(255,255,255,0.08);
+      background:
+        linear-gradient(135deg, rgba(57,255,136,.05), rgba(123,92,255,.06)),
+        linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border-radius: 28px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow-dark);
+    }
+
+    .hero-toprow {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
       align-items: center;
-    }
-
-    .eyebrow {
-      display: inline-block;
+      justify-content: space-between;
       margin-bottom: 1rem;
-      padding: 0.45rem 0.8rem;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid rgba(255,255,255,.08);
+      padding: 8px 12px;
       border-radius: 999px;
-      background: rgba(255,255,255,0.09);
-      color: #d8e4ef;
-      font-size: 0.85rem;
-      font-weight: 800;
-      letter-spacing: 0.2px;
+      color: rgba(255,255,255,0.82);
+      font-size: 13px;
+      background: rgba(255,255,255,.03);
     }
 
-    .hero h1 {
-      margin: 0 0 1rem;
-      font-size: clamp(2.3rem, 5vw, 4.4rem);
-      line-height: 1.03;
-      letter-spacing: -1px;
-      max-width: 850px;
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--green);
+      box-shadow: 0 0 18px rgba(57,255,136,.45);
     }
 
-    .hero p {
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.6rem;
+      align-items: center;
+      margin-top: 0.4rem;
+    }
+
+    @media(min-width: 960px) {
+      .hero {
+        grid-template-columns: 280px 1fr;
+      }
+    }
+
+    .logo-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.4rem;
+      min-height: 180px;
+    }
+
+    .logo-box img {
+      width: 100%;
+      max-width: 240px;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+
+    .hero-copy h1 {
+      margin: 0 0 0.9rem 0;
+      font-size: clamp(2.4rem, 5vw, 4.6rem);
+      line-height: 1.02;
+      letter-spacing: -1.1px;
+      max-width: 860px;
+    }
+
+    .lead {
       margin: 0;
-      font-size: 1.1rem;
-      color: rgba(255,255,255,0.86);
-      max-width: 760px;
+      font-size: 1.12rem;
+      color: rgba(255,255,255,0.84);
+      line-height: 1.7;
+      max-width: 800px;
     }
 
     .hero-actions {
-      margin-top: 1.7rem;
       display: flex;
-      gap: 0.9rem;
+      gap: 0.8rem;
       flex-wrap: wrap;
+      margin-top: 1.4rem;
     }
 
     .hero-subtext {
-      margin-top: 1.2rem;
+      margin-top: 1rem;
       font-size: 0.98rem;
-      color: rgba(255,255,255,0.72);
+      color: rgba(255,255,255,0.7);
       max-width: 760px;
     }
 
-    .hero-card {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.14);
-      border-radius: 24px;
-      padding: 1.25rem;
-      box-shadow: var(--shadow);
+    .callout {
+      border: 1px solid rgba(255,255,255,.08);
+      background: linear-gradient(135deg, rgba(57,255,136,.06), rgba(255,122,24,.06));
+      border-radius: 20px;
+      padding: 1rem 1.1rem;
+      margin-top: 1.2rem;
     }
 
-    .hero-stat {
-      display: grid;
-      gap: 0.9rem;
+    .callout .kicker {
+      margin: 0 0 0.45rem 0;
+      font-weight: 800;
+      color: #fff;
+      font-size: 1rem;
     }
 
-    .hero-stat-box {
-      background: rgba(255,255,255,0.07);
-      border-radius: 18px;
-      padding: 1rem;
-      border: 1px solid rgba(255,255,255,0.08);
+    .callout p:last-child {
+      margin: 0;
+      color: rgba(255,255,255,0.82);
     }
 
-    .hero-stat-box strong {
-      font-size: 1.9rem;
-      display: block;
-      margin-bottom: 0.25rem;
+    .support-counter {
+      margin-top: 1.3rem;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,.08);
+      background:
+        linear-gradient(135deg, rgba(57,255,136,.10), rgba(123,92,255,.10)),
+        rgba(255,255,255,.02);
+      box-shadow: var(--shadow-dark);
     }
 
-    section {
-      padding: 4.6rem 0;
+    .counter-label {
+      margin: 0 0 0.5rem 0;
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: rgba(255,255,255,0.74);
     }
 
-    .highlight {
-      background: linear-gradient(180deg, #f9fbfc 0%, #ffffff 100%);
+    .counter-number {
+      margin: 0;
+      font-size: clamp(2.8rem, 6vw, 4rem);
+      font-weight: 800;
+      line-height: 1;
+      color: var(--green);
+      text-shadow: 0 0 18px rgba(57,255,136,.18);
     }
+
+    .counter-text {
+      margin: 0.55rem 0 0 0;
+      font-size: 0.96rem;
+      color: rgba(255,255,255,0.76);
+    }
+
+    section { padding: 4.4rem 0; }
+    .highlight { background: linear-gradient(180deg, #f9fbfc 0%, #ffffff 100%); }
 
     .section-head {
-      max-width: 780px;
+      max-width: 790px;
       margin-bottom: 2rem;
     }
 
@@ -236,7 +328,7 @@
 
     .section-head h2 {
       margin: 0 0 0.8rem;
-      font-size: clamp(1.9rem, 3vw, 2.9rem);
+      font-size: clamp(1.9rem, 3vw, 2.95rem);
       line-height: 1.08;
       letter-spacing: -0.7px;
     }
@@ -244,26 +336,26 @@
     .section-head p {
       margin: 0;
       color: var(--muted);
-      font-size: 1.04rem;
+      font-size: 1.05rem;
     }
 
-    .grid-2, .grid-3, .stats-grid, .faq-grid {
+    .grid-2, .grid-3, .stats-grid, .faq-grid, .evidence-grid {
       display: grid;
       gap: 1.2rem;
     }
 
     .grid-2 { grid-template-columns: repeat(2, 1fr); }
-    .grid-3, .stats-grid { grid-template-columns: repeat(3, 1fr); }
+    .grid-3, .stats-grid, .evidence-grid { grid-template-columns: repeat(3, 1fr); }
     .faq-grid { grid-template-columns: repeat(2, 1fr); }
 
-    .card, .metric, .faq-card, .contact-info-card, .contact-form-card {
+    .card, .metric, .faq-card, .contact-info-card, .contact-form-card, .image-card, .timeline-card {
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
     }
 
-    .card, .faq-card, .contact-info-card, .contact-form-card {
+    .card, .faq-card, .contact-info-card, .contact-form-card, .timeline-card {
       padding: 1.35rem;
     }
 
@@ -271,13 +363,13 @@
       padding: 1.4rem;
     }
 
-    .card h3, .faq-card h3, .contact-info-card h3, .contact-form-card h3 {
+    .card h3, .faq-card h3, .contact-info-card h3, .contact-form-card h3, .timeline-card h3 {
       margin-top: 0;
       margin-bottom: 0.7rem;
       font-size: 1.16rem;
     }
 
-    .card p, .faq-card p {
+    .card p, .faq-card p, .timeline-card p {
       margin: 0;
       color: var(--muted);
     }
@@ -293,6 +385,20 @@
     .metric span {
       color: var(--muted);
       font-weight: 600;
+    }
+
+    .quote-block {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--brand);
+      border-radius: 0 18px 18px 0;
+      box-shadow: var(--shadow);
+      padding: 1.2rem 1.4rem;
+    }
+
+    .quote-block p {
+      margin: 0;
+      font-size: 1.05rem;
     }
 
     .split-panel {
@@ -324,18 +430,58 @@
       margin: 0.58rem 0;
     }
 
-    .quote-block {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-left: 5px solid var(--brand);
-      border-radius: 0 18px 18px 0;
-      box-shadow: var(--shadow);
-      padding: 1.2rem 1.4rem;
+    .pathway {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1rem;
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .quote-block p {
+    .pathway-box {
+      padding: 1.2rem;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .pathway-box.active {
+      border: 1px solid rgba(15,118,110,.35);
+      background: linear-gradient(180deg, rgba(15,118,110,.06), rgba(15,118,110,.02));
+    }
+
+    .path-arrow {
+      text-align: center;
+      font-size: 2rem;
+      color: var(--brand);
+      line-height: 1;
+    }
+
+    .image-card {
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .image-card img {
+      width: 100%;
+      height: 100%;
+      min-height: 280px;
+      max-height: 460px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .image-overlay {
+      padding: 1rem 1.1rem 1.2rem;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
+    }
+
+    .image-overlay p {
       margin: 0;
-      font-size: 1.05rem;
+      color: var(--muted);
     }
 
     .support-grid {
@@ -396,12 +542,6 @@
       color: var(--muted);
     }
 
-    .evidence-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.2rem;
-    }
-
     .evidence-card {
       background: var(--panel);
       border: 1px solid var(--line);
@@ -441,6 +581,51 @@
       border-radius: 16px;
       padding: 1rem 1.1rem;
       color: var(--muted);
+    }
+
+    .voice-card {
+      background: linear-gradient(180deg, #ffffff 0%, #f9fbfc 100%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 1.35rem;
+      box-shadow: var(--shadow);
+    }
+
+    .voice-card p {
+      margin: 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .voice-card strong {
+      display: block;
+      margin-top: 0.8rem;
+      color: var(--text);
+      font-style: normal;
+    }
+
+    .policy-download {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      background: linear-gradient(135deg, #12312f 0%, #0f1720 100%);
+      color: var(--white);
+      border-radius: 28px;
+      padding: 1.8rem;
+      box-shadow: var(--shadow);
+    }
+
+    .policy-download h3 {
+      margin: 0 0 0.45rem;
+      font-size: 1.4rem;
+    }
+
+    .policy-download p {
+      margin: 0;
+      color: rgba(255,255,255,0.82);
+      max-width: 720px;
     }
 
     .contact-upgrade-grid {
@@ -517,6 +702,11 @@
       max-width: 760px;
     }
 
+    .small-note {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
     footer {
       padding: 2rem 0 3rem;
       color: var(--muted);
@@ -533,7 +723,7 @@
     }
 
     @media (max-width: 980px) {
-      .hero-wrap, .grid-2, .grid-3, .stats-grid, .faq-grid, .split-panel,
+      .grid-2, .grid-3, .stats-grid, .faq-grid, .split-panel,
       .evidence-grid, .contact-upgrade-grid, .form-grid {
         grid-template-columns: 1fr;
       }
@@ -546,15 +736,15 @@
       .nav-links {
         justify-content: flex-start;
       }
+
+      .image-card img {
+        min-height: 220px;
+      }
     }
 
     @media (max-width: 680px) {
-      .hero {
-        padding-top: 4rem;
-      }
-
-      .hero h1 {
-        font-size: 2.4rem;
+      .hero-copy h1 {
+        font-size: 2.5rem;
       }
 
       .nav {
@@ -564,92 +754,15 @@
       .nav-links {
         width: 100%;
       }
-    }.evidence-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
-}
 
-.evidence-card {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  padding: 1.35rem;
-  box-shadow: var(--shadow);
-}
+      .hero-card-wrap {
+        padding: 1.1rem;
+      }
+    }
 
-.evidence-label {
-  display: inline-block;
-  margin-bottom: 0.8rem;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  background: rgba(15, 118, 110, 0.1);
-  color: var(--brand);
-  font-size: 0.8rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.evidence-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.65rem;
-  font-size: 1.12rem;
-}
-
-.evidence-card p {
-  margin: 0;
-  color: var(--muted);
-}
-
-.evidence-note {
-  margin-top: 1.2rem;
-  background: #f3f7fa;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 1rem 1.1rem;
-  color: var(--muted);
-}
-
-.contact-upgrade-grid {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 1.2rem;
-  align-items: start;
-}
-
-.contact-info-card,
-.contact-form-card {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  padding: 1.4rem;
-  box-shadow: var(--shadow);
-}
-
-.contact-row {
-  margin-bottom: 1rem;
-}
-
-.contact-row strong {
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
-.form-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-@media (max-width: 980px) {
-  .evidence-grid,
-  .contact-upgrade-grid,
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-}
-    
+    .hidden {
+      display: none !important;
+    }
   </style>
 </head>
 <body>
@@ -663,50 +776,60 @@
       <nav class="nav-links">
         <a href="#proposal">Proposal</a>
         <a href="#why-now">Why Now</a>
-        <a href="#field-evidence">Evidence</a>
-        <a href="#support">Support</a>
+        <a href="#scope">Scope</a>
+        <a href="#evidence">Evidence</a>
         <a href="#safeguards">Safeguards</a>
         <a href="#contact" class="btn btn-secondary">Contact</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-wrap">
-      <div>
-        <div class="eyebrow">Victoria, Australia · Practical licensing reform</div>
-        <h1>Victoria’s renovation system is outdated. It’s time to recognise experienced carpenters properly.</h1>
-        <p>
-          Carpenters for Housing Reform Victoria is advocating for a
-          <strong>Registered Residential Carpenter (RRC)</strong> pathway —
-          a practical, regulated middle-tier licence for experienced carpenters
-          managing defined residential renovation work.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#proposal" class="btn btn-primary">Read the proposal</a>
-          <a href="#contact" class="btn btn-secondary">Support the reform</a>
+  <section class="hero-shell">
+    <div class="container">
+      <div class="hero-card-wrap">
+        <div class="hero-toprow">
+          <span class="tag"><span class="dot"></span> Victoria, Australia</span>
+          <span class="tag">Industry-led · Renovation-focused · Standards-first</span>
         </div>
 
-        <p class="hero-subtext">
-          Supporting builders. Recognising real on-site experience. Improving renovation capacity across Victoria.
-        </p>
-      </div>
+        <div class="hero">
+          <div class="logo-box" id="logoBox">
+            <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo" onerror="document.getElementById('logoBox').classList.add('hidden')">
+          </div>
 
-      <div class="hero-card">
-        <div class="hero-stat">
-          <div class="hero-stat-box">
-            <strong>$10k</strong>
-            <span>Current threshold where builder contracting rules often begin to apply</span>
+          <div class="hero-copy">
+            <h1>Victoria’s renovation system is outdated. It’s time to recognise experienced carpenters properly.</h1>
+            <p class="lead">
+              Carpenters for Housing Reform Victoria is advocating for a
+              <strong>Registered Residential Carpenter (RRC)</strong> pathway — a practical, regulated
+              middle-tier licence for experienced carpenters managing defined residential renovation work.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-dark" href="#contact">Support the Reform</a>
+              <a class="btn btn-secondary" href="#proposal">Read the Proposal</a>
+              <a class="btn btn-secondary" href="proposal.pdf" target="_blank" rel="noopener">Download Proposal PDF</a>
+            </div>
+
+            <p class="hero-subtext">
+              Supporting builders. Recognising real on-site experience. Improving renovation capacity across Victoria.
+            </p>
           </div>
-          <div class="hero-stat-box">
-            <strong>$20k–$40k</strong>
-            <span>Typical bathroom renovation range in today’s market</span>
-          </div>
-          <div class="hero-stat-box">
-            <strong>10+ years</strong>
-            <span>Suggested experience threshold for an RRC pathway</span>
-          </div>
+        </div>
+
+        <div class="callout">
+          <p class="kicker">A practical reform idea built from real renovation experience in Victoria.</p>
+          <p>
+            Experienced carpenters already manage renovation works, coordinate licensed trades,
+            and deliver outcomes for clients every day. This initiative is about bringing that real-world
+            role into a clearer, safer, more practical regulatory framework.
+          </p>
+        </div>
+
+        <div class="support-counter">
+          <p class="counter-label">Victorian Trades Supporting Reform</p>
+          <p class="counter-number" id="supporterCount">11</p>
+          <p class="counter-text">Support is growing among experienced Victorian carpenters and renovation trades.</p>
         </div>
       </div>
     </div>
@@ -719,23 +842,24 @@
         <h2>A smarter renovation licensing model for Victoria.</h2>
         <p>
           The current domestic building threshold no longer reflects the cost of ordinary renovation work.
-          The proposed <strong>Registered Residential Carpenter</strong> pathway would recognise experienced carpenters already coordinating renovation projects,
-          while preserving the essential role of registered builders in new homes, structural work, and major construction.
+          The proposed <strong>Registered Residential Carpenter</strong> pathway would recognise experienced carpenters
+          already coordinating renovation projects, while preserving the essential role of registered builders in
+          new homes, structural work, and major construction.
         </p>
       </div>
 
       <div class="stats-grid">
         <div class="metric">
+          <strong>$10k</strong>
+          <span>Current threshold where builder contracting rules often begin to apply</span>
+        </div>
+        <div class="metric">
           <strong>$20k–$40k</strong>
-          <span>Typical bathroom renovation</span>
+          <span>Typical bathroom renovation range in today’s market</span>
         </div>
         <div class="metric">
           <strong>$25k–$70k</strong>
-          <span>Typical kitchen renovation</span>
-        </div>
-        <div class="metric">
-          <strong>$10k+</strong>
-          <span>Decks and smaller renovations often exceed the current threshold</span>
+          <span>Typical kitchen renovation range in today’s market</span>
         </div>
       </div>
 
@@ -745,19 +869,22 @@
         <div class="card">
           <h3>Problem</h3>
           <p>
-            Many common renovations now exceed the current threshold, even when the project is primarily carpentry-led and already managed by experienced tradespeople on site.
+            Many common renovations now exceed the current threshold, even when the project is primarily carpentry-led
+            and already managed by experienced tradespeople on site.
           </p>
         </div>
         <div class="card">
           <h3>Proposed solution</h3>
           <p>
-            Introduce a regulated renovation-focused pathway for highly experienced carpenters with clear scope limits, experience requirements, and consumer protections.
+            Introduce a regulated renovation-focused pathway for highly experienced carpenters with clear scope limits,
+            experience requirements, and consumer protections.
           </p>
         </div>
         <div class="card">
           <h3>Outcome</h3>
           <p>
-            Reduced bottlenecks, stronger recognition of real renovation experience, and better delivery of smaller residential projects across Victoria.
+            Reduced bottlenecks, stronger recognition of real renovation experience, and better delivery of smaller
+            residential projects across Victoria.
           </p>
         </div>
       </div>
@@ -766,8 +893,36 @@
 
       <div class="quote-block">
         <p>
-          <strong>This proposal is not about replacing builders.</strong> It is about creating a clear, regulated middle path that reflects how renovation work already operates in the real world.
+          <strong>This proposal is not about replacing builders.</strong> It is about creating a clear,
+          regulated middle path that reflects how renovation work already operates in the real world.
         </p>
+      </div>
+
+      <div style="height: 1.6rem;"></div>
+
+      <div class="section-head" style="margin-bottom:1rem;">
+        <span class="kicker">Policy Summary</span>
+        <h2 style="font-size:clamp(1.6rem,2.5vw,2.2rem);">A missing middle tier between carpenter and builder.</h2>
+      </div>
+
+      <div class="pathway">
+        <div class="pathway-box">
+          <strong>Qualified Carpenter</strong><br>
+          Carpentry apprenticeship completed
+        </div>
+        <div class="path-arrow">↓</div>
+        <div class="pathway-box active">
+          <strong>Registered Residential Carpenter (RRC)</strong><br>
+          10+ years experience<br>
+          Renovation-focused projects
+        </div>
+        <div class="path-arrow">↓</div>
+        <div class="pathway-box">
+          <strong>Licensed Builder</strong><br>
+          New homes<br>
+          Structural construction<br>
+          Major developments
+        </div>
       </div>
     </div>
   </section>
@@ -803,22 +958,22 @@
         <div class="card">
           <h3>A practical reform opportunity</h3>
           <p>
-            A regulated middle-tier licence would improve the fit between licensing, real-world
-            experience, and the modern residential renovation market in Victoria.
+            A regulated middle-tier licence would improve the fit between licensing, real-world experience,
+            and the modern residential renovation market in Victoria.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="industry-reality">
+  <section id="scope">
     <div class="container">
       <div class="section-head">
-        <span class="kicker">Current Industry Reality</span>
-        <h2>Experienced carpenters already coordinate renovation work across Victoria.</h2>
+        <span class="kicker">Proposed Division of Responsibility</span>
+        <h2>A stronger system defines the right licence for the right work.</h2>
         <p>
-          Across the state, experienced carpenters already manage day-to-day renovation works, sequence trades, oversee site progress,
-          and deliver outcomes for homeowners. The issue is not whether this work happens. The issue is that the licensing framework does not clearly recognise it.
+          This pathway is renovation-focused. It is not intended to cover new-home framing or new-home construction.
+          Builders remain essential. Licensed plumbers and electricians remain unchanged.
         </p>
       </div>
 
@@ -826,7 +981,7 @@
         <div class="list-panel">
           <h3>Builders remain responsible for</h3>
           <ul class="clean">
-            <li>New home construction</li>
+            <li>All new homes</li>
             <li>Structural construction</li>
             <li>Major extensions</li>
             <li>Multi-storey buildings</li>
@@ -837,20 +992,65 @@
         <div class="list-panel">
           <h3>Registered Residential Carpenters could manage</h3>
           <ul class="clean">
-            <li>Bathroom renovations</li>
-            <li>Kitchen renovations</li>
-            <li>Window and door upgrades</li>
-            <li>Decks and pergolas</li>
-            <li>Internal renovations</li>
-            <li>Small additions and non-structural works</li>
-            <li>Repair and rectification work</li>
+            <li>Bathroom, laundry, and kitchen renovations</li>
+            <li>Window and door upgrades or replacement</li>
+            <li>Internal fit-off carpentry and finish work</li>
+            <li>Decks, pergolas, and verandas where applicable</li>
+            <li>Repair and rectification works within defined limits</li>
+            <li>Small granny flats or studios up to 30 m², single storey</li>
           </ul>
+        </div>
+      </div>
+
+      <div style="height: 1.2rem;"></div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>For Government</h3>
+          <p>
+            Increases workforce utilisation, improves regulatory fit, and helps unlock renovation capacity
+            across the state without lowering standards.
+          </p>
+        </div>
+        <div class="card">
+          <h3>For Industry</h3>
+          <p>
+            Recognises real on-site experience, reduces bottlenecks, and gives builders room to focus
+            on larger and more complex work.
+          </p>
+        </div>
+        <div class="card">
+          <h3>For Homeowners</h3>
+          <p>
+            Improves access to qualified renovation professionals, with clearer accountability
+            and potentially more competitive pricing.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="field-evidence">
+  <section class="highlight" id="visual-section">
+    <div class="container">
+      <div class="grid-2">
+        <div class="image-card" id="imgCard1">
+          <img src="hero-renovation.jpg" alt="High-end renovation interior" onerror="document.getElementById('imgCard1').classList.add('hidden')">
+          <div class="image-overlay">
+            <p>High-value renovations are now normal, not exceptional. The regulation needs to catch up with that reality.</p>
+          </div>
+        </div>
+
+        <div class="image-card" id="imgCard2">
+          <img src="carpenter-working.jpg" alt="Carpenter working on renovation project" onerror="document.getElementById('imgCard2').classList.add('hidden')">
+          <div class="image-overlay">
+            <p>Built from real renovation experience in Victoria — not theory alone.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="evidence">
     <div class="container">
       <div class="section-head">
         <span class="kicker">Field Evidence</span>
@@ -866,9 +1066,9 @@
           <div class="evidence-label">Example 1</div>
           <h3>Bathroom renovation</h3>
           <p>
-            A bathroom renovation may involve demolition, framing adjustments, sheeting,
-            fix-outs, coordination of plumbing and electrical, waterproofing sequencing,
-            and finishing trades — often led on site by an experienced carpenter.
+            A bathroom renovation may involve demolition, framing adjustments, sheeting, fix-outs,
+            coordination of plumbing and electrical, waterproofing sequencing, and finishing trades —
+            often led on site by an experienced carpenter.
           </p>
         </div>
 
@@ -876,9 +1076,8 @@
           <div class="evidence-label">Example 2</div>
           <h3>Kitchen and internal renovation</h3>
           <p>
-            Many kitchen and internal renovation projects require carpentry-led coordination
-            across multiple trades while remaining renovation-focused rather than new-home
-            or structural building work.
+            Many kitchen and internal renovation projects require carpentry-led coordination across multiple trades
+            while remaining renovation-focused rather than new-home or structural building work.
           </p>
         </div>
 
@@ -887,67 +1086,49 @@
           <h3>Decks, pergolas, and external works</h3>
           <p>
             Outdoor structures and associated upgrades regularly exceed legacy value thresholds,
-            even where the work remains practical, trade-led, and well within the capability
-            of highly experienced carpenters.
+            even where the work remains practical, trade-led, and well within the capability of highly experienced carpenters.
           </p>
         </div>
       </div>
 
       <div class="evidence-note">
-        <strong>Next step:</strong> replace these general examples over time with real supporter
-        submissions, project examples, and quotes from the field.
+        <strong>Next step:</strong> replace these general examples over time with real supporter submissions,
+        project examples, and quotes from the field.
       </div>
     </div>
   </section>
-<section id="field-evidence">
-  <div class="container">
-    <div class="section-head">
-      <span class="kicker">Field Evidence</span>
-      <h2>What this looks like in the real world.</h2>
-      <p>
-        This reform is based on how renovation work already operates on site across Victoria.
-        These examples help show the gap between regulation and reality.
-      </p>
-    </div>
 
-    <div class="evidence-grid">
-      <div class="evidence-card">
-        <div class="evidence-label">Example 1</div>
-        <h3>Bathroom renovation</h3>
+  <section class="highlight">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Precedent</span>
+        <h2>Trade contractor licensing is not a radical idea.</h2>
         <p>
-          A bathroom renovation may involve demolition, framing adjustments, sheeting,
-          fix-outs, coordination of plumbing and electrical, waterproofing sequencing,
-          and finishing trades — often led on site by an experienced carpenter.
+          Other Australian states already recognise trade contractor licensing models.
+          That means a renovation-focused pathway in Victoria would not be inventing something from scratch —
+          it would be building on a broader pattern of trade recognition and clearer scope.
         </p>
       </div>
 
-      <div class="evidence-card">
-        <div class="evidence-label">Example 2</div>
-        <h3>Kitchen and internal renovation</h3>
-        <p>
-          Many kitchen and internal renovation projects require carpentry-led coordination
-          across multiple trades while remaining renovation-focused rather than new-home
-          or structural building work.
-        </p>
-      </div>
-
-      <div class="evidence-card">
-        <div class="evidence-label">Example 3</div>
-        <h3>Decks, pergolas, and external works</h3>
-        <p>
-          Outdoor structures and associated upgrades regularly exceed legacy value thresholds,
-          even where the work remains practical, trade-led, and well within the capability
-          of highly experienced carpenters.
-        </p>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Why this matters</h3>
+          <p>
+            The stronger your proposal looks in policy terms, the harder it becomes to dismiss as just a trade complaint.
+            Framing this as practical regulatory modernisation is one of your biggest advantages.
+          </p>
+        </div>
+        <div class="card">
+          <h3>What it shows</h3>
+          <p>
+            A defined renovation-focused pathway for experienced carpenters can sit alongside builder licensing,
+            protect builder scope, and still improve system performance.
+          </p>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="evidence-note">
-      <strong>Next step:</strong> replace these general examples over time with real supporter
-      submissions, project examples, and quotes from the field.
-    </div>
-  </div>
-</section>
   <section id="support">
     <div class="container">
       <div class="section-head">
@@ -955,19 +1136,18 @@
         <h2>Real reform starts with real support from the people doing the work.</h2>
         <p>
           This proposal is being shaped through feedback from carpenters, builders, trades,
-          and industry professionals who understand how residential renovation work actually
-          operates on site.
+          and industry professionals who understand how residential renovation work actually operates on site.
         </p>
       </div>
 
       <div class="grid-2 support-grid">
         <div class="card">
           <h3>Current supporter count</h3>
-          <p style="margin-bottom: 1rem; color: var(--muted);">
+          <p class="support-intro">
             Update this number as support grows. Momentum matters.
           </p>
           <div class="metric" style="box-shadow:none;">
-            <strong id="supporterCount">11</strong>
+            <strong id="supporterCountInline">11</strong>
             <span>Supporting trades and industry voices</span>
           </div>
         </div>
@@ -986,6 +1166,23 @@
           </ul>
         </div>
       </div>
+
+      <div style="height: 1.2rem;"></div>
+
+      <div class="grid-3">
+        <div class="voice-card">
+          <p>“Experienced carpenters already carry out much of this work across Victoria. A clearly defined pathway would recognise those skills while maintaining standards.”</p>
+          <strong>— Victorian Carpenter</strong>
+        </div>
+        <div class="voice-card">
+          <p>“The problem is not whether renovation work gets coordinated. It already does. The problem is that the framework doesn’t clearly reflect that reality.”</p>
+          <strong>— Industry Supporter</strong>
+        </div>
+        <div class="voice-card">
+          <p>“A smarter middle-tier pathway could help separate renovation work from major building work while still protecting the public.”</p>
+          <strong>— Building Industry Voice</strong>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -995,7 +1192,8 @@
         <span class="kicker">How Reform Builds</span>
         <h2>From industry support to serious policy reform.</h2>
         <p>
-          Reform does not happen through opinion alone. It builds through awareness, evidence, and a practical proposal that decision-makers can properly assess.
+          Reform does not happen through opinion alone. It builds through awareness, evidence,
+          and a practical proposal that decision-makers can properly assess.
         </p>
       </div>
 
@@ -1003,19 +1201,22 @@
         <div class="step">
           <h3>Build awareness</h3>
           <p>
-            Use the website, trade conversations, and industry networks to explain the problem clearly: Victoria’s licensing framework no longer matches the reality of modern renovation work.
+            Use the website, trade conversations, and industry networks to explain the problem clearly:
+            Victoria’s licensing framework no longer matches the reality of modern renovation work.
           </p>
         </div>
         <div class="step">
           <h3>Gather evidence</h3>
           <p>
-            Collect testimonials, project examples, and practical feedback from carpenters, builders, and trades working in residential renovation.
+            Collect testimonials, project examples, and practical feedback from carpenters, builders,
+            and trades working in residential renovation.
           </p>
         </div>
         <div class="step">
           <h3>Present reform</h3>
           <p>
-            Turn industry support into a policy-grade proposal that regulators, government, and industry bodies can review seriously.
+            Turn industry support into a policy-grade proposal that regulators, government,
+            and industry bodies can review seriously.
           </p>
         </div>
       </div>
@@ -1028,7 +1229,8 @@
         <span class="kicker">Safeguards & Common Questions</span>
         <h2>A practical reform must protect standards, builders, and consumers.</h2>
         <p>
-          The Registered Residential Carpenter proposal is designed to improve regulatory fit while preserving builder responsibilities, consumer protection, and clear scope boundaries.
+          The Registered Residential Carpenter proposal is designed to improve regulatory fit
+          while preserving builder responsibilities, consumer protection, and clear scope boundaries.
         </p>
       </div>
 
@@ -1036,44 +1238,65 @@
         <div class="faq-card">
           <h3>Will this reduce building standards?</h3>
           <p>
-            No. It strengthens accountability by bringing renovation-specialist responsibility into a clearer regulated framework rather than leaving practical site reality outside formal recognition.
+            No. It strengthens accountability by bringing renovation-specialist responsibility into a clearer regulated framework
+            rather than leaving practical site reality outside formal recognition.
           </p>
         </div>
 
         <div class="faq-card">
           <h3>Does this replace registered builders?</h3>
           <p>
-            No. Builders remain responsible for new homes, structural work, major extensions, and larger residential projects. This proposal is designed to support, not replace, builder licensing.
+            No. Builders remain responsible for new homes, structural work, major extensions,
+            and larger residential projects. This proposal is designed to support, not replace, builder licensing.
           </p>
         </div>
 
         <div class="faq-card">
           <h3>Does this add unnecessary complexity?</h3>
           <p>
-            No. It simplifies a mismatch that already exists by recognising a missing middle tier between qualified carpenter and licensed builder for appropriate renovation work.
+            No. It simplifies a mismatch that already exists by recognising a missing middle tier
+            between qualified carpenter and licensed builder for appropriate renovation work.
           </p>
         </div>
 
         <div class="faq-card">
           <h3>How would the scope stay clear?</h3>
           <p>
-            By excluding structural construction, major extensions, and builder-led work while keeping plumbing and electrical with licensed trades.
+            By excluding structural construction, major extensions, and builder-led work while keeping plumbing
+            and electrical with licensed trades.
           </p>
         </div>
 
         <div class="faq-card">
           <h3>What about homeowner protection?</h3>
           <p>
-            Any serious reform should include insurance, written contracts, compliance obligations, approvals where required, and clear accountability for the work being performed.
+            Any serious reform should include insurance, written contracts, compliance obligations,
+            approvals where required, and clear accountability for the work being performed.
           </p>
         </div>
 
         <div class="faq-card">
           <h3>Why is this needed now?</h3>
           <p>
-            Because the economic reality of modern renovations has changed. Bathrooms, kitchens, decks, and internal works now regularly exceed thresholds that no longer reflect normal renovation practice.
+            Because the economic reality of modern renovations has changed. Bathrooms, kitchens, decks,
+            and internal works now regularly exceed thresholds that no longer reflect normal renovation practice.
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight">
+    <div class="container">
+      <div class="policy-download">
+        <div>
+          <h3>Download the proposal brief</h3>
+          <p>
+            Share the PDF with builders, carpenters, regulators, media, or policymakers who want a short,
+            practical overview of the Registered Residential Carpenter pathway.
+          </p>
+        </div>
+        <a href="proposal.pdf" class="btn btn-primary" target="_blank" rel="noopener">Open Proposal PDF</a>
       </div>
     </div>
   </section>
@@ -1083,141 +1306,146 @@
       <div class="cta">
         <h2>Let’s build a licensing model that matches the real world.</h2>
         <p>
-          Carpenters for Housing Reform Victoria exists to support a smarter, more practical system — one that recognises experience, supports builders, protects standards, and improves renovation capacity across Victoria.
+          Carpenters for Housing Reform Victoria exists to support a smarter, more practical system —
+          one that recognises experience, supports builders, protects standards, and improves renovation capacity across Victoria.
         </p>
-        <a href="#contact" class="btn btn-primary">Add your support</a>
+        <a href="#contact" class="btn btn-primary">Add Your Support</a>
       </div>
     </div>
   </section>
-<section id="contact" class="highlight">
-  <div class="container">
-    <div class="section-head">
-      <span class="kicker">Support the Reform</span>
-      <h2>Help build the case for a smarter renovation licensing model.</h2>
-      <p>
-        If you are a carpenter, builder, trade, supplier, homeowner, or industry professional,
-        you can help strengthen this proposal by sharing your experience.
-      </p>
-    </div>
 
-    <div class="contact-upgrade-grid">
-      <div class="contact-info-card">
-        <h3>Contact</h3>
-
-        <div class="contact-row">
-          <strong>Email</strong>
-          <a href="mailto:admin@sonsiecarpentry.com">admin@sonsiecarpentry.com</a>
-        </div>
-
-        <div class="contact-row">
-          <strong>Project</strong>
-          <span>Carpenters for Housing Reform Victoria</span>
-        </div>
-
-        <div class="contact-row">
-          <strong>Founder</strong>
-          <span>Daniel Sonsie</span>
-        </div>
-
-        <div class="contact-row">
-          <strong>Purpose</strong>
-          <span>Advocating for a Registered Residential Carpenter pathway in Victoria</span>
-        </div>
-
-        <div class="contact-row">
-          <strong>What helps most</strong>
-          <span>Real renovation examples, bottlenecks, testimonials, and practical policy feedback</span>
-        </div>
+  <section id="contact" class="highlight">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Support the Reform</span>
+        <h2>Help build the case for a smarter renovation licensing model.</h2>
+        <p>
+          If you are a carpenter, builder, trade, supplier, homeowner, or industry professional,
+          you can help strengthen this proposal by sharing your experience.
+        </p>
       </div>
 
-      <div class="contact-form-card">
-        <h3>Add Your Support</h3>
+      <div class="contact-upgrade-grid">
+        <div class="contact-info-card">
+          <h3>Contact</h3>
 
-        <form action="https://formsubmit.co/admin@sonsiecarpentry.com" method="POST">
-          <input type="hidden" name="_subject" value="New support submission - Carpenters for Housing Reform Victoria">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-
-          <div class="form-grid">
-            <div>
-              <label for="fullName">Full name</label>
-              <input id="fullName" name="Full Name" type="text" required>
-            </div>
-
-            <div>
-              <label for="role">Role</label>
-              <select id="role" name="Role" required>
-                <option value="">Select your role</option>
-                <option>Carpenter</option>
-                <option>Builder</option>
-                <option>Plumber</option>
-                <option>Electrician</option>
-                <option>Designer</option>
-                <option>Supplier</option>
-                <option>Homeowner</option>
-                <option>Other Industry Professional</option>
-              </select>
-            </div>
+          <div class="contact-row">
+            <strong>Email</strong>
+            <a href="mailto:admin@sonsiecarpentry.com">admin@sonsiecarpentry.com</a>
           </div>
 
-          <div class="form-grid">
-            <div>
-              <label for="email">Email</label>
-              <input id="email" name="Email" type="email" required>
-            </div>
-
-            <div>
-              <label for="region">Region / Suburb</label>
-              <input id="region" name="Region / Suburb" type="text" placeholder="Optional">
-            </div>
+          <div class="contact-row">
+            <strong>Project</strong>
+            <span>Carpenters for Housing Reform Victoria</span>
           </div>
 
-          <div class="form-grid">
-            <div>
-              <label for="experience">Years in trade</label>
-              <input id="experience" name="Years in Trade" type="text" placeholder="e.g. 18 years">
-            </div>
-
-            <div>
-              <label for="publicQuote">Can we quote your support publicly?</label>
-              <select id="publicQuote" name="Permission to Quote Publicly">
-                <option value="">Select</option>
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-            </div>
+          <div class="contact-row">
+            <strong>Founder</strong>
+            <span>Daniel Sonsie</span>
           </div>
 
-          <div>
-            <label for="example">Example of a renovation bottleneck</label>
-            <textarea
-              id="example"
-              name="Example of Renovation Bottleneck"
-              placeholder="Describe a job, project type, or licensing issue that shows why reform is needed."
-              required
-            ></textarea>
+          <div class="contact-row">
+            <strong>Purpose</strong>
+            <span>Advocating for a Registered Residential Carpenter pathway in Victoria</span>
           </div>
 
-          <div>
-            <label for="message">Additional comments</label>
-            <textarea
-              id="message"
-              name="Additional Comments"
-              placeholder="Any extra thoughts, support, or practical feedback."
-            ></textarea>
+          <div class="contact-row">
+            <strong>What helps most</strong>
+            <span>Real renovation examples, bottlenecks, testimonials, and practical policy feedback</span>
           </div>
 
-          <button type="submit" class="btn btn-primary">Submit Support</button>
-
-          <p class="form-note">
-            This form helps gather real-world evidence to strengthen the proposal and show
-            industry demand for reform.
+          <p class="small-note">
+            This page is designed to collect real-world input that can help strengthen the reform case over time.
           </p>
-        </form>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Add Your Support</h3>
+
+          <form action="https://formsubmit.co/admin@sonsiecarpentry.com" method="POST">
+            <input type="hidden" name="_subject" value="New support submission - Carpenters for Housing Reform Victoria">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="form-grid">
+              <div>
+                <label for="fullName">Full name</label>
+                <input id="fullName" name="Full Name" type="text" required>
+              </div>
+
+              <div>
+                <label for="role">Role</label>
+                <select id="role" name="Role" required>
+                  <option value="">Select your role</option>
+                  <option>Carpenter</option>
+                  <option>Builder</option>
+                  <option>Plumber</option>
+                  <option>Electrician</option>
+                  <option>Supplier</option>
+                  <option>Designer</option>
+                  <option>Homeowner</option>
+                  <option>Other Industry Professional</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="email" required>
+              </div>
+
+              <div>
+                <label for="region">Region / Suburb</label>
+                <input id="region" name="Region / Suburb" type="text" placeholder="Optional">
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div>
+                <label for="experience">Years in trade</label>
+                <input id="experience" name="Years in Trade" type="text" placeholder="e.g. 18 years">
+              </div>
+
+              <div>
+                <label for="publicQuote">Can we quote your support publicly?</label>
+                <select id="publicQuote" name="Permission to Quote Publicly">
+                  <option value="">Select</option>
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="example">Example of a renovation bottleneck</label>
+              <textarea
+                id="example"
+                name="Example of Renovation Bottleneck"
+                placeholder="Describe a job, project type, or licensing issue that shows why reform is needed."
+                required
+              ></textarea>
+            </div>
+
+            <div>
+              <label for="message">Additional comments</label>
+              <textarea
+                id="message"
+                name="Additional Comments"
+                placeholder="Any extra thoughts, support, or practical feedback."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Support</button>
+
+            <p class="form-note">
+              This form helps gather real-world evidence to strengthen the proposal and show industry demand for reform.
+            </p>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <footer>
     <div class="container footer-wrap">
@@ -1228,7 +1456,20 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-    document.getElementById('supporterCount').textContent = 11;
+
+    const supporters = 11;
+    document.getElementById('supporterCount').textContent = supporters;
+    document.getElementById('supporterCountInline').textContent = supporters;
+
+    // Hide the entire visuals section if both images are missing
+    window.addEventListener('load', function () {
+      const img1Hidden = document.getElementById('imgCard1')?.classList.contains('hidden');
+      const img2Hidden = document.getElementById('imgCard2')?.classList.contains('hidden');
+      if (img1Hidden && img2Hidden) {
+        const visualSection = document.getElementById('visual-section');
+        if (visualSection) visualSection.classList.add('hidden');
+      }
+    });
   </script>
 </body>
 </html>
