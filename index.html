@@ -314,7 +314,31 @@
       font-size: 13px;
       color: #b8b8be;
     }
+input,
+select,
+textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  color: #fff;
+  font: inherit;
+}
 
+input::placeholder,
+textarea::placeholder {
+  color: #b8b8be;
+}
+
+select option {
+  color: #000;
+}
+
+button.btn {
+  cursor: pointer;
+}
     .stats-row {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -549,15 +573,16 @@
 <body>
   <div class="wrap">
 
-    <nav class="topnav">
-      <a href="#">Home</a>
-      <a href="#problem">Problem</a>
-      <a href="#solution">Solution</a>
-      <a href="#scope">Scope</a>
-      <a href="#vision">Vision</a>
-      <a href="#support">Support</a>
-      <a href="#contact">Contact</a>
-    </nav>
+   <nav class="topnav">
+  <a href="#">Home</a>
+  <a href="#problem">Problem</a>
+  <a href="#solution">Solution</a>
+  <a href="#rrc-proposal">RRC Proposal</a>
+  <a href="#policy-brief">Policy Brief</a>
+  <a href="#vision">Vision</a>
+  <a href="#proposal-form">Proposal Form</a>
+  <a href="#contact">Contact</a>
+</nav>
 
     <header>
       <div class="toprow">
@@ -577,10 +602,12 @@
         <div class="hero-copy">
           <h1>Victoria’s residential licensing system no longer matches the reality of modern renovations.</h1>
           <p class="lead">
-            Carpenters for Housing Reform Victoria is advocating for a
-            <strong>Registered Residential Carpenter (RRC)</strong> pathway — a practical, regulated
-            middle-tier licence for highly experienced carpenters managing defined residential renovation work.
-          </p>
+  Carpenters for Housing Reform Victoria is advocating for a
+  <strong>Registered Residential Carpenter (RRC)</strong> pathway —
+  a practical, regulated middle-tier licence for highly experienced carpenters
+  managing defined residential renovation work, with a future pathway for limited
+  structural renovation endorsement in existing homes.
+</p>
 
           <div class="btns">
             <a
@@ -727,7 +754,54 @@
           </p>
         </div>
       </section>
+<section id="rrc-proposal" class="full">
+  <h2>RRC Proposal Snapshot</h2>
+  <p>
+    The Registered Residential Carpenter (RRC) proposal is designed as a practical,
+    staged reform pathway for Victoria’s renovation sector.
+  </p>
 
+  <div class="pathway-grid">
+    <div class="path-box">
+      <span class="path-badge">Stage 1</span>
+      <h3>Registered Residential Carpenter</h3>
+      <p>
+        A renovation-focused licence for highly experienced carpenters managing defined
+        residential renovation work within clear regulatory boundaries.
+      </p>
+      <ul>
+        <li>Bathrooms, kitchens, decks, and internal renovations</li>
+        <li>Repair and rectification work</li>
+        <li>Window and door upgrades</li>
+        <li>Defined non-structural residential work</li>
+      </ul>
+    </div>
+
+    <div class="path-box featured">
+      <span class="path-badge green">Stage 2</span>
+      <h3>Future Structural Renovation Endorsement</h3>
+      <p>
+        A future endorsed pathway for highly experienced renovation carpenters to undertake
+        limited structural work in existing homes within strict scope, permit, and compliance settings.
+      </p>
+      <ul>
+        <li>Small-scale load-bearing wall changes</li>
+        <li>Defined structural stud wall work</li>
+        <li>Existing homes only</li>
+        <li>Not new-home framing or open-ended structural authority</li>
+      </ul>
+    </div>
+
+    <div class="path-box">
+      <span class="path-badge purple">Core Principle</span>
+      <h3>Builder Scope Remains Protected</h3>
+      <p>
+        Builders remain responsible for new homes, major structural construction,
+        major extensions, multi-storey buildings, and large residential developments.
+      </p>
+    </div>
+  </div>
+</section>
       <section id="scope">
         <h2>Clear Division of Responsibility</h2>
         <p>
@@ -817,7 +891,44 @@
           </p>
         </div>
       </section>
+<section id="policy-brief" class="full">
+  <h2>One-Page Reform Brief</h2>
+  <p>
+    This initiative is proposing a practical middle-tier licence pathway to improve
+    renovation capacity, recognise real on-site experience, and modernise Victoria’s
+    residential licensing framework.
+  </p>
 
+  <div class="mini-grid">
+    <div class="mini-card">
+      <h3>Problem</h3>
+      <p>
+        Common renovations now regularly exceed thresholds that no longer reflect normal
+        residential renovation practice, creating a mismatch between regulation and reality.
+      </p>
+    </div>
+
+    <div class="mini-card">
+      <h3>Proposal</h3>
+      <p>
+        Create a Registered Residential Carpenter pathway for highly experienced carpenters,
+        with a future option for limited structural renovation endorsement in existing homes.
+      </p>
+    </div>
+
+    <div class="mini-card">
+      <h3>Outcome</h3>
+      <p>
+        Better renovation capacity, clearer accountability, stronger recognition of specialist
+        renovation skills, and better alignment between licensing and the real market.
+      </p>
+    </div>
+  </div>
+
+  <div class="btns" style="margin-top:16px;">
+    <a class="btn primary" href="proposal.pdf" target="_blank" rel="noopener">Download Proposal PDF</a>
+  </div>
+</section>
       <section class="full">
         <h2>Supporting Evidence & Precedent</h2>
         <p>
@@ -857,40 +968,120 @@
           The aim is a smarter licensing structure that matches the real world.
         </p>
       </section>
+<section id="support" class="full">
+  <div class="cta-box">
+    <h2>Support the Reform</h2>
+    <p>
+      Carpenters for Housing Reform Victoria is inviting constructive support and feedback from experienced carpenters,
+      builders, and other industry professionals across the state.
+    </p>
 
-      <section id="support" class="full">
-        <div class="cta-box">
-          <h2>Support the Reform</h2>
-          <p>
-            Carpenters for Housing Reform Victoria is inviting constructive support and feedback from experienced carpenters,
-            builders, and other industry professionals across the state.
-          </p>
+    <div class="callout" style="margin:14px auto 18px auto; max-width:760px;">
+      <p class="kicker">Join the initiative</p>
+      <p style="margin:0;">
+        If you support exploring a renovation-focused pathway for experienced carpenters in Victoria —
+        and a future endorsed path for limited structural renovation scope in existing homes —
+        use the button below to open the support form.
+      </p>
+    </div>
 
-          <div class="callout" style="margin:14px auto 18px auto; max-width:760px;">
-            <p class="kicker">Join the initiative</p>
-            <p style="margin:0;">
-              If you support exploring a renovation-focused pathway for experienced carpenters in Victoria —
-              and a future endorsed path for limited structural renovation scope in existing homes —
-              use the button below to open the support form.
-            </p>
-          </div>
+    <div class="btns" style="justify-content:center;">
+      <a
+        class="btn primary"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform"
+        target="_blank"
+        rel="noopener"
+      >
+        Open Support Form
+      </a>
+      <a class="btn" href="proposal.pdf" target="_blank" rel="noopener">
+        Download Proposal PDF
+      </a>
+    </div>
+  </div>
+</section>
+     <section id="proposal-form" class="full">
+  <div class="cta-box">
+    <h2>RRC Proposal Form</h2>
+    <p>
+      If you support the Registered Residential Carpenter proposal, or want to contribute
+      practical feedback to help shape the pathway, use the form below.
+    </p>
 
-          <div class="btns" style="justify-content:center;">
-            <a
-              class="btn primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform"
-              target="_blank"
-              rel="noopener"
-            >
-              Open Support Form
-            </a>
-            <a class="btn" href="proposal.pdf" target="_blank" rel="noopener">
-              Download Proposal PDF
-            </a>
-          </div>
+    <div class="callout" style="margin:14px auto 18px auto; max-width:760px;">
+      <p class="kicker">Why this matters</p>
+      <p style="margin:0;">
+        This form helps strengthen the case for practical reform by gathering support,
+        renovation examples, and feedback from people who understand the reality of the work.
+      </p>
+    </div>
+
+    <form
+      action="https://formsubmit.co/admin@sonsiecarpentry.com"
+      method="POST"
+      style="max-width:880px; margin:0 auto; text-align:left;"
+    >
+      <input type="hidden" name="_subject" value="New RRC Proposal Submission">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <div class="mini-grid" style="grid-template-columns:repeat(2,1fr);">
+        <div class="mini-card">
+          <label for="name"><strong>Full Name</strong></label>
+          <input id="name" name="Full Name" type="text" required>
         </div>
-      </section>
 
+        <div class="mini-card">
+          <label for="email"><strong>Email</strong></label>
+          <input id="email" name="Email" type="email" required>
+        </div>
+      </div>
+
+      <div class="mini-grid" style="grid-template-columns:repeat(2,1fr); margin-top:16px;">
+        <div class="mini-card">
+          <label for="role"><strong>Your Role</strong></label>
+          <select id="role" name="Role" required>
+            <option value="">Select</option>
+            <option>Carpenter</option>
+            <option>Builder</option>
+            <option>Plumber</option>
+            <option>Electrician</option>
+            <option>Supplier</option>
+            <option>Designer</option>
+            <option>Homeowner</option>
+            <option>Other Industry Professional</option>
+          </select>
+        </div>
+
+        <div class="mini-card">
+          <label for="supportType"><strong>Type of Support</strong></label>
+          <select id="supportType" name="Type of Support" required>
+            <option value="">Select</option>
+            <option>I support the RRC pathway</option>
+            <option>I support further review of the proposal</option>
+            <option>I want to provide industry feedback</option>
+            <option>I want to stay updated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mini-card" style="margin-top:16px;">
+        <label for="message"><strong>Your Feedback</strong></label>
+        <textarea
+          id="message"
+          name="Feedback"
+          rows="6"
+          placeholder="Share your support, concerns, renovation experience, or why you believe this reform is needed."
+          required
+        ></textarea>
+      </div>
+
+      <div class="btns" style="justify-content:center; margin-top:18px;">
+        <button class="btn primary" type="submit">Submit RRC Proposal Form</button>
+      </div>
+    </form>
+  </div>
+</section>
       <section id="contact" class="full">
         <h2>Contact</h2>
         <p>
