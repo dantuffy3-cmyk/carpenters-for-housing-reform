@@ -198,6 +198,7 @@
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
       font-weight: 700;
       transition: all 0.2s ease;
+      letter-spacing: 0.2px;
     }
 
     .btn.primary {
@@ -205,6 +206,7 @@
       background: linear-gradient(90deg, var(--green), var(--purple));
       color: #050505;
       font-weight: 800;
+      box-shadow: 0 10px 28px rgba(57, 255, 136, 0.18);
     }
 
     .btn:hover {
@@ -584,51 +586,50 @@ button.btn {
   <a href="#contact">Contact</a>
 </nav>
 
-    <header>
-      <div class="toprow">
-        <span class="tag"><span class="dot"></span> Victoria, Australia</span>
-        <span class="tag">Industry-led · Renovation-focused · Standards-first</span>
-      </div>
+   <div class="hero">
+  <div class="logo-box" id="logoBox">
+    <img
+      src="logo.png"
+      alt="Carpenters for Housing Reform Victoria"
+      onerror="document.getElementById('logoBox').classList.add('hidden')"
+    />
+  </div>
 
-      <div class="hero">
-        <div class="logo-box" id="logoBox">
-          <img
-            src="logo.png"
-            alt="Carpenters for Housing Reform Victoria"
-            onerror="document.getElementById('logoBox').classList.add('hidden')"
-          />
-        </div>
+  <div class="hero-copy">
+    <h1>Victoria’s residential licensing system no longer matches the economic and practical reality of modern renovations.</h1>
 
-        <div class="hero-copy">
-          <h1>Victoria’s residential licensing system no longer matches the economic and practical reality of modern renovations.</h1>
-          <p class="lead">
-  Carpenters for Housing Reform Victoria is advocating for a Registered Residential Carpenter (RRC) pathway — a practical, regulated middle-tier licence for highly experienced carpenters managing defined residential renovation work, with a future pathway toward limited structural renovation endorsement in existing homes.
-</p>
+    <p class="lead">
+      Carpenters for Housing Reform Victoria is advocating for a
+      <strong>Registered Residential Carpenter (RRC)</strong> pathway — a practical,
+      regulated middle-tier licence for highly experienced carpenters managing defined
+      residential renovation work, with a future pathway toward limited structural
+      renovation endorsement in existing homes.
+    </p>
 
-          <div class="btns">
-            <a
-              class="btn primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform"
-              target="_blank"
-              rel="noopener"
-            >
-              Support the RRC Proposal
-            </a>
-            <a class="btn" href="#solution">Read the Proposal</a>
-            <a class="btn" href="proposal.pdf" target="_blank" rel="noopener">Download Proposal PDF</a>
-            <a class="btn" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
+    <div class="btns">
+      <a
+        class="btn primary"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform"
+        target="_blank"
+        rel="noopener"
+      >
+        Support the RRC Proposal
+      </a>
 
-      <div class="callout">
-        <p class="kicker">Supporting builders. Recognising real on-site experience. Strengthening housing delivery.</p>
-        <p style="margin:0;">
-         This initiative is focused on practical reform that maintains standards, protects consumers, supports builders, and better recognises the highly experienced renovation carpenters already solving complex real-world problems in existing homes.
-        </p>
-      </div>
-    </header>
+      <a class="btn" href="#solution">
+        Explore the Proposal
+      </a>
 
+      <a class="btn" href="proposal.pdf" target="_blank" rel="noopener">
+        Download Proposal PDF
+      </a>
+
+      <a class="btn" href="#contact">
+        Contact
+      </a>
+    </div>
+  </div>
+</div>
     <section class="support-counter">
       <p class="counter-label">Victorian Trades Supporting Reform</p>
       <p class="counter-number" id="supporterCount">18</p>
@@ -735,13 +736,14 @@ button.btn {
           </div>
         </div>
 
-        <div class="callout">
-          <p class="kicker">The core idea</p>
-          <p style="margin:0;">
-            Recognise the experienced renovation carpenter as a real professional category in Victoria,
-            with a legal pathway that reflects what skilled operators already know how to do in existing homes.
-          </p>
-        </div>
+     <div class="callout">
+  <p class="kicker">Supporting builders. Recognising real on-site experience. Strengthening housing delivery.</p>
+  <p style="margin:0;">
+    This initiative is focused on practical reform that maintains standards, protects consumers,
+    supports builders, and better recognises the highly experienced renovation carpenters already
+    solving complex real-world problems in existing homes.
+  </p>
+</div>
       </section>
 <section id="rrc-proposal" class="full">
   <h2>RRC Policy Position</h2>
