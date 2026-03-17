@@ -1025,8 +1025,111 @@ style="height:140px; width:auto; margin-bottom:25px;">
   </p>
 
   <!-- SVG START -->
-  <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rrcWheelTitle rrcWheelDesc">
-      <!-- paste the full SVG here -->
+  <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rrcWheelTitle rrcWheelDesc" style="max-width:520px; width:100%; height:auto; display:block; margin:0 auto;">
+    <title id="rrcWheelTitle">RRC Competency Wheel</title>
+    <desc id="rrcWheelDesc">A circular diagram showing the four core competency areas of the Registered Residential Carpenter licence: Renovation Capability, Compliance Knowledge, Trade Coordination, and Non-Structural Scope — with a future Structural Endorsement ring available under strict limits and safeguards.</desc>
+
+    <defs>
+      <!-- Radial gradients for each segment fill -->
+      <radialGradient id="gradGreen" cx="70%" cy="70%" r="80%">
+        <stop offset="0%" stop-color="#39ff88" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#39ff88" stop-opacity="0.06"/>
+      </radialGradient>
+      <radialGradient id="gradPurple" cx="30%" cy="70%" r="80%">
+        <stop offset="0%" stop-color="#7b5cff" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#7b5cff" stop-opacity="0.06"/>
+      </radialGradient>
+      <radialGradient id="gradOrange" cx="30%" cy="30%" r="80%">
+        <stop offset="0%" stop-color="#ff7a18" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#ff7a18" stop-opacity="0.06"/>
+      </radialGradient>
+      <radialGradient id="gradCyan" cx="70%" cy="30%" r="80%">
+        <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.22"/>
+        <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.06"/>
+      </radialGradient>
+    </defs>
+
+    <!-- Subtle outer background disc -->
+    <circle cx="300" cy="300" r="278" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+    <!-- Future Structural Endorsement — outer dashed ring -->
+    <circle cx="300" cy="300" r="242" fill="none" stroke="#7b5cff" stroke-width="14" stroke-opacity="0.22" stroke-dasharray="18 9"/>
+
+    <!--
+      Four donut segments (inner radius 92, outer radius 200).
+      Angles follow SVG convention (0° = east, clockwise).
+      Quadrant layout:
+        Segment 1 — east → south  (bottom-right) : Renovation Capability  (green)
+        Segment 2 — south → west  (bottom-left)  : Compliance Knowledge   (purple)
+        Segment 3 — west → north  (top-left)     : Trade Coordination     (orange)
+        Segment 4 — north → east  (top-right)    : Non-Structural Scope   (cyan)
+      Key coordinates (outer r=200, inner r=92, centre 300,300):
+        East  : (500, 300)  inner (392, 300)
+        South : (300, 500)  inner (300, 392)
+        West  : (100, 300)  inner (208, 300)
+        North : (300, 100)  inner (300, 208)
+    -->
+
+    <!-- Segment 1: Renovation Capability — bottom-right — green -->
+    <path class="rrc-segment" d="M 500 300 A 200 200 0 0 1 300 500 L 300 392 A 92 92 0 0 0 392 300 Z"
+          fill="url(#gradGreen)" stroke="#39ff88" stroke-width="1.5" stroke-opacity="0.7"/>
+
+    <!-- Segment 2: Compliance Knowledge — bottom-left — purple -->
+    <path class="rrc-segment" d="M 300 500 A 200 200 0 0 1 100 300 L 208 300 A 92 92 0 0 0 300 392 Z"
+          fill="url(#gradPurple)" stroke="#7b5cff" stroke-width="1.5" stroke-opacity="0.7"/>
+
+    <!-- Segment 3: Trade Coordination — top-left — orange -->
+    <path class="rrc-segment" d="M 100 300 A 200 200 0 0 1 300 100 L 300 208 A 92 92 0 0 0 208 300 Z"
+          fill="url(#gradOrange)" stroke="#ff7a18" stroke-width="1.5" stroke-opacity="0.7"/>
+
+    <!-- Segment 4: Non-Structural Scope — top-right — cyan -->
+    <path class="rrc-segment" d="M 300 100 A 200 200 0 0 1 500 300 L 392 300 A 92 92 0 0 0 300 208 Z"
+          fill="url(#gradCyan)" stroke="#22d3ee" stroke-width="1.5" stroke-opacity="0.7"/>
+
+    <!-- Subtle spoke lines separating segments -->
+    <line x1="300" y1="100" x2="300" y2="500" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+    <line x1="100" y1="300" x2="500" y2="300" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+    <!-- Centre disc -->
+    <circle cx="300" cy="300" r="90" fill="#080810" stroke="rgba(255,255,255,0.10)" stroke-width="1.5"/>
+    <text x="300" y="294" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="15" font-weight="800" fill="#ffffff">RRC</text>
+    <text x="300" y="313" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="10" fill="rgba(210,210,215,0.85)">Core Licence</text>
+
+    <!--
+      Segment labels placed at the centroid of each quadrant.
+      Mid-angle 45° → (300+147×cos45°, 300+147×sin45°) ≈ (404, 404)
+      Mid-angle 135° → (196, 404)   Mid-angle 225° → (196, 196)   Mid-angle 315° → (404, 196)
+    -->
+
+    <!-- Segment 1 label: Renovation Capability (bottom-right) -->
+    <text x="404" y="395" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="12" font-weight="700" fill="#39ff88">Renovation</text>
+    <text x="404" y="411" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="12" font-weight="700" fill="#39ff88">Capability</text>
+
+    <!-- Segment 2 label: Compliance Knowledge (bottom-left) -->
+    <text x="196" y="395" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="12" font-weight="700" fill="#7b5cff">Compliance</text>
+    <text x="196" y="411" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="12" font-weight="700" fill="#7b5cff">Knowledge</text>
+
+    <!-- Segment 3 label: Trade Coordination (top-left) -->
+    <text x="196" y="189" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="12" font-weight="700" fill="#ff7a18">Trade</text>
+    <text x="196" y="205" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="12" font-weight="700" fill="#ff7a18">Coordination</text>
+
+    <!-- Segment 4 label: Non-Structural Scope (top-right) -->
+    <text x="404" y="186" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="11" font-weight="700" fill="#22d3ee">Non-Structural</text>
+    <text x="404" y="202" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="11" font-weight="700" fill="#22d3ee">Scope</text>
+
+    <!-- Outer ring annotation -->
+    <text x="300" y="62" text-anchor="middle" font-family="system-ui,-apple-system,Arial,sans-serif"
+          font-size="10" fill="rgba(123,92,255,0.75)" font-style="italic">Future: Structural Endorsement (under strict limits &amp; safeguards)</text>
   </svg>
   <!-- SVG END -->
 
