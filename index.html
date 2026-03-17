@@ -1025,8 +1025,131 @@ style="height:140px; width:auto; margin-bottom:25px;">
   </p>
 
   <!-- SVG START -->
-  <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rrcWheelTitle rrcWheelDesc">
-      <!-- paste the full SVG here -->
+  <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rrcWheelTitle rrcWheelDesc" style="max-width:520px;width:100%;display:block;margin:0 auto;">
+
+    <title id="rrcWheelTitle">RRC Competency Wheel with RRC-S Structural Endorsement</title>
+    <desc id="rrcWheelDesc">Four core competency domains of the Registered Residential Carpenter: Renovation capability, Non-structural scope, Trade coordination, and Compliance knowledge. An outer structural endorsement tier shows three RRC-S capabilities: Limited structural, Assessment and reporting, and Coordination and compliance.</desc>
+
+    <defs>
+      <!-- Core competency radial gradients -->
+      <radialGradient id="rrcG1" cx="70%" cy="30%" r="80%">
+        <stop offset="0%" stop-color="#39ff88" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#39ff88" stop-opacity="0.07"/>
+      </radialGradient>
+      <radialGradient id="rrcG2" cx="70%" cy="70%" r="80%">
+        <stop offset="0%" stop-color="#ff7a18" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#ff7a18" stop-opacity="0.07"/>
+      </radialGradient>
+      <radialGradient id="rrcG3" cx="30%" cy="70%" r="80%">
+        <stop offset="0%" stop-color="#5cc8ff" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#5cc8ff" stop-opacity="0.07"/>
+      </radialGradient>
+      <radialGradient id="rrcG4" cx="30%" cy="30%" r="80%">
+        <stop offset="0%" stop-color="#7b5cff" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#7b5cff" stop-opacity="0.07"/>
+      </radialGradient>
+      <!-- RRC-S structural endorsement radial gradient -->
+      <radialGradient id="structRed" cx="300" cy="300" r="248" gradientUnits="userSpaceOnUse">
+        <stop offset="70%"  stop-color="#cc2200" stop-opacity="0.20"/>
+        <stop offset="100%" stop-color="#ff5500" stop-opacity="0.45"/>
+      </radialGradient>
+      <!-- Text arc for outer ring label -->
+      <path id="rrcsTitleArc" d="M 53.84,210.36 A 262,262 0 0,1 546.16,210.36"/>
+    </defs>
+
+    <!-- Outer ring label arc: RRC-S STRUCTURAL ENDORSEMENT -->
+    <text font-family="system-ui,-apple-system,sans-serif" font-size="8" font-weight="700" letter-spacing="2.5" fill="rgba(255,180,160,0.65)">
+      <textPath href="#rrcsTitleArc" startOffset="50%" text-anchor="middle">RRC-S STRUCTURAL ENDORSEMENT</textPath>
+    </text>
+
+    <!-- Structural endorsement ring boundaries -->
+    <circle cx="300" cy="300" r="249" fill="none" stroke="rgba(255,80,80,0.18)" stroke-width="0.75"/>
+    <circle cx="300" cy="300" r="185" fill="none" stroke="rgba(255,80,80,0.18)" stroke-width="0.75"/>
+
+    <!-- Structural endorsement segments -->
+    <!-- Seg 1: Limited structural (-86° to 26°, upper-right) -->
+    <path d="M 317.30,52.60 A 248,248 0 0,1 522.90,408.72 L 467.18,381.54 A 186,186 0 0,0 312.97,114.45 Z"
+          fill="url(#structRed)" stroke="rgba(0,0,0,0.4)" stroke-width="1"/>
+    <!-- Seg 2: Assessment and reporting (34° to 146°, bottom) -->
+    <path d="M 505.60,438.68 A 248,248 0 0,1 94.40,438.68 L 145.80,404.01 A 186,186 0 0,0 454.20,404.01 Z"
+          fill="url(#structRed)" stroke="rgba(0,0,0,0.4)" stroke-width="1"/>
+    <!-- Seg 3: Coordination and compliance (154° to 266°, left) -->
+    <path d="M 77.10,408.72 A 248,248 0 0,1 282.70,52.60 L 287.03,114.45 A 186,186 0 0,0 132.82,381.54 Z"
+          fill="url(#structRed)" stroke="rgba(0,0,0,0.4)" stroke-width="1"/>
+
+    <!-- Structural segment labels -->
+    <!-- Label 1: Limited structural (top-right, rotated -30° to follow arc) -->
+    <g transform="translate(488,191) rotate(-30)">
+      <text x="0" y="-6" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="800" fill="rgba(255,185,165,0.95)" text-anchor="middle">Limited structural</text>
+      <text x="0" y="7" font-family="system-ui,-apple-system,sans-serif" font-size="8" fill="rgba(255,185,165,0.70)" text-anchor="middle">Within regulatory limits</text>
+    </g>
+    <!-- Label 2: Assessment and reporting (bottom, horizontal) -->
+    <g transform="translate(300,507)">
+      <text x="0" y="-6" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="800" fill="rgba(255,185,165,0.95)" text-anchor="middle">Assessment &amp; reporting</text>
+      <text x="0" y="7" font-family="system-ui,-apple-system,sans-serif" font-size="8" fill="rgba(255,185,165,0.70)" text-anchor="middle">Risk &amp; condition checks</text>
+    </g>
+    <!-- Label 3: Coordination and compliance (left, rotated 30° to follow arc) -->
+    <g transform="translate(112,191) rotate(30)">
+      <text x="0" y="-13" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="800" fill="rgba(255,185,165,0.95)" text-anchor="middle">Coordination &amp;</text>
+      <text x="0" y="0" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="800" fill="rgba(255,185,165,0.95)" text-anchor="middle">compliance</text>
+      <text x="0" y="13" font-family="system-ui,-apple-system,sans-serif" font-size="8" fill="rgba(255,185,165,0.70)" text-anchor="middle">Engineers &amp; certifiers</text>
+    </g>
+
+    <!-- Separator ring between structural endorsement and core wheel -->
+    <circle cx="300" cy="300" r="183" fill="rgba(5,5,5,0.40)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+
+    <!-- Core competency wheel background -->
+    <circle cx="300" cy="300" r="180" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+
+    <!-- Core competency segments -->
+    <!-- Seg 1: Renovation capability (-86° to -4°, top-right) -->
+    <path d="M 312.42,122.43 A 178,178 0 0,1 477.57,287.58 L 381.80,294.28 A 82,82 0 0,0 305.72,218.20 Z"
+          fill="url(#rrcG1)" stroke="#39ff88" stroke-width="0.75" stroke-opacity="0.5"/>
+    <!-- Seg 2: Non‑structural scope (4° to 86°, bottom-right) -->
+    <path d="M 477.57,312.42 A 178,178 0 0,1 312.42,477.57 L 305.72,381.80 A 82,82 0 0,0 381.80,305.72 Z"
+          fill="url(#rrcG2)" stroke="#ff7a18" stroke-width="0.75" stroke-opacity="0.5"/>
+    <!-- Seg 3: Trade coordination (94° to 176°, bottom-left) -->
+    <path d="M 287.58,477.57 A 178,178 0 0,1 122.43,312.42 L 218.20,305.72 A 82,82 0 0,0 294.28,381.80 Z"
+          fill="url(#rrcG3)" stroke="#5cc8ff" stroke-width="0.75" stroke-opacity="0.5"/>
+    <!-- Seg 4: Compliance knowledge (184° to 266°, top-left) -->
+    <path d="M 122.43,287.58 A 178,178 0 0,1 287.58,122.43 L 294.28,218.20 A 82,82 0 0,0 218.20,294.28 Z"
+          fill="url(#rrcG4)" stroke="#7b5cff" stroke-width="0.75" stroke-opacity="0.5"/>
+
+    <!-- Core segment labels -->
+    <!-- Renovation capability (top-right) -->
+    <text x="391.9" y="198" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#39ff88" text-anchor="middle">Renovation</text>
+    <text x="391.9" y="212" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#39ff88" text-anchor="middle">capability</text>
+    <text x="391.9" y="226" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">Planning, sequencing</text>
+    <text x="391.9" y="237" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">and delivery</text>
+
+    <!-- Non-structural scope (bottom-right) -->
+    <text x="391.9" y="381" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#ff7a18" text-anchor="middle">Non-structural</text>
+    <text x="391.9" y="395" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#ff7a18" text-anchor="middle">scope</text>
+    <text x="391.9" y="409" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">Internal fit-out</text>
+    <text x="391.9" y="420" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">and renovation</text>
+
+    <!-- Trade coordination (bottom-left) -->
+    <text x="208.1" y="381" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#5cc8ff" text-anchor="middle">Trade</text>
+    <text x="208.1" y="395" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#5cc8ff" text-anchor="middle">coordination</text>
+    <text x="208.1" y="409" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">Supervising and</text>
+    <text x="208.1" y="420" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">sequencing trades</text>
+
+    <!-- Compliance knowledge (top-left) -->
+    <text x="208.1" y="198" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#7b5cff" text-anchor="middle">Compliance</text>
+    <text x="208.1" y="212" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="800" fill="#7b5cff" text-anchor="middle">knowledge</text>
+    <text x="208.1" y="226" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">Codes, standards</text>
+    <text x="208.1" y="237" font-family="system-ui,-apple-system,sans-serif" font-size="9" fill="rgba(210,210,215,0.8)" text-anchor="middle">and obligations</text>
+
+    <!-- Center separator ring -->
+    <circle cx="300" cy="300" r="80" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+
+    <!-- Center badge -->
+    <circle cx="300" cy="300" r="78" fill="rgba(5,5,5,0.90)" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"/>
+    <text x="300" y="292" font-family="system-ui,-apple-system,sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.5">RRC</text>
+    <line x1="264" y1="306" x2="336" y2="306" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+    <text x="300" y="317" font-family="system-ui,-apple-system,sans-serif" font-size="8" font-weight="600" fill="rgba(210,210,215,0.8)" text-anchor="middle">Registered Residential</text>
+    <text x="300" y="329" font-family="system-ui,-apple-system,sans-serif" font-size="8" font-weight="600" fill="rgba(210,210,215,0.8)" text-anchor="middle">Carpenter</text>
+
   </svg>
   <!-- SVG END -->
 
