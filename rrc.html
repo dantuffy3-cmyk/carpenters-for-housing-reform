@@ -5,128 +5,279 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registered Residential Carpenter (RRC) | Carpenters for Housing Reform Victoria</title>
   <style>
+    :root {
+      --bg: #050505;
+      --bg2: #0c0c0f;
+      --text: #ffffff;
+      --muted: #d2d2d7;
+      --line: rgba(255, 255, 255, 0.08);
+      --green: #39ff88;
+      --purple: #7b5cff;
+      --orange: #ff7a18;
+      --shadow: 0 14px 34px rgba(0, 0, 0, 0.36);
+      --shadow-soft: 0 10px 24px rgba(0, 0, 0, 0.22);
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      color: #222;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(900px 500px at 15% -5%, rgba(57, 255, 136, 0.08), transparent 55%),
+        radial-gradient(700px 420px at 90% 8%, rgba(123, 92, 255, 0.08), transparent 50%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      color: var(--text);
       line-height: 1.6;
     }
-    header {
-      background: #222;
-      color: #fff;
-      padding: 20px 0;
-    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
     .wrap {
-      width: 90%;
-      max-width: 1100px;
+      max-width: var(--max);
       margin: 0 auto;
+      padding: 28px 20px 90px;
     }
-    header .brand {
+
+    .topnav {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+    }
+
+    .topnav a {
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+    }
+
+    .topnav a:hover {
+      background: rgba(123, 92, 255, 0.12);
+      color: #fff;
+    }
+
+    header {
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(135deg, rgba(57, 255, 136, 0.06), rgba(123, 92, 255, 0.06)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+      border-radius: 26px;
+      padding: 26px 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 18px;
+    }
+
+    .brand-row {
       display: flex;
       align-items: center;
       gap: 14px;
-      font-weight: 800;
-      font-size: 1.2rem;
+      margin-bottom: 18px;
     }
-    header img {
+
+    .brand-row img {
       height: 60px;
       width: auto;
     }
-    nav a {
-      color: #fff;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
+
+    .brand-title {
+      font-weight: 800;
+      font-size: 1.2rem;
     }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--line);
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+      background: rgba(255, 255, 255, 0.03);
+      margin-bottom: 14px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--green);
+      box-shadow: 0 0 18px rgba(57, 255, 136, 0.45);
+    }
+
     .hero {
       text-align: center;
-      padding: 80px 20px;
-      background: #fff;
+      padding: 40px 20px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+      box-shadow: var(--shadow);
+      margin-bottom: 18px;
     }
+
     .hero img {
-      height: 140px;
+      height: 120px;
       width: auto;
-      margin-bottom: 25px;
+      margin: 0 auto 22px;
     }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.08;
+      margin: 0 0 14px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: var(--muted);
+      margin: 0 auto 22px;
+      max-width: 680px;
+    }
+
+    .btns {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 18px;
+    }
+
+    .btns.left {
+      justify-content: flex-start;
+    }
+
     .btn {
-      display: inline-block;
-      padding: 12px 22px;
-      margin: 10px;
-      background: #0057b8;
-      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 16px;
+      padding: 13px 16px;
+      border: 1px solid var(--line);
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.03);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      transition: all 0.2s ease;
+      cursor: pointer;
       text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
     }
+
+    .btn.primary {
+      border: none;
+      background: linear-gradient(90deg, var(--green), var(--purple));
+      color: #050505;
+      font-weight: 800;
+      box-shadow: 0 10px 28px rgba(57, 255, 136, 0.18);
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
     .section {
-      padding: 60px 0;
-      background: #fff;
-      margin-top: 20px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: var(--shadow);
+      margin-top: 18px;
     }
-    .tag {
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      color: #0057b8;
-      font-weight: bold;
-      margin-bottom: 10px;
+
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 22px;
     }
+
+    p, li {
+      color: var(--muted);
+      line-height: 1.72;
+    }
+
+    strong { color: #fff; }
+
+    ul {
+      margin: 10px 0 0 18px;
+    }
+
     footer {
+      margin-top: 22px;
+      color: #b8b8be;
+      font-size: 13px;
       text-align: center;
-      padding: 30px;
-      background: #222;
-      color: #fff;
-      margin-top: 40px;
+      padding-bottom: 30px;
     }
   </style>
 </head>
 
 <body>
+<div class="wrap">
 
-<header>
-  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
-    <div class="brand">
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="#why">Why the RRC</a>
+    <a href="#recognises">What It Recognises</a>
+    <a href="#scope">Scope of Work</a>
+    <a href="#builders">Builder Protection</a>
+    <a href="#future">Future Endorsement</a>
+    <a href="#faq">FAQ</a>
+    <a href="#support">Support</a>
+  </nav>
+
+  <header>
+    <div class="brand-row">
       <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo">
-      Carpenters for Housing Reform Victoria
+      <div class="brand-title">Carpenters for Housing Reform Victoria</div>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-    </nav>
-  </div>
-</header>
+    <div class="tag">
+      <span class="dot"></span>
+      Registered Residential Carpenter (RRC) Proposal
+    </div>
+  </header>
 
-<section class="hero">
-  <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo">
-  <h1>Registered Residential Carpenter (RRC)</h1>
-  <p>A practical, renovation‑focused licensing pathway for highly experienced Victorian carpenters.</p>
+  <section class="hero">
+    <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo">
+    <h1>Registered Residential Carpenter (RRC)</h1>
+    <p>A practical, renovation‑focused licensing pathway for highly experienced Victorian carpenters.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank" rel="noopener">Support the Proposal</a>
+      <a class="btn" href="index.html">Back to Homepage</a>
+    </div>
+  </section>
 
-  <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank" rel="noopener">Support the Proposal</a>
-  <a class="btn" href="index.html">Back to Homepage</a>
-</section>
-
-<section class="section">
-  <div class="wrap">
+  <section class="section" id="why">
     <div class="tag">Why the RRC Exists</div>
     <h2>A licensing pathway designed for existing‑home renovation.</h2>
     <p>The Registered Residential Carpenter (RRC) is a proposed middle‑tier licence that recognises highly experienced carpenters who specialise in residential renovation work. It improves regulatory fit by aligning licensing requirements with the real‑world work performed by renovation carpenters.</p>
     <p>The RRC strengthens consumer protection, supports renovation capacity, and provides a clear, practical pathway for experienced tradespeople without replacing or undermining registered builders.</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="wrap">
+  <section class="section" id="recognises">
     <div class="tag">What the RRC Recognises</div>
     <h2>Competency in residential renovation carpentry.</h2>
     <p>The RRC recognises the skills, experience, and responsibility required to deliver high‑quality renovation outcomes in existing homes. It is designed for carpenters who routinely manage small‑to‑medium renovation projects that do not involve major structural works.</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="wrap">
+  <section class="section" id="scope">
     <div class="tag">RRC Scope of Work</div>
     <h2>Renovation‑focused scope that protects builder responsibilities.</h2>
     <p>The RRC licence would allow experienced carpenters to contract and manage non‑structural and light‑structural renovation work in existing homes, including:</p>
-
     <ul>
       <li>Bathroom renovations</li>
       <li>Kitchen renovations</li>
@@ -137,17 +288,13 @@
       <li>Window and door upgrades</li>
       <li>General non‑structural residential renovation work</li>
     </ul>
-
     <p>This scope is intentionally limited to protect the responsibilities and domain of registered builders.</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="wrap">
+  <section class="section" id="builders">
     <div class="tag">Builder Scope Protection</div>
     <h2>Clear boundaries that maintain builder authority.</h2>
     <p>The RRC does <strong>not</strong> replace builders. Builder scope remains exclusively required for:</p>
-
     <ul>
       <li>New homes</li>
       <li>Major structural construction</li>
@@ -155,53 +302,42 @@
       <li>Multi‑storey buildings</li>
       <li>Large developments</li>
     </ul>
-
     <p>The RRC strengthens the system by ensuring renovation carpentry is regulated appropriately while preserving the essential role of registered builders.</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="wrap">
+  <section class="section" id="future">
     <div class="tag">Future Structural Endorsement</div>
     <h2>A possible future RRC‑S endorsement under strict limits.</h2>
     <p>A future optional endorsement (RRC‑S) could allow limited structural work under defined conditions, subject to strict competency requirements and regulatory safeguards. This would support renovation productivity while maintaining strong consumer protection.</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="wrap">
+  <section class="section" id="faq">
     <div class="tag">FAQ</div>
     <h2>Common Questions</h2>
-
     <p><strong>Does the RRC replace builders?</strong><br>
     No. The RRC is a renovation‑focused licence. Builder scope remains protected and unchanged.</p>
-
     <p><strong>Why is this needed?</strong><br>
-    Renovation carpentry is a major part of Victoria’s housing ecosystem, yet licensing does not currently reflect the real‑world work performed by experienced carpenters.</p>
-
+    Renovation carpentry is a major part of Victoria's housing ecosystem, yet licensing does not currently reflect the real‑world work performed by experienced carpenters.</p>
     <p><strong>Who is the RRC for?</strong><br>
     Highly experienced carpenters working primarily in existing‑home renovation.</p>
-
     <p><strong>Will consumers be protected?</strong><br>
     Yes. The RRC strengthens consumer protection by ensuring renovation work is performed by appropriately licensed practitioners.</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="wrap">
-    <div class="tag">Support & Contact</div>
+  <section class="section" id="support">
+    <div class="tag">Support &amp; Contact</div>
     <h2>Support the RRC Proposal</h2>
-
-    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank" rel="noopener">Add Your Support</a>
-    <a class="btn" href="index.html">Back to Homepage</a>
-
+    <div class="btns left">
+      <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank" rel="noopener">Add Your Support</a>
+      <a class="btn" href="index.html">Back to Homepage</a>
+    </div>
     <p style="margin-top:30px;">Contact: admin@sonsiecarpentry.com</p>
-  </div>
-</section>
+  </section>
 
-<footer>
-  Registered Residential Carpenter (RRC) Proposal — Carpenters for Housing Reform Victoria
-</footer>
+  <footer>
+    Registered Residential Carpenter (RRC) Proposal &mdash; Carpenters for Housing Reform Victoria
+  </footer>
 
+</div>
 </body>
 </html>
