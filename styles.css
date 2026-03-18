@@ -256,3 +256,34 @@ body {
     gap: 6px;
   }
 }
+@media (max-width: 920px) {
+  .header-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .logo-box {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .meta-inner {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .btns {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
