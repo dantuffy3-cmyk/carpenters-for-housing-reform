@@ -1,0 +1,85 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rrcWheelTitle rrcWheelDesc">
+  <title id="rrcWheelTitle">RRC Competency Wheel</title>
+  <desc id="rrcWheelDesc">A circular diagram showing the four core competency segments of the Registered Residential Carpenter licence — Renovation Capability, Compliance Knowledge, Trade Coordination, and Non-Structural Scope — with a future Structural Endorsement ring on the outside.</desc>
+
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Arc text paths -->
+    <path id="arcTop"    d="M 160,300 A 140,140 0 0,1 440,300"/>
+    <path id="arcRight"  d="M 300,160 A 140,140 0 0,1 300,440"/>
+    <path id="arcBottom" d="M 440,300 A 140,140 0 0,0 160,300"/>
+    <path id="arcLeft"   d="M 300,440 A 140,140 0 0,0 300,160"/>
+    <!-- Outer arc paths for endorsement label -->
+    <path id="outerArcTop"    d="M 100,300 A 200,200 0 0,1 500,300"/>
+    <path id="outerArcBottom" d="M 500,300 A 200,200 0 0,1 100,300"/>
+  </defs>
+
+  <!-- Dark background circle -->
+  <circle cx="300" cy="300" r="295" fill="#0c0c0f" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+  <!-- ── Outer ring: Future Structural Endorsement ── -->
+  <!-- Top-right arc (orange dashed) -->
+  <path d="M 300,100 A 200,200 0 0,1 500,300" fill="none" stroke="#ff7a18" stroke-width="28" stroke-dasharray="12 6" stroke-linecap="round" opacity="0.75"/>
+  <!-- Bottom-right arc -->
+  <path d="M 500,300 A 200,200 0 0,1 300,500" fill="none" stroke="#ff7a18" stroke-width="28" stroke-dasharray="12 6" stroke-linecap="round" opacity="0.75"/>
+  <!-- Bottom-left arc -->
+  <path d="M 300,500 A 200,200 0 0,1 100,300" fill="none" stroke="#ff7a18" stroke-width="28" stroke-dasharray="12 6" stroke-linecap="round" opacity="0.75"/>
+  <!-- Top-left arc -->
+  <path d="M 100,300 A 200,200 0 0,1 300,100" fill="none" stroke="#ff7a18" stroke-width="28" stroke-dasharray="12 6" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- ── Four core segments (pie, r=155) ── -->
+  <!-- Segment 1: Renovation Capability (top-right, green) -->
+  <path d="M300,300 L300,145 A155,155 0 0,1 455,300 Z" fill="#39ff88" opacity="0.18" class="segment seg-renovation"/>
+  <path d="M300,300 L300,145 A155,155 0 0,1 455,300 Z" fill="none" stroke="#39ff88" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Segment 2: Compliance Knowledge (bottom-right, purple) -->
+  <path d="M300,300 L455,300 A155,155 0 0,1 300,455 Z" fill="#7b5cff" opacity="0.18" class="segment seg-compliance"/>
+  <path d="M300,300 L455,300 A155,155 0 0,1 300,455 Z" fill="none" stroke="#7b5cff" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Segment 3: Trade Coordination (bottom-left, green) -->
+  <path d="M300,300 L300,455 A155,155 0 0,1 145,300 Z" fill="#39ff88" opacity="0.12" class="segment seg-trade"/>
+  <path d="M300,300 L300,455 A155,155 0 0,1 145,300 Z" fill="none" stroke="#39ff88" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Segment 4: Non-Structural Scope (top-left, purple) -->
+  <path d="M300,300 L145,300 A155,155 0 0,1 300,145 Z" fill="#7b5cff" opacity="0.12" class="segment seg-scope"/>
+  <path d="M300,300 L145,300 A155,155 0 0,1 300,145 Z" fill="none" stroke="#7b5cff" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Divider lines -->
+  <line x1="300" y1="145" x2="300" y2="455" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="145" y1="300" x2="455" y2="300" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- ── Centre hub ── -->
+  <circle cx="300" cy="300" r="72" fill="#0c0c0f" stroke="#39ff88" stroke-width="2" filter="url(#glow)"/>
+  <text x="300" y="290" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="13" font-weight="800" fill="#39ff88" letter-spacing="1">RRC</text>
+  <text x="300" y="308" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="9.5" fill="#d2d2d7" letter-spacing="0.5">Registered</text>
+  <text x="300" y="321" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="9.5" fill="#d2d2d7" letter-spacing="0.5">Residential</text>
+  <text x="300" y="334" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="9.5" fill="#d2d2d7" letter-spacing="0.5">Carpenter</text>
+
+  <!-- ── Segment labels ── -->
+  <!-- Renovation Capability (top-right) -->
+  <text x="368" y="212" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#39ff88">Renovation</text>
+  <text x="368" y="227" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#39ff88">Capability</text>
+
+  <!-- Compliance Knowledge (bottom-right) -->
+  <text x="390" y="370" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7b5cff">Compliance</text>
+  <text x="390" y="385" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7b5cff">Knowledge</text>
+
+  <!-- Trade Coordination (bottom-left) -->
+  <text x="212" y="385" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#39ff88">Trade</text>
+  <text x="212" y="400" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#39ff88">Coordination</text>
+
+  <!-- Non-Structural Scope (top-left) -->
+  <text x="232" y="212" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7b5cff">Non-Structural</text>
+  <text x="232" y="227" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7b5cff">Scope</text>
+
+  <!-- ── Outer ring label (top) ── -->
+  <text font-family="system-ui, -apple-system, Arial, sans-serif" font-size="11" font-weight="700" fill="#ff7a18" letter-spacing="1.5">
+    <textPath href="#outerArcTop" startOffset="12%">FUTURE STRUCTURAL ENDORSEMENT (OPTIONAL)</textPath>
+  </text>
+
+  <!-- ── Outer edge ring ── -->
+  <circle cx="300" cy="300" r="270" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+</svg>
