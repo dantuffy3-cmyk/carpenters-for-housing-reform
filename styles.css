@@ -1,0 +1,365 @@
+/* Carpenters for Housing Reform Victoria — Shared Stylesheet */
+
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --border: #d0d5dd;
+  --text: #1a1a2e;
+  --muted: #4a5568;
+  --accent: #0057b8;
+  --accent-light: #e8f0fb;
+  --warn-bg: #fff8e1;
+  --warn-border: #f0c040;
+  --green-bg: #f0faf4;
+  --green-border: #3cb371;
+  --red-bg: #fff0f0;
+  --red-border: #cc3333;
+  --neutral-bg: #f7f7f9;
+  --neutral-border: #b0b8c8;
+  --max: 1100px;
+  --radius: 8px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+a { color: var(--accent); }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; display: block; }
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Header ── */
+header {
+  background: #111827;
+  color: #ffffff;
+  padding: 16px 0;
+  border-bottom: 3px solid var(--accent);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.brand img {
+  height: 48px;
+  width: auto;
+}
+
+header nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: background 0.15s;
+}
+
+header nav a:hover {
+  background: rgba(255,255,255,0.1);
+  text-decoration: none;
+}
+
+header nav a.active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ── Metadata bar ── */
+.meta-bar {
+  background: #1e293b;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  padding: 8px 0;
+  letter-spacing: 0.2px;
+}
+
+.meta-bar .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.meta-bar span { white-space: nowrap; }
+
+/* ── Page title ── */
+.page-title {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 40px 0 32px;
+}
+
+.page-title .tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin-bottom: 12px;
+}
+
+.page-title h1 {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.page-title .lead {
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 800px;
+  margin: 0;
+}
+
+/* ── Critical notice ── */
+.notice-critical {
+  background: var(--warn-bg);
+  border: 2px solid var(--warn-border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 28px 0 0 0;
+}
+
+.notice-critical strong { color: #7a4a00; }
+.notice-critical p { margin: 6px 0 0 0; color: #5a3800; font-size: 0.95rem; }
+
+/* ── Main content layout ── */
+main {
+  padding: 40px 0 60px;
+}
+
+.content-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  margin-bottom: 20px;
+}
+
+.content-section h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 14px 0;
+  color: var(--text);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-kicker {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.content-section p { margin: 0 0 12px 0; color: var(--muted); }
+.content-section p:last-child { margin-bottom: 0; }
+.content-section ul, .content-section ol {
+  margin: 0 0 12px 1.2rem;
+  padding: 0;
+  color: var(--muted);
+}
+.content-section li { margin-bottom: 5px; }
+
+/* ── Scope table ── */
+.scope-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 0.9rem;
+}
+
+.scope-table th {
+  text-align: left;
+  padding: 10px 14px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--border);
+}
+
+.scope-table th.col-can   { background: var(--green-bg);   color: #1a5c35; border-bottom-color: var(--green-border); }
+.scope-table th.col-cant  { background: var(--red-bg);     color: #7a1515; border-bottom-color: var(--red-border); }
+.scope-table th.col-build { background: var(--neutral-bg); color: #334155; border-bottom-color: var(--neutral-border); }
+
+.scope-table td {
+  padding: 9px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.scope-table td.col-can   { background: #fafffe; border-left: 3px solid var(--green-border); }
+.scope-table td.col-cant  { background: #fffafa; border-left: 3px solid var(--red-border); }
+.scope-table td.col-build { background: var(--neutral-bg); border-left: 3px solid var(--neutral-border); }
+
+.scope-table tbody tr:last-child td { border-bottom: none; }
+
+/* ── Eligibility steps ── */
+.eligibility-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: steps;
+}
+
+.eligibility-list li {
+  counter-increment: steps;
+  display: flex;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.eligibility-list li:last-child { border-bottom: none; }
+
+.eligibility-list li::before {
+  content: counter(steps);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* ── FAQ ── */
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+}
+
+.faq-item:last-child { border-bottom: none; }
+
+.faq-item dt {
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 5px;
+}
+
+.faq-item dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* ── CTA box ── */
+.cta-box {
+  background: var(--accent-light);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+}
+
+.cta-box h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 8px;
+}
+
+.cta-box p { color: var(--muted); }
+
+.cta-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover { opacity: 0.88; text-decoration: none; }
+
+.btn.primary {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.btn.secondary {
+  background: var(--surface);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+/* ── Footer ── */
+footer {
+  background: #111827;
+  color: #94a3b8;
+  text-align: center;
+  padding: 24px;
+  font-size: 0.85rem;
+  border-top: 3px solid var(--accent);
+}
+
+footer a { color: #93c5fd; }
+
+/* ── Responsive ── */
+@media (max-width: 700px) {
+  .content-section { padding: 20px 18px; }
+  .cta-box { padding: 20px 18px; }
+  .scope-table { font-size: 0.82rem; }
+  .scope-table th, .scope-table td { padding: 8px 10px; }
+}
