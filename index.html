@@ -255,6 +255,15 @@
       text-shadow: 0 0 18px rgba(57, 255, 136, 0.18);
     }
 
+    .counter-status {
+      margin: 0;
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--green);
+      text-shadow: 0 0 18px rgba(57, 255, 136, 0.18);
+    }
+
     .counter-text {
       margin: 10px 0 0 0;
       font-size: 15px;
@@ -579,7 +588,31 @@
 
     .hidden {
       display: none !important;
-    }section.full {
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    @media (max-width: 900px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    section.full {
   margin-top: 32px;
   padding: 28px;
 }
@@ -600,27 +633,16 @@ section.full:first-of-type {
       <a href="#rrc-proposal">Policy Position</a>
       <a href="#policy-brief">Brief Summary</a>
       <a href="#vision">Vision</a>
+      <a href="rrc.html">RRC Proposal</a>
       <a href="#proposal-form">Support Form</a>
       <a href="#contact">Contact</a>
     </nav>
 
     <header>
-    <div style="display:flex; align-items:center; gap:14px;">
-  <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo" style="height:60px; width:auto;">
-  <div style="font-weight:800; font-size:1.2rem;">
-    Carpenters for Housing Reform Victoria
-  </div>
-</div>
-<section class="hero">
-
-<img src="logo.png" alt="Carpenters for Housing Reform Victoria logo"
-style="height:140px; width:auto; margin-bottom:25px;">
-<h1>Carpenters for Housing Reform Victoria</h1>
-
-<p>Industry-led reform proposal for a Registered Residential Carpenter pathway.</p>
-
-</section>
-     
+      <div class="hero">
+        <div class="logo-box">
+          <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo">
+        </div>
         <div class="hero-copy">
           <h1>Victoria’s residential licensing system no longer matches the economic and practical reality of modern renovations.</h1>
           <p class="lead">
@@ -640,7 +662,7 @@ style="height:140px; width:auto; margin-bottom:25px;">
             >
               Support the RRC Proposal
             </a>
-            <a class="btn" href="#solution">Explore the Proposal</a>
+            <a class="btn" href="rrc.html">Explore the Proposal</a>
             <a class="btn" href="proposal.pdf" target="_blank" rel="noopener">Download Proposal PDF</a>
             <a class="btn" href="#contact">Contact</a>
           </div>
@@ -659,9 +681,9 @@ style="height:140px; width:auto; margin-bottom:25px;">
 
     <section class="support-counter">
       <p class="counter-label">Victorian Trades Supporting Reform</p>
-      <p class="counter-number" id="supporterCount">18</p>
-      <p class="counter-text">Support is growing among experienced Victorian carpenters and renovation trades.</p>
-      <p class="small" style="margin-top:8px;">Updated manually as support grows.</p>
+      <p class="counter-status">Growing</p>
+      <p class="counter-text">Support is building among experienced Victorian carpenters and renovation trades.</p>
+      <p class="small" style="margin-top:8px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEfiMNrY_wTdMvhx6FIXyY7lG-E9_5bQCVb7e1XsfnNiFoAQ/viewform" target="_blank" rel="noopener" style="color:var(--green);">Add your support →</a></p>
     </section>
 
     <div class="grid">
@@ -1012,26 +1034,6 @@ style="height:140px; width:auto; margin-bottom:25px;">
   <p class="muted" style="margin-top: 22px; max-width: 820px;">
     This vision strengthens the renovation workforce, improves regulatory fit, and supports housing opportunity across
     Victoria — while keeping major structural and new‑home construction firmly within builder scope.
-  </p>
-</section>
-<section id="rrc-pathway" class="full" style="padding:32px; text-align:center; margin-top:32px;">
-  <div class="tag">RRC Pathway Overview</div>
-  <h2>The capability structure behind the Registered Residential Carpenter</h2>
-
-  <p class="muted" style="max-width:820px; margin:0 auto 26px;">
-    The RRC competency wheel shows how renovation capability, compliance knowledge, trade coordination,
-    and non‑structural scope form the core of the licence — with a future structural endorsement
-    available under strict limits and safeguards.
-  </p>
-
-  <!-- SVG START -->
-  <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rrcWheelTitle rrcWheelDesc">
-      <!-- paste the full SVG here -->
-  </svg>
-  <!-- SVG END -->
-
-  <p class="muted" style="margin-top:22px; font-size:13px;">
-    This diagram summarises the RRC’s role in Victoria’s renovation licensing framework.
   </p>
 </section>
 
