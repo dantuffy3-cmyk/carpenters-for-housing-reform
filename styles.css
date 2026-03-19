@@ -137,8 +137,8 @@ a:hover {
   transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
 }
 
-.site-nav a:hover,
-.site-nav a[aria-current="page"] {
+.site-nav a:not(.button):hover,
+.site-nav a[aria-current="page"]:not(.button) {
   background: rgba(123, 92, 255, 0.10);
   border-color: var(--line);
 }
@@ -179,7 +179,21 @@ a:hover {
 .button-secondary:hover {
   background: rgba(255, 255, 255, 0.08);
 }
+.site-nav .button {
+  min-height: 44px;
+  padding: 0.72rem 0.95rem;
+  box-shadow: none;
+}
 
+.site-nav .button-primary:hover {
+  background: linear-gradient(135deg, var(--green), #8affbe);
+  border-color: rgba(57, 255, 136, 0.22);
+}
+
+.site-nav .button-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--line);
+}
 .hero {
   padding: 1.2rem 0 0;
 }
