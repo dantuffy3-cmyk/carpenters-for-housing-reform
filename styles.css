@@ -239,7 +239,6 @@ a:hover {
   letter-spacing: -0.04em;
   max-width: 16ch;
 }
-}
 
 .lead {
   margin: 0;
@@ -269,6 +268,15 @@ a:hover {
   border-radius: 22px;
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow-md);
+}
+
+.hero-photo {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid var(--line);
   box-shadow: var(--shadow-md);
 }
 
@@ -364,11 +372,65 @@ a:hover {
   margin-top: 1rem;
 }
 
+.split-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.stat-card {
+  padding: 1.2rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.035);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-value {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--green);
+}
+
+.stat-label {
+  margin: 0;
+  color: var(--muted);
+}
+
 .cards-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .cards-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.feature-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.feature-card {
+  padding: 1.2rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.035);
+  box-shadow: var(--shadow-sm);
+}
+
+.feature-card h3,
+.roadmap-step h3 {
+  margin: 0 0 0.45rem;
 }
 
 .briefing-block > .container,
@@ -462,6 +524,42 @@ a:hover {
   margin: 0.8rem 0 0;
 }
 
+.roadmap {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.roadmap-step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1.15rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow-sm);
+}
+
+.roadmap-step p {
+  margin: 0;
+}
+
+.roadmap-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: rgba(57, 255, 136, 0.1);
+  border: 1px solid rgba(57, 255, 136, 0.2);
+  color: var(--green);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
 .cta-group {
   display: flex;
   flex-wrap: wrap;
@@ -509,10 +607,12 @@ a:hover {
   }
 
   .hero-grid,
-.cards-3,
-.cards-2 {
-  grid-template-columns: 1fr;
-}
+  .cards-3,
+  .cards-2,
+  .split-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
 
   .hero-copy h1,
   .hero h1 {
