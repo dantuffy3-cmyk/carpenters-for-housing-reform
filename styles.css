@@ -514,4 +514,15 @@ img {
   .cta-actions {
     flex-direction: column;
   }
+}.section-kicker {
+  opacity: 0.85;
+}
+
+.info-card {
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-strong);
 }
