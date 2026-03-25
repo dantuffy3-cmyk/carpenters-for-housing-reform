@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Registered Residential Carpenter Proposal | Carpenters for Housing Reform Victoria</title>
+  <title>Registered Residential Carpenter Pathway | Carpenters for Housing Reform Victoria</title>
   <meta
     name="description"
-    content="A bounded, consumer-facing Registered Residential Carpenter proposal for Victoria focused on renovation clarity, scope definition, consumer protection, and builder handoff triggers."
+    content="A bounded, renovation-focused Registered Residential Carpenter pathway proposal for Victoria focused on consumer clarity, builder-protected boundaries, published scope, and clear handoff rules."
   />
   <meta name="theme-color" content="#050505" />
 
-  <meta property="og:title" content="Registered Residential Carpenter Proposal" />
+  <meta property="og:title" content="Registered Residential Carpenter Pathway" />
   <meta
     property="og:description"
     content="A practical reform proposal for clearer builder and carpenter roles in Victoria."
@@ -33,6 +33,68 @@
   />
 
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .rrc-logo-wrap {
+      margin-bottom: 1rem;
+    }
+    .rrc-logo {
+      max-width: 120px;
+      height: auto;
+      display: block;
+    }
+    .pathway-band {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .pathway-step {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 1.2rem;
+    }
+    .pathway-step .pathway-label {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.75;
+      margin-bottom: 0.6rem;
+    }
+    .tier-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .tier-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 1.3rem;
+    }
+    .tier-card h3 {
+      margin-bottom: 0.5rem;
+    }
+    .tier-card .tier-cap {
+      font-size: 1.1rem;
+      font-weight: 800;
+      margin-bottom: 0.85rem;
+    }
+    .micro-note {
+      margin-top: 1rem;
+      opacity: 0.8;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 820px) {
+      .pathway-band,
+      .tier-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="site-shell">
@@ -44,10 +106,10 @@
         </a>
 
         <nav class="nav">
-          <a href="index.html#problem">The Problem</a>
           <a href="#proposal">The Proposal</a>
+          <a href="#diagram">Pathway</a>
           <a href="#scope">Scope</a>
-          <a href="#handoff">Handoff Rules</a>
+          <a href="#tiers">Tiers</a>
           <a href="#engage" class="nav-cta">Request briefing</a>
         </nav>
       </div>
@@ -57,9 +119,8 @@
       <section class="announcement">
         <div class="container">
           <p>
-            This proposal is designed to fit within Victoria’s existing domestic building system by
-            improving public clarity, publishing clearer carpentry scope boundaries, and defining
-            stronger builder handoff triggers in renovation work.
+            This pathway is designed to improve clarity, accountability, and renovation delivery in Victoria
+            without weakening domestic builder responsibility or blurring builder scope.
           </p>
         </div>
       </section>
@@ -67,39 +128,39 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <div class="eyebrow">Policy proposal · consultation draft · March 2026</div>
-            <h1>Registered Residential Carpenter</h1>
+            <div class="rrc-logo-wrap">
+              <img src="logo.png" alt="Carpenters for Housing Reform Victoria logo" class="rrc-logo" />
+            </div>
+            <div class="eyebrow">Policy pathway · consultation draft · March 2026</div>
+            <h1>Registered Residential Carpenter Pathway</h1>
             <p class="hero-lead">
-              A clearer, bounded, consumer-facing residential carpentry framework for Victoria.
+              A bounded, renovation-focused pathway that improves clarity, accountability, and housing delivery — without expanding into builder scope.
             </p>
             <p class="hero-sub">
-              This proposal is not about weakening domestic builder responsibility. It is about
-              making residential renovation roles easier to understand, easier to regulate, and
-              easier for consumers to navigate — through published carpentry scope, explicit
-              exclusions, and defined handoff points where builder responsibility must apply.
+              This proposal is for a clearly defined residential carpentry pathway in Victoria that reflects how renovation work actually happens on the ground.
+              It is designed to help consumers understand who they are hiring, what that person can do, and when responsibility must move to a domestic builder.
             </p>
 
             <div class="hero-actions">
-              <a href="#proposal" class="btn btn-primary">Read the proposal</a>
+              <a href="#proposal" class="btn btn-primary">Read the pathway</a>
               <a href="index.html" class="btn btn-secondary">Back to homepage</a>
             </div>
           </div>
 
           <aside class="hero-panel">
             <div class="panel-card">
-              <div class="panel-label">Proposal summary</div>
-              <h2>Core reform position</h2>
+              <div class="panel-label">Core reform position</div>
+              <h2>What this pathway is trying to solve</h2>
               <p>
-                Victoria should provide a clearer public-facing residential carpentry classification
-                with defined scope, exclusions, and builder handoff rules that match how renovation
-                work actually happens.
+                Victoria has a real middle-ground problem in residential renovation work: homeowners often do not understand the difference between a carpenter and a builder,
+                while experienced carpenters still lack a clearer public-facing pathway for defined renovation scope.
               </p>
               <ul>
                 <li>Consumer clarity first</li>
-                <li>Builder scope remains intact</li>
-                <li>Published residential carpentry boundaries</li>
-                <li>Clear exclusions and escalation points</li>
-                <li>Accountability matched to project risk</li>
+                <li>Builder scope remains protected</li>
+                <li>Defined renovation boundaries</li>
+                <li>Clear escalation and handoff rules</li>
+                <li>Recognition of real experience</li>
               </ul>
             </div>
           </aside>
@@ -114,18 +175,13 @@
           </div>
 
           <p>
-            Victoria already has domestic building registration settings that touch carpentry work.
-            The problem is not total absence. The problem is that the current framework is not clear
-            enough to most homeowners, and does not communicate residential renovation boundaries in
-            a way that is easy to understand in practice.
+            Victoria already regulates domestic building activity, but the public-facing understanding of roles still breaks down in residential renovation work.
+            The result is confusion for consumers, inconsistent expectations, and a grey zone around who should be doing what.
           </p>
 
           <p>
-            We are advocating for a clearly defined <strong>Registered Residential Carpenter</strong>
-            model as a consumer-facing classification within Victoria’s domestic building framework.
-            The purpose is to improve clarity around what a qualified residential carpenter may do in
-            renovation settings, what sits outside that scope, and when domestic builder
-            responsibility must take over.
+            This proposal supports a clearly defined <strong>Registered Residential Carpenter</strong> pathway for bounded renovation work in Victoria.
+            The aim is not to create a backdoor builder licence. The aim is to publish a clearer middle layer of authority, exclusions, and builder handoff rules so responsibility is easier to understand and apply.
           </p>
 
           <div class="quote-box">
@@ -136,7 +192,45 @@
         </div>
       </section>
 
-      <section class="section alt">
+      <section class="section alt" id="diagram">
+        <div class="container">
+          <div class="section-head center">
+            <span class="section-kicker">Pathway overview</span>
+            <h2>Current system → gap → RRC solution</h2>
+            <p>
+              This is the practical reform logic behind the pathway.
+            </p>
+          </div>
+
+          <div class="pathway-band">
+            <article class="pathway-step">
+              <span class="pathway-label">Current system</span>
+              <h3>Below and above the line</h3>
+              <p>
+                Consumers often see only a loose jump from small unlicensed work to full domestic builder responsibility, with very little plain-English explanation in between.
+              </p>
+            </article>
+
+            <article class="pathway-step">
+              <span class="pathway-label">The gap</span>
+              <h3>Renovation reality is not clear enough</h3>
+              <p>
+                Experienced renovation carpenters operate in a real-world space that many homeowners do not understand, and the current language does not clearly explain limits, exclusions, or handoff points.
+              </p>
+            </article>
+
+            <article class="pathway-step">
+              <span class="pathway-label">RRC solution</span>
+              <h3>A defined middle pathway</h3>
+              <p>
+                The RRC pathway would create a clearer, bounded residential renovation classification with published scope, explicit exclusions, and earlier builder escalation where risk or project responsibility requires it.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
         <div class="container">
           <div class="section-head center">
             <span class="section-kicker">Why reform is needed</span>
@@ -147,38 +241,34 @@
             <article class="info-card">
               <h3>Consumers struggle to understand roles</h3>
               <p>
-                Many people do not understand the difference between a builder and a carpenter once
-                domestic work moves into higher-value renovation territory.
+                Many homeowners still do not understand the difference between a builder and a carpenter once renovation work becomes larger, more integrated, or more expensive.
               </p>
             </article>
 
             <article class="info-card">
-              <h3>Public language does not match site reality</h3>
+              <h3>The $10,000 threshold no longer reflects reality</h3>
               <p>
-                Renovation carpentry often sits in a grey zone between what households think they are
-                hiring and how legal responsibility is actually structured.
+                In today’s renovation environment, $10,000 does not represent meaningful building work. It often represents fragmentation of responsibility rather than true protection.
               </p>
             </article>
 
             <article class="info-card">
               <h3>Boundaries need to be easier to apply</h3>
               <p>
-                A more transparent framework would reduce confusion around authority, responsibility,
-                handoff points, and consumer expectations.
+                A clearer framework would reduce confusion around authority, responsibility, escalation points, and what protections consumers should expect at each stage.
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="scope">
+      <section class="section alt" id="scope">
         <div class="container">
           <div class="section-head">
             <span class="section-kicker">Defined scope</span>
             <h2>What a Registered Residential Carpenter pathway should cover</h2>
             <p>
-              The exact legal drafting would need consultation, but the framework should be bounded,
-              renovation-focused, and easy for consumers to understand.
+              Final legal drafting would require consultation, but the framework should be specific, renovation-focused, and simple enough for consumers to understand.
             </p>
           </div>
 
@@ -187,24 +277,64 @@
               <h3>Inside intended scope</h3>
               <ul class="clean-list">
                 <li>Residential renovation carpentry within a clearly published and limited scope</li>
-                <li>Internal and external carpentry works that fit defined residential carpentry boundaries</li>
-                <li>Alteration, repair, replacement, and improvement work within approved carpentry limits</li>
-                <li>Works that remain consistent with clear consumer guidance and defined accountability settings</li>
-                <li>Projects where escalation to a domestic builder is not triggered by risk, scope, or broader responsibility</li>
+                <li>Alteration, repair, replacement, and improvement work within approved carpentry boundaries</li>
+                <li>Internal and external renovation carpentry that remains within defined authority settings</li>
+                <li>Projects that do not trigger broader builder-level responsibility, risk, or coordination settings</li>
+                <li>Work delivered under public-facing guidance that is easier for homeowners to follow</li>
               </ul>
             </article>
 
             <article class="panel warning">
               <h3>Outside intended scope</h3>
               <ul class="clean-list">
-                <li>Unlimited project control or open-ended domestic builder authority</li>
-                <li>Broader full-project responsibilities that properly belong to a domestic builder</li>
-                <li>Works beyond the published carpentry scope or risk profile</li>
-                <li>Anything that would blur legal accountability or weaken consumer protections</li>
-                <li>Any expansion by vague interpretation rather than explicit public rules</li>
+                <li>Open-ended domestic builder authority or unlimited project control</li>
+                <li>New-home building scope or broader builder-level responsibilities</li>
+                <li>Works beyond the published carpentry scope, risk profile, or permitted authority</li>
+                <li>Anything that weakens consumer protections or blurs legal accountability</li>
+                <li>Any expansion by vague interpretation instead of explicit public rules</li>
               </ul>
             </article>
           </div>
+        </div>
+      </section>
+
+      <section class="section" id="tiers">
+        <div class="container">
+          <div class="section-head center">
+            <span class="section-kicker">Tier structure</span>
+            <h2>A fairer pathway should recognise experience</h2>
+            <p>
+              A tiered model gives regulators more control, gives consumers clearer expectations, and recognises the difference between a carpenter with solid experience and one with decades of renovation delivery behind them.
+            </p>
+          </div>
+
+          <div class="tier-grid">
+            <article class="tier-card">
+              <h3>Tier 1</h3>
+              <div class="tier-cap">Up to $100,000</div>
+              <ul class="clean-list">
+                <li>10+ years industry experience</li>
+                <li>Demonstrated renovation project capability</li>
+                <li>Bounded residential renovation scope only</li>
+                <li>Clear escalation to builder responsibility where required</li>
+              </ul>
+            </article>
+
+            <article class="tier-card">
+              <h3>Tier 2</h3>
+              <div class="tier-cap">Up to $200,000 with structured oversight</div>
+              <ul class="clean-list">
+                <li>20+ years industry experience</li>
+                <li>Stronger evidence of renovation delivery and judgment</li>
+                <li>Possible review, approval, or added safeguards for higher-value work</li>
+                <li>Still bounded and still outside full domestic builder scope</li>
+              </ul>
+            </article>
+          </div>
+
+          <p class="micro-note">
+            This higher tier should be framed carefully: not as unlimited expansion, but as a more controlled recognition of long-term experience with stronger safeguards attached.
+          </p>
         </div>
       </section>
 
@@ -219,17 +349,14 @@
             <article class="info-card">
               <h3>Not an attempt to remove builder responsibility</h3>
               <p>
-                This proposal accepts that domestic builders remain essential wherever project
-                coordination, insurance responsibility, broader risk, or overall legal accountability
-                properly sit with the builder role.
+                Domestic builders remain essential wherever full-project responsibility, insurance settings, broader risk, or overall legal accountability properly sit with the builder role.
               </p>
             </article>
 
             <article class="info-card">
               <h3>Not an attempt to weaken consumer protection</h3>
               <p>
-                Any reform should strengthen clarity around obligations, not create confusion around
-                contracts, insurance, or responsibility.
+                Any reform should strengthen clarity around obligations, responsibility, and handoff points — not create confusion around contracts, insurance, or accountability.
               </p>
             </article>
           </div>
@@ -242,8 +369,7 @@
             <span class="section-kicker">Handoff rules</span>
             <h2>Builder responsibility must be triggered clearly and early</h2>
             <p>
-              One of the most important parts of this reform is not just defining what sits inside
-              carpentry scope — it is defining when a domestic builder must take responsibility.
+              One of the most important parts of this pathway is not only defining what sits inside carpentry scope, but also defining when a domestic builder must take over responsibility.
             </p>
           </div>
 
@@ -252,8 +378,7 @@
               <span class="step-number">01</span>
               <h3>Scope trigger</h3>
               <p>
-                If work moves outside the published residential carpentry scope, the pathway should
-                require escalation to the appropriate domestic builder responsibility.
+                If work moves outside the published residential carpentry scope, the pathway must require escalation to the appropriate builder responsibility.
               </p>
             </article>
 
@@ -261,8 +386,7 @@
               <span class="step-number">02</span>
               <h3>Complexity trigger</h3>
               <p>
-                If the project reaches a level of coordination, risk, or integration beyond defined
-                carpentry settings, builder responsibility should be required.
+                If the project reaches a level of coordination, integration, or risk beyond defined carpentry settings, builder responsibility should apply.
               </p>
             </article>
 
@@ -270,8 +394,7 @@
               <span class="step-number">03</span>
               <h3>Consumer protection trigger</h3>
               <p>
-                Where legal, contractual, insurance, or broader accountability settings require
-                builder responsibility, that trigger should be plainly explained to consumers.
+                Where legal, contractual, insurance, or broader accountability settings require builder responsibility, that trigger should be plainly explained to consumers.
               </p>
             </article>
 
@@ -279,79 +402,7 @@
               <span class="step-number">04</span>
               <h3>Plain-English trigger</h3>
               <p>
-                Handoff rules should be written in language a homeowner can actually follow, not only
-                in technical regulatory terms.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section alt">
-        <div class="container narrow">
-          <div class="section-head">
-            <span class="section-kicker">Consumer clarity</span>
-            <h2>What consumers should be able to understand immediately</h2>
-          </div>
-
-          <div class="principles">
-            <div class="principle">
-              <h3>Who they are hiring</h3>
-              <p>A consumer should be able to identify whether they are hiring a registered residential carpenter or a domestic builder.</p>
-            </div>
-            <div class="principle">
-              <h3>What that person is authorised to do</h3>
-              <p>The scope should be explained in a direct, public-facing way rather than buried in technical language.</p>
-            </div>
-            <div class="principle">
-              <h3>When the job must move to builder responsibility</h3>
-              <p>Escalation points should be published clearly so there is less confusion and less grey area.</p>
-            </div>
-            <div class="principle">
-              <h3>What protections apply</h3>
-              <p>Consumers should have a clearer picture of responsibility, accountability, and where formal builder obligations must attach.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="section-head center">
-            <span class="section-kicker">Why this helps</span>
-            <h2>Benefits of a clearer residential carpentry classification</h2>
-          </div>
-
-          <div class="impact-grid">
-            <article class="impact-item">
-              <h3>For consumers</h3>
-              <p>
-                Easier understanding of the difference between renovation carpentry authority and
-                domestic builder responsibility.
-              </p>
-            </article>
-
-            <article class="impact-item">
-              <h3>For builders</h3>
-              <p>
-                Better boundary clarity reduces overlap, confusion, and arguments about where overall
-                project responsibility sits.
-              </p>
-            </article>
-
-            <article class="impact-item">
-              <h3>For carpenters</h3>
-              <p>
-                Legitimate residential renovation capability is recognised more clearly within safe
-                and enforceable boundaries.
-              </p>
-            </article>
-
-            <article class="impact-item">
-              <h3>For regulation</h3>
-              <p>
-                A clearer consumer-facing structure can reduce mismatch between regulatory language
-                and how domestic renovation work is actually understood on the ground.
+                Handoff rules should be written in language a homeowner can actually follow, not buried only in technical regulatory terms.
               </p>
             </article>
           </div>
@@ -362,7 +413,7 @@
         <div class="container narrow">
           <div class="section-head">
             <span class="section-kicker">Reform principles</span>
-            <h2>Five principles this proposal should never move away from</h2>
+            <h2>Five principles this pathway should never move away from</h2>
           </div>
 
           <div class="principles">
@@ -396,16 +447,14 @@
             <span class="section-kicker">Engagement</span>
             <h2>Seeking discussion with government, regulators, industry, and standards stakeholders</h2>
             <p>
-              We welcome serious engagement on a bounded, practical reform pathway that improves
-              clarity, accountability, and consumer understanding in Victoria’s residential
-              renovation system.
+              We welcome serious engagement on a bounded, practical reform pathway that improves clarity, accountability, and consumer understanding in Victoria’s residential renovation system.
             </p>
           </div>
 
           <div class="cta-actions">
-           <a href="mailto:admin@sonsiecarpentry.com?subject=Briefing%20Request%20-%20Registered%20Residential%20Carpenter%20Proposal" class="btn btn-primary">
-  Request a briefing
-</a>
+            <a href="mailto:admin@sonsiecarpentry.com?subject=Briefing%20Request%20-%20Registered%20Residential%20Carpenter%20Pathway" class="btn btn-primary">
+              Request a briefing
+            </a>
             <a href="index.html" class="btn btn-secondary">Back to homepage</a>
           </div>
         </div>
@@ -434,7 +483,7 @@
           <h4>Pages</h4>
           <ul class="footer-links">
             <li><a href="index.html">Homepage</a></li>
-            <li><a href="rrc.html">RRC Proposal</a></li>
+            <li><a href="rrc.html">RRC Pathway</a></li>
           </ul>
         </div>
       </div>
