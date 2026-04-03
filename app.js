@@ -100,7 +100,12 @@ if (toggleButtons.length && formPanels.length) {
     });
   });
 
-  setFormView(document.querySelector('[data-form-view].is-active')?.dataset.formView || 'embed');
+  const defaultView = document.querySelector('[data-form-view].is-active')?.dataset.formView;
+  const fallbackView = toggleButtons[0]?.dataset.formView;
+
+  if (defaultView || fallbackView) {
+    setFormView(defaultView || fallbackView);
+  }
 }
 
 const mediaFrames = document.querySelectorAll('[data-fallback-label]');
