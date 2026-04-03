@@ -52,17 +52,27 @@ const decisionTitle = document.getElementById('decision-title');
 const decisionText = document.getElementById('decision-text');
 const decisionPoints = document.getElementById('decision-points');
 
+const renderDecisionContent = (value) => {
+  const nextContent = decisionContent[value];
+
+  if (!nextContent || !decisionTitle || !decisionText || !decisionPoints) {
+    return;
+  }
+
+  decisionTitle.textContent = nextContent.title;
+  decisionText.textContent = nextContent.text;
+  decisionPoints.replaceChildren(
+    ...nextContent.points.map((point) => {
+      const item = document.createElement('li');
+      item.textContent = point;
+      return item;
+    })
+  );
+};
+
 if (decisionSelect && decisionTitle && decisionText && decisionPoints) {
   decisionSelect.addEventListener('change', (event) => {
-    const nextContent = decisionContent[event.target.value];
-
-    if (!nextContent) {
-      return;
-    }
-
-    decisionTitle.textContent = nextContent.title;
-    decisionText.textContent = nextContent.text;
-    decisionPoints.innerHTML = nextContent.points.map((point) => `<li>${point}</li>`).join('');
+    renderDecisionContent(event.target.value);
   });
 }
 
@@ -70,23 +80,27 @@ const toggleButtons = document.querySelectorAll('[data-form-view]');
 const formPanels = document.querySelectorAll('[data-form-panel]');
 
 if (toggleButtons.length && formPanels.length) {
+  const setFormView = (view) => {
+    toggleButtons.forEach((item) => {
+      const isActive = item.dataset.formView === view;
+      item.classList.toggle('is-active', isActive);
+      item.setAttribute('aria-selected', String(isActive));
+    });
+
+    formPanels.forEach((panel) => {
+      const isActive = panel.dataset.formPanel === view;
+      panel.classList.toggle('is-active', isActive);
+      panel.hidden = !isActive;
+    });
+  };
+
   toggleButtons.forEach((button) => {
     button.addEventListener('click', () => {
-      const view = button.dataset.formView;
-
-      toggleButtons.forEach((item) => {
-        const isActive = item === button;
-        item.classList.toggle('is-active', isActive);
-        item.setAttribute('aria-selected', String(isActive));
-      });
-
-      formPanels.forEach((panel) => {
-        const isActive = panel.dataset.formPanel === view;
-        panel.classList.toggle('is-active', isActive);
-        panel.hidden = !isActive;
-      });
+      setFormView(button.dataset.formView);
     });
   });
+
+  setFormView(document.querySelector('[data-form-view].is-active')?.dataset.formView || 'embed');
 }
 
 const mediaFrames = document.querySelectorAll('[data-fallback-label]');
@@ -101,8 +115,16 @@ mediaFrames.forEach((frame) => {
   image.addEventListener(
     'error',
     () => {
+      if (frame.dataset.fallbackApplied === 'true') {
+        return;
+      }
+
+      frame.dataset.fallbackApplied = 'true';
       frame.classList.add('is-fallback');
-      image.remove();
+
+      if (image.isConnected) {
+        image.remove();
+      }
 
       if (!frame.querySelector('.media-fallback')) {
         const fallback = document.createElement('div');
