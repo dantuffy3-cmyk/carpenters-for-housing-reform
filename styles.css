@@ -389,6 +389,75 @@ img {
   padding: 1.3rem 1.4rem;
 }
 
+.consultation-package {
+  background: #ffffff;
+  color: #102b1f;
+}
+
+.consultation-package h2 {
+  margin: 0.65rem 0 0.8rem;
+  font-size: clamp(2rem, 3vw, 3.15rem);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+  color: #102b1f;
+}
+
+.consultation-package > .container > p {
+  color: rgba(16, 43, 31, 0.84);
+  max-width: 78ch;
+}
+
+.document-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.document-card {
+  background: #f5f7f4;
+  border: 1px solid rgba(16, 43, 31, 0.12);
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+}
+
+.document-card h3 {
+  margin-top: 0;
+  color: #102b1f;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+}
+
+.document-card p {
+  margin-bottom: 1rem;
+  color: rgba(16, 43, 31, 0.84);
+}
+
+.document-card .btn {
+  margin-top: 0.4rem;
+}
+
+.consultation-callout {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-left: 5px solid #2f6b43;
+  background: #f5f7f4;
+  border-radius: 16px;
+}
+
+.consultation-callout p {
+  margin-top: 0;
+  color: rgba(16, 43, 31, 0.84);
+}
+
+.consultation-callout strong {
+  display: block;
+  margin-top: 0.75rem;
+  color: #102b1f;
+  font-size: 1.1rem;
+}
+
 .cta-section {
   padding-top: 2rem;
   padding-bottom: 6rem;
@@ -458,7 +527,8 @@ img {
   .steps-grid,
   .split-grid,
   .footer-grid,
-  .cta-card {
+  .cta-card,
+  .document-grid {
     grid-template-columns: 1fr;
   }
 
@@ -477,6 +547,12 @@ img {
 
   .hero h1 {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .document-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -514,7 +590,9 @@ img {
   .cta-actions {
     flex-direction: column;
   }
-}.section-kicker {
+}
+
+.section-kicker {
   opacity: 0.85;
 }
 
