@@ -26,6 +26,7 @@
   />
 
   <link rel="stylesheet" href="styles.css" />
+  <script src="site.js" defer></script>
 </head>
 
 <body>
@@ -37,7 +38,22 @@
           <span>Carpenters for Housing Reform Victoria</span>
         </a>
 
-        <nav class="nav">
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span>Menu</span>
+          <span class="nav-toggle-bars" aria-hidden="true">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </span>
+        </button>
+
+        <nav class="nav" id="site-nav" data-nav>
           <a href="index.html#problem">Problem</a>
           <a href="index.html#tenk-reality">$10k Reality</a>
           <a href="index.html#solution">Solution</a>
@@ -45,6 +61,7 @@
           <a href="index.html#principles">Principles</a>
           <a href="index.html#engagement">Engage</a>
           <a href="housing-supply-alignment.html">Housing Supply</a>
+          <a href="institute/">Building Reform Institute</a>
           <a href="rrc.html" class="nav-cta">Proposal</a>
         </nav>
       </div>
