@@ -40,7 +40,7 @@ document.querySelectorAll('[data-nav-toggle]').forEach((toggle) => {
   });
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 980) {
+    if (window.innerWidth > 980 && toggle.getAttribute('aria-expanded') === 'true') {
       closeMenu();
     }
   });
