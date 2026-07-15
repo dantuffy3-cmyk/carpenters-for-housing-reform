@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Victorian Waterproofing Assurance Framework | RBR Institute</title>
+  <meta
+    name="description"
+    content="The Victorian Waterproofing Assurance Framework explores competency, digital evidence, wet-area readiness and risk-based verification to improve residential waterproofing accountability in Victoria."
+  />
+  <meta name="theme-color" content="#050505" />
+  <link rel="canonical" href="https://www.carpentryreform.com.au/institute/waterproofing/" />
+
+  <meta property="og:title" content="Victorian Waterproofing Assurance Framework" />
+  <meta
+    property="og:description"
+    content="A targeted trust-and-verify alternative to blanket mandatory waterproofing inspection."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.carpentryreform.com.au/institute/waterproofing/" />
+  <meta property="og:image" content="https://www.carpentryreform.com.au/og-image.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="../../styles.css" />
+  <script src="../../site.js" defer></script>
+
+  <style>
+    .waf-disclaimer {
+      margin-top: 1.5rem;
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .waf-stage-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.2rem;
+      margin-top: 2rem;
+      counter-reset: stage-counter;
+    }
+
+    .waf-stage-card {
+      padding: 1.5rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .waf-stage-number {
+      display: inline-flex;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--green);
+      letter-spacing: -0.03em;
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+
+    .waf-stage-card h3 {
+      margin: 0 0 0.4rem;
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+      color: #f8fbf8;
+    }
+
+    .waf-stage-card .responsible {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .waf-stage-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    .waf-competency-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .waf-competency-card {
+      padding: 1.5rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .waf-competency-card h4 {
+      margin: 0 0 1rem;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+      color: #f8fbf8;
+    }
+
+    .waf-competency-card ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    .waf-competency-card ul li {
+      color: var(--muted-soft);
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .waf-level-grid {
+      display: grid;
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .waf-level-card {
+      padding: 1.5rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.2rem;
+      align-items: start;
+    }
+
+    .waf-level-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 999px;
+      border: 2px solid rgba(34, 230, 75, 0.3);
+      background: rgba(34, 230, 75, 0.08);
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--green);
+      flex-shrink: 0;
+    }
+
+    .waf-level-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+      color: #f8fbf8;
+    }
+
+    .waf-level-card p {
+      margin: 0 0 0.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .waf-level-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .waf-holdpoint-list {
+      margin: 1.5rem 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .waf-holdpoint-item {
+      padding: 1.25rem 1.4rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem;
+      align-items: start;
+    }
+
+    .waf-holdpoint-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 999px;
+      border: 1px solid rgba(34, 230, 75, 0.3);
+      background: rgba(34, 230, 75, 0.08);
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--green);
+      flex-shrink: 0;
+    }
+
+    .waf-holdpoint-item h4 {
+      margin: 0 0 0.35rem;
+      font-size: 0.98rem;
+      color: #f8fbf8;
+      letter-spacing: -0.01em;
+    }
+
+    .waf-holdpoint-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .waf-risk-grid {
+      display: grid;
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .waf-risk-card {
+      padding: 1.4rem 1.5rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.2rem;
+      align-items: start;
+    }
+
+    .waf-risk-label {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--green);
+      border: 2px solid rgba(34, 230, 75, 0.3);
+      background: rgba(34, 230, 75, 0.08);
+      flex-shrink: 0;
+    }
+
+    .waf-risk-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.02rem;
+      letter-spacing: -0.02em;
+      color: #f8fbf8;
+    }
+
+    .waf-risk-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .waf-responsibility-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .waf-responsibility-card {
+      padding: 1.3rem 1.4rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .waf-responsibility-card h4 {
+      margin: 0 0 0.5rem;
+      font-size: 0.98rem;
+      letter-spacing: -0.01em;
+      color: var(--green);
+    }
+
+    .waf-responsibility-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .waf-pilot-controls {
+      margin-top: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.2rem;
+    }
+
+    .waf-pilot-box {
+      padding: 1.3rem 1.4rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .waf-pilot-box h4 {
+      margin: 0 0 0.75rem;
+      font-size: 0.98rem;
+      color: #f8fbf8;
+    }
+
+    .waf-pilot-box ul,
+    .waf-pilot-box p {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .waf-pilot-box ul li {
+      margin-bottom: 0.4rem;
+    }
+
+    .waf-stat-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .waf-stat-card {
+      padding: 1.4rem;
+      background: linear-gradient(180deg, rgba(20, 29, 24, 0.98), rgba(16, 23, 19, 0.98));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .waf-stat-card .waf-stat-value {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--green);
+      letter-spacing: -0.04em;
+      line-height: 1.1;
+      margin-bottom: 0.4rem;
+    }
+
+    .waf-stat-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .waf-stakeholder-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      margin-top: 1.5rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .waf-stakeholder-list li {
+      padding: 0.5rem 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--muted-soft);
+      font-size: 0.88rem;
+    }
+
+    .waf-priorities-list {
+      margin: 1rem 0 0;
+      padding-left: 1.15rem;
+    }
+
+    .waf-priorities-list li {
+      color: var(--muted-soft);
+      margin-bottom: 0.6rem;
+    }
+
+    .waf-page-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+    }
+
+    .waf-page-nav a {
+      display: inline-flex;
+      padding: 0.45rem 0.85rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--muted-soft);
+      font-size: 0.86rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .waf-page-nav a:hover {
+      border-color: rgba(34, 230, 75, 0.3);
+      color: var(--text);
+    }
+
+    .waf-pub-nav {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .waf-pub-nav .container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .waf-pub-nav-label {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--green);
+      white-space: nowrap;
+    }
+
+    .waf-ai-note {
+      margin-top: 1.5rem;
+      padding: 1.25rem 1.4rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(34, 230, 75, 0.18);
+      background: rgba(34, 230, 75, 0.05);
+    }
+
+    .waf-ai-note h4 {
+      margin: 0 0 0.5rem;
+      font-size: 0.97rem;
+      color: #f8fbf8;
+    }
+
+    .waf-ai-note p {
+      margin: 0 0 0.5rem;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .waf-ai-note p:last-child {
+      margin-bottom: 0;
+    }
+
+    .waf-indicative-note {
+      margin-top: 1rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    @media (max-width: 980px) {
+      .waf-stage-grid,
+      .waf-competency-grid,
+      .waf-pilot-controls,
+      .waf-stat-row,
+      .waf-responsibility-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .waf-level-card,
+      .waf-risk-card,
+      .waf-holdpoint-item {
+        grid-template-columns: 1fr;
+      }
+
+      .waf-level-badge,
+      .waf-risk-label,
+      .waf-holdpoint-num {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a href="../../index.html" class="brand">
+          <span class="brand-mark"></span>
+          <span>Carpenters for Housing Reform Victoria</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span>Menu</span>
+          <span class="nav-toggle-bars" aria-hidden="true">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </span>
+        </button>
+
+        <nav class="nav" id="site-nav" data-nav>
+          <a href="../">Institute Home</a>
+          <a href="../#current-research">Current Research</a>
+          <a href="#framework">Assurance Model</a>
+          <a href="#competency">Competency</a>
+          <a href="#pilot">Pilot</a>
+          <a href="#consultation">Consultation</a>
+          <a href="../../rrc.html" class="nav-cta">RRC Proposal</a>
+        </nav>
+      </div>
+    </header>
+
+    <nav class="waf-pub-nav" aria-label="Publication sections">
+      <div class="container">
+        <span class="waf-pub-nav-label">RBRI-PP-002</span>
+        <ul class="waf-page-nav">
+          <li><a href="#policy-opportunity">Policy Opportunity</a></li>
+          <li><a href="#core-problem">The Problem</a></li>
+          <li><a href="#framework">Framework</a></li>
+          <li><a href="#competency">Competency</a></li>
+          <li><a href="#endorsement">Endorsement Levels</a></li>
+          <li><a href="#evidence">Digital Evidence</a></li>
+          <li><a href="#risk-verification">Risk Verification</a></li>
+          <li><a href="#accountability">Accountability</a></li>
+          <li><a href="#pilot">Pilot</a></li>
+          <li><a href="#economic-case">Economic Case</a></li>
+          <li><a href="#consultation">Consultation</a></li>
+          <li><a href="#next-stage">Next Stage</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- Section 1: Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Residential Building Reform Institute · RBRI-PP-002</div>
+            <h1>Victorian Waterproofing Assurance Framework</h1>
+            <p class="hero-lead">A targeted trust-and-verify alternative to blanket mandatory inspection.</p>
+            <p class="hero-sub">The Victorian Waterproofing Assurance Framework is being developed to improve the quality, traceability and accountability of residential waterproofing work through demonstrated competency, mandatory digital evidence, defined trade handovers and risk-based regulatory verification.</p>
+            <div class="card-meta" style="margin-top: 1.25rem;">
+              <span class="badge">Active Research</span>
+              <span class="label-badge">Government Discussion Paper — In Development</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#framework" class="btn btn-primary">Explore the Proposed Model</a>
+              <a href="../" class="btn btn-secondary">Return to the Institute</a>
+            </div>
+            <div class="waf-disclaimer" role="note">
+              <strong>Research disclaimer:</strong> This project remains under development. It is not presented as a final regulatory model or as having government endorsement.
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card">
+              <span class="panel-label">Central thesis</span>
+              <h2>A concealed-work accountability problem.</h2>
+              <p>Victoria does not only face a waterproofing inspection problem. It faces a concealed-work accountability problem.</p>
+              <p>Once critical substrates are covered by tiles, evidence of how work was — or was not — performed becomes extremely difficult and expensive to recover.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Policy Opportunity -->
+      <section class="section alt" id="policy-opportunity">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Context</span>
+            <h2>A Clear Policy Opportunity</h2>
+          </div>
+
+          <div class="split-grid">
+            <div class="panel">
+              <p>Victoria has considered additional waterproofing inspection requirements but has also identified the need for a more targeted alternative approach. The government has left open the development of an alternative approach that can deliver accountability without requiring physical inspection of every bathroom in the state.</p>
+              <p>The Institute is examining how Victoria could strengthen waterproofing accountability through practitioner competency, mandatory pre-concealment evidence and risk-based verification — rather than resource-intensive universal inspection.</p>
+            </div>
+
+            <div class="panel">
+              <h3>Balancing competing interests</h3>
+              <p>The proposed model seeks to balance:</p>
+              <ul class="research-points" style="margin-top: 0.75rem;">
+                <li>Consumer protection</li>
+                <li>Competent practice</li>
+                <li>Housing productivity</li>
+                <li>Regulatory efficiency</li>
+                <li>Evidence-based enforcement</li>
+                <li>Clearer liability and chain of custody</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Core Problem -->
+      <section class="section" id="core-problem">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">The Problem</span>
+            <h2>Waterproofing Is a System, Not an Isolated Membrane Layer</h2>
+          </div>
+
+          <div class="panel">
+            <p>Waterproofing performance does not depend only on the membrane. It depends on every element of the wet area system: design, framing, substrate rigidity, floor and drainage falls, sheeting, wastes and puddle flanges, thresholds, movement joints, primers, membrane application, curing, tiling, shower-screen penetrations, and protection by following trades.</p>
+          </div>
+
+          <div class="quote-box" style="margin-top: 1.5rem;">
+            <p class="prominent-statement" style="margin: 0;">Many waterproofing failures begin before the membrane is applied.</p>
+          </div>
+
+          <div class="split-grid" style="margin-top: 1.5rem;">
+            <div class="panel">
+              <h3>The concealed-work accountability problem</h3>
+              <p>Once tiling is complete, the critical evidence of substrate condition, membrane application and trade sequencing is permanently concealed. This creates a set of systemic accountability problems:</p>
+              <ul class="clean-list" style="margin-top: 0.75rem;">
+                <li>Critical evidence disappears after tiling</li>
+                <li>Responsibility is fragmented across multiple trades</li>
+                <li>Destructive investigation is expensive and disruptive</li>
+                <li>Good practitioners may lack proof of compliant work</li>
+                <li>Poor practitioners benefit from ambiguity</li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>System dependencies</h3>
+              <p>Performance depends on the interaction of:</p>
+              <ul class="clean-list" style="margin-top: 0.75rem;">
+                <li>Design and system specification</li>
+                <li>Framing rigidity and movement control</li>
+                <li>Substrate preparation and sheet fixing</li>
+                <li>Floor and drainage falls</li>
+                <li>Waste and puddle flange installation</li>
+                <li>Threshold and movement joint construction</li>
+                <li>Primer selection and application</li>
+                <li>Membrane application and curing</li>
+                <li>Tiling and penetration management</li>
+                <li>Protection by following trades</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Proposed Assurance Model -->
+      <section class="section alt" id="framework">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Proposed Model</span>
+            <h2>The Trust-and-Verify Assurance Model</h2>
+            <p>A four-stage connected framework that creates a documented chain of accountability from substrate readiness through to final wet area completion.</p>
+          </div>
+
+          <div class="waf-stage-grid">
+            <article class="waf-stage-card">
+              <span class="waf-stage-number">01</span>
+              <div class="responsible">Builder · Endorsed RRC or approved competent practitioner</div>
+              <h3>Wet Area Readiness</h3>
+              <p>Confirm that framing, substrates, sheeting, falls, wastes, waterstops, thresholds and critical interfaces are ready to receive the nominated waterproofing system. Document condition, measurements and readiness declaration before waterproofing commences.</p>
+            </article>
+
+            <article class="waf-stage-card">
+              <span class="waf-stage-number">02</span>
+              <div class="responsible">Endorsed waterproofing practitioner</div>
+              <h3>Waterproofing Installation</h3>
+              <p>Record system selection, products, primers, bond breakers, reinforcing, detailing, application, thickness, coverage, curing and manufacturer requirements. Evidence captured before concealment.</p>
+            </article>
+
+            <article class="waf-stage-card">
+              <span class="waf-stage-number">03</span>
+              <div class="responsible">Builder and relevant following trades</div>
+              <h3>Membrane Protection and Handover</h3>
+              <p>Record that tiling, plumbing, shower-screen and other later work did not puncture, alter or compromise the completed membrane. Each trade acknowledges their interface with the waterproofing system.</p>
+            </article>
+
+            <article class="waf-stage-card">
+              <span class="waf-stage-number">04</span>
+              <div class="responsible">Builder or authorised project lead</div>
+              <h3>Final Wet Area Verification</h3>
+              <p>Complete the project record connecting readiness, membrane installation, following-trade activity and final responsibility. The record is retained and accessible for inspection, audit or dispute investigation.</p>
+            </article>
+          </div>
+
+          <div class="quote-box" style="margin-top: 1.5rem;">
+            <p>The framework does not rely solely on photographs and does not eliminate independent inspection. Higher-risk work would remain subject to targeted verification by an independent party.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Wet Area Readiness -->
+      <section class="section" id="competency">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Competency</span>
+            <h2>Wet Area Readiness Assessment</h2>
+            <p>An experienced renovation carpenter may be particularly capable of assessing and documenting wet area readiness — the structural and preparatory preconditions for a compliant waterproofing installation.</p>
+          </div>
+
+          <div class="panel" style="margin-bottom: 1.5rem;">
+            <p>An experienced renovation carpenter typically works across framing, sheeting, fixtures and trade interfaces in the precise zones where waterproofing preconditions are established. This is a structural and preparatory role — not an automatic entitlement to perform all waterproofing work.</p>
+            <p style="margin-top: 0.75rem;"><strong>This role is not automatic permission to undertake all waterproofing work.</strong></p>
+            <p style="margin-top: 0.75rem;">The proposed RRC Wet Area Readiness Endorsement would require demonstrated competency, formal assessment, defined scope, continuing professional development and audit exposure.</p>
+          </div>
+
+          <div class="waf-competency-grid">
+            <div class="waf-competency-card">
+              <h4>Competencies often held by experienced renovation carpenters</h4>
+              <ul>
+                <li>Framing rigidity and timber movement</li>
+                <li>Subfloor condition assessment</li>
+                <li>Structural deflection risk identification</li>
+                <li>Floor preparation and sheet fixing</li>
+                <li>Niche and recessed shelf construction</li>
+                <li>Bath and shower framing interfaces</li>
+                <li>Threshold and step construction</li>
+                <li>Service penetration management</li>
+                <li>Renovation interface and sequencing</li>
+                <li>Trade coordination and handover</li>
+              </ul>
+            </div>
+
+            <div class="waf-competency-card" style="border-color: rgba(34,230,75,0.18);">
+              <h4>Waterproofing-specific competencies that must be separately trained and assessed</h4>
+              <ul>
+                <li>Membrane chemistry and system selection</li>
+                <li>Primer compatibility and application</li>
+                <li>Film thickness requirements and measurement</li>
+                <li>Coverage calculations and control</li>
+                <li>Curing processes and timeframes</li>
+                <li>Moisture testing methods</li>
+                <li>Bond breakers and detail treatment</li>
+                <li>External and balcony membrane systems</li>
+                <li>Flood and adhesion testing</li>
+                <li>Manufacturer requirements and warranties</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6: Endorsement Structure -->
+      <section class="section alt" id="endorsement">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Endorsement Structure</span>
+            <h2>A Scope-Limited Competency Pathway</h2>
+            <p>The proposed framework uses a tiered endorsement structure to match practitioner authority to demonstrated competency and assessed risk. These are proposed levels for consultation — not existing licences.</p>
+          </div>
+
+          <div class="quote-box" style="margin-bottom: 1.5rem;">
+            <p>Internal bathrooms, external balconies and remedial waterproofing must not be treated as equivalent work. Each level requires progressively greater competency and carries more stringent verification obligations.</p>
+          </div>
+
+          <div class="waf-level-grid">
+            <article class="waf-level-card">
+              <span class="waf-level-badge">1</span>
+              <div>
+                <h3>Level 1 — Wet Area Readiness Endorsement</h3>
+                <p><strong>Indicative scope:</strong> Assessment and documentation of substrate, framing, sheeting and preparatory conditions for standard internal residential wet areas.</p>
+                <p><strong>Boundaries:</strong> Does not authorise membrane application. Readiness declaration only. Independent waterproofing practitioner still required for membrane work.</p>
+                <p><strong>Competency requirements:</strong> Demonstrated assessment capability, formal assessment, defined scope agreement, CPD and audit exposure.</p>
+              </div>
+            </article>
+
+            <article class="waf-level-card">
+              <span class="waf-level-badge">2</span>
+              <div>
+                <h3>Level 2 — Internal Residential Waterproofing Endorsement</h3>
+                <p><strong>Indicative scope:</strong> Waterproofing of standard internal wet areas including bathrooms, ensuites and laundries in residential construction.</p>
+                <p><strong>Boundaries:</strong> Does not extend to external membranes, balconies or remedial work. Elevated-risk internal work subject to targeted independent verification.</p>
+                <p><strong>Competency requirements:</strong> All Level 1 requirements plus membrane chemistry, primer selection, application, testing and manufacturer compliance. Higher assessment threshold.</p>
+              </div>
+            </article>
+
+            <article class="waf-level-card">
+              <span class="waf-level-badge">3</span>
+              <div>
+                <h3>Level 3 — Balcony and External Membrane Endorsement</h3>
+                <p><strong>Indicative scope:</strong> External membrane systems including balconies, podiums and other external wet areas in residential construction.</p>
+                <p><strong>Boundaries:</strong> External work above habitable spaces requires independent design input and verification. Higher consequence work requires independent verification regardless of practitioner history.</p>
+                <p><strong>Competency requirements:</strong> All Level 2 requirements plus external system knowledge, drainage design interfaces, exposure considerations and structural movement accommodation. Mandatory independent verification for prescribed work.</p>
+              </div>
+            </article>
+
+            <article class="waf-level-card">
+              <span class="waf-level-badge">4</span>
+              <div>
+                <h3>Level 4 — Remedial Waterproofing Endorsement</h3>
+                <p><strong>Indicative scope:</strong> Investigation, design-input and remedial waterproofing for residential buildings with active or historical moisture failures.</p>
+                <p><strong>Boundaries:</strong> Remedial work requires diagnosis of failure cause before any remediation. Design input from a qualified engineer or specialist may be required. Independent verification is expected for complex remedial work.</p>
+                <p><strong>Competency requirements:</strong> All Level 2 requirements plus failure investigation, moisture forensics, destructive investigation protocols, remedial system selection and documentation of original defect cause and remediation approach.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 7: Digital Waterproofing Assurance Record -->
+      <section class="section" id="evidence">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Digital Evidence</span>
+            <h2>Evidence Before Concealment</h2>
+            <p>The Digital Waterproofing Assurance Record captures structured evidence at defined hold points — before each stage of the system is concealed by subsequent work.</p>
+          </div>
+
+          <div class="panel" style="margin-bottom: 1.5rem;">
+            <h3>Evidence examples</h3>
+            <p>Records may include: timestamped project photographs; practitioner identity; substrate and product records; falls and moisture readings where applicable; product batch numbers; coat and curing times; junction and penetration details; deviations and repairs; testing method and results; following-trade penetrations.</p>
+          </div>
+
+          <ul class="waf-holdpoint-list">
+            <li class="waf-holdpoint-item">
+              <span class="waf-holdpoint-num">1</span>
+              <div>
+                <h4>Design and system selection</h4>
+                <p>Waterproofing system specified, product compatibility confirmed, design obligations identified. Unusual conditions or elevated-risk elements noted at project commencement.</p>
+              </div>
+            </li>
+            <li class="waf-holdpoint-item">
+              <span class="waf-holdpoint-num">2</span>
+              <div>
+                <h4>Substrate readiness</h4>
+                <p>Framing, sheeting and substrate condition documented. Falls confirmed. Moisture readings where applicable. Any deficiencies identified and resolved before waterproofing commences.</p>
+              </div>
+            </li>
+            <li class="waf-holdpoint-item">
+              <span class="waf-holdpoint-num">3</span>
+              <div>
+                <h4>First-stage detailing</h4>
+                <p>Corners, junctions, coves, penetrations and reinforcing documented. Primer application and compatibility confirmed. Critical interfaces recorded before membrane coat.</p>
+              </div>
+            </li>
+            <li class="waf-holdpoint-item">
+              <span class="waf-holdpoint-num">4</span>
+              <div>
+                <h4>Completed membrane</h4>
+                <p>Film thickness, coverage, coat times, curing intervals and visual inspection documented. Product batch numbers recorded. Membrane integrity confirmed before tiling commences.</p>
+              </div>
+            </li>
+            <li class="waf-holdpoint-item">
+              <span class="waf-holdpoint-num">5</span>
+              <div>
+                <h4>Testing and release for concealment</h4>
+                <p>Flood test, adhesion test or equivalent testing method documented with method, duration and outcome. Written release for concealment by responsible waterproofing practitioner.</p>
+              </div>
+            </li>
+            <li class="waf-holdpoint-item">
+              <span class="waf-holdpoint-num">6</span>
+              <div>
+                <h4>Post-tiling interface check</h4>
+                <p>Tiler and following trades acknowledge any penetrations, repairs or alterations to the waterproofing zone. Any deviations or additional sealing documented. Final record completed by builder or project lead.</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="waf-ai-note">
+            <h4>Appropriate Use of AI</h4>
+            <p>AI tools may assist with record completeness checks — for example, flagging missing evidence, identifying reused or duplicate images, checking timestamp consistency, identifying improbable curing intervals, or detecting incomplete records.</p>
+            <p><strong>AI must not issue the legal certification. The responsible practitioner remains accountable for the accuracy and completeness of the Waterproofing Assurance Record.</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 8: Risk-Based Verification -->
+      <section class="section alt" id="risk-verification">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Risk-Based Verification</span>
+            <h2>Inspect Where Risk Justifies It</h2>
+            <p>Independent verification requirements increase with the consequence and complexity of the work. The model uses a risk-based approach to direct regulatory and inspection resources to where they are most needed.</p>
+          </div>
+
+          <div class="quote-box" style="margin-bottom: 1.5rem;">
+            <p>The model is not "photos instead of inspectors." It is mandatory evidence for all prescribed work, supported by targeted inspection and intelligent auditing.</p>
+          </div>
+
+          <div class="waf-risk-grid">
+            <article class="waf-risk-card">
+              <span class="waf-risk-label">A</span>
+              <div>
+                <h3>Category A — Standard Low-Risk Internal Wet Area</h3>
+                <p>Standard residential bathroom or ensuite in new construction or renovation, solid substrate, no unusual conditions. Digital record completeness reviewed. Eligible for desktop audit. No mandatory independent site inspection unless audit-triggered or complaint-triggered.</p>
+              </div>
+            </article>
+
+            <article class="waf-risk-card">
+              <span class="waf-risk-label">B</span>
+              <div>
+                <h3>Category B — Elevated-Risk Internal Wet Area</h3>
+                <p>Framed floor, accessible or hobless shower, complex threshold, multi-unit construction, previous moisture damage, renovation with concealed prior work, or unusual substrate. Elevated record requirements. Targeted independent verification required for prescribed work types.</p>
+              </div>
+            </article>
+
+            <article class="waf-risk-card">
+              <span class="waf-risk-label">C</span>
+              <div>
+                <h3>Category C — External High-Consequence Work</h3>
+                <p>Balconies, podiums or external membranes above habitable space. Mandatory independent design input for non-standard systems. Independent verification required for all prescribed external work. Digital record completeness is a prerequisite for occupancy.</p>
+              </div>
+            </article>
+
+            <article class="waf-risk-card">
+              <span class="waf-risk-label">D</span>
+              <div>
+                <h3>Category D — Remedial or Forensic Work</h3>
+                <p>Remedial waterproofing, moisture forensics or investigation involving active or historical failure. Mandatory diagnosis and documented causation before remediation. Independent verification expected. Enhanced record requirements including failure analysis documentation.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="panel" style="margin-top: 1.5rem;">
+            <h3>Possible independent-verification triggers</h3>
+            <p style="margin-bottom: 0.75rem;">Any of the following may elevate a project to mandatory independent verification, regardless of base category:</p>
+            <ul class="clean-list">
+              <li>Balconies above habitable rooms</li>
+              <li>Framed floor construction</li>
+              <li>Accessible or hobless shower design</li>
+              <li>Complex thresholds or level-entry transitions</li>
+              <li>Multi-unit residential construction</li>
+              <li>Previous moisture damage on site</li>
+              <li>Remedial waterproofing work</li>
+              <li>Unusual or non-standard substrates</li>
+              <li>Poor practitioner compliance history</li>
+              <li>Random BPC audit selection</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 9: Accountability -->
+      <section class="section" id="accountability">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Accountability</span>
+            <h2>A Clearer Chain of Responsibility</h2>
+            <p>The Waterproofing Assurance Record does not automatically determine legal causation. It creates a documented chain of accountability that can inform investigation, dispute resolution and regulatory audit — without replacing expert analysis.</p>
+          </div>
+
+          <div class="waf-responsibility-grid">
+            <div class="waf-responsibility-card">
+              <h4>Designer</h4>
+              <p>Responsible for waterproofing system specification, drainage design, product compatibility and identification of elevated-risk conditions. Design obligations documented at Hold Point 1.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Builder or project lead</h4>
+              <p>Responsible for overall project accountability, trade sequencing, ensuring Hold Points are completed, and final record integrity. Signs off on the complete Waterproofing Assurance Record.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Wet Area Readiness practitioner</h4>
+              <p>Responsible for substrate, framing and preparatory assessment. Provides readiness declaration at Hold Point 2. Scope limited to assessment — does not authorise membrane application.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Waterproofing practitioner</h4>
+              <p>Responsible for membrane selection, installation, documentation and release for concealment. Primary accountable party for membrane system performance within their declared scope.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Plumber</h4>
+              <p>Responsible for waste, puddle flange and penetration interfaces with the waterproofing system. Documents any penetrations and confirms no damage to completed membrane.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Tiler and following trades</h4>
+              <p>Responsible for protecting the completed membrane during tiling and fitting operations. Document any penetrations, repairs or alterations at Hold Point 6.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Independent verifier</h4>
+              <p>Where required by risk category or regulatory trigger, provides independent technical assessment of the Digital Waterproofing Assurance Record and — where prescribed — site inspection.</p>
+            </div>
+
+            <div class="waf-responsibility-card">
+              <h4>Regulator</h4>
+              <p>The Building and Plumbing Commission exercises audit, enforcement and complaint-response functions. Assurance records support intelligence-led audit selection and complaint investigation.</p>
+            </div>
+          </div>
+
+          <div class="quote-box" style="margin-top: 1.5rem;">
+            <p>Waterproofing failure may arise from design, substrate movement, plumbing interfaces, installation, incompatible products, subsequent penetrations, maintenance or other causes. The evidence record improves traceability but does not automatically decide legal causation.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 10: Pilot Program -->
+      <section class="section alt" id="pilot">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Pilot Program</span>
+            <h2>Victorian Waterproofing Assurance Pilot — Trust and Verify</h2>
+            <p>The Institute is developing an indicative pilot structure for consultation and refinement. All numbers below are proposed and subject to further analysis — they are not confirmed regulatory commitments.</p>
+          </div>
+
+          <div class="waf-stat-row">
+            <div class="waf-stat-card">
+              <span class="waf-stat-value">24 months</span>
+              <p>Indicative pilot duration</p>
+            </div>
+            <div class="waf-stat-card">
+              <span class="waf-stat-value">150–250</span>
+              <p>Assessed practitioners (proposed)</p>
+            </div>
+            <div class="waf-stat-card">
+              <span class="waf-stat-value">3,000–5,000</span>
+              <p>Waterproofing records (proposed)</p>
+            </div>
+          </div>
+
+          <div class="waf-pilot-controls">
+            <div class="waf-pilot-box">
+              <h4>Project types</h4>
+              <ul>
+                <li>Standard bathrooms and ensuites</li>
+                <li>Framed-floor bathrooms</li>
+                <li>Accessible and hobless showers</li>
+                <li>Laundries</li>
+                <li>Balconies and external membranes</li>
+                <li>Remedial waterproofing projects</li>
+              </ul>
+            </div>
+
+            <div class="waf-pilot-box">
+              <h4>Pilot controls</h4>
+              <ul>
+                <li>100% digital record completeness review</li>
+                <li>Desktop technical audits</li>
+                <li>Targeted live-site audits</li>
+                <li>Independent verification for prescribed high-risk work</li>
+                <li>Complaint-triggered inspection</li>
+                <li>Matched comparison with ordinary processes</li>
+              </ul>
+            </div>
+
+            <div class="waf-pilot-box">
+              <h4>Indicative success measures</h4>
+              <ul>
+                <li>Reduction in critical pre-concealment defects</li>
+                <li>Reduced water-ingress incidents over follow-up period</li>
+                <li>Reasonable documentation time for practitioners</li>
+                <li>Minimal delay to low-risk projects</li>
+                <li>Practitioner and consumer acceptance</li>
+                <li>Positive long-term cost-benefit forecast</li>
+              </ul>
+            </div>
+
+            <div class="waf-pilot-box">
+              <h4>Participating backgrounds</h4>
+              <p>The pilot would draw participants from relevant trade backgrounds including waterproofing practitioners, renovation carpenters, builders and other endorsed trades — assessed against the appropriate competency level before participation.</p>
+            </div>
+          </div>
+
+          <p class="waf-indicative-note">All pilot parameters are proposed for consultation and refinement. They do not represent confirmed regulatory commitments or final program design.</p>
+        </div>
+      </section>
+
+      <!-- Section 11: Economic Case -->
+      <section class="section" id="economic-case">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Economic Case</span>
+            <h2>A Proportionate Investment in Prevention</h2>
+          </div>
+
+          <div class="split-grid">
+            <div class="panel">
+              <h3>The cost of failure</h3>
+              <p>When residential waterproofing fails, remediation often requires full demolition of the affected wet area and complete reinstatement. Losses may extend beyond construction costs to include:</p>
+              <ul class="clean-list" style="margin-top: 0.75rem;">
+                <li>Moisture and failure investigation</li>
+                <li>Temporary accommodation costs</li>
+                <li>Mould investigation and remediation</li>
+                <li>Legal and dispute costs</li>
+                <li>Insurance and consequential loss</li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>Proportionate assurance costs</h3>
+              <p>A structured assurance process carries a cost — in practitioner time, digital records and targeted verification. The framework proposes that those costs should scale with the risk profile of the work.</p>
+              <p style="margin-top: 0.75rem;">Preventing one substantial waterproofing failure may offset assurance costs across many ordinary bathroom projects.</p>
+              <div class="quote-box" style="margin-top: 1rem; border-left-width: 3px;">
+                <p style="font-size: 0.93rem;"><em>A standard assurance process may cost hundreds of dollars, while significant waterproofing rectification can cost tens of thousands.</em></p>
+                <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem;">Indicative illustration only — subject to formal cost-benefit analysis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 12: Consultation -->
+      <section class="section alt" id="consultation">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Consultation</span>
+            <h2>A Framework for Discussion and Refinement</h2>
+            <p>The Victorian Waterproofing Assurance Framework is developed as a basis for consultation — not as a final position. The Institute welcomes evidence, technical criticism and practical recommendations that can improve the framework.</p>
+          </div>
+
+          <div class="split-grid">
+            <div class="panel">
+              <h3>Stakeholders whose input is required</h3>
+              <ul class="waf-stakeholder-list">
+                <li>Building and Plumbing Commission</li>
+                <li>Victorian Government</li>
+                <li>Building surveyors</li>
+                <li>Builders</li>
+                <li>Waterproofing practitioners</li>
+                <li>Carpenters</li>
+                <li>Tilers</li>
+                <li>Plumbers</li>
+                <li>Engineers</li>
+                <li>Insurers</li>
+                <li>Manufacturers</li>
+                <li>Training bodies</li>
+                <li>Consumer representatives</li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>How to contribute</h3>
+              <p>The Institute welcomes:</p>
+              <ul class="clean-list" style="margin-top: 0.75rem;">
+                <li>Technical evidence and research</li>
+                <li>Practical implementation feedback</li>
+                <li>Identification of risks, gaps or unintended consequences</li>
+                <li>Competency standard input</li>
+                <li>Industry and consumer perspectives</li>
+                <li>Regulatory and legal considerations</li>
+              </ul>
+              <div class="card-actions" style="margin-top: 1.5rem;">
+                <a href="../../index.html#engagement" class="btn btn-primary">Contribute to the Research</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 13: Next Development Stage -->
+      <section class="section" id="next-stage">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker">Development</span>
+            <h2>Next Development Stage</h2>
+          </div>
+
+          <div class="split-grid">
+            <div class="panel">
+              <h3>Next deliverable</h3>
+              <p>The next deliverable will be the <strong>Victorian Waterproofing Assurance Framework — Government Discussion Paper, Version 1.0.</strong></p>
+              <p style="margin-top: 0.75rem;">That document will be a structured, referenced publication suitable for formal government and stakeholder consultation — building on the research development work reflected on this page.</p>
+            </div>
+
+            <div class="panel">
+              <h3>Development priorities</h3>
+              <ol class="waf-priorities-list">
+                <li>Verify legal and regulatory references</li>
+                <li>Confirm practitioner scope options</li>
+                <li>Refine technical competency standards</li>
+                <li>Consult industry and consumer stakeholders</li>
+                <li>Test digital evidence requirements</li>
+                <li>Model pilot costs</li>
+                <li>Develop audit and enforcement options</li>
+                <li>Prepare implementation recommendations</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="card-actions" style="margin-top: 1.5rem;">
+            <a href="../" class="btn btn-secondary">Return to the Institute</a>
+            <a href="../../rrc.html" class="btn btn-secondary">View the RRC Proposal</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Carpenters for Housing Reform Victoria</h3>
+          <p>
+            A practical reform initiative focused on clearer roles, stronger consumer understanding,
+            and better residential renovation boundaries in Victoria.
+          </p>
+        </div>
+
+        <div>
+          <h4>Proponent</h4>
+          <p>
+            Daniel Sonsie<br />
+            Sonsie Carpentry Pty Ltd
+          </p>
+        </div>
+
+        <div>
+          <h4>Links</h4>
+          <ul class="footer-links">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../rrc.html">Proposal</a></li>
+            <li><a href="../../housing-supply-alignment.html">Housing Supply Alignment Paper</a></li>
+            <li><a href="../">Building Reform Institute</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <p class="footer-note">RBRI-PP-002 · Victorian Waterproofing Assurance Framework · Residential Building Reform Institute — The research and policy division of Carpenters for Housing Reform Victoria.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
