@@ -103,6 +103,7 @@
       }
     }
   </style>
+  <script src="site.js" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -113,14 +114,30 @@
           <span>Carpenters for Housing Reform Victoria</span>
         </a>
 
-        <nav class="nav">
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span>Menu</span>
+          <span class="nav-toggle-bars" aria-hidden="true">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </span>
+        </button>
+
+        <nav class="nav" id="site-nav" data-nav>
           <a href="#proposal">The Proposal</a>
           <a href="#diagram">Pathway</a>
           <a href="#scope">Scope</a>
           <a href="#tiers">Tiers</a>
-         <a href="Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
-  Download One-Page Explainer
-</a>
+          <a href="institute/">Building Reform Institute</a>
+          <a href="Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+            Download One-Page Explainer
+          </a>
           <a href="#engage" class="nav-cta">Request briefing</a>
         </nav>
       </div>
