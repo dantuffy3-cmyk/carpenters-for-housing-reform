@@ -1,0 +1,13 @@
+# Local environment and secret files — do not commit
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# OS and editor artefacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
