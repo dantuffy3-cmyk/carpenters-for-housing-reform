@@ -27,6 +27,73 @@ Track all outreach to stakeholders, ensure follow-up discipline, and record feed
 - **Evidence or correspondence reference:** File reference.
 
 ## Stakeholder Register
+## Outreach Entry — DTP Building Policy Reform Team
+
+**Stakeholder:** Building Policy Reform Team
+
+**Organisation:** Department of Transport and Planning — Building Policy and Reform Division
+
+**Category:** Victorian Government policy team
+
+**Relevance:**  
+The team is responsible for or influential in Victorian building policy, practitioner regulation, Trades Registration exploration and the Building Regulations sunset program.
+
+**Prior engagement:**  
+The Registered Residential Carpenter proposal and Housing Supply Alignment Paper were previously provided to the Department.
+
+**Prior response:**  
+The Department acknowledged the proposal, advised that the correspondence was well timed in relation to the funded exploration of Trades Registration and the Building Regulations sunset process, and requested permission to retain and share the initiative’s contact details for possible future engagement.
+
+**Reference:**  
+CMIN-1-26-2293
+
+**Previous response date:**  
+2026-07-07
+
+**Contact:**  
+building.policy@transport.vic.gov.au
+
+**Contact status:**  
+FOLLOW_UP_BRIEFING_REQUEST_SENT
+
+**Material sent:**  
+- RRC Pilot One-Page Summary PDF
+- Carpenters for Housing Reform Victoria website link
+- Summary of the updated operational pilot package
+
+**Date contacted:**  
+2026-07-30
+
+**Meeting requested:**  
+Yes — 30-minute policy briefing
+
+**Purpose:**  
+To determine whether the residential renovation responsibility gap warrants structured stakeholder consultation and whether the bounded Registered Residential Carpenter pilot concept warrants formal policy or pilot-design consideration.
+
+**Response:**  
+Pending
+
+**Concerns raised:**  
+None yet
+
+**Follow-up action:**  
+Send one concise follow-up if no response is received after 7–10 business days.
+
+**Follow-up date:**  
+2026-08-13
+
+**Meeting held:**  
+No
+
+**Outcome:**  
+Pending
+
+**Next step:**  
+Await response and prepare the Government Decision Paper, Operational Pilot Brief and Statutory Handoff Protocol for any requested briefing.
+
+**Evidence or correspondence reference:**  
+Email thread: “Follow-up: Registered Residential Carpenter Pathway and Housing Supply Alignment Paper”  
+Follow-up briefing request sent 2026-07-30 with RRC Pilot One-Page Summary attached.
 
 | Stakeholder | Organisation | Category | Relevance | Contact status | Material sent | Date contacted | Response | Concerns raised | Follow-up action | Follow-up date | Meeting requested | Meeting held | Outcome | Next step | Evidence or correspondence reference |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
