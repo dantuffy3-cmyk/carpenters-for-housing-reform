@@ -143,4 +143,45 @@ Depending on the stakeholder's role, Daniel is asking one or more of the followi
 
 ---
 
-*Consultation draft. Not government policy. July 2026.*
+---
+
+## Pilot Readiness — Extended Questions and Answers
+
+### 6. "What exactly would the pilot test?"
+
+The pilot is designed to test whether the proposed pathway achieves its consumer protection objectives in practice. Specific evaluation questions include: Do homeowners understand what the practitioner can and cannot do? Do practitioners comply with evidence and escalation requirements? Do the handoff triggers work as intended? What is the complaint rate? Does informal work appear to reduce or displace? Is the pathway commercially workable? The pilot does not assume a predetermined outcome.
+
+### 7. "How would scope creep be controlled in the pilot?"
+
+The pilot includes a three-stage statutory handoff protocol with defined trigger categories. Practitioners are required to document scope-change decisions and handoff events. Audit reviews practitioner records during the pilot period. The evaluation specifically measures scope creep as a failure indicator. If scope creep is detected at a level that indicates the pathway is not achieving its objectives, the stop provisions can be activated.
+
+### 8. "What evidence would the pilot collect?"
+
+Each pilot project requires a prescribed evidence record — project and property identity, practitioner and registration confirmation, homeowner acknowledgement of scope, initial condition photographs, scope statements, concealed-condition discovery records, scope-change decision records, handoff records, specialist reports where applicable, completion records and homeowner handover. Evidence completeness is a measured outcome of the pilot evaluation.
+
+### 9. "What would happen if the pilot identified problems?"
+
+The pilot includes defined failure indicators and stop, pause or modification triggers. If the evaluation identifies that consumer protection objectives are not being met, government can stop the pilot, modify its parameters, or not proceed to further implementation. The pilot is designed to generate evidence for decision-making, not to lock government into a predetermined expansion.
+
+### 10. "How would Daniel's role change after a successful pilot?"
+
+If the pilot produced positive evidence, the initiative would support government in designing a permanent pathway with full statutory, regulatory and insurance architecture. Daniel's role is as a reform proponent, not a regulatory operator. A permanent pathway would be owned and administered by the appropriate regulatory body.
+
+---
+
+## Pilot Documents Available
+
+| Document | Purpose |
+|---|---|
+| `docs/rrc-operational-pilot-brief.md` | Practical implementation framework for the proposed pilot |
+| `docs/rrc-pilot-operating-model.md` | Step-by-step operating sequence for the pilot |
+| `docs/rrc-statutory-handoff-protocol.md` | Three-stage handoff protocol with trigger categories |
+| `docs/rrc-pilot-evidence-schedule.md` | Minimum evidence schedule for pilot projects |
+| `docs/rrc-pilot-evaluation-framework.md` | Evaluation measures, success criteria and failure indicators |
+| `docs/rrc-pilot-risk-register.md` | Risk register for the proposed pilot |
+| `docs/government-decision-paper.md` | Decision paper with government options |
+| `docs/rrc-pilot-one-page-summary.md` | One-page summary for initial government contact |
+
+---
+
+*Consultation draft. Not government policy. Updated July 2026 — v0.4.0 External Engagement and Pilot Readiness Sprint.*

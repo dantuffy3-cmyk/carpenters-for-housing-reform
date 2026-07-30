@@ -88,4 +88,42 @@ The reform initiative's credibility rests on practical experience and evidence-b
 
 ---
 
-*This document is intended for use in government submissions, media and stakeholder contexts. Review before use to ensure currency.*
+---
+
+## Pilot Readiness — What Daniel Can Explain
+
+Daniel is prepared to explain the following clearly and accurately in government and stakeholder settings:
+
+**The Problem**
+Victoria's residential building framework does not clearly define where renovation carpentry ends and where a registered builder must take responsibility. That boundary affects consumers, practitioners and regulators. It is not written in plain language accessible to ordinary consumers.
+
+**The Proposed Bounded Pathway**
+The Registered Residential Carpenter pathway is a bounded, consumer-facing recognition mechanism for experienced renovation carpenters. It is not a builder licence, not deregulation and not unrestricted structural work. It defines included and excluded work, requires mandatory handoff triggers and is designed to make the renovation responsibility boundary visible, lawful and enforceable.
+
+**Why the Grey Market Exists**
+Informal renovation work at the boundary zone is not caused by regulation alone. Contributing factors include affordability pressures, consumer behaviour, practitioner incentives, enforcement capacity, builder availability and project size. The initiative is honest about these contributing factors and does not claim the proposed pathway eliminates informality.
+
+**Why Regulation Alone Will Not Eliminate Informal Work**
+Enforcement capacity is finite. Consumer behaviour is shaped by cost and availability, not only by regulation. A clearly defined, accessible lawful pathway is not a solution in isolation — it is one element of a broader approach. The pilot exists to test whether the pathway reduces the conditions for informal work, not to prove that outcome in advance.
+
+**Why a Pilot Is Safer Than Immediate Implementation**
+A pilot allows the pathway to be tested in a controlled environment before any permanent regulatory change. It generates evidence. It allows success measures to be assessed. It includes stop provisions. It protects government and consumers from the risks of a pathway that has not yet been validated in practice.
+
+**How Scope Creep Would Be Controlled**
+The pathway includes a three-stage handoff protocol with defined triggers for escalation to registered builders, engineers and building surveyors. Practitioners are required to document scope-change decisions. Audit and complaint mechanisms provide an accountability layer. The pilot would specifically measure whether scope creep occurs.
+
+**What Evidence the Pilot Would Collect**
+Practitioners would maintain prescribed records for each project — identity, scope, condition photographs, concealed-condition discoveries, scope-change decisions, handoff decisions, specialist reports, completion records and homeowner handover. An evidence schedule defines mandatory, conditional and optional evidence requirements.
+
+**How Builders Remain Central**
+Registered builders retain full responsibility for domestic building work outside the RRC scope. The pathway includes mandatory escalation triggers to registered builders when work exceeds the defined scope. Builders are not displaced — they are the escalation pathway. The initiative is seeking builder feedback on the proposed scope and handoff triggers.
+
+**What Daniel Is Asking Government to Do**
+Daniel is asking government to formally examine the renovation responsibility gap, consult stakeholders, consider a structured pilot design process and evaluate outcomes before making any permanent change. He is not asking government to adopt the model without examination.
+
+**What Daniel Is Not Claiming**
+Daniel does not claim government endorsement of the proposal. He does not claim the pathway is legally available without statutory or regulatory development. He does not claim insurance products exist for the pathway. He does not claim the pathway eliminates informal work or scope creep. He does not represent the carpentry or building sector. He presents the initiative as a practitioner-led reform proposal for government examination.
+
+---
+
+*This document is intended for use in government submissions, media and stakeholder contexts. Review before use to ensure currency. Updated July 2026 — v0.4.0 External Engagement and Pilot Readiness Sprint.*
