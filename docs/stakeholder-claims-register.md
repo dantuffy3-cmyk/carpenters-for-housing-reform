@@ -185,12 +185,185 @@ Claims are classified by evidence status:
 
 ---
 
+---
+
+## Claim 10 — Pilot Benefits
+
+**Claim:** A limited, time-bounded RRC pilot would allow the proposed pathway to be tested in a controlled environment before any permanent regulatory change.
+
+**Evidence source:** Policy analysis — pilot-based regulatory testing is consistent with Victorian and Commonwealth regulatory design guidance, including the Victorian Guide to Regulation.
+
+**Evidence status:** Policy analysis.
+
+**Approved wording:** "a pilot would allow the pathway to be tested before any permanent change"; "consistent with evidence-based regulatory development practice"; "piloting reduces the risk of unintended consequences from immediate statewide implementation"
+
+**Prohibited overstatement:**
+- Do not claim the pilot has been agreed to, funded or authorised by government
+- Do not describe the pilot as established or operational
+- Do not claim government has endorsed a pilot approach
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 11 — Consumer Understanding
+
+**Claim:** A clearly published scope, combined with homeowner disclosure requirements, would improve consumer understanding of what an RRC practitioner can and cannot do.
+
+**Evidence source:** Policy analysis — based on the proposed pathway's design features (published scope, consumer disclosure, complaints pathway). TODO — consumer research testing homeowner comprehension of building scope categories would strengthen this claim.
+
+**Evidence status:** Policy analysis; TODO for empirical support.
+
+**Approved wording:** "designed to improve consumer understanding"; "intended to give consumers clearer guidance"; "consumer understanding depends on effective implementation and communication"
+
+**Prohibited overstatement:**
+- Do not claim consumer understanding improvements are proven or guaranteed
+- Do not cite consumer research unless sourced from authoritative published data
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 12 — Informal Work Reduction
+
+**Claim:** A lawful, accessible pathway may reduce the conditions that encourage informal renovation work at the boundary between licensed trades and domestic builders.
+
+**Evidence source:** Practitioner evidence; policy analysis. TODO — Victoria-specific data on informal renovation work rates, regulatory complaints or boundary disputes would strengthen this claim.
+
+**Evidence status:** Practitioner evidence; TODO for quantitative support.
+
+**Approved wording:** "may reduce informal arrangements"; "could provide a lawful alternative to current informal practices"; "regulation alone will not eliminate informality — other contributing factors include affordability, consumer behaviour and enforcement capacity"
+
+**Prohibited overstatement:**
+- Do not claim a guaranteed or proven reduction in informal work
+- Do not cite specific informal work percentages or volumes without a verified source
+- Do not attribute informal work entirely to the regulatory gap
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 13 — Regulatory Burden
+
+**Claim:** A defined, bounded RRC category with clear scope triggers would reduce the regulatory burden associated with enforcing an ambiguous renovation boundary.
+
+**Evidence source:** Policy analysis. TODO — regulatory enforcement data on renovation boundary complaints or incidents would strengthen this claim.
+
+**Evidence status:** Policy analysis; TODO for empirical support.
+
+**Approved wording:** "designed to assist enforcement by clarifying the boundary"; "intended to reduce enforcement ambiguity"
+
+**Prohibited overstatement:**
+- Do not claim regulatory burden reductions are proven or quantified
+- Do not claim the BPC or CAV has assessed the proposal
+- Do not state enforcement outcomes without a verified source
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 14 — Insurance Viability (Pilot Context)
+
+**Claim:** A defined, bounded pilot scope with documented practitioner evidence may be more insurable than the current ambiguous boundary zone.
+
+**Evidence source:** TODO — formal insurer engagement required. No insurer has assessed the proposed pilot scope.
+
+**Evidence status:** TODO — assumption; insurer engagement required.
+
+**Approved wording:** "may be more insurable if scope is clearly defined and evidence is maintained"; "insurance viability for the pilot requires formal insurer engagement"; "the current boundary zone may itself generate uninsured risk"
+
+**Prohibited overstatement:**
+- Do not claim any insurer has agreed to provide pilot cover
+- Do not claim an insurance product exists for the pilot
+- Do not imply insurance availability without insurer confirmation
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 15 — Scope Handoff Effectiveness
+
+**Claim:** Mandatory, defined handoff triggers to registered builders, engineers and building surveyors would ensure that work beyond the RRC scope is appropriately escalated.
+
+**Evidence source:** Policy analysis — the handoff design is a structural safeguard. Effectiveness depends on practitioner compliance, trigger clarity and enforcement. TODO — practitioner compliance data from analogous pathways in other jurisdictions would strengthen this claim.
+
+**Evidence status:** Policy analysis; TODO for comparative evidence.
+
+**Approved wording:** "designed to ensure escalation when scope is exceeded"; "mandatory handoff triggers are intended to maintain professional boundaries"; "effectiveness depends on clear triggers, practitioner compliance and audit"
+
+**Prohibited overstatement:**
+- Do not claim handoff compliance is guaranteed or proven
+- Do not claim the handoff triggers have been legally validated
+- Do not state that the protocol eliminates scope creep risk
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 16 — Practitioner Capability
+
+**Claim:** Experienced renovation carpenters who meet the entry requirements for the proposed RRC pathway possess the capability to undertake the defined renovation work categories to an acceptable standard.
+
+**Evidence source:** Practitioner evidence — based on approximately 20 years of Victoria renovation practice. TODO — formalised assessment criteria and portfolio review process would provide more rigorous capability evidence.
+
+**Evidence status:** Practitioner evidence; TODO for systematic capability evidence.
+
+**Approved wording:** "experienced practitioners who meet the entry requirements"; "capability is assessed through portfolio review and experience evidence"; "entry requirements are designed to ensure a minimum capability standard"
+
+**Prohibited overstatement:**
+- Do not claim all carpenters with 20 years experience are suitable
+- Do not claim the assessment process eliminates capability risk
+- Do not claim a formal qualification or credential exists
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 17 — Public Benefit
+
+**Claim:** A well-designed, properly governed RRC pathway would provide net public benefit by improving consumer protection, clarifying professional boundaries and reducing the conditions for informal work.
+
+**Evidence source:** Policy analysis — net public benefit is conditional on effective design, implementation and evaluation. It is not an established outcome.
+
+**Evidence status:** Policy analysis.
+
+**Approved wording:** "designed to deliver net public benefit if implemented effectively"; "public benefit is conditional on consumer protection objectives being met"; "the pilot is intended to test whether public benefit is achieved"
+
+**Prohibited overstatement:**
+- Do not claim public benefit is established or proven
+- Do not claim government alignment with the proposal
+- Do not claim stakeholder endorsement of the public benefit assessment
+
+**Date reviewed:** July 2026
+
+---
+
+## Claim 18 — Government Alignment (Pilot)
+
+**Claim:** The proposed pilot approach is consistent with current Victorian Government regulatory design practice, which recommends evidence-based, staged implementation of regulatory change.
+
+**Evidence source:** Policy analysis — reference to Victorian Guide to Regulation and Victorian regulatory reform practice. TODO — confirm current Victorian Government regulatory design guidance and verify alignment.
+
+**Evidence status:** Policy analysis; TODO to verify against current guidance.
+
+**Approved wording:** "consistent with evidence-based regulatory development practice"; "proposed pilot approach reflects staged regulatory testing principles"
+
+**Prohibited overstatement:**
+- Do not claim government has assessed or endorsed this alignment
+- Do not claim the Victorian Government has agreed to a pilot
+- Do not use language implying government backing or authorisation
+
+**Date reviewed:** July 2026
+
+---
+
 ## Governance Notes
 
 - This register should be reviewed whenever a new public claim is made.
 - Claims marked **TODO** should not be used in government submissions without further qualification.
 - All **Verified** claims should be source-checked against current legislation and policy before use.
 - This register does not constitute legal advice.
+- Claims 10–18 were added in the v0.4.0 External Engagement and Pilot Readiness Sprint (July 2026).
 
 ---
 
