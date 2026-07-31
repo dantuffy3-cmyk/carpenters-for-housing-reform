@@ -22,7 +22,7 @@ The project is evidence-led, consumer-focused and professionally neutral. It eva
 
 ## Current Website
 
-**https://dantuffy3-cmyk.github.io/carpenters-for-housing-reform/**
+https://www.carpentryreform.com.au/
 
 ### Pages
 
