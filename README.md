@@ -133,6 +133,14 @@ https://www.carpentryreform.com.au/
 
 ---
 
+## Evidence Governance
+
+The initiative maintains a governed Claims and Evidence Register to separate verified facts, supported interpretations, practitioner evidence, policy propositions and unresolved questions. The full register is maintained internally, with only approved publication-safe material intended for public release.
+
+See `/evidence/README.md`.
+
+---
+
 ## Repository Structure
 
 ```
@@ -166,4 +174,3 @@ Previous: v0.1.0 — Initial RRC proposal and website
 - Evidence collection for claims register TODO items
 - Pilot design development in collaboration with government
 - Independent evaluation framework development
-
