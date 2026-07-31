@@ -1,0 +1,47 @@
+[
+  {
+    "code": "verified_fact",
+    "label": "Verified Fact",
+    "description": "A claim classification for statements intended to be maintained as verifiable facts; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "supported_interpretation",
+    "label": "Supported Interpretation",
+    "description": "A claim classification for reasoned interpretations supported by identified material; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "practitioner_evidence",
+    "label": "Practitioner Evidence",
+    "description": "A claim classification for practitioner-derived observations or case-based evidence; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "policy_proposition",
+    "label": "Policy Proposition",
+    "description": "A claim classification for a policy proposal or option under evaluation; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "working_hypothesis",
+    "label": "Working Hypothesis",
+    "description": "A claim classification for a hypothesis being tested or refined; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "unresolved_question",
+    "label": "Unresolved Question",
+    "description": "A claim classification for a question that remains unresolved; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "legal_interpretation",
+    "label": "Legal Interpretation",
+    "description": "A claim classification for a legal or regulatory interpretation requiring careful sourcing and qualification; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "statistical_claim",
+    "label": "Statistical Claim",
+    "description": "A claim classification for quantitative or statistical assertions; classification alone does not determine evidence status or publication approval."
+  },
+  {
+    "code": "comparative_claim",
+    "label": "Comparative Claim",
+    "description": "A claim classification for comparison across jurisdictions, models or cohorts; classification alone does not determine evidence status or publication approval."
+  }
+]

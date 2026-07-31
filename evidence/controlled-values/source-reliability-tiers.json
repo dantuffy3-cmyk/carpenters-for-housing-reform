@@ -1,0 +1,27 @@
+[
+  {
+    "code": "tier_1_primary_authoritative",
+    "label": "Tier 1 \u2014 Primary Authoritative",
+    "description": "Legislation, official regulators, government publications, official training records and direct documentary evidence where appropriate."
+  },
+  {
+    "code": "tier_2_professional_or_institutional",
+    "label": "Tier 2 \u2014 Professional or Institutional",
+    "description": "Professional bodies, institutional materials and reports with identifiable governance or accountability."
+  },
+  {
+    "code": "tier_3_secondary_analysis",
+    "label": "Tier 3 \u2014 Secondary Analysis",
+    "description": "Secondary analysis, commentary or synthesis dependent on underlying primary material."
+  },
+  {
+    "code": "tier_4_practitioner_or_contextual",
+    "label": "Tier 4 \u2014 Practitioner or Contextual",
+    "description": "Practitioner accounts, contextual material and case information that may inform but not replace primary evidence."
+  },
+  {
+    "code": "tier_5_unverified_or_discovery_only",
+    "label": "Tier 5 \u2014 Unverified or Discovery Only",
+    "description": "Unverified or discovery-only material not suitable for verified public claims."
+  }
+]

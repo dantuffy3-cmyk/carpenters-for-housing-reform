@@ -1,0 +1,140 @@
+[
+  {
+    "sourceId": "SRC-GOV-001",
+    "title": "Repository README",
+    "issuingAuthority": "Carpenters for Housing Reform Victoria",
+    "sourceType": "project_document",
+    "jurisdiction": "Victoria, Australia",
+    "localFileReference": "README.md",
+    "publicationDate": "2026-07-31",
+    "dateAccessed": "2026-07-31",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Repository overview",
+      "Governance principles",
+      "Evidence Governance section"
+    ],
+    "summary": "Repository-level statement of project purpose, governance principles and evidence-governance notice.",
+    "limitations": "Repository summary text is a project-authored document and does not independently verify legal or regulatory matters.",
+    "supportsClaimIds": [
+      "GOV-001",
+      "GOV-005"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Used as internal documentary support for governance positioning."
+  },
+  {
+    "sourceId": "SRC-GOV-002",
+    "title": "Copyright and Use Notice",
+    "issuingAuthority": "Carpenters for Housing Reform Victoria",
+    "sourceType": "project_document",
+    "jurisdiction": "Victoria, Australia",
+    "localFileReference": "RIGHTS.md",
+    "publicationDate": "2026-07-31",
+    "dateAccessed": "2026-07-31",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Ownership and use notice"
+    ],
+    "summary": "Existing repository rights notice recording proprietary treatment and no open-source licence.",
+    "limitations": "A rights notice records the project position but is not independent legal advice.",
+    "supportsClaimIds": [
+      "GOV-004"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Supports the existing proprietary rights position without changing the notice."
+  },
+  {
+    "sourceId": "SRC-GOV-003",
+    "title": "Evidence Register README",
+    "issuingAuthority": "Carpenters for Housing Reform Victoria",
+    "sourceType": "project_document",
+    "jurisdiction": "Victoria, Australia",
+    "localFileReference": "evidence/README.md",
+    "publicationDate": "2026-07-31",
+    "dateAccessed": "2026-07-31",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Purpose",
+      "Governance",
+      "Core rule",
+      "Public filtering"
+    ],
+    "summary": "Controlled-source explanation for the governed claims and evidence register.",
+    "limitations": "Internal governance material only; it does not prove external legal or regulatory conclusions.",
+    "supportsClaimIds": [
+      "GOV-001",
+      "GOV-003",
+      "GOV-004",
+      "GOV-005"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Created in Sprint 1 as the core governance note for the register."
+  },
+  {
+    "sourceId": "SRC-GOV-004",
+    "title": "Claims and Evidence Register v0.1",
+    "issuingAuthority": "Carpenters for Housing Reform Victoria",
+    "sourceType": "project_document",
+    "jurisdiction": "Victoria, Australia",
+    "localFileReference": "docs/claims-and-evidence-register-v0.1.md",
+    "publicationDate": "2026-07-31",
+    "dateAccessed": "2026-07-31",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Governance",
+      "Ownership position",
+      "Initial governed records"
+    ],
+    "summary": "Human-readable internal governance foundation for the controlled register.",
+    "limitations": "This document is an internal governance foundation and not a completed audit of all live claims.",
+    "supportsClaimIds": [
+      "GOV-002",
+      "GOV-003",
+      "GOV-004",
+      "GOV-005"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "References the approved governance and ownership wording for Version 0.1."
+  },
+  {
+    "sourceId": "SRC-GOV-005",
+    "title": "ADR-003 Governed Claims and Evidence Register",
+    "issuingAuthority": "Carpenters for Housing Reform Victoria",
+    "sourceType": "project_document",
+    "jurisdiction": "Victoria, Australia",
+    "localFileReference": "docs/decisions/ADR-003-governed-claims-and-evidence-register.md",
+    "publicationDate": "2026-07-31",
+    "dateAccessed": "2026-07-31",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Context",
+      "Decision",
+      "Ownership and governance"
+    ],
+    "summary": "Decision record establishing separate governed records and filtered public release rules.",
+    "limitations": "Decision record captures project governance and does not independently resolve external legal or regulatory questions.",
+    "supportsClaimIds": [
+      "GOV-003",
+      "GOV-004",
+      "GOV-005"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Used to trace the decision to maintain the full register internally."
+  }
+]

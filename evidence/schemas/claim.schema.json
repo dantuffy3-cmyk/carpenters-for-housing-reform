@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://carpentryreform.com.au/schemas/claim.schema.json",
+  "title": "Governed Claim Record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "claimId": {
+      "type": "string",
+      "pattern": "^[A-Z]{3,10}-\\d{3}$",
+      "description": "Controlled claim identifier such as TRAIN-001, OCC-001, DBL-001, SCOPE-001, CONS-001 or GOV-001."
+    },
+    "claimText": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvedPublicWording": {
+      "type": "string"
+    },
+    "claimCategory": {
+      "type": "string",
+      "enum": [
+        "training_and_qualification",
+        "occupational_progression",
+        "builder_registration",
+        "scope_and_authority",
+        "scope_escalation",
+        "consumer_protection",
+        "insurance_and_warranty",
+        "permits_and_building_control",
+        "practitioner_evidence",
+        "implementation_model",
+        "pilot_and_evaluation",
+        "workforce_and_market",
+        "legal_and_regulatory",
+        "governance"
+      ]
+    },
+    "claimType": {
+      "type": "string",
+      "enum": [
+        "verified_fact",
+        "supported_interpretation",
+        "practitioner_evidence",
+        "policy_proposition",
+        "working_hypothesis",
+        "unresolved_question",
+        "legal_interpretation",
+        "statistical_claim",
+        "comparative_claim"
+      ]
+    },
+    "evidenceStatus": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "supported",
+        "qualified",
+        "unresolved",
+        "unable_to_verify",
+        "contradicted",
+        "withdrawn",
+        "superseded"
+      ]
+    },
+    "informationBasis": {
+      "type": "string",
+      "enum": [
+        "PRIMARY_SOURCE",
+        "DOCUMENTARY_EVIDENCE",
+        "PRACTITIONER_DECLARED",
+        "PHOTO_SUPPORTED",
+        "PROFESSIONAL_REVIEWED",
+        "EXTERNAL_SOURCE",
+        "SYSTEM_DERIVED",
+        "UNKNOWN",
+        "UNABLE_TO_VERIFY"
+      ]
+    },
+    "confidenceLevel": {
+      "type": "string",
+      "enum": [
+        "high",
+        "moderate",
+        "low",
+        "not_assessed"
+      ]
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "under_review",
+        "approved",
+        "requires_revision",
+        "superseded",
+        "withdrawn"
+      ]
+    },
+    "publicationStatus": {
+      "type": "string",
+      "enum": [
+        "internal_only",
+        "public_approved",
+        "public_with_redactions",
+        "not_for_publication",
+        "pending_publication_review"
+      ]
+    },
+    "evidenceSummary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "limitations": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primarySourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "secondarySourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "practitionerCaseIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "websiteLocations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "documentLocations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "prohibitedWording": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "requiredNextEvidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "reviewTrigger": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidenceCustodian": {
+      "type": "string",
+      "minLength": 1
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "nextReviewDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "claimId",
+    "claimText",
+    "claimCategory",
+    "claimType",
+    "evidenceStatus",
+    "informationBasis",
+    "confidenceLevel",
+    "reviewStatus",
+    "publicationStatus",
+    "evidenceSummary",
+    "limitations",
+    "owner",
+    "evidenceCustodian",
+    "createdAt"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "evidenceStatus": {
+            "const": "unresolved"
+          }
+        },
+        "required": [
+          "evidenceStatus"
+        ]
+      },
+      "then": {
+        "properties": {
+          "publicationStatus": {
+            "not": {
+              "const": "public_approved"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$comment": "Publication approval is always a separate decision from evidence status. Source references must use IDs rather than embedded source objects. Confidence is recorded only as controlled levels, not percentages."
+}

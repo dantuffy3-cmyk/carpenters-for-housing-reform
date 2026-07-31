@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://carpentryreform.com.au/schemas/source.schema.json",
+  "title": "Governed Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "sourceId": {
+      "type": "string",
+      "pattern": "^SRC-[A-Z0-9]+(?:-[A-Z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issuingAuthority": {
+      "type": "string"
+    },
+    "sourceType": {
+      "type": "string",
+      "enum": [
+        "legislation",
+        "regulation",
+        "official_guidance",
+        "official_form",
+        "qualification_record",
+        "unit_of_competency",
+        "government_correspondence",
+        "professional_report",
+        "project_document",
+        "photo_record",
+        "practitioner_statement",
+        "secondary_research",
+        "court_or_tribunal_material",
+        "other"
+      ]
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "localFileReference": {
+      "type": "string"
+    },
+    "publicationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateAccessed": {
+      "type": "string",
+      "format": "date"
+    },
+    "currentStatus": {
+      "type": "string",
+      "enum": [
+        "current",
+        "draft",
+        "superseded",
+        "archived",
+        "unknown"
+      ]
+    },
+    "reliabilityTier": {
+      "type": "string",
+      "enum": [
+        "tier_1_primary_authoritative",
+        "tier_2_professional_or_institutional",
+        "tier_3_secondary_analysis",
+        "tier_4_practitioner_or_contextual",
+        "tier_5_unverified_or_discovery_only"
+      ]
+    },
+    "sectionsReliedUpon": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "summary": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "supersededBy": {
+      "type": "string"
+    },
+    "supportsClaimIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "under_review",
+        "approved",
+        "requires_revision",
+        "superseded",
+        "withdrawn"
+      ]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "sourceId",
+    "title",
+    "sourceType",
+    "currentStatus",
+    "reliabilityTier",
+    "reviewStatus",
+    "createdAt"
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "url"
+      ]
+    },
+    {
+      "required": [
+        "localFileReference"
+      ]
+    }
+  ]
+}

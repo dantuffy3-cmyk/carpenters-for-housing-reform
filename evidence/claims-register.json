@@ -1,0 +1,185 @@
+[
+  {
+    "claimId": "GOV-001",
+    "claimText": "Carpenters for Housing Reform Victoria is the public-facing policy initiative.",
+    "approvedPublicWording": "Carpenters for Housing Reform Victoria is the public-facing policy initiative.",
+    "claimCategory": "governance",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "DOCUMENTARY_EVIDENCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "Recorded in the repository README and the evidence-register governance documentation as the public-facing initiative name.",
+    "limitations": "This record identifies the initiative branding and governance position only.",
+    "primarySourceIds": [
+      "SRC-GOV-001",
+      "SRC-GOV-003"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "README.md",
+      "evidence/README.md",
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if initiative branding or governance structure changes.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "nextReviewDate": "2026-10-31",
+    "notes": "Governance seed record for Version 0.1."
+  },
+  {
+    "claimId": "GOV-002",
+    "claimText": "Dan Sonsie is the founder of Carpenters for Housing Reform Victoria.",
+    "approvedPublicWording": "Dan Sonsie is the founder of Carpenters for Housing Reform Victoria.",
+    "claimCategory": "governance",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "DOCUMENTARY_EVIDENCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The founder designation is recorded in the governed register documentation for project governance purposes.",
+    "limitations": "This record is limited to founder attribution within project governance materials.",
+    "primarySourceIds": [
+      "SRC-GOV-004"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if governance records are formally amended.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "nextReviewDate": "2026-10-31",
+    "notes": "Founder attribution is treated as a governed internal record."
+  },
+  {
+    "claimId": "GOV-003",
+    "claimText": "Dan Sonsie is the evidence custodian for the Claims and Evidence Register.",
+    "approvedPublicWording": "Dan Sonsie is the evidence custodian for the Claims and Evidence Register.",
+    "claimCategory": "governance",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "DOCUMENTARY_EVIDENCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The evidence-custodian role is explicitly recorded in the evidence README, register document and ADR.",
+    "limitations": "This record governs custodianship and does not by itself approve any specific claim for publication.",
+    "primarySourceIds": [
+      "SRC-GOV-003",
+      "SRC-GOV-004",
+      "SRC-GOV-005"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "evidence/README.md",
+      "docs/claims-and-evidence-register-v0.1.md",
+      "docs/decisions/ADR-003-governed-claims-and-evidence-register.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if register governance roles change.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "nextReviewDate": "2026-10-31",
+    "notes": "Custodianship remains separate from publication approval decisions."
+  },
+  {
+    "claimId": "GOV-004",
+    "claimText": "Sonsie Enterprises Pty Ltd is the nominated owner of the website, source code, evidence architecture, documentation and associated intellectual property, subject to any later express written agreement.",
+    "approvedPublicWording": "Sonsie Enterprises Pty Ltd is recorded as the nominated owner of the website, source code, evidence architecture, documentation and associated intellectual property, subject to any later express written agreement.",
+    "claimCategory": "governance",
+    "claimType": "verified_fact",
+    "evidenceStatus": "qualified",
+    "informationBasis": "PRACTITIONER_DECLARED",
+    "confidenceLevel": "moderate",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "Recorded as the approved governance and ownership position in the evidence README, register document, ADR and existing rights notice.",
+    "limitations": "This is an owner-declared governance record for project administration and publication control. It is not recorded as independent legal advice or an independently verified legal conclusion.",
+    "primarySourceIds": [
+      "SRC-GOV-002",
+      "SRC-GOV-003",
+      "SRC-GOV-004",
+      "SRC-GOV-005"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "RIGHTS.md",
+      "evidence/README.md",
+      "docs/claims-and-evidence-register-v0.1.md",
+      "docs/decisions/ADR-003-governed-claims-and-evidence-register.md"
+    ],
+    "prohibitedWording": [
+      "The ownership position has been independently verified as a legal conclusion."
+    ],
+    "requiredNextEvidence": [
+      "Maintain any later express written agreement as a controlled documentary source if governance or ownership designations change."
+    ],
+    "reviewTrigger": "Review if a later written agreement changes asset or IP ownership designations.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "nextReviewDate": "2026-10-31",
+    "notes": "Public wording must remain cautious and governance-based."
+  },
+  {
+    "claimId": "GOV-005",
+    "claimText": "The internal register and filtered public register serve different publication and confidentiality purposes.",
+    "approvedPublicWording": "The full register is maintained internally, with only approved publication-safe material intended for public release.",
+    "claimCategory": "governance",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "DOCUMENTARY_EVIDENCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The evidence README, ADR and governed register document all state that the complete register remains internal and only filtered publication-safe material may be surfaced publicly.",
+    "limitations": "A public release still requires separate publication review and filtering decisions for each record.",
+    "primarySourceIds": [
+      "SRC-GOV-001",
+      "SRC-GOV-003",
+      "SRC-GOV-004",
+      "SRC-GOV-005"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "README.md",
+      "evidence/README.md",
+      "docs/claims-and-evidence-register-v0.1.md",
+      "docs/decisions/ADR-003-governed-claims-and-evidence-register.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if publication controls or confidentiality rules are amended.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "nextReviewDate": "2026-10-31",
+    "notes": "Supports the distinction between internal governance records and filtered public material."
+  }
+]
