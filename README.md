@@ -4,7 +4,7 @@
 
 An industry-led reform initiative proposing a bounded **Registered Residential Carpenter** pathway for Victoria, focused on renovation responsibility, consumer protection and regulatory clarity.
 
-**Proposed by:** Daniel Sonsie — Victorian renovation carpenter (~20 years experience), Director of Sonsie Carpentry Pty Ltd.
+**Proposed by:** Dan Sonsie — Victorian renovation carpenter (~20 years experience), Director of Sonsie Carpentry Pty Ltd.
 
 **Status:** External Engagement and Pilot Readiness Sprint complete. Operational pilot documents ready for government and stakeholder review.
 

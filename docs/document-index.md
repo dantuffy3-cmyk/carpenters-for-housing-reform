@@ -74,6 +74,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
+| Brand and Identity Standard | `docs/governance/BRAND-AND-IDENTITY-STANDARD.md` | CURRENT | Controlled terminology, approved descriptions, naming rules | August 2026 |
 | Stakeholder Claims Register | `docs/stakeholder-claims-register.md` | CURRENT | Approved and prohibited wording; evidence status per claim | July 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | Pilot risks and controls | July 2026 |
 | Pull Request Audit | `docs/governance/pull-request-audit.md` | CURRENT | Governance audit of open pull requests | July 2026 |
@@ -84,7 +85,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| Founder Bio | `docs/founder-bio.md` | CURRENT | Daniel Sonsie — approved bio and pilot readiness messaging | July 2026 |
+| Founder Bio | `docs/founder-bio.md` | CURRENT | Dan Sonsie — approved bio and pilot readiness messaging | July 2026 |
 | Stakeholder Meeting Pack | `docs/stakeholder-meeting-pack.md` | CURRENT | Meeting scripts, Q&A and follow-up templates | July 2026 |
 | Stakeholder Outreach Register | `docs/governance/stakeholder-outreach-register.md` | WORKING DRAFT | Track outreach, contact status and meeting outcomes | July 2026 |
 | Stakeholder Meeting Request Template | `docs/templates/stakeholder-meeting-request.md` | CURRENT | Template for requesting stakeholder meetings | July 2026 |
@@ -131,7 +132,7 @@ Document statuses:
 
 | Status | Count |
 |---|---|
-| CURRENT | 20 |
+| CURRENT | 21 |
 | CONSULTATION DRAFT | 2 |
 | WORKING DRAFT | 7 |
 | HISTORICAL | 1 |
@@ -139,4 +140,4 @@ Document statuses:
 
 ---
 
-*Updated July 2026 — v0.4.0 External Engagement and Pilot Readiness Sprint.*
+*Updated August 2026 — v0.5.0 Brand and Identity Standard sprint.*
