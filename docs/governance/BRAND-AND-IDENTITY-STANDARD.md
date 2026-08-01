@@ -57,7 +57,7 @@ All public-facing and externally distributed materials produced by or on behalf 
 | Approved short description | Victorian residential renovation carpenter with approximately 20 years of practical experience, founder of Carpenters for Housing Reform Victoria and evidence custodian for the Registered Residential Carpenter (RRC) pathway proposal. |
 | Must not be confused with | A government official, regulator, statutory professional, registered builder, licensed engineer, building surveyor, or representative of any industry body or government agency. |
 
-**Note on formal name use:** "Daniel Sonsie" remains acceptable in formal government submissions, legal notices and copyright attributions where a full legal name is required. "Dan Sonsie" is the preferred name for website pages, social media, stakeholder introductions and general public communications.
+**Note on formal name use:** "Dan Sonsie" is the preferred professional and public name for website pages, biographies, social media, stakeholder communications and normal government-facing correspondence. Use "Daniel Sonsie" only where legal or formal identity is specifically required (for example: contracts, statutory declarations, formal company records, legal notices, formal signature requirements, and preserved historical correspondence).
 
 ### 2.5 Sonsie Carpentry
 
@@ -79,7 +79,7 @@ The following rules apply to all public-facing and externally distributed materi
 - First substantial use must be written as: **Registered Residential Carpenter (RRC)**
 - Subsequent references may use RRC alone.
 - **"Carpenters for Housing Reform Victoria"** is the policy author and reform organisation. Do not attribute policy authorship to Sonsie Carpentry, Dan Sonsie personally, or any government body.
-- **"Dan Sonsie"** is the founder and evidence custodian. Use "Daniel Sonsie" only in formal government submissions, legal notices and copyright attributions.
+- **"Dan Sonsie"** is the founder and evidence custodian and is the preferred name in public-facing and normal government-facing materials. Use "Daniel Sonsie" only where legal or formal identity is specifically required.
 - The proposed RRC pathway **is not currently a government-approved registration category.** All materials must make this clear.
 - Government correspondence, meetings or engagement **must never be described as endorsement.** Engagement means government has received or considered the proposal — not that it has been approved, adopted or supported.
 - **Sonsie Carpentry is separate from the reform initiative.** Do not present Sonsie Carpentry as a policy author, reform organisation or regulatory proponent.
@@ -133,7 +133,7 @@ If logo artwork, PDFs or printed materials use any other expansion of RRC, those
 
 ### Website Headings
 
-| Correct | Incorrect |
+| Correct | Incorrect — do not use |
 |---|---|
 | Registered Residential Carpenter (RRC) pathway | Residential Carpenter Reform (RRC) pathway |
 | About Dan Sonsie — Practitioner and Reform Proponent | About the RRC Reform |
@@ -142,14 +142,14 @@ If logo artwork, PDFs or printed materials use any other expansion of RRC, those
 
 ### Instagram Profile
 
-| Correct | Incorrect |
+| Correct | Incorrect — do not use |
 |---|---|
 | Advocating for a clear, evidence-based pathway for experienced Victorian residential carpenters. Reform • Recognition • Consumer protection | Sonsie Carpentry — pushing for RRC reform in Victoria |
 | Bio link: carpentryreform.com.au | Bio attributing the account to Sonsie Carpentry |
 
 ### Policy Documents
 
-| Correct | Incorrect |
+| Correct | Incorrect — do not use |
 |---|---|
 | Prepared by: Carpenters for Housing Reform Victoria | Prepared by: Sonsie Carpentry Pty Ltd |
 | Author: Dan Sonsie, Founder, Carpenters for Housing Reform Victoria | Author: Daniel Sonsie, Director, Sonsie Carpentry |
@@ -157,7 +157,7 @@ If logo artwork, PDFs or printed materials use any other expansion of RRC, those
 
 ### Emails to Government
 
-| Correct | Incorrect |
+| Correct | Incorrect — do not use |
 |---|---|
 | I am writing on behalf of Carpenters for Housing Reform Victoria... | I am writing on behalf of Sonsie Carpentry... |
 | I am Dan Sonsie, founder of Carpenters for Housing Reform Victoria. | I am the proponent of the Residential Carpenter Reform. |
@@ -165,7 +165,7 @@ If logo artwork, PDFs or printed materials use any other expansion of RRC, those
 
 ### References to Government Engagement
 
-| Correct | Incorrect |
+| Correct | Incorrect — do not use |
 |---|---|
 | The proposal has been submitted for government examination. | The Victorian Government has endorsed the RRC pathway. |
 | Government has received a briefing on the proposal. | Government has approved the RRC concept. |
@@ -173,7 +173,7 @@ If logo artwork, PDFs or printed materials use any other expansion of RRC, those
 
 ### References to Dan and Sonsie Carpentry
 
-| Correct | Incorrect |
+| Correct | Incorrect — do not use |
 |---|---|
 | Dan Sonsie is the founder of Carpenters for Housing Reform Victoria. | Daniel Sonsie runs a reform program through Sonsie Carpentry. |
 | Sonsie Carpentry Pty Ltd is Dan's separate operating business. | Sonsie Carpentry is the proponent of the RRC pathway. |
