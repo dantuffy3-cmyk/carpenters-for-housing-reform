@@ -162,7 +162,7 @@ The initiative does not claim the Victorian Government has agreed to examine, ad
 
 ## Proposed Next Meeting
 
-Daniel Sonsie is available to meet with government officials, regulators, industry bodies, builders, insurers, surveyors and consumer representatives to discuss this proposal.
+Dan Sonsie is available to meet with government officials, regulators, industry bodies, builders, insurers, surveyors and consumer representatives to discuss this proposal.
 
 A briefing can be provided in approximately 30 minutes covering the problem, the proposal and the specific government requests.
 
@@ -170,13 +170,13 @@ A briefing can be provided in approximately 30 minutes covering the problem, the
 
 ## Contact
 
-**Daniel Sonsie**
+**Dan Sonsie**
 Founder, Carpenters for Housing Reform Victoria
 Director, Sonsie Carpentry Pty Ltd
 
 Email: admin@sonsiecarpentry.com
 
-Website: [https://dantuffy3-cmyk.github.io/carpenters-for-housing-reform/](https://dantuffy3-cmyk.github.io/carpenters-for-housing-reform/)
+Website: [https://www.carpentryreform.com.au/](https://www.carpentryreform.com.au/)
 
 *[Note: Replace contact details as appropriate if a dedicated enquiry address is established.]*
 
