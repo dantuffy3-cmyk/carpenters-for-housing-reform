@@ -1,137 +1,38 @@
 # Carpenters for Housing Reform Victoria
 
-## Residential Renovation Capability in Victoria
-
-An industry-led reform initiative proposing a bounded **Registered Residential Carpenter** pathway for Victoria, focused on renovation responsibility, consumer protection and regulatory clarity.
-
-**Proposed by:** Daniel Sonsie — Victorian renovation carpenter (~20 years experience), Director of Sonsie Carpentry Pty Ltd.
-
-**Status:** External Engagement and Pilot Readiness Sprint complete. Operational pilot documents ready for government and stakeholder review.
-
----
-
 ## Purpose
 
-This repository contains the research, policy development, consultation material and public website supporting Carpenters for Housing Reform Victoria.
+Carpenters for Housing Reform Victoria advocates for a clear, bounded, evidence-based pathway recognising experienced Victorian residential renovation carpenters while protecting consumers and preserving builder, engineer, building surveyor and licensed-trade responsibilities.
 
-The flagship project is the proposed Registered Residential Carpenter (RRC) pathway — a bounded registration or endorsement category for experienced renovation carpenters that would define where renovation carpentry ends and domestic builder responsibility begins.
+## Central Proposition
 
-The project is evidence-led, consumer-focused and professionally neutral. It evaluates multiple policy options while maintaining the principles of consumer protection, professional accountability and regulatory integrity.
+“A major trade should not require its most capable practitioners to abandon their trade identity and become builders merely to receive formal recognition of advanced competence.”
 
----
+## Proposed Pathway
+
+The Registered Residential Carpenter (RRC) pathway is proposed as an occupational recognition pathway for defined residential renovation work. It is bounded by exclusions, mandatory handoff triggers and consumer safeguards. It is not a backdoor domestic builder licence and is not currently an approved statutory registration category.
 
 ## Current Website
 
 https://www.carpentryreform.com.au/
 
-### Pages
+## Current Reform Status
 
-| Page | Purpose |
-|---|---|
-| `index.html` | Homepage — 60-second government visitor overview, 2026 alignment, reform platform, engage section |
-| `about.html` | Founder credibility, the reform proposition, the problem, grey market challenge, government request |
-| `rrc.html` | Full RRC pathway — scope boundaries, pilot proposal, statutory handoff, consultation documents |
-| `faq.html` | Stakeholder FAQ — 14 questions covering common government, builder, insurer and consumer concerns |
-| `scope-matrix.html` | Operational scope and handoff matrix by work category |
-| `reform-framework.html` | Full connected reform platform overview |
-| `advanced-trades.html` | Advanced Residential Trades Framework — staged architecture |
-| `housing-supply-alignment.html` | Housing supply alignment paper |
-| `institute/index.html` | Reform Institute — research and evidence platform |
-| `rights.html` | Copyright and use |
+The core policy proposal has been published, consultation and government decision materials have been developed, a Professional Recognition Pilot has been proposed, and practitioner evidence and feedback collection is ongoing.
 
----
+Government engagement has commenced, including correspondence reference **CMIN-1-26-2293**. The Victorian Building Policy Reform Team acknowledged the proposal and indicated that stakeholder feedback would be relevant to upcoming reform work. Correspondence and engagement do not constitute endorsement, approval or adoption.
 
-## External Engagement and Pilot Readiness Status (v0.4.0)
+## Current Workstreams
 
-- [x] Operational pilot brief — docs/rrc-operational-pilot-brief.md
-- [x] Pilot operating model (15-stage) — docs/rrc-pilot-operating-model.md
-- [x] Statutory handoff protocol (3-stage) — docs/rrc-statutory-handoff-protocol.md
-- [x] Pilot evidence schedule — docs/rrc-pilot-evidence-schedule.md
-- [x] Pilot evaluation framework — docs/rrc-pilot-evaluation-framework.md
-- [x] Pilot risk register (17 risks) — docs/rrc-pilot-risk-register.md
-- [x] Government decision paper (Options A–E) — docs/government-decision-paper.md
-- [x] One-page pilot summary — docs/rrc-pilot-one-page-summary.md
-- [x] Stakeholder outreach register — docs/governance/stakeholder-outreach-register.md
-- [x] Consultation feedback register — docs/governance/consultation-feedback-register.md
-- [x] Communication templates (3) — docs/templates/
-- [x] Document index — docs/document-index.md
-- [x] Claims register updated (9 new claims) — docs/stakeholder-claims-register.md
-- [x] Founder bio strengthened — docs/founder-bio.md
-- [x] Stakeholder meeting pack strengthened — docs/stakeholder-meeting-pack.md
-- [x] Website engagement section updated — index.html
-- [ ] Insurance framework — requires insurer engagement (TODO in claims register)
-- [ ] Authoritative evidence for grey-market scale — TODO in claims register
-- [ ] Formal government acknowledgement — not yet confirmed
+1. Registered Residential Carpenter pathway
+2. Occupational Progression Gap evidence paper
+3. Professional Recognition Pilot
+4. Advanced Residential Trades Framework
+5. Waterproofing reform
+6. Government Decision Pathway
+7. Practitioner evidence and consultation
 
----
-
-- [x] Founder credibility section — about.html
-- [x] Reform proposition — clear, plain-language, about.html
-- [x] The problem — renovation responsibility gap, about.html
-- [x] Grey market challenge — honest, balanced, about.html
-- [x] Government request — explicit 9-point list, about.html
-- [x] Pilot proposal — bounded, testable, rrc.html
-- [x] Scope boundaries — included and excluded work, rrc.html
-- [x] Statutory handoff protocol — 3-stage model, rrc.html
-- [x] Stakeholder FAQ — 14 questions, faq.html
-- [x] Government engagement brief — docs/government-engagement-brief.md
-- [x] Founder bio — docs/founder-bio.md
-- [x] Stakeholder meeting pack — docs/stakeholder-meeting-pack.md
-- [x] Stakeholder claims register — docs/stakeholder-claims-register.md
-- [x] Homepage 60-second overview — index.html
-- [x] Consultation and contact pathways — index.html, about.html
-- [x] Schema.org structured data — index.html, about.html, faq.html
-- [ ] Insurance framework — requires insurer engagement (TODO in claims register)
-- [ ] Authoritative evidence for grey-market scale — TODO in claims register
-- [ ] Formal government acknowledgement — not yet confirmed
-
----
-
-## Key Documents
-
-| Document | Location |
-|---|---|
-| Government Engagement Brief | `docs/government-engagement-brief.md` |
-| Government Decision Paper | `docs/government-decision-paper.md` |
-| Founder Bio | `docs/founder-bio.md` |
-| Stakeholder Meeting Pack | `docs/stakeholder-meeting-pack.md` |
-| Stakeholder Claims Register | `docs/stakeholder-claims-register.md` |
-| Document Index | `docs/document-index.md` |
-| Operational Pilot Brief | `docs/rrc-operational-pilot-brief.md` |
-| Pilot Operating Model | `docs/rrc-pilot-operating-model.md` |
-| Statutory Handoff Protocol | `docs/rrc-statutory-handoff-protocol.md` |
-| Pilot Evidence Schedule | `docs/rrc-pilot-evidence-schedule.md` |
-| Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` |
-| Pilot Risk Register | `docs/rrc-pilot-risk-register.md` |
-| One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` |
-| Stakeholder Outreach Register | `docs/governance/stakeholder-outreach-register.md` |
-| Consultation Feedback Register | `docs/governance/consultation-feedback-register.md` |
-| Meeting Request Template | `docs/templates/stakeholder-meeting-request.md` |
-| Follow-Up Template | `docs/templates/stakeholder-follow-up.md` |
-| Government Briefing Request Template | `docs/templates/government-briefing-request.md` |
-| RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` |
-| RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` |
-| RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` |
-| Housing Supply Alignment Paper (PDF) | `RRC_Housing_Supply_Alignment_Paper_2026.pdf` |
-| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` |
-
----
-
-## Governance Principles
-
-- Consumer protection is the primary objective
-- Evidence takes precedence over advocacy
-- Existing builder pathways remain available and unchanged
-- An RRC pathway must never become mandatory before builder registration
-- Registered builders retain their existing authority
-- Engineers retain engineering responsibilities
-- Building surveyors retain surveying and certification responsibilities
-- Licensed trades retain their existing regulated responsibilities
-- Recognition must be based on demonstrated capability
-- Recommendations must strengthen, not destabilise, Victoria's regulatory framework
-- Claims must be supported by evidence; unsupported claims are flagged in the claims register
-
----
+## Occupational Progression Gap
 
 ## Evidence Governance
 
@@ -142,31 +43,54 @@ See `/evidence/README.md`.
 ---
 
 ## Repository Structure
+The project is examining whether Certificate III establishes foundational trade competence but does not provide a formal advanced occupational pathway for experienced renovation carpenters. This remains an evidence-development stream and is not presented as a final conclusion.
 
-```
-/docs                    ← Stakeholder briefing and pilot design documents (MD)
-/docs/governance         ← Outreach and consultation registers
-/docs/templates          ← Communication templates
-/institute               ← Reform Institute web pages
-*.html                   ← Website pages
-*.pdf                    ← Published consultation documents
-styles.css               ← Site stylesheet
-site.js                  ← Site navigation script
-```
+## Evidence Base
 
----
+The evidence base is practitioner-led and includes case-based renovation conditions such as termite damage, out-of-plumb construction after demolition, major subfloor deterioration, hidden wall and chimney conditions, asbestos and cladding sequencing constraints, window and door replacement complexity, and renovation coordination risks under progressive discovery.
 
-## Version
+## Pilot Readiness
+
+Repository pilot-readiness materials include:
+
+- pilot brief
+- operating model
+- handoff protocol
+- evidence schedule
+- evaluation framework
+- risk register
+- government decision paper
+- one-page pilot summary
+- stakeholder outreach register
+- decision register
+
+## Governance
+
+- Policy author: Carpenters for Housing Reform Victoria
+- Evidence custodian: Dan Sonsie
+- Public/professional reference name: Dan Sonsie
+- Government engagement is not endorsement
+- Historical records and correspondence are preserved
+- Sonsie Carpentry remains a separate operating business and is not the policy author
+
+## Current Version
 
 **v0.4.0** — External Engagement and Pilot Readiness Sprint (July 2026)
 
-Previous: v0.3.0 — Government and Stakeholder Readiness Sprint
-Previous: v0.2.0 — Reform Framework and Institute expansion
-Previous: v0.1.0 — Initial RRC proposal and website
+## Repository Structure
 
----
+- `/docs` — briefing, consultation and pilot-readiness documents
+- `/docs/governance` — governance controls, standards and registers
+- `/docs/templates` — engagement templates
+- `/institute` — Reform Institute pages
+- `*.html` — public website pages
+- `*.pdf` — published consultation and policy PDFs
+- `styles.css` — website styles
+- `site.js` — website behavior scripts
 
-## Next Development Phase
+## Current Development Stage
+
+External engagement, evidence consolidation and pilot-readiness development.
 
 - Formal government submission using docs/government-decision-paper.md
 - Insurer engagement on insurance framework viability
@@ -174,3 +98,11 @@ Previous: v0.1.0 — Initial RRC proposal and website
 - Evidence collection for claims register TODO items
 - Pilot design development in collaboration with government
 - Independent evaluation framework development
+## Next Priorities
+
+- practitioner evidence collection
+- external stakeholder review
+- occupational progression evidence consolidation
+- pilot design refinement
+- government decision pathway engagement
+- regulatory and insurance feasibility work

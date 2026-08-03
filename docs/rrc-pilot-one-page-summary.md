@@ -44,9 +44,9 @@ Outcomes would be measured against consumer clarity, compliance quality, record 
 The immediate decision requested is that government consider a structured stakeholder consultation or limited pilot design process for the proposed RRC concept.
 
 ## Contact
-[NAME] — Daniel Sonsie
+[NAME] — Dan Sonsie
 [ORGANISATION] — Carpenters for Housing Reform Victoria / Sonsie Carpentry Pty Ltd
 [EMAIL] — admin@sonsiecarpentry.com
-[WEBSITE] — https://dantuffy3-cmyk.github.io/carpenters-for-housing-reform/
+[WEBSITE] — https://www.carpentryreform.com.au/
 
 *Consultation draft. Not government policy. July 2026.*
