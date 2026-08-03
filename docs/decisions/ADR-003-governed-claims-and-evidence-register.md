@@ -40,8 +40,8 @@ Only approved and publication-safe records may be surfaced publicly.
 - **Policy author:** Carpenters for Housing Reform Victoria
 - **Founder:** Dan Sonsie
 - **Evidence custodian:** Dan Sonsie
-- **Legal asset and IP owner:** Sonsie Enterprises Pty Ltd
+- **Nominated owner record:** Sonsie Enterprises Pty Ltd
 - **Internal register:** full governed record
 - **Public register:** filtered publication-safe view only
 
-Carpenters for Housing Reform Victoria is the public-facing policy initiative founded by Dan Sonsie. Dan Sonsie is the evidence custodian. Sonsie Enterprises Pty Ltd owns the website, source code, evidence architecture, documentation and associated intellectual property unless a separate written agreement expressly states otherwise. Governance designations do not constitute an assignment or transfer of intellectual property.
+Carpenters for Housing Reform Victoria is the public-facing policy initiative founded by Dan Sonsie. Dan Sonsie is the evidence custodian. Sonsie Enterprises Pty Ltd is recorded as the nominated owner of the website, source code, evidence architecture, documentation and associated intellectual property, subject to any later express written agreement. Governance designations do not constitute an assignment or transfer of intellectual property.

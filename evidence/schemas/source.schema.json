@@ -43,7 +43,8 @@
       "format": "uri"
     },
     "localFileReference": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "publicationDate": {
       "type": "string",

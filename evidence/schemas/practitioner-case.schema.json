@@ -25,7 +25,8 @@
         "string",
         "null"
       ],
-      "description": "Approximate ISO 8601 date if known, otherwise null while the placeholder remains incomplete."
+      "pattern": "^\\d{4}(?:-\\d{2}(?:-\\d{2})?)?$",
+      "description": "Approximate ISO 8601 date using YYYY, YYYY-MM or YYYY-MM-DD precision if known, otherwise null while the placeholder remains incomplete."
     },
     "locationCategory": {
       "type": "string"

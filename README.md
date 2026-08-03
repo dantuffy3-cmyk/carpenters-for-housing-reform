@@ -38,7 +38,7 @@ Government engagement has commenced, including correspondence reference **CMIN-1
 
 The initiative maintains a governed Claims and Evidence Register to separate verified facts, supported interpretations, practitioner evidence, policy propositions and unresolved questions. The full register is maintained internally, with only approved publication-safe material intended for public release.
 
-See `/evidence/README.md`.
+See [evidence/README.md](evidence/README.md).
 
 ---
 
