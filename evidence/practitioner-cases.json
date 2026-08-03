@@ -1,0 +1,237 @@
+[
+  {
+    "caseId": "CASE-001",
+    "caseTitle": "Piano Floor",
+    "anonymisationStatus": "placeholder_anonymised",
+    "approximateDate": null,
+    "locationCategory": "Victorian residential renovation case placeholder",
+    "originalRequestedWork": "Placeholder title retained pending full case transcription and evidence review.",
+    "initialVisibleCondition": "Only a minimal placeholder summary is currently controlled in Version 0.1.",
+    "hiddenConditionDiscovered": "Further factual detail is intentionally deferred until documentary material is assembled.",
+    "decisionPoint": "Determine what direct observations, records and photographs can be attached without inventing facts.",
+    "actionTaken": "Case reserved as a practitioner-declared placeholder for later governed population.",
+    "professionalsOrTradesInvolved": [],
+    "scopeImpact": "Not yet recorded.",
+    "costImpact": "Not yet recorded.",
+    "programImpact": "Not yet recorded.",
+    "availableEvidence": {
+      "observedByDan": [
+        "Dan has identified this title as an established project case requiring later controlled population."
+      ],
+      "documentsOrPhotographs": [
+        "Documentary evidence and photographs, if available, are to be added later under controlled review."
+      ],
+      "inferredFromContext": [
+        "The case is expected to relate to renovation decision-making in an existing home context, but no detailed inference is treated as verified here."
+      ],
+      "notIndependentlyVerified": [
+        "Dates, location specifics, involvement of other parties and cost outcomes are not yet independently verified."
+      ]
+    },
+    "informationBasis": [
+      "PRACTITIONER_DECLARED"
+    ],
+    "verificationStatus": "not_yet_fully_reviewed",
+    "whatTheCaseSupports": [
+      "That recognised practitioner cases can be reserved now for later governed evidence capture."
+    ],
+    "whatTheCaseDoesNotProve": [
+      "Any specific legal, structural, cost or regulatory conclusion."
+    ],
+    "publicationSafeSummary": "Internal placeholder only. Further documentary evidence may be added later.",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Practitioner-declared placeholder only."
+  },
+  {
+    "caseId": "CASE-002",
+    "caseTitle": "Concealed Termite Escalation",
+    "anonymisationStatus": "placeholder_anonymised",
+    "approximateDate": null,
+    "locationCategory": "Victorian residential renovation case placeholder",
+    "originalRequestedWork": "Placeholder title retained pending controlled source collection.",
+    "initialVisibleCondition": "Only the title and placeholder status are currently governed.",
+    "hiddenConditionDiscovered": "The title indicates concealed-condition escalation, but no detailed facts are entered yet.",
+    "decisionPoint": "Later review should separate direct observation, photographs, documents and inference.",
+    "actionTaken": "Recorded as a practitioner-declared case placeholder pending evidence review.",
+    "professionalsOrTradesInvolved": [],
+    "scopeImpact": "Not yet recorded.",
+    "costImpact": "Not yet recorded.",
+    "programImpact": "Not yet recorded.",
+    "availableEvidence": {
+      "observedByDan": [
+        "Dan has identified this established case title for later evidence capture."
+      ],
+      "documentsOrPhotographs": [
+        "Supporting photographs or documents may exist but are not yet attached."
+      ],
+      "inferredFromContext": [
+        "The title suggests concealed termite-related escalation in existing-home work, but that inference is not yet verified here."
+      ],
+      "notIndependentlyVerified": [
+        "No dates, addresses, professional involvement or outcomes are independently verified in Version 0.1."
+      ]
+    },
+    "informationBasis": [
+      "PRACTITIONER_DECLARED"
+    ],
+    "verificationStatus": "not_yet_fully_reviewed",
+    "whatTheCaseSupports": [
+      "That concealed-condition case placeholders can be tracked without overstating evidence."
+    ],
+    "whatTheCaseDoesNotProve": [
+      "Any final regulatory, contractual or liability outcome."
+    ],
+    "publicationSafeSummary": "Internal placeholder only. Further documentary evidence may be added later.",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Practitioner-declared placeholder only."
+  },
+  {
+    "caseId": "CASE-003",
+    "caseTitle": "Bathroom Hidden Conditions",
+    "anonymisationStatus": "placeholder_anonymised",
+    "approximateDate": null,
+    "locationCategory": "Victorian residential renovation case placeholder",
+    "originalRequestedWork": "Placeholder title retained pending later controlled detail.",
+    "initialVisibleCondition": "Only a minimal placeholder entry is recorded at this stage.",
+    "hiddenConditionDiscovered": "Detailed hidden-condition evidence is intentionally deferred.",
+    "decisionPoint": "Later evidence review should test what is observed against what is merely inferred.",
+    "actionTaken": "Recorded as an internal-only practitioner placeholder.",
+    "professionalsOrTradesInvolved": [],
+    "scopeImpact": "Not yet recorded.",
+    "costImpact": "Not yet recorded.",
+    "programImpact": "Not yet recorded.",
+    "availableEvidence": {
+      "observedByDan": [
+        "Dan has identified this case title as part of the established project case set."
+      ],
+      "documentsOrPhotographs": [
+        "Any supporting photo or document records are to be added later if available."
+      ],
+      "inferredFromContext": [
+        "The title suggests bathroom renovation hidden conditions, but no detailed case narrative is treated as verified."
+      ],
+      "notIndependentlyVerified": [
+        "Timing, location and third-party involvement are not yet independently verified."
+      ]
+    },
+    "informationBasis": [
+      "PRACTITIONER_DECLARED"
+    ],
+    "verificationStatus": "not_yet_fully_reviewed",
+    "whatTheCaseSupports": [
+      "That hidden-condition case placeholders are part of the governed evidence backlog."
+    ],
+    "whatTheCaseDoesNotProve": [
+      "Any specific cause, scope or responsibility conclusion."
+    ],
+    "publicationSafeSummary": "Internal placeholder only. Further documentary evidence may be added later.",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Practitioner-declared placeholder only."
+  },
+  {
+    "caseId": "CASE-004",
+    "caseTitle": "Speech Pathology Conversion",
+    "anonymisationStatus": "placeholder_anonymised",
+    "approximateDate": null,
+    "locationCategory": "Victorian residential renovation case placeholder",
+    "originalRequestedWork": "Placeholder title retained pending documentary consolidation.",
+    "initialVisibleCondition": "Only the title and internal placeholder status are recorded.",
+    "hiddenConditionDiscovered": "No detailed hidden-condition record is entered in this sprint.",
+    "decisionPoint": "Future review should separate direct observation from interpretation and incomplete recollection.",
+    "actionTaken": "Reserved as a practitioner-declared case placeholder for later evidence work.",
+    "professionalsOrTradesInvolved": [],
+    "scopeImpact": "Not yet recorded.",
+    "costImpact": "Not yet recorded.",
+    "programImpact": "Not yet recorded.",
+    "availableEvidence": {
+      "observedByDan": [
+        "Dan has identified this established project title for later case population."
+      ],
+      "documentsOrPhotographs": [
+        "Documentary support, if available, has not yet been attached."
+      ],
+      "inferredFromContext": [
+        "The title may indicate a conversion project context, but no further inference is represented as fact."
+      ],
+      "notIndependentlyVerified": [
+        "No dates, addresses, costs or professional involvement details are independently verified here."
+      ]
+    },
+    "informationBasis": [
+      "PRACTITIONER_DECLARED"
+    ],
+    "verificationStatus": "not_yet_fully_reviewed",
+    "whatTheCaseSupports": [
+      "That future case capture will need explicit separation of observation, support and inference."
+    ],
+    "whatTheCaseDoesNotProve": [
+      "Any planning, permit or professional-boundary conclusion."
+    ],
+    "publicationSafeSummary": "Internal placeholder only. Further documentary evidence may be added later.",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Practitioner-declared placeholder only."
+  },
+  {
+    "caseId": "CASE-005",
+    "caseTitle": "Cladding, Asbestos and Envelope Escalation",
+    "anonymisationStatus": "placeholder_anonymised",
+    "approximateDate": null,
+    "locationCategory": "Victorian residential renovation case placeholder",
+    "originalRequestedWork": "Placeholder title retained pending later controlled evidence capture.",
+    "initialVisibleCondition": "Version 0.1 records only a minimal placeholder entry.",
+    "hiddenConditionDiscovered": "The title indicates an escalation context, but detailed facts are intentionally deferred.",
+    "decisionPoint": "Future review should test escalation facts, supporting records and boundary issues against primary evidence.",
+    "actionTaken": "Recorded as an internal-only practitioner placeholder.",
+    "professionalsOrTradesInvolved": [],
+    "scopeImpact": "Not yet recorded.",
+    "costImpact": "Not yet recorded.",
+    "programImpact": "Not yet recorded.",
+    "availableEvidence": {
+      "observedByDan": [
+        "Dan has identified this established case title for later governed review."
+      ],
+      "documentsOrPhotographs": [
+        "Photographs or documents may be added later under evidence control."
+      ],
+      "inferredFromContext": [
+        "The title implies cladding, asbestos and envelope escalation issues, but no detailed inference is treated as verified."
+      ],
+      "notIndependentlyVerified": [
+        "Detailed chronology, parties involved and outcome data are not independently verified in Version 0.1."
+      ]
+    },
+    "informationBasis": [
+      "PRACTITIONER_DECLARED"
+    ],
+    "verificationStatus": "not_yet_fully_reviewed",
+    "whatTheCaseSupports": [
+      "That escalation-themed practitioner cases are part of the governed evidence backlog."
+    ],
+    "whatTheCaseDoesNotProve": [
+      "Any final asbestos, cladding, liability or compliance conclusion."
+    ],
+    "publicationSafeSummary": "Internal placeholder only. Further documentary evidence may be added later.",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Practitioner-declared placeholder only."
+  }
+]

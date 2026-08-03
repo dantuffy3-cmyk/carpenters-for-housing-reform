@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://carpentryreform.com.au/schemas/wording-control.schema.json",
+  "title": "Wording Control Record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "wordingId": {
+      "type": "string",
+      "pattern": "^WORD-\\d{3}$"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "prohibitedWording": {
+      "type": "string"
+    },
+    "reasonProhibited": {
+      "type": "string"
+    },
+    "approvedWording": {
+      "type": "string"
+    },
+    "qualifiedAlternative": {
+      "type": "string"
+    },
+    "linkedClaimIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "publicationContexts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "website",
+          "policy_paper",
+          "government_submission",
+          "stakeholder_email",
+          "public_statement",
+          "social_media",
+          "internal_only"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "under_review",
+        "approved",
+        "requires_revision",
+        "superseded",
+        "withdrawn"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "wordingId",
+    "topic",
+    "prohibitedWording",
+    "reasonProhibited",
+    "approvedWording",
+    "publicationContexts",
+    "reviewStatus",
+    "owner",
+    "createdAt"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "code": "draft",
+    "label": "Draft",
+    "description": "Recorded but not yet approved for routine use."
+  },
+  {
+    "code": "under_review",
+    "label": "Under Review",
+    "description": "Actively being reviewed before approval or revision."
+  },
+  {
+    "code": "approved",
+    "label": "Approved",
+    "description": "Approved for use within the limits recorded on the register."
+  },
+  {
+    "code": "requires_revision",
+    "label": "Requires Revision",
+    "description": "Needs correction, clarification or updated evidence before further use."
+  },
+  {
+    "code": "superseded",
+    "label": "Superseded",
+    "description": "Replaced by a newer reviewed record."
+  },
+  {
+    "code": "withdrawn",
+    "label": "Withdrawn",
+    "description": "Removed from active use."
+  }
+]

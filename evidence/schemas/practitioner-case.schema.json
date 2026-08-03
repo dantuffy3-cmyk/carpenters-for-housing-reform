@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://carpentryreform.com.au/schemas/practitioner-case.schema.json",
+  "title": "Practitioner Case Record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "caseId": {
+      "type": "string",
+      "pattern": "^CASE-\\d{3}$"
+    },
+    "caseTitle": {
+      "type": "string"
+    },
+    "anonymisationStatus": {
+      "type": "string",
+      "enum": [
+        "placeholder_anonymised",
+        "anonymised",
+        "identified_internal_only"
+      ]
+    },
+    "approximateDate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}(?:-\\d{2}(?:-\\d{2})?)?$",
+      "description": "Approximate ISO 8601 date using YYYY, YYYY-MM or YYYY-MM-DD precision if known, otherwise null while the placeholder remains incomplete."
+    },
+    "locationCategory": {
+      "type": "string"
+    },
+    "originalRequestedWork": {
+      "type": "string"
+    },
+    "initialVisibleCondition": {
+      "type": "string"
+    },
+    "hiddenConditionDiscovered": {
+      "type": "string"
+    },
+    "decisionPoint": {
+      "type": "string"
+    },
+    "actionTaken": {
+      "type": "string"
+    },
+    "professionalsOrTradesInvolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "scopeImpact": {
+      "type": "string"
+    },
+    "costImpact": {
+      "type": "string"
+    },
+    "programImpact": {
+      "type": "string"
+    },
+    "availableEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "observedByDan": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What Dan directly observed or recorded."
+        },
+        "documentsOrPhotographs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What documents, files or photographs presently support the case."
+        },
+        "inferredFromContext": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What is presently inferred rather than directly documented."
+        },
+        "notIndependentlyVerified": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What has not yet been independently verified."
+        }
+      },
+      "required": [
+        "observedByDan",
+        "documentsOrPhotographs",
+        "inferredFromContext",
+        "notIndependentlyVerified"
+      ]
+    },
+    "informationBasis": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "PRIMARY_SOURCE",
+          "DOCUMENTARY_EVIDENCE",
+          "PRACTITIONER_DECLARED",
+          "PHOTO_SUPPORTED",
+          "PROFESSIONAL_REVIEWED",
+          "EXTERNAL_SOURCE",
+          "SYSTEM_DERIVED",
+          "UNKNOWN",
+          "UNABLE_TO_VERIFY"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "verificationStatus": {
+      "type": "string",
+      "enum": [
+        "not_yet_fully_reviewed",
+        "practitioner_declared_only",
+        "partly_supported",
+        "independently_verified",
+        "withdrawn"
+      ]
+    },
+    "whatTheCaseSupports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "whatTheCaseDoesNotProve": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publicationSafeSummary": {
+      "type": "string"
+    },
+    "publicationStatus": {
+      "type": "string",
+      "enum": [
+        "internal_only",
+        "public_approved",
+        "public_with_redactions",
+        "not_for_publication",
+        "pending_publication_review"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "evidenceCustodian": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "caseId",
+    "caseTitle",
+    "anonymisationStatus",
+    "locationCategory",
+    "originalRequestedWork",
+    "initialVisibleCondition",
+    "hiddenConditionDiscovered",
+    "decisionPoint",
+    "actionTaken",
+    "availableEvidence",
+    "informationBasis",
+    "verificationStatus",
+    "whatTheCaseSupports",
+    "whatTheCaseDoesNotProve",
+    "publicationSafeSummary",
+    "publicationStatus",
+    "owner",
+    "evidenceCustodian",
+    "createdAt"
+  ]
+}

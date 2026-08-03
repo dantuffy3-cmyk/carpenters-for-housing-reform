@@ -1,0 +1,42 @@
+[
+  {
+    "code": "verified",
+    "label": "Verified",
+    "description": "Supported by current primary sources or direct documentary evidence and ready to be represented as verified if separately approved."
+  },
+  {
+    "code": "supported",
+    "label": "Supported",
+    "description": "Supported by identified material but still carrying caveats, scope limits or review needs."
+  },
+  {
+    "code": "qualified",
+    "label": "Qualified",
+    "description": "Usable only with explicit limitations, conditions or governance caveats."
+  },
+  {
+    "code": "unresolved",
+    "label": "Unresolved",
+    "description": "Not yet resolved and not to be represented as settled."
+  },
+  {
+    "code": "unable_to_verify",
+    "label": "Unable to Verify",
+    "description": "Could not presently be verified from available material."
+  },
+  {
+    "code": "contradicted",
+    "label": "Contradicted",
+    "description": "Contradicted by stronger or more current material."
+  },
+  {
+    "code": "withdrawn",
+    "label": "Withdrawn",
+    "description": "Withdrawn from use and not to be relied upon."
+  },
+  {
+    "code": "superseded",
+    "label": "Superseded",
+    "description": "Replaced by a more current or more authoritative record."
+  }
+]

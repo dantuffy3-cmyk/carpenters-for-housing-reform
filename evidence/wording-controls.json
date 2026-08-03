@@ -1,0 +1,109 @@
+[
+  {
+    "wordingId": "WORD-001",
+    "topic": "Certificate III renovation coverage",
+    "prohibitedWording": "Certificate III contains no renovation training.",
+    "reasonProhibited": "This overstates the evidence position and collapses a curriculum question into an absolute claim.",
+    "approvedWording": "Certificate III in Carpentry includes competencies relevant to repair, alteration and existing-building work. Whether it provides a complete and consistently assessed pathway for advanced existing-home renovation capability remains a separate evidence question.",
+    "qualifiedAlternative": "Do not represent curriculum scope as a binary yes-or-no proposition without current source review.",
+    "linkedClaimIds": [],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement"
+    ],
+    "reviewStatus": "under_review",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Not automatically approved for all contexts until linked source claims are governed."
+  },
+  {
+    "wordingId": "WORD-002",
+    "topic": "Scope escalation and liability",
+    "prohibitedWording": "Handoff automatically transfers liability to a builder.",
+    "reasonProhibited": "This states a legal conclusion that is not supported by the current governed evidence set.",
+    "approvedWording": "Scope-escalation triggers require affected work to stop, conditions to be documented and the appropriate contractual, permit, engineering, insurance and practitioner responsibilities to be resolved before work resumes.",
+    "qualifiedAlternative": "Keep wording procedural and avoid asserting automatic liability outcomes.",
+    "linkedClaimIds": [],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement"
+    ],
+    "reviewStatus": "under_review",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Awaiting stronger controlled evidence on contractual and insurance effects."
+  },
+  {
+    "wordingId": "WORD-003",
+    "topic": "Pathway characterisation",
+    "prohibitedWording": "RRC is a backdoor builder licence.",
+    "reasonProhibited": "This mischaracterises the stated policy intent and blurs builder, engineering, permit and trade boundaries.",
+    "approvedWording": "The proposed pathway is intended to recognise bounded advanced carpentry competence while preserving builder, engineering, permit and licensed-trade boundaries.",
+    "qualifiedAlternative": "Describe the pathway as bounded and boundary-preserving unless current evidence supports another formulation.",
+    "linkedClaimIds": [],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement",
+      "social_media"
+    ],
+    "reviewStatus": "draft",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Draft until broader implementation claims are governed."
+  },
+  {
+    "wordingId": "WORD-004",
+    "topic": "Experience and eligibility",
+    "prohibitedWording": "Any carpenter with enough years of experience should qualify.",
+    "reasonProhibited": "This bypasses competence assessment, legal-boundary judgment and evidence requirements.",
+    "approvedWording": "Time served may support an application but cannot replace independent assessment of competence, evidence, legal boundaries and escalation judgment.",
+    "qualifiedAlternative": "Years of experience may be one input, not a substitute for controlled assessment.",
+    "linkedClaimIds": [],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement"
+    ],
+    "reviewStatus": "under_review",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Remain under review until assessment model claims are populated."
+  },
+  {
+    "wordingId": "WORD-005",
+    "topic": "Statutory model status",
+    "prohibitedWording": "The final statutory model has already been decided.",
+    "reasonProhibited": "This incorrectly represents the policy process as settled when multiple options remain under evaluation.",
+    "approvedWording": "Standalone registration, DB-L reform, endorsement and advanced credential models remain under evaluation.",
+    "qualifiedAlternative": "Present model options as still being evaluated unless a later controlled decision record says otherwise.",
+    "linkedClaimIds": [],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement",
+      "social_media"
+    ],
+    "reviewStatus": "under_review",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Publication use still requires context-by-context review."
+  }
+]

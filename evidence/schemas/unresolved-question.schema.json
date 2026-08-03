@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://carpentryreform.com.au/schemas/unresolved-question.schema.json",
+  "title": "Unresolved Question Record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "questionId": {
+      "type": "string",
+      "pattern": "^Q-\\d{3}$"
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "training_and_qualification",
+        "occupational_progression",
+        "builder_registration",
+        "scope_and_authority",
+        "scope_escalation",
+        "consumer_protection",
+        "insurance_and_warranty",
+        "permits_and_building_control",
+        "practitioner_evidence",
+        "implementation_model",
+        "pilot_and_evaluation",
+        "workforce_and_market",
+        "legal_and_regulatory",
+        "governance"
+      ]
+    },
+    "whyItMatters": {
+      "type": "string"
+    },
+    "currentEvidence": {
+      "type": "string"
+    },
+    "evidenceGap": {
+      "type": "string"
+    },
+    "partyToAsk": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      ]
+    },
+    "requiredEvidence": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      ]
+    },
+    "decisionAffected": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "researching",
+        "awaiting_external_response",
+        "partly_resolved",
+        "resolved",
+        "closed_without_resolution"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "publicationStatus": {
+      "type": "string",
+      "enum": [
+        "internal_only",
+        "public_approved",
+        "public_with_redactions",
+        "not_for_publication",
+        "pending_publication_review"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "questionId",
+    "question",
+    "category",
+    "whyItMatters",
+    "currentEvidence",
+    "evidenceGap",
+    "partyToAsk",
+    "requiredEvidence",
+    "decisionAffected",
+    "status",
+    "priority",
+    "publicationStatus",
+    "owner",
+    "createdAt"
+  ]
+}

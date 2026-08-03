@@ -1,0 +1,22 @@
+[
+  {
+    "code": "high",
+    "label": "High",
+    "description": "High confidence on the current evidence record, without using percentages."
+  },
+  {
+    "code": "moderate",
+    "label": "Moderate",
+    "description": "Moderate confidence with identified caveats or remaining checks."
+  },
+  {
+    "code": "low",
+    "label": "Low",
+    "description": "Low confidence pending stronger evidence or review."
+  },
+  {
+    "code": "not_assessed",
+    "label": "Not Assessed",
+    "description": "Confidence has not yet been formally assessed."
+  }
+]

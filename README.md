@@ -34,6 +34,15 @@ Government engagement has commenced, including correspondence reference **CMIN-1
 
 ## Occupational Progression Gap
 
+## Evidence Governance
+
+The initiative maintains a governed Claims and Evidence Register to separate verified facts, supported interpretations, practitioner evidence, policy propositions and unresolved questions. The full register is maintained internally, with only approved publication-safe material intended for public release.
+
+See [evidence/README.md](evidence/README.md).
+
+---
+
+## Repository Structure
 The project is examining whether Certificate III establishes foundational trade competence but does not provide a formal advanced occupational pathway for experienced renovation carpenters. This remains an evidence-development stream and is not presented as a final conclusion.
 
 ## Evidence Base
@@ -83,6 +92,12 @@ Repository pilot-readiness materials include:
 
 External engagement, evidence consolidation and pilot-readiness development.
 
+- Formal government submission using docs/government-decision-paper.md
+- Insurer engagement on insurance framework viability
+- Stakeholder consultation round (builders, engineers, surveyors, consumers) — track in docs/governance/stakeholder-outreach-register.md
+- Evidence collection for claims register TODO items
+- Pilot design development in collaboration with government
+- Independent evaluation framework development
 ## Next Priorities
 
 - practitioner evidence collection

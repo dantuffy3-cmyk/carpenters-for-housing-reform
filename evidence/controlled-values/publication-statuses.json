@@ -1,0 +1,27 @@
+[
+  {
+    "code": "internal_only",
+    "label": "Internal Only",
+    "description": "Not approved for public release."
+  },
+  {
+    "code": "public_approved",
+    "label": "Public Approved",
+    "description": "Approved for public release without redactions in the approved context."
+  },
+  {
+    "code": "public_with_redactions",
+    "label": "Public With Redactions",
+    "description": "May be released only in a redacted or filtered form."
+  },
+  {
+    "code": "not_for_publication",
+    "label": "Not for Publication",
+    "description": "Should not be publicly released."
+  },
+  {
+    "code": "pending_publication_review",
+    "label": "Pending Publication Review",
+    "description": "Requires a separate publication review decision."
+  }
+]

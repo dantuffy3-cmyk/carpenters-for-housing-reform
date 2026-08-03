@@ -1,0 +1,47 @@
+[
+  {
+    "code": "PRIMARY_SOURCE",
+    "label": "Primary Source",
+    "description": "Direct primary-source material such as legislation, regulator publications or official records."
+  },
+  {
+    "code": "DOCUMENTARY_EVIDENCE",
+    "label": "Documentary Evidence",
+    "description": "Project-held documentary material such as authored governance records, correspondence or file-controlled documentation."
+  },
+  {
+    "code": "PRACTITIONER_DECLARED",
+    "label": "Practitioner Declared",
+    "description": "A practitioner statement or owner declaration that still requires appropriate corroboration where needed."
+  },
+  {
+    "code": "PHOTO_SUPPORTED",
+    "label": "Photo Supported",
+    "description": "Supported in part by photographic records, without implying full independent verification."
+  },
+  {
+    "code": "PROFESSIONAL_REVIEWED",
+    "label": "Professional Reviewed",
+    "description": "A category reserved for material that has later received documented professional review; no current record is implied to have this status."
+  },
+  {
+    "code": "EXTERNAL_SOURCE",
+    "label": "External Source",
+    "description": "Supported by an external source that is not itself primary or direct documentary evidence."
+  },
+  {
+    "code": "SYSTEM_DERIVED",
+    "label": "System Derived",
+    "description": "Derived from controlled internal systems or register logic and still dependent on underlying evidence quality."
+  },
+  {
+    "code": "UNKNOWN",
+    "label": "Unknown",
+    "description": "Evidence basis not yet clearly recorded."
+  },
+  {
+    "code": "UNABLE_TO_VERIFY",
+    "label": "Unable to Verify",
+    "description": "No adequate evidence basis has yet been established."
+  }
+]

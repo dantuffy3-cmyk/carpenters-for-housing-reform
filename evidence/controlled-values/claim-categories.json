@@ -1,0 +1,72 @@
+[
+  {
+    "code": "training_and_qualification",
+    "label": "Training and Qualification",
+    "description": "Claims about training pathways, qualifications, competency coverage and assessment arrangements."
+  },
+  {
+    "code": "occupational_progression",
+    "label": "Occupational Progression",
+    "description": "Claims about pathways, progression steps and recognition between occupational levels."
+  },
+  {
+    "code": "builder_registration",
+    "label": "Builder Registration",
+    "description": "Claims about builder registration settings, interfaces and recognition boundaries."
+  },
+  {
+    "code": "scope_and_authority",
+    "label": "Scope and Authority",
+    "description": "Claims about bounded work scope, authority limits and responsibility interfaces."
+  },
+  {
+    "code": "scope_escalation",
+    "label": "Scope Escalation",
+    "description": "Claims about escalation triggers, pause points and responsibility transfer arrangements."
+  },
+  {
+    "code": "consumer_protection",
+    "label": "Consumer Protection",
+    "description": "Claims about consumer outcomes, risk controls and public-interest safeguards."
+  },
+  {
+    "code": "insurance_and_warranty",
+    "label": "Insurance and Warranty",
+    "description": "Claims about insurance, warranty interactions and unresolved policy settings."
+  },
+  {
+    "code": "permits_and_building_control",
+    "label": "Permits and Building Control",
+    "description": "Claims about permit processes, surveyor interfaces and building-control obligations."
+  },
+  {
+    "code": "practitioner_evidence",
+    "label": "Practitioner Evidence",
+    "description": "Claims grounded in practitioner experience, case material and contextual observations."
+  },
+  {
+    "code": "implementation_model",
+    "label": "Implementation Model",
+    "description": "Claims about reform architecture, pilot models, endorsements and implementation choices."
+  },
+  {
+    "code": "pilot_and_evaluation",
+    "label": "Pilot and Evaluation",
+    "description": "Claims about pilot design, monitoring and evaluation settings."
+  },
+  {
+    "code": "workforce_and_market",
+    "label": "Workforce and Market",
+    "description": "Claims about market demand, workforce behaviour and participation incentives."
+  },
+  {
+    "code": "legal_and_regulatory",
+    "label": "Legal and Regulatory",
+    "description": "Claims about legislative, regulatory and formal legal settings."
+  },
+  {
+    "code": "governance",
+    "label": "Governance",
+    "description": "Claims about project governance, custodianship, ownership position and controlled publication arrangements."
+  }
+]
