@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sonsie Carpentry — Premium Renovation Carpentry, Victoria</title>
+  <meta
+    name="description"
+    content="Sonsie Carpentry delivers high-quality renovation carpentry, extensions, decks, and custom timber work across Victoria. Clear quoting, reliable delivery, and exceptional finish quality."
+  />
+  <meta name="theme-color" content="#050505" />
+  <meta property="og:title" content="Sonsie Carpentry" />
+  <meta
+    property="og:description"
+    content="Premium renovation carpentry for homeowners, designers, and architects who care about finish quality and getting the job done properly."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="hero-renovation.jpg" />
+
+  <style>
+    :root {
+      --bg: #050505;
+      --bg2: #0c0c0f;
+      --text: #ffffff;
+      --muted: #d2d2d7;
+      --line: rgba(255, 255, 255, 0.08);
+      --amber: #d4a83a;
+      --warm: #c97c3a;
+      --light: #f0e6c8;
+      --shadow: 0 14px 34px rgba(0, 0, 0, 0.36);
+      --shadow-soft: 0 10px 24px rgba(0, 0, 0, 0.22);
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(900px 500px at 15% -5%, rgba(212, 168, 58, 0.07), transparent 55%),
+        radial-gradient(700px 420px at 90% 8%, rgba(201, 124, 58, 0.07), transparent 50%),
+        linear-gradient(180deg, var(--bg), #0c0c0f);
+      color: var(--text);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 20px 90px;
+    }
+
+    /* ── Navigation ── */
+    .topnav {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+    }
+
+    .topnav a {
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+    }
+
+    .topnav a:hover {
+      background: rgba(212, 168, 58, 0.12);
+      color: #fff;
+    }
+
+    /* ── Header / Hero ── */
+    header {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background:
+        linear-gradient(135deg, rgba(212, 168, 58, 0.06), rgba(201, 124, 58, 0.06)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+      border-radius: 26px;
+      padding: 26px 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .toprow {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--amber);
+      box-shadow: 0 0 18px rgba(212, 168, 58, 0.5);
+    }
+
+    .hero-copy h1 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.06;
+      margin: 0 0 14px 0;
+      letter-spacing: -1px;
+    }
+
+    .lead {
+      font-size: 18px;
+      color: var(--muted);
+      line-height: 1.72;
+      margin: 0;
+      max-width: 820px;
+    }
+
+    .btns {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 16px;
+      padding: 13px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.03);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 15px;
+    }
+
+    .btn.primary {
+      border: none;
+      background: linear-gradient(90deg, var(--amber), var(--warm));
+      color: #050505;
+      font-weight: 800;
+      box-shadow: 0 10px 28px rgba(212, 168, 58, 0.22);
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    /* ── Layout grid ── */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    @media (min-width: 920px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    section {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .full {
+      grid-column: 1 / -1;
+    }
+
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 22px;
+    }
+
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 17px;
+    }
+
+    p, li {
+      color: var(--muted);
+      line-height: 1.72;
+    }
+
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(255, 255, 255, 0.08);
+      margin: 12px 0;
+    }
+
+    .small {
+      font-size: 13px;
+      color: #b8b8be;
+    }
+
+    /* ── Service cards ── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    @media (max-width: 820px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .service-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: var(--shadow-soft);
+      transition: border-color 0.2s ease;
+    }
+
+    .service-card:hover {
+      border-color: rgba(212, 168, 58, 0.25);
+    }
+
+    .service-card h3 {
+      color: #fff;
+      margin: 0 0 10px 0;
+    }
+
+    .service-card p {
+      margin: 0;
+    }
+
+    /* ── Points / Why choose us ── */
+    .points-list {
+      list-style: none;
+      margin: 16px 0 0 0;
+      padding: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .points-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: var(--muted);
+    }
+
+    .point-icon {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: rgba(212, 168, 58, 0.14);
+      border: 1px solid rgba(212, 168, 58, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+    }
+
+    .point-icon::after {
+      content: "";
+      display: block;
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--amber);
+    }
+
+    /* ── Process steps ── */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    @media (max-width: 900px) {
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .process-step {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 18px;
+      padding: 20px;
+      position: relative;
+    }
+
+    .step-number {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1;
+      color: rgba(212, 168, 58, 0.22);
+      margin-bottom: 8px;
+      letter-spacing: -1px;
+    }
+
+    .process-step h3 {
+      color: #fff;
+      margin: 0 0 8px 0;
+    }
+
+    .process-step p {
+      margin: 0;
+    }
+
+    /* ── FAQ ── */
+    .faq-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .faq-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+
+    .faq-item h3 {
+      color: #fff;
+      font-size: 16px;
+      margin: 0 0 8px 0;
+    }
+
+    .faq-item p {
+      margin: 0;
+    }
+
+    /* ── Image feature ── */
+    .image-feature {
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .banner-img {
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      display: block;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .image-overlay {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 32px 24px 24px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.84) 100%);
+      border-radius: 0 0 20px 20px;
+    }
+
+    .overlay-kicker {
+      margin: 0 0 6px 0;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--amber);
+      font-weight: 700;
+    }
+
+    .overlay-title {
+      margin: 0 0 8px 0;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      line-height: 1.1;
+      color: #fff;
+      max-width: 820px;
+    }
+
+    .overlay-text {
+      margin: 0;
+      max-width: 720px;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    /* ── Callout ── */
+    .callout {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: linear-gradient(135deg, rgba(212, 168, 58, 0.06), rgba(201, 124, 58, 0.06));
+      border-radius: 18px;
+      padding: 16px;
+      margin-top: 18px;
+    }
+
+    .kicker {
+      margin: 0 0 8px 0;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    /* ── CTA ── */
+    .cta-box {
+      text-align: center;
+      padding: 28px 20px;
+    }
+
+    .cta-box p {
+      max-width: 760px;
+      margin: 0 auto 16px auto;
+    }
+
+    /* ── Contact ── */
+    .contact-detail {
+      color: var(--amber);
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 22px;
+      color: #b8b8be;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <nav class="topnav">
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#why-us">Why Sonsie</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="index.html">Reform Campaign</a>
+    </nav>
+
+    <header>
+      <div class="toprow">
+        <span class="tag"><span class="dot"></span> Victoria, Australia</span>
+        <span class="tag">Renovation · Extensions · Custom Timber</span>
+      </div>
+
+      <div class="hero-copy">
+        <h1>Renovation carpentry built on craft, care, and honest communication.</h1>
+        <p class="lead">
+          Sonsie Carpentry delivers architectural renovations, structural extensions, premium decks,
+          and bespoke timber work for homeowners, designers, and architects who care about getting
+          the job done properly.
+        </p>
+
+        <div class="btns">
+          <a class="btn primary" href="#contact">Request a Quote</a>
+          <a class="btn" href="#services">Our Services</a>
+          <a class="btn" href="#process">How We Work</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+
+      <!-- Services -->
+      <section id="services" class="full">
+        <h2>Services</h2>
+        <p>
+          From detailed renovation carpentry to structural extensions and premium outdoor spaces,
+          Sonsie Carpentry brings a high standard of workmanship to every project.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Architectural Renovations</h3>
+            <p>
+              Detailed renovation carpentry for homeowners, designers, and architects who care about
+              finish quality, flow, and getting the job done properly.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Extensions &amp; Structural Carpentry</h3>
+            <p>
+              Experienced framing and structural renovation work delivered with clear communication,
+              sound planning, and a high standard of workmanship.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Decks &amp; Outdoor Living</h3>
+            <p>
+              Premium decks, pergolas, and outdoor spaces built for everyday use, long-term
+              durability, and a clean, polished result.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Custom Timber Work</h3>
+            <p>
+              Bespoke timber features and fine carpentry details that bring warmth, character, and
+              precision into the finished home.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Image feature -->
+      <section class="full image-feature" id="imageFeatureReno">
+        <img
+          src="highend-reno.jpg"
+          alt="High-end renovation carpentry"
+          class="banner-img"
+          onerror="document.getElementById('imageFeatureReno').classList.add('hidden')"
+        />
+        <div class="image-overlay">
+          <p class="overlay-kicker">Finish quality that speaks for itself</p>
+          <h2 class="overlay-title">Every detail matters from the first cut to the final fit.</h2>
+          <p class="overlay-text">
+            Sonsie Carpentry brings an experienced eye for detail and a commitment to clean,
+            precise results on every project — regardless of size or complexity.
+          </p>
+        </div>
+      </section>
+
+      <!-- Why Choose Sonsie -->
+      <section id="why-us">
+        <h2>Why Choose Sonsie</h2>
+        <p>
+          Quality carpentry is built on more than just skill. It is built on clear communication,
+          professional delivery, and genuine respect for the home and the people in it.
+        </p>
+
+        <ul class="points-list">
+          <li>
+            <span class="point-icon"></span>
+            Clear quoting and straight communication
+          </li>
+          <li>
+            <span class="point-icon"></span>
+            Reliable site presence and professional delivery
+          </li>
+          <li>
+            <span class="point-icon"></span>
+            High standards in finish quality and detail
+          </li>
+          <li>
+            <span class="point-icon"></span>
+            Respect for budgets, timelines, and the home
+          </li>
+        </ul>
+      </section>
+
+      <!-- Image feature 2 -->
+      <section class="image-feature" id="imageFeatureWork">
+        <img
+          src="finished-renovation.jpg"
+          alt="Finished renovation carpentry"
+          class="banner-img"
+          onerror="document.getElementById('imageFeatureWork').classList.add('hidden')"
+        />
+        <div class="image-overlay">
+          <p class="overlay-kicker">Built to last</p>
+          <h2 class="overlay-title">Craftsmanship you can see in the finish.</h2>
+          <p class="overlay-text">
+            Every project is delivered with the same attention to detail and care that
+            sets Sonsie Carpentry apart from the start.
+          </p>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section id="process" class="full">
+        <h2>How We Work</h2>
+        <p>
+          A clear, practical process from first contact to finished project — no surprises, no
+          guesswork, just honest communication and quality delivery at every step.
+        </p>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <h3>Site Visit &amp; Scope</h3>
+            <p>
+              We take the time to understand the project, the level of finish required, and what
+              matters most to you before pricing begins.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <h3>Quote &amp; Planning</h3>
+            <p>
+              You receive a clear proposal with practical advice, realistic expectations, and a
+              straightforward path forward.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <h3>Build &amp; Deliver</h3>
+            <p>
+              The work is carried out with care, precision, and strong communication from start
+              to finish.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <p class="kicker">The Sonsie standard</p>
+          <p style="margin:0;">
+            Every project is approached with the same rigour — clear scope, honest pricing, and a
+            commitment to delivering a result that you are proud to live with.
+          </p>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="full">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>What type of projects do you take on?</h3>
+            <p>
+              Sonsie Carpentry focuses on residential renovations, extensions, decks, outdoor
+              living areas, and detail-driven carpentry projects where quality matters.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you work with architects and designers?</h3>
+            <p>
+              Yes. We are well suited to projects that require close attention to drawings, design
+              intent, finish details, and professional communication.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you quote before construction starts?</h3>
+            <p>
+              Yes. Every project begins with a clear understanding of the scope, site conditions,
+              and expected result so the quote reflects the real job, not guesswork.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / CTA -->
+      <section id="contact" class="full">
+        <div class="cta-box">
+          <h2>Get in Touch</h2>
+          <p>
+            Ready to talk about your renovation, extension, deck, or custom timber project?
+            Get in touch and we will arrange a site visit to understand your project properly.
+          </p>
+
+          <div class="callout" style="margin: 14px auto 18px auto; max-width: 680px;">
+            <p class="kicker">Sonsie Carpentry — Victoria</p>
+            <p style="margin:0;">
+              Email:
+              <a href="mailto:admin@sonsiecarpentry.com" class="contact-detail">
+                admin@sonsiecarpentry.com
+              </a>
+            </p>
+          </div>
+
+          <div class="btns" style="justify-content: center;">
+            <a class="btn primary" href="mailto:admin@sonsiecarpentry.com">
+              Send an Enquiry
+            </a>
+            <a class="btn" href="#services">View Services</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      &copy; <span id="year"></span> Sonsie Carpentry — Victoria, Australia.
+      &nbsp;|&nbsp;
+      <a href="index.html" style="color: #b8b8be;">Carpenters for Housing Reform</a>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
