@@ -181,5 +181,321 @@
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "nextReviewDate": "2026-10-31",
     "notes": "Supports the distinction between internal governance records and filtered public material."
+  },
+  {
+    "claimId": "REG-001",
+    "claimText": "Victoria is expanding the building-industry registration framework to broaden the range of practitioners required to be registered.",
+    "approvedPublicWording": "Current Victorian building reform states that practitioner registration is being expanded to include a broader set of practitioner roles.",
+    "claimCategory": "legal_and_regulatory",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "The Victorian Government building-reform page describes expansion of practitioner registration beyond existing settings.",
+    "limitations": "This claim records policy direction in current reform materials and does not by itself establish final implementation settings or coverage for any future RRC model.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if Victorian Government registration-reform settings are updated or superseded.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Government policy-context claim only."
+  },
+  {
+    "claimId": "REG-002",
+    "claimText": "The stated objectives of expanded registration include stronger regulatory oversight, practitioner accountability, consumer protection and restriction of regulated work to qualified, competent practitioners.",
+    "approvedPublicWording": "Victorian reform materials describe expanded registration objectives including stronger oversight, accountability and consumer protection, with regulated work linked to qualified and competent practitioners.",
+    "claimCategory": "consumer_protection",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "The Victorian Government building-reform page states consumer-protection, oversight and accountability objectives linked to practitioner competence.",
+    "limitations": "This claim is limited to published objectives and does not imply that government has made a final decision about any specific RRC pathway design.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if published reform objectives are amended.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Objectives claim, not endorsement claim."
+  },
+  {
+    "claimId": "REG-003",
+    "claimText": "Building consultants and site supervisors are among practitioner categories being considered for registration.",
+    "approvedPublicWording": "Victorian reform materials identify building consultants and site supervisors among categories being considered within expanded registration settings.",
+    "claimCategory": "legal_and_regulatory",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "The Victorian Government building-reform page identifies building consultants and site supervisors as practitioner categories within expansion scope.",
+    "limitations": "This claim does not imply that comparable treatment has already been determined for advanced renovation carpentry.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if practitioner categories under consideration are revised.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Category-example claim only."
+  },
+  {
+    "claimId": "CONS-004",
+    "claimText": "Victoria is introducing information statements for building surveyors in response to concerns about consumer understanding of practitioner roles and functions.",
+    "approvedPublicWording": "Victorian reform settings include information-statement measures for building surveyors to support clearer consumer understanding of roles and functions.",
+    "claimCategory": "consumer_protection",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "The Victorian Government building-reform page includes information-statement measures for building surveyors linked to consumer role clarity.",
+    "limitations": "This claim is role-information specific and should not be represented as direct support for a predetermined RRC model outcome.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if information-statement requirements are changed.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Consumer role-clarity precedent claim."
+  },
+  {
+    "claimId": "REC-001",
+    "claimText": "From 1 February 2027, specified new Class 1b, 2 and 3 buildings will require a building manual containing key design, construction and subsequent-works information.",
+    "approvedPublicWording": "Victorian reform materials state that from 1 February 2027 a building-manual requirement applies to specified new Class 1b, 2 and 3 buildings.",
+    "claimCategory": "permits_and_building_control",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "The Victorian Government building-reform page includes a building-manual requirement for specified new Class 1b/2/3 buildings from 1 February 2027.",
+    "limitations": "This requirement must not be represented as a general requirement for Class 1a residential renovation work.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [
+      "The Class 1b/2/3 building-manual requirement applies generally to Class 1a residential renovation work."
+    ],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if commencement date, covered classes or scope settings change.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Class-specific requirement only."
+  },
+  {
+    "claimId": "REC-002",
+    "claimText": "Victorian building reform provides useful policy precedent for persistent building information as a lifecycle-management and consumer-information tool.",
+    "approvedPublicWording": "The Victorian building-manual reform direction is a useful policy precedent for persistent project information; it is not evidence of a universal requirement across all residential classes.",
+    "claimCategory": "implementation_model",
+    "claimType": "supported_interpretation",
+    "evidenceStatus": "supported",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "moderate",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "Interpretive claim drawn from published building-manual reforms for specified classes.",
+    "limitations": "Supported interpretation only. It does not establish a universal legal requirement and must not be represented as applying generally to Class 1a renovation work.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [
+      "Government advice on whether any comparable persistent-information settings should be considered for advanced renovation pathways."
+    ],
+    "reviewTrigger": "Review if persistent-information reforms are expanded or narrowed.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Policy-precedent interpretation, not universal requirement."
+  },
+  {
+    "claimId": "RISK-001",
+    "claimText": "The Victorian cladding risk mitigation framework permits an acceptable risk outcome without necessarily requiring complete removal and replacement of all combustible cladding and gives preference to evidence-based interventions.",
+    "approvedPublicWording": "The cladding risk mitigation framework adopts an acceptable-risk approach and allows proportionate interventions where they achieve the required risk outcome.",
+    "claimCategory": "legal_and_regulatory",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "Framework sections describe acceptable-risk outcomes and intervention pathways that may include partial or alternative risk-mitigation measures.",
+    "limitations": "Cladding-specific framework for relevant buildings. Do not apply its legal or technical provisions to Class 1 renovation carpentry.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-002"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [
+      "The cladding framework legally governs ordinary Class 1 renovation carpentry."
+    ],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if cladding framework policy or relevant-building scope is amended.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Cladding-specific risk-policy claim."
+  },
+  {
+    "claimId": "RISK-002",
+    "claimText": "The framework provides useful policy precedent for proportionate, evidence-based regulatory intervention rather than automatic blanket remediation.",
+    "approvedPublicWording": "The cladding framework provides a policy precedent for proportionate, evidence-based intervention design in its own regulatory context.",
+    "claimCategory": "implementation_model",
+    "claimType": "supported_interpretation",
+    "evidenceStatus": "supported",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "moderate",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "Interpretive claim from the cladding framework's risk-based intervention architecture.",
+    "limitations": "Supported interpretation only. Cladding-framework settings remain specific to relevant buildings and combustible-cladding risk.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-002"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [
+      "Government evidence on where proportionate-intervention logic can or cannot transfer beyond cladding policy settings."
+    ],
+    "reviewTrigger": "Review if framework intervention principles materially change.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Policy-precedent interpretation, not cross-context legal transfer."
+  },
+  {
+    "claimId": "ACC-001",
+    "claimText": "BPC rectification orders may direct builders, subcontractors and developers to rectify poor work during construction and up to 10 years after practical completion.",
+    "approvedPublicWording": "Victorian reform materials describe rectification-order powers that can apply during construction and for up to 10 years after practical completion.",
+    "claimCategory": "legal_and_regulatory",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_with_redactions",
+    "evidenceSummary": "The Victorian Government building-reform page describes BPC rectification-order powers with post-completion duration settings.",
+    "limitations": "Do not infer identical liability, enforcement or recourse settings for any future RRC pathway from this claim alone.",
+    "primarySourceIds": [
+      "SRC-VIC-REFORM-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "housing-supply-alignment.html"
+    ],
+    "documentLocations": [
+      "docs/claims-and-evidence-register-v0.1.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [
+      "Any future RRC enforcement or liability settings require separate government and legal determination."
+    ],
+    "reviewTrigger": "Review if rectification-order powers or duration settings are revised.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Rectification-order claim only; no automatic transfer to RRC settings."
   }
 ]

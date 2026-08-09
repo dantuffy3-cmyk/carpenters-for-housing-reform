@@ -188,6 +188,14 @@ Status: WORKING DRAFT — Not government policy. Requires government, legal, reg
 - A closing process should address active projects, retained records, final complaints, evaluation publication and stakeholder briefing.
 - **REQUIRES GOVERNMENT DECISION, REQUIRES LEGAL REVIEW** and **REQUIRES REGULATOR INPUT:** Any post-pilot transition path would require separate formal consideration.
 
+## Future Pilot Design Requirements (Victorian Reform Context)
+
+The following requirements are proposed for future pilot design development. They do not change the current legal scope of this pilot brief.
+
+1. **Consumer role-comprehension testing:** Include structured pre- and post-engagement testing to measure whether homeowners understand practitioner role limits, escalation triggers and handoff pathways.
+2. **RRC Work and Evidence Record:** Include a standardised pilot record capturing project scope, practitioner identity, work performed, variations, evidence captured and escalation events. This is a pilot evidence instrument and is not described as a statutory building manual.
+3. **Proportional escalation scenarios:** Include test scenarios for when practitioners should continue, investigate, refer or hand off work, with explicit documentation and audit expectations for each scenario type.
+
 ## Matters Requiring Government, Legal, Regulatory or Insurance Development
 
 - **REQUIRES GOVERNMENT DECISION:** pilot sponsor, pilot geography, cohort size, duration, governance model, evaluation method and stop/pause powers.

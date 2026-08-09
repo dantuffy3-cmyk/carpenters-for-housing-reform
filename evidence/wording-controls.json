@@ -105,5 +105,35 @@
     "createdAt": "2026-07-31T16:55:03Z",
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "notes": "Publication use still requires context-by-context review."
+  },
+  {
+    "wordingId": "WORD-006",
+    "topic": "Victorian reform endorsement framing",
+    "prohibitedWording": "Victorian Government building reform supports the RRC proposal.",
+    "reasonProhibited": "This implies government endorsement and overstates the evidence position.",
+    "approvedWording": "Current Victorian building reform demonstrates policy movement toward broader practitioner registration, clearer role definition, stronger accountability and consumer protection. Whether advanced renovation carpentry should be included within that direction remains a question for government evaluation.",
+    "qualifiedAlternative": "Use policy-context language and avoid endorsement framing.",
+    "linkedClaimIds": [
+      "REG-001",
+      "REG-002",
+      "REG-003",
+      "CONS-004",
+      "REC-002",
+      "RISK-002",
+      "ACC-001"
+    ],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement",
+      "social_media"
+    ],
+    "reviewStatus": "approved",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "notes": "Mandatory wording control for Victorian reform references."
   }
 ]

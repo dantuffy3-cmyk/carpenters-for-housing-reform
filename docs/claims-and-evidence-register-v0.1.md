@@ -105,3 +105,30 @@ These records are practitioner-declared placeholders only. They separate direct 
 ## Next sprint
 
 Populate and verify the first controlled set of training, occupational-progression and DB-L Carpentry claims using current primary sources.
+
+
+## Victorian building reform evidence additions (August 2026)
+
+The governed register now includes controlled source records and claims based on current Victorian Government building reform materials and the cladding risk mitigation framework.
+
+### Added controlled source records
+
+- **SRC-VIC-REFORM-001** Victorian Government Building Reform page (Tier 1 primary authoritative source).
+- **SRC-VIC-REFORM-002** Victorian Cladding Risk Mitigation Framework (Tier 1 primary authoritative source).
+
+### Added controlled claims
+
+- **REG-001 to REG-003** Expanded practitioner registration direction and example categories under consideration.
+- **CONS-004** Information statements for building surveyors to support consumer role understanding.
+- **REC-001** Building-manual requirement from 1 February 2027 for specified new Class 1b, 2 and 3 buildings.
+- **REC-002** Supported interpretation: persistent building information as policy precedent (not a universal requirement).
+- **RISK-001** Cladding framework acceptable-risk and proportionate intervention settings.
+- **RISK-002** Supported interpretation: proportionate intervention as policy precedent in a bounded context.
+- **ACC-001** Rectification-order duration and accountability settings in current Victorian reform materials.
+
+### Scope limitations retained
+
+- Building-manual requirements for specified Class 1b/2/3 buildings are not represented as a general Class 1a renovation requirement.
+- Cladding framework provisions remain cladding-specific for relevant buildings and are not applied to ordinary Class 1 renovation carpentry.
+- Rectification-order claims are not used to infer identical liability or enforcement settings for any future RRC pathway.
+- Victorian reform alignment is treated as policy context and precedent, not as government endorsement of the RRC proposal.

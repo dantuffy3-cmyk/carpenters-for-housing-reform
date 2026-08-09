@@ -136,5 +136,64 @@
     "createdAt": "2026-07-31T16:55:03Z",
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "notes": "Used to trace the decision to maintain the full register internally."
+  },
+  {
+    "sourceId": "SRC-VIC-REFORM-001",
+    "title": "Victorian Government Building Reform",
+    "issuingAuthority": "Victorian Government (Department of Transport and Planning)",
+    "sourceType": "official_guidance",
+    "jurisdiction": "Victoria, Australia",
+    "url": "https://www.planning.vic.gov.au/guides-and-resources/building-policy/building-reform",
+    "publicationDate": "2024-06-06",
+    "dateAccessed": "2026-08-09",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Practitioner registration",
+      "Information statements for building surveyors",
+      "Building manual",
+      "Building Practitioner Commission"
+    ],
+    "summary": "Primary Victorian Government reform page used for registration expansion, role-information measures, building-manual requirements for specified classes, and rectification-order settings.",
+    "limitations": "This source is used only for the stated Victorian reform measures. Class 1b/2/3 building-manual requirements are not to be represented as a general Class 1a renovation requirement. It does not determine whether any future RRC model should be adopted.",
+    "supportsClaimIds": [
+      "REG-001",
+      "REG-002",
+      "REG-003",
+      "CONS-004",
+      "REC-001",
+      "REC-002",
+      "ACC-001"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "notes": "Page last-updated date recorded where available from source page metadata. Use only official Victorian Government wording and scope limits."
+  },
+  {
+    "sourceId": "SRC-VIC-REFORM-002",
+    "title": "Victorian Cladding Risk Mitigation Framework",
+    "issuingAuthority": "Victorian Government (Department of Transport and Planning)",
+    "sourceType": "official_guidance",
+    "jurisdiction": "Victoria, Australia",
+    "url": "https://www.planning.vic.gov.au/guides-and-resources/building-policy/building-reform/cladding-risk-mitigation-framework",
+    "dateAccessed": "2026-08-09",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "1. Introduction",
+      "2. Cladding risk mitigation policy",
+      "3. Procedure for mitigating cladding risk on relevant buildings"
+    ],
+    "summary": "Primary Victorian Government framework setting risk-based combustible-cladding interventions for relevant buildings, including acceptable-risk outcomes and proportionate remediation pathways.",
+    "limitations": "This framework is specific to relevant buildings and combustible-cladding fire-risk mitigation. Its legal or technical provisions are not to be applied to ordinary Class 1 renovation carpentry.",
+    "supportsClaimIds": [
+      "RISK-001",
+      "RISK-002"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "notes": "Scope is cladding-specific. Linked framework materials include Minister's Guideline MG-15 (22 September 2023)."
   }
 ]

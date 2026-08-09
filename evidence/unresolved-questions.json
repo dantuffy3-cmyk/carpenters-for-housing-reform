@@ -231,5 +231,28 @@
     "createdAt": "2026-07-31T16:55:03Z",
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "notes": "Do not present a pilot pathway as settled without evidence."
+  },
+  {
+    "questionId": "Q-011",
+    "question": "Should advanced residential renovation carpentry be considered within Victoria\u2019s expanded building-industry registration framework as a practitioner function, endorsement or competency stream?",
+    "category": "builder_registration",
+    "whyItMatters": "This determines whether advanced renovation capability should be assessed within the emerging registration architecture or through an alternative mechanism.",
+    "currentEvidence": "Current Victorian reform materials indicate expansion direction but do not settle whether advanced renovation carpentry should be included.",
+    "evidenceGap": "Need formal government and regulator evaluation on legal architecture, scope boundaries and implementation options for advanced renovation carpentry.",
+    "partyToAsk": [
+      "Victorian Government",
+      "Building and Plumbing Commission"
+    ],
+    "requiredEvidence": [
+      "Authoritative government or regulator advice on whether advanced renovation carpentry should sit within expanded registration and in what form."
+    ],
+    "decisionAffected": "Government-facing policy framing, pilot architecture and pathway selection.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-09T08:46:22Z",
+    "lastReviewedAt": "2026-08-09T08:46:22Z",
+    "notes": "Government-facing unresolved question added in Victorian reform evidence-governance sprint."
   }
 ]
