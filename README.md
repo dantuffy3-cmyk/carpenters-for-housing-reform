@@ -2,15 +2,29 @@
 
 ## Purpose
 
-Carpenters for Housing Reform Victoria advocates for a clear, bounded, evidence-based pathway recognising experienced Victorian residential renovation carpenters while protecting consumers and preserving builder, engineer, building surveyor and licensed-trade responsibilities.
+Carpenters for Housing Reform Victoria examines whether advanced residential renovation capability should be defined, evidenced and recognised within Victoria's existing building regulatory framework. Consumer protection is the primary objective.
 
 ## Central Proposition
 
-“A major trade should not require its most capable practitioners to abandon their trade identity and become builders merely to receive formal recognition of advanced competence.”
+Advanced Residential Carpentry capability — the integrated set of technical, diagnostic, structural, planning, coordination, professional judgement and boundary-recognition skills required to manage complex residential renovation work — is not currently assessed or recognised within Victoria's practitioner registration framework.
 
-## Proposed Pathway
+## Core Reform Object
 
-The Registered Residential Carpenter (RRC) pathway is proposed as an occupational recognition pathway for defined residential renovation work. It is bounded by exclusions, mandatory handoff triggers and consumer safeguards. It is not a backdoor domestic builder licence and is not currently an approved statutory registration category.
+**Advanced Residential Carpentry capability** is the primary subject of this initiative.
+
+## Current Proposed Implementation Model
+
+The Registered Residential Carpenter (RRC) pathway is the initiative's current proposed implementation model. It is bounded by exclusions, mandatory handoff triggers and consumer safeguards. It is not a backdoor domestic builder licence and is not currently an approved statutory registration category.
+
+## Alternative Implementation Options
+
+Government may determine that the most proportionate vehicle is:
+
+- reform or modernisation of DB-L Carpentry (endorsement or assessment stream);
+- an advanced residential carpentry credential without additional statutory authority;
+- another proportionate government-selected mechanism.
+
+The initiative does not require government to predetermine a standalone RRC class.
 
 ## Current Website
 
@@ -24,13 +38,14 @@ Government engagement has commenced, including correspondence reference **CMIN-1
 
 ## Current Workstreams
 
-1. Registered Residential Carpenter pathway
-2. Occupational Progression Gap evidence paper
-3. Professional Recognition Pilot
-4. Advanced Residential Trades Framework
-5. Waterproofing reform
-6. Government Decision Pathway
-7. Practitioner evidence and consultation
+1. Advanced Residential Carpentry capability assessment (primary reform object)
+2. Registered Residential Carpenter pathway (current proposed implementation model)
+3. Occupational Progression Gap evidence paper
+4. Professional Recognition Pilot
+5. Advanced Residential Trades Framework
+6. Waterproofing reform
+7. Government Decision Pathway
+8. Practitioner evidence and consultation
 
 ## Occupational Progression Gap
 
@@ -75,7 +90,7 @@ Repository pilot-readiness materials include:
 
 ## Current Version
 
-**v0.4.0** — External Engagement and Pilot Readiness Sprint (July 2026)
+**v0.5.0** — Government Registration Alignment Sprint (August 2026)
 
 ## Repository Structure
 

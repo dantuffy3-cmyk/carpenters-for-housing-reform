@@ -27,17 +27,27 @@ All public-facing and externally distributed materials produced by or on behalf 
 | Approved short description | An industry-led reform initiative examining renovation responsibility, consumer protection and regulatory clarity in Victoria's residential building sector. |
 | Must not be confused with | Sonsie Carpentry Pty Ltd (a separate operating carpentry business), any government body, any registered industry association, or any statutory regulator. |
 
-### 2.2 Registered Residential Carpenter (RRC)
+### 2.2 Advanced Residential Carpentry Capability
+
+| Field | Value |
+|---|---|
+| Official name | Advanced Residential Carpentry capability |
+| Approved abbreviation | None — write out in full |
+| Role | The primary reform object and core capability subject |
+| Approved short description | The integrated set of technical, diagnostic, structural, planning, coordination, professional judgement and boundary-recognition skills required for advanced residential renovation work. |
+| Must not be confused with | The Registered Residential Carpenter pathway (which is the current proposed implementation model, not the reform object itself). |
+
+### 2.3 Registered Residential Carpenter (RRC)
 
 | Field | Value |
 |---|---|
 | Official name | Registered Residential Carpenter |
 | Approved abbreviation | RRC |
-| Role | The proposed occupational recognition category and pathway |
-| Approved short description | A proposed bounded recognition category for experienced Victorian residential renovation carpenters, defining included and excluded work and mandatory handoff triggers to registered builders, engineers and building surveyors. |
-| Must not be confused with | A currently existing registration category (it is not). "RRC" must never be expanded as "Residential Carpenter Reform" or any other phrase. |
+| Role | The current proposed implementation model for recognising Advanced Residential Carpentry capability |
+| Approved short description | The current proposed bounded recognition category for experienced Victorian residential renovation carpenters, defining included and excluded work and mandatory handoff triggers to registered builders, engineers and building surveyors. RRC is one possible implementation vehicle. Government may determine that another mechanism — such as DB-L Carpentry reform or an advanced credential — is more proportionate. |
+| Must not be confused with | A currently existing registration category (it is not). "RRC" must never be expanded as "Residential Carpenter Reform" or any other phrase. RRC must not be presented as the only or predetermined implementation vehicle. |
 
-### 2.3 RRC Pathway Reform
+### 2.5 RRC Pathway Reform
 
 | Field | Value |
 |---|---|
@@ -47,7 +57,7 @@ All public-facing and externally distributed materials produced by or on behalf 
 | Approved short description | The reform proposal, led by Carpenters for Housing Reform Victoria, seeking government examination of a defined Registered Residential Carpenter (RRC) recognition pathway in Victoria. |
 | Must not be confused with | A government policy or approved program. It is a reform proposal under consultation. |
 
-### 2.4 Dan Sonsie
+### 2.6 Dan Sonsie
 
 | Field | Value |
 |---|---|
@@ -59,7 +69,7 @@ All public-facing and externally distributed materials produced by or on behalf 
 
 **Note on formal name use:** "Dan Sonsie" is the preferred professional and public name for website pages, biographies, social media, stakeholder communications and normal government-facing correspondence. Use "Daniel Sonsie" only where legal or formal identity is specifically required (for example: contracts, statutory declarations, formal company records, legal notices, formal signature requirements, and preserved historical correspondence).
 
-### 2.5 Sonsie Carpentry
+### 2.7 Sonsie Carpentry
 
 | Field | Value |
 |---|---|
@@ -90,7 +100,7 @@ The following rules apply to all public-facing and externally distributed materi
 
 ### A. Full Organisation Description (approximately 60–90 words)
 
-Carpenters for Housing Reform Victoria is an industry-led reform initiative examining renovation responsibility, consumer protection and regulatory clarity in Victoria's residential building sector. Its primary reform proposal is the Registered Residential Carpenter (RRC) pathway — a bounded, evidence-based recognition category for experienced residential renovation carpenters that would define where renovation carpentry ends and domestic builder responsibility begins. The initiative is not government policy and does not claim statutory approval or government endorsement.
+Carpenters for Housing Reform Victoria is an industry-led reform initiative examining whether advanced residential renovation capability should be defined, evidenced and recognised within Victoria's existing building regulatory framework. Consumer protection is the primary objective. The initiative's current proposed implementation model is the Registered Residential Carpenter (RRC) pathway. Government may determine that another mechanism — such as DB-L Carpentry reform or an advanced credential — is more proportionate. The initiative is not government policy and does not claim statutory approval or government endorsement.
 
 ### B. Short Organisation Description (approximately 25–40 words)
 
