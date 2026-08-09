@@ -5,6 +5,8 @@ Prepared by: Daniel Sonsie
 Date: July 2026
 Status: CONSULTATION DRAFT — Not government policy. For government, regulator and industry consideration.
 
+**Pre-pivot status note:** This retained consultation draft predates the capability-first pivot. It is kept for record and legacy consultation context and should not be treated as the current canonical strategy.
+
 ## Decision Sought
 This paper seeks an in-principle government decision to consider a structured next step on the Registered Residential Carpenter proposal, preferably through formal stakeholder consultation or a limited pilot design process, so that the renovation responsibility problem can be tested in a bounded and evidence-led way before any decision is made about wider reform.
 
