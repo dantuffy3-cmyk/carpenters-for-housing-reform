@@ -26,7 +26,7 @@ Document statuses:
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
 | RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | August 2026 |
-| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | 2–3 page decision paper for government; options A–E | July 2026 |
+| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | 2–3 page decision paper for government; options A–E. Pre-pivot draft retained pending later alignment. | July 2026 |
 | One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | CURRENT | Printable one-page pathway explainer | 2026 |
 
 ---
@@ -36,7 +36,7 @@ Document statuses:
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
 | Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
-| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | Decision paper with options and recommended next step | July 2026 |
+| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | Decision paper with options and recommended next step. Pre-pivot draft retained pending later alignment. | July 2026 |
 | Government Briefing Request Template | `docs/templates/government-briefing-request.md` | CURRENT | Template for requesting a government briefing | July 2026 |
 | RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | CURRENT | Published executive brief for government | 2026 |
 | RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` | CURRENT | Full policy brief | 2026 |

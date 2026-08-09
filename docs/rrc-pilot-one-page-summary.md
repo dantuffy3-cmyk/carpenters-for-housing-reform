@@ -47,4 +47,9 @@ The immediate ask is not adoption of a new statutory class.
 
 The immediate ask is that government assess advanced residential renovation carpentry as a candidate practitioner function and, if warranted, test the capability model before selecting the most proportionate implementation vehicle.
 
+## Contact
+- Dan Sonsie
+- Carpenters for Housing Reform Victoria
+- Website: https://www.carpentryreform.com.au/
+
 *Consultation draft. Not government policy. August 2026.*
