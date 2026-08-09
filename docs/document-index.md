@@ -19,15 +19,17 @@ Document statuses:
 - **SUPERSEDED** — replaced by a more recent version
 - **HISTORICAL** — an earlier version retained for record purposes
 
+**Capability-first note:** The current canonical strategy is the capability-first architecture set out in `docs/advanced-residential-carpentry-capability-model-v1.md`, `docs/government-engagement-brief.md`, `government-decision-pathway.html` and the updated pilot documents. Retained PDFs and the pre-pivot Government Decision Paper may preserve earlier RRC-first framing and should be read as legacy consultation or record material unless separately updated.
+
 ---
 
 ## Executive Material
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | July 2026 |
-| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | 2–3 page decision paper for government; options A–E | July 2026 |
-| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | CURRENT | Printable one-page pathway explainer | 2026 |
+| RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | August 2026 |
+| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | 2–3 page decision paper for government; options A–E. Pre-pivot draft retained pending later alignment. | July 2026 |
+| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | CURRENT | Printable one-page pathway explainer retained as pre-pivot consultation material pending replacement | 2026 |
 
 ---
 
@@ -35,12 +37,12 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | July 2026 |
-| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | Decision paper with options and recommended next step | July 2026 |
+| Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
+| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | Decision paper with options and recommended next step. Pre-pivot draft retained pending later alignment. | July 2026 |
 | Government Briefing Request Template | `docs/templates/government-briefing-request.md` | CURRENT | Template for requesting a government briefing | July 2026 |
-| RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | CURRENT | Published executive brief for government | 2026 |
-| RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` | CURRENT | Full policy brief | 2026 |
-| Housing Supply Alignment Paper (PDF) | `RRC_Housing_Supply_Alignment_Paper_2026.pdf` | CURRENT | Alignment with Victoria's housing supply objectives | 2026 |
+| RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | CURRENT | Published executive brief for government retained as pre-pivot consultation material pending replacement | 2026 |
+| RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` | CURRENT | Full policy brief retained as pre-pivot consultation material pending replacement | 2026 |
+| Housing Supply Alignment Paper (PDF) | `RRC_Housing_Supply_Alignment_Paper_2026.pdf` | CURRENT | Alignment paper retained as pre-pivot consultation material pending replacement | 2026 |
 
 ---
 
@@ -48,12 +50,13 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| RRC Operational Pilot Brief | `docs/rrc-operational-pilot-brief.md` | WORKING DRAFT | Practical implementation framework for the pilot | July 2026 |
-| RRC Pilot Operating Model | `docs/rrc-pilot-operating-model.md` | WORKING DRAFT | Step-by-step operating sequence (15 stages) | July 2026 |
+| RRC Operational Pilot Brief | `docs/rrc-operational-pilot-brief.md` | WORKING DRAFT | Practical implementation framework for the pilot | August 2026 |
+| RRC Pilot Operating Model | `docs/rrc-pilot-operating-model.md` | WORKING DRAFT | Step-by-step operating sequence (15 stages) | August 2026 |
 | RRC Statutory Handoff Protocol | `docs/rrc-statutory-handoff-protocol.md` | WORKING DRAFT | Three-stage handoff model with trigger categories | July 2026 |
-| RRC Pilot Evidence Schedule | `docs/rrc-pilot-evidence-schedule.md` | WORKING DRAFT | Minimum evidence requirements for pilot projects | July 2026 |
-| RRC Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` | WORKING DRAFT | Evaluation measures, success criteria and failure indicators | July 2026 |
+| RRC Pilot Evidence Schedule | `docs/rrc-pilot-evidence-schedule.md` | WORKING DRAFT | Minimum evidence requirements for pilot projects | August 2026 |
+| RRC Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` | WORKING DRAFT | Evaluation measures, success criteria and failure indicators | August 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | 17 identified risks with causes, consequences and controls | July 2026 |
+| Advanced Residential Carpentry Capability Model v1 | `docs/advanced-residential-carpentry-capability-model-v1.md` | CURRENT | Core capability-first policy architecture and implementation vehicles | August 2026 |
 
 ---
 
@@ -65,7 +68,7 @@ Document statuses:
 | Advanced Trades Framework (web) | `advanced-trades.html` | CURRENT | Advanced Residential Trades Framework | July 2026 |
 | Housing Supply Alignment (web) | `housing-supply-alignment.html` | CURRENT | Housing supply alignment paper | July 2026 |
 | Scope and Handoff Matrix (web) | `scope-matrix.html` | CURRENT | Operational scope matrix by work category | July 2026 |
-| RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` | CURRENT | Full consultation package | 2026 |
+| RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` | CURRENT | Full consultation package retained as pre-pivot consultation material pending replacement | 2026 |
 | RRC Consultation Package V1 (PDF) | `RRC_Consultation_Package_Website_V1.pdf` | HISTORICAL | Earlier consultation package | 2026 |
 
 ---
@@ -78,6 +81,7 @@ Document statuses:
 | Stakeholder Claims Register | `docs/stakeholder-claims-register.md` | CURRENT | Approved and prohibited wording; evidence status per claim | July 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | Pilot risks and controls | July 2026 |
 | Pull Request Audit | `docs/governance/pull-request-audit.md` | CURRENT | Governance audit of open pull requests | July 2026 |
+| ADR-004 Capability model above statutory vehicle | `docs/decisions/ADR-004-capability-model-above-statutory-vehicle.md` | CURRENT | Records the capability-first strategic pivot and open implementation vehicles | August 2026 |
 
 ---
 
@@ -132,7 +136,7 @@ Document statuses:
 
 | Status | Count |
 |---|---|
-| CURRENT | 21 |
+| CURRENT | 23 |
 | CONSULTATION DRAFT | 2 |
 | WORKING DRAFT | 7 |
 | HISTORICAL | 1 |
@@ -140,4 +144,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — v0.5.0 Brand and Identity Standard sprint.*
+*Updated August 2026 — strategic capability-first pivot sprint.*

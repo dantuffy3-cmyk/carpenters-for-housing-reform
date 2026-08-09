@@ -181,5 +181,300 @@
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "nextReviewDate": "2026-10-31",
     "notes": "Supports the distinction between internal governance records and filtered public material."
+  },
+  {
+    "claimId": "REG-001",
+    "claimText": "Victoria’s building reform program identifies expanded practitioner registration as part of its reform direction.",
+    "approvedPublicWording": "Current Victorian building reform identifies expanded practitioner registration as part of the reform direction.",
+    "claimCategory": "legal_and_regulatory",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The current Building Reform page and the 2025 Building Statement both describe expanded practitioner registration as part of Victoria’s reform architecture.",
+    "limitations": "This records a current reform direction only. It does not identify advanced residential carpenters as a proposed registration category.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001",
+      "SRC-VIC-BS-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "government-decision-pathway.html",
+      "rrc.html"
+    ],
+    "documentLocations": [
+      "docs/advanced-residential-carpentry-capability-model-v1.md",
+      "docs/government-engagement-brief.md"
+    ],
+    "prohibitedWording": [
+      "Victorian Government reform supports RRC."
+    ],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if Victorian Government reform material is updated or superseded.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Used as system-level context, not endorsement."
+  },
+  {
+    "claimId": "REG-002",
+    "claimText": "The 2025 Building Statement identifies clear authorised work scopes, objective competence benchmarks, standardised practical-experience requirements and assessment as principles for an enhanced practitioner-registration system.",
+    "approvedPublicWording": "The 2025 Building Statement describes clearer authorised work scope, objective competence, qualifications, experience and assessment as part of an enhanced practitioner-registration system.",
+    "claimCategory": "builder_registration",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The Building Statement records system-design principles linking registration settings to scope, competence, qualifications, experience and assessment.",
+    "limitations": "This is a practitioner-registration design principle. It is not a published commitment to a new advanced carpenter class.",
+    "primarySourceIds": [
+      "SRC-VIC-BS-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "docs/advanced-residential-carpentry-capability-model-v1.md",
+      "docs/government-engagement-brief.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if the Building Statement is replaced or materially amended.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Supports capability-first alignment with government reform architecture."
+  },
+  {
+    "claimId": "REG-003",
+    "claimText": "Current Victorian Building Reform material states that the registration framework will be expanded to broaden the practitioners required to be registered.",
+    "approvedPublicWording": "Current Victorian Building Reform material states that the registration framework will be expanded to broaden the practitioners required to be registered.",
+    "claimCategory": "builder_registration",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The current government reform page presents practitioner-registration expansion as part of the live reform program.",
+    "limitations": "The published material does not list advanced carpenters as a proposed category.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "government-decision-pathway.html"
+    ],
+    "documentLocations": [
+      "docs/government-engagement-brief.md"
+    ],
+    "prohibitedWording": [
+      "Government is creating a new advanced carpenter registration."
+    ],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if the live Building Reform page changes its registration wording.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Used for current reform-context wording."
+  },
+  {
+    "claimId": "REG-004",
+    "claimText": "Current reform material states that registration can prescribe qualifications and experience and restrict regulated work to qualified, competent practitioners.",
+    "approvedPublicWording": "Current reform material links practitioner registration to defined qualifications, experience and competence requirements for regulated work.",
+    "claimCategory": "builder_registration",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The current reform material and Building Statement both describe registration settings that connect regulated work with prescribed qualifications, experience and competence.",
+    "limitations": "This is general practitioner-registration architecture. It does not settle the form of any advanced residential carpentry pathway.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001",
+      "SRC-VIC-BS-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "government-decision-pathway.html",
+      "rrc.html"
+    ],
+    "documentLocations": [
+      "docs/advanced-residential-carpentry-capability-model-v1.md",
+      "docs/government-engagement-brief.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if qualifications-and-experience settings are updated in official reform material.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Supports proportionate capability-language alignment."
+  },
+  {
+    "claimId": "REG-005",
+    "claimText": "Building consultants and site supervisors are specifically identified for consideration under expanded practitioner registration settings.",
+    "approvedPublicWording": "Current reform material specifically identifies categories such as building consultants and site supervisors within expanded practitioner-registration settings.",
+    "claimCategory": "builder_registration",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "Current government reform material identifies site supervisors and building consultants within expanded registration settings.",
+    "limitations": "Advanced carpenters are not currently identified on the published reform page as a proposed new category.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "government-decision-pathway.html"
+    ],
+    "documentLocations": [
+      "docs/government-engagement-brief.md"
+    ],
+    "prohibitedWording": [
+      "Government is creating a new advanced carpenter registration."
+    ],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if official reform material adds or removes named practitioner classes.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Important limitation record for public wording control."
+  },
+  {
+    "claimId": "REG-006",
+    "claimText": "Victoria’s current building reform includes measures intended to improve consumer understanding of practitioner roles.",
+    "approvedPublicWording": "Current Victorian reform includes measures intended to improve consumer understanding of practitioner roles and responsibilities.",
+    "claimCategory": "consumer_protection",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The reform material and Building Statement both connect registration reform and consumer protection to clearer practitioner roles and accountability.",
+    "limitations": "This is general reform context. It is not published government support for the RRC proposal.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001",
+      "SRC-VIC-BS-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "government-decision-pathway.html",
+      "rrc.html"
+    ],
+    "documentLocations": [
+      "docs/government-engagement-brief.md",
+      "docs/rrc-pilot-evaluation-framework.md"
+    ],
+    "prohibitedWording": [],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if official reform material materially changes its consumer-protection framing.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Supports consumer role-comprehension testing in the pilot materials."
+  },
+  {
+    "claimId": "REG-007",
+    "claimText": "Building manuals are required for specified new Class 1b, 2 and 3 buildings from 1 February 2027 under current Victorian reform settings.",
+    "approvedPublicWording": "Current Victorian reform material introduces building-manual requirements for specified new Class 1b, 2 and 3 buildings from 1 February 2027.",
+    "claimCategory": "permits_and_building_control",
+    "claimType": "verified_fact",
+    "evidenceStatus": "verified",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The current government reform material uses building manuals as a persistent-building-information measure for specified building classes.",
+    "limitations": "Do not represent this as a Class 1a residential renovation requirement.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [],
+    "documentLocations": [
+      "docs/rrc-pilot-evidence-schedule.md"
+    ],
+    "prohibitedWording": [
+      "Building manuals already apply to Class 1a residential renovation work."
+    ],
+    "requiredNextEvidence": [],
+    "reviewTrigger": "Review if building-manual commencement dates or class coverage change.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Used only as a persistent-record context point, with a strict class limitation."
+  },
+  {
+    "claimId": "IMPL-001",
+    "claimText": "Current Victorian building reform provides a relevant policy context for considering whether advanced residential renovation carpentry should be evaluated as a defined practitioner function, endorsement or assessed competency stream.",
+    "approvedPublicWording": "Current Victorian building reform provides a relevant policy context for evaluating advanced residential renovation carpentry within a framework of defined scope, competence, experience and accountability.",
+    "claimCategory": "implementation_model",
+    "claimType": "supported_interpretation",
+    "evidenceStatus": "supported",
+    "informationBasis": "PRIMARY_SOURCE",
+    "confidenceLevel": "high",
+    "reviewStatus": "approved",
+    "publicationStatus": "public_approved",
+    "evidenceSummary": "The reform material supports a capability-first interpretation because it focuses on practitioner scope, competence, experience, accountability and consumer protection rather than pre-committing to one statutory vehicle.",
+    "limitations": "This is a governed interpretation. It is not verified government support for RRC or for a new advanced carpenter registration category.",
+    "primarySourceIds": [
+      "SRC-VIC-BR-001",
+      "SRC-VIC-BS-001"
+    ],
+    "secondarySourceIds": [],
+    "practitionerCaseIds": [],
+    "websiteLocations": [
+      "government-decision-pathway.html",
+      "rrc.html",
+      "carpenter-progression-gap.html"
+    ],
+    "documentLocations": [
+      "docs/advanced-residential-carpentry-capability-model-v1.md",
+      "docs/government-engagement-brief.md"
+    ],
+    "prohibitedWording": [
+      "Victorian Government reform supports RRC.",
+      "RRC is the required solution."
+    ],
+    "requiredNextEvidence": [
+      "Maintain this as interpretation only unless future official material expressly addresses advanced residential carpentry."
+    ],
+    "reviewTrigger": "Review if official Victorian reform material expressly addresses advanced carpentry or a comparable category.",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "evidenceCustodian": "Dan Sonsie",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "nextReviewDate": "2026-11-09",
+    "notes": "Key supported interpretation for capability-first / vehicle-second positioning."
   }
 ]
