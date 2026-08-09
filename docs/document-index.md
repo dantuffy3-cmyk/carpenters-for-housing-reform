@@ -19,7 +19,7 @@ Document statuses:
 - **SUPERSEDED** — replaced by a more recent version
 - **HISTORICAL** — an earlier version retained for record purposes
 
-**Capability-first note:** The current canonical strategy is the capability-first architecture set out in `docs/advanced-residential-carpentry-capability-model-v1.md`, `docs/government-engagement-brief.md`, `government-decision-pathway.html` and the updated pilot documents. Retained PDFs and the pre-pivot Government Decision Paper may preserve earlier RRC-first framing and should be read as legacy consultation or record material unless separately updated.
+**Capability-first note:** The current canonical strategy is the capability-first architecture set out in `docs/advanced-residential-carpentry-capability-model-v1.md`, `docs/government-registration-alignment-brief.md`, `docs/government-engagement-brief.md`, `government-decision-pathway.html` and the updated pilot documents. Retained PDFs and the pre-pivot Government Decision Paper may preserve earlier RRC-first framing and should be read as legacy consultation or record material unless separately updated.
 
 ---
 
@@ -28,8 +28,8 @@ Document statuses:
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
 | RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | August 2026 |
-| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | 2–3 page decision paper for government; options A–E. Pre-pivot draft retained pending later alignment. | July 2026 |
-| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | CURRENT | Printable one-page pathway explainer retained as pre-pivot consultation material pending replacement | 2026 |
+| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT — PRE-PIVOT | 2–3 page decision paper for government; options A–E. **Pre-pivot RRC-first framing. Retained for historical reference. Not the current canonical government ask.** | July 2026 |
+| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | HISTORICAL — PRE-PIVOT | Printable one-page pathway explainer retained as pre-pivot consultation material pending replacement. Not the current canonical government ask. | 2026 |
 
 ---
 
@@ -37,12 +37,14 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
+| **Government Registration Alignment Brief** | `docs/government-registration-alignment-brief.md` | **CURRENT** | **Current canonical government-facing alignment brief. Capability-first, registration-reform aligned. August 2026.** | August 2026 |
 | Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
-| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | Decision paper with options and recommended next step. Pre-pivot draft retained pending later alignment. | July 2026 |
+| Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT — PRE-PIVOT | Decision paper with options and recommended next step. **Pre-pivot draft retained for historical reference. Not the current canonical government ask.** | July 2026 |
 | Government Briefing Request Template | `docs/templates/government-briefing-request.md` | CURRENT | Template for requesting a government briefing | July 2026 |
-| RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | CURRENT | Published executive brief for government retained as pre-pivot consultation material pending replacement | 2026 |
-| RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` | CURRENT | Full policy brief retained as pre-pivot consultation material pending replacement | 2026 |
-| Housing Supply Alignment Paper (PDF) | `RRC_Housing_Supply_Alignment_Paper_2026.pdf` | CURRENT | Alignment paper retained as pre-pivot consultation material pending replacement | 2026 |
+| Government Follow-Up Email Draft | `docs/government-follow-up-email-draft.md` | CURRENT | Draft follow-up email to Building Policy Reform Team | August 2026 |
+| RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | HISTORICAL — PRE-PIVOT | Published executive brief. **Pre-pivot RRC-first framing. Retained for reference. Not the current canonical government ask.** | 2026 |
+| RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` | HISTORICAL — PRE-PIVOT | Full policy brief. **Pre-pivot RRC-first framing. Retained for reference. Not the current canonical government ask.** | 2026 |
+| Housing Supply Alignment Paper (PDF) | `RRC_Housing_Supply_Alignment_Paper_2026.pdf` | HISTORICAL — PRE-PIVOT | Alignment paper. **Pre-pivot RRC-first framing. Retained for reference. Not the current canonical government ask.** | 2026 |
 
 ---
 
@@ -68,7 +70,7 @@ Document statuses:
 | Advanced Trades Framework (web) | `advanced-trades.html` | CURRENT | Advanced Residential Trades Framework | July 2026 |
 | Housing Supply Alignment (web) | `housing-supply-alignment.html` | CURRENT | Housing supply alignment paper | July 2026 |
 | Scope and Handoff Matrix (web) | `scope-matrix.html` | CURRENT | Operational scope matrix by work category | July 2026 |
-| RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` | CURRENT | Full consultation package retained as pre-pivot consultation material pending replacement | 2026 |
+| RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` | HISTORICAL — PRE-PIVOT | Full consultation package. Pre-pivot RRC-first framing. Retained for reference. |
 | RRC Consultation Package V1 (PDF) | `RRC_Consultation_Package_Website_V1.pdf` | HISTORICAL | Earlier consultation package | 2026 |
 
 ---
@@ -89,8 +91,9 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
+| Government Follow-Up Email Draft | `docs/government-follow-up-email-draft.md` | CURRENT | Draft follow-up email to Building Policy Reform Team | August 2026 |
 | Founder Bio | `docs/founder-bio.md` | CURRENT | Dan Sonsie — approved bio and pilot readiness messaging | July 2026 |
-| Stakeholder Meeting Pack | `docs/stakeholder-meeting-pack.md` | CURRENT | Meeting scripts, Q&A and follow-up templates | July 2026 |
+| Stakeholder Meeting Pack | `docs/stakeholder-meeting-pack.md` | CURRENT | Meeting scripts, Q&A and follow-up templates — updated for capability-first framing | August 2026 |
 | Stakeholder Outreach Register | `docs/governance/stakeholder-outreach-register.md` | WORKING DRAFT | Track outreach, contact status and meeting outcomes | July 2026 |
 | Stakeholder Meeting Request Template | `docs/templates/stakeholder-meeting-request.md` | CURRENT | Template for requesting stakeholder meetings | July 2026 |
 | Stakeholder Follow-Up Template | `docs/templates/stakeholder-follow-up.md` | CURRENT | Template for post-meeting follow-up | July 2026 |
@@ -124,11 +127,16 @@ Document statuses:
 
 ---
 
-## Historical or Superseded Material
+## Historical or Pre-Pivot Material
 
 | Document | Location | Status | Note |
 |---|---|---|---|
 | RRC Consultation Package V1 (PDF) | `RRC_Consultation_Package_Website_V1.pdf` | HISTORICAL | Retained for record. Superseded by V2. |
+| RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` | HISTORICAL — PRE-PIVOT | Retained as pre-pivot consultation material. Pre-pivot RRC-first framing. Not the current canonical policy statement. |
+| RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | HISTORICAL — PRE-PIVOT | Pre-pivot RRC-first framing. Retained for reference. Not the current canonical government ask. |
+| RRC Policy Brief (PDF) | `RRC_Policy_Brief_Victoria_2026.pdf` | HISTORICAL — PRE-PIVOT | Pre-pivot RRC-first framing. Retained for reference. Not the current canonical government ask. |
+| Housing Supply Alignment Paper (PDF) | `RRC_Housing_Supply_Alignment_Paper_2026.pdf` | HISTORICAL — PRE-PIVOT | Pre-pivot RRC-first framing. Retained for reference. Not the current canonical government ask. |
+| Government Decision Paper | `docs/government-decision-paper.md` | HISTORICAL — PRE-PIVOT | Pre-pivot RRC-first framing. Retained for reference. Superseded by Government Registration Alignment Brief for current government engagement. |
 
 ---
 
@@ -137,11 +145,12 @@ Document statuses:
 | Status | Count |
 |---|---|
 | CURRENT | 23 |
-| CONSULTATION DRAFT | 2 |
+| CONSULTATION DRAFT | 1 |
 | WORKING DRAFT | 7 |
-| HISTORICAL | 1 |
+| HISTORICAL | 2 |
+| HISTORICAL — PRE-PIVOT | 5 |
 | SUPERSEDED | 0 |
 
 ---
 
-*Updated August 2026 — strategic capability-first pivot sprint.*
+*Updated August 2026 — Government Registration Alignment Sprint (v0.5.0).*
