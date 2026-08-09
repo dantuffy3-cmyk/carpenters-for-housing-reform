@@ -25,7 +25,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | July 2026 |
+| RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | August 2026 |
 | Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | 2–3 page decision paper for government; options A–E | July 2026 |
 | One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | CURRENT | Printable one-page pathway explainer | 2026 |
 
@@ -35,7 +35,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | July 2026 |
+| Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
 | Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT | Decision paper with options and recommended next step | July 2026 |
 | Government Briefing Request Template | `docs/templates/government-briefing-request.md` | CURRENT | Template for requesting a government briefing | July 2026 |
 | RRC Executive Brief (PDF) | `RRC_Executive_Brief_Victoria_2026.pdf` | CURRENT | Published executive brief for government | 2026 |
@@ -48,11 +48,11 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| RRC Operational Pilot Brief | `docs/rrc-operational-pilot-brief.md` | WORKING DRAFT | Practical implementation framework for the pilot | July 2026 |
-| RRC Pilot Operating Model | `docs/rrc-pilot-operating-model.md` | WORKING DRAFT | Step-by-step operating sequence (15 stages) | July 2026 |
+| RRC Operational Pilot Brief | `docs/rrc-operational-pilot-brief.md` | WORKING DRAFT | Practical implementation framework for the pilot | August 2026 |
+| RRC Pilot Operating Model | `docs/rrc-pilot-operating-model.md` | WORKING DRAFT | Step-by-step operating sequence (15 stages) | August 2026 |
 | RRC Statutory Handoff Protocol | `docs/rrc-statutory-handoff-protocol.md` | WORKING DRAFT | Three-stage handoff model with trigger categories | July 2026 |
-| RRC Pilot Evidence Schedule | `docs/rrc-pilot-evidence-schedule.md` | WORKING DRAFT | Minimum evidence requirements for pilot projects | July 2026 |
-| RRC Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` | WORKING DRAFT | Evaluation measures, success criteria and failure indicators | July 2026 |
+| RRC Pilot Evidence Schedule | `docs/rrc-pilot-evidence-schedule.md` | WORKING DRAFT | Minimum evidence requirements for pilot projects | August 2026 |
+| RRC Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` | WORKING DRAFT | Evaluation measures, success criteria and failure indicators | August 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | 17 identified risks with causes, consequences and controls | July 2026 |
 | Advanced Residential Carpentry Capability Model v1 | `docs/advanced-residential-carpentry-capability-model-v1.md` | CURRENT | Core capability-first policy architecture and implementation vehicles | August 2026 |
 
