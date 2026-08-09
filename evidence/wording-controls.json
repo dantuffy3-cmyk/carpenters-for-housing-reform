@@ -105,5 +105,78 @@
     "createdAt": "2026-07-31T16:55:03Z",
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "notes": "Publication use still requires context-by-context review."
+  },
+  {
+    "wordingId": "WORD-006",
+    "topic": "Government reform and RRC endorsement",
+    "prohibitedWording": "Victorian Government reform supports RRC.",
+    "reasonProhibited": "This incorrectly converts general reform context into government endorsement of one project proposal.",
+    "approvedWording": "Current Victorian building reform provides a relevant policy context for evaluating advanced residential renovation carpentry within a framework of defined scope, competence, experience and accountability.",
+    "qualifiedAlternative": "Keep the link to reform architecture, not endorsement.",
+    "linkedClaimIds": [
+      "IMPL-001"
+    ],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement",
+      "social_media"
+    ],
+    "reviewStatus": "approved",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "notes": "Added in the strategic pivot sprint to prevent overstatement of government support."
+  },
+  {
+    "wordingId": "WORD-007",
+    "topic": "Advanced carpenter registration status",
+    "prohibitedWording": "Government is creating a new advanced carpenter registration.",
+    "reasonProhibited": "Current published reform material does not identify advanced carpenters as a proposed registration category.",
+    "approvedWording": "Government is expanding practitioner registration, but advanced carpenters are not currently identified in the published reform material as a proposed category.",
+    "qualifiedAlternative": "State the published limitation directly whenever practitioner-registration expansion is mentioned.",
+    "linkedClaimIds": [
+      "REG-003",
+      "REG-005"
+    ],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement",
+      "social_media"
+    ],
+    "reviewStatus": "approved",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "notes": "Controls interpretation of expanded registration references."
+  },
+  {
+    "wordingId": "WORD-008",
+    "topic": "Capability framework and implementation options",
+    "prohibitedWording": "RRC is the required solution.",
+    "reasonProhibited": "The strategic pivot places capability architecture above the final statutory vehicle.",
+    "approvedWording": "The initiative proposes an Advanced Residential Carpentry capability framework. RRC is one implementation option alongside potential reform of existing pathways or another proportionate model.",
+    "qualifiedAlternative": "Present RRC as a serious proposed model, not the predetermined outcome.",
+    "linkedClaimIds": [
+      "IMPL-001"
+    ],
+    "publicationContexts": [
+      "website",
+      "policy_paper",
+      "government_submission",
+      "stakeholder_email",
+      "public_statement",
+      "social_media"
+    ],
+    "reviewStatus": "approved",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "notes": "Supports capability-first positioning across policy and public materials."
   }
 ]

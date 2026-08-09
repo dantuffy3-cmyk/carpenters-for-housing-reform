@@ -136,5 +136,67 @@
     "createdAt": "2026-07-31T16:55:03Z",
     "lastReviewedAt": "2026-07-31T16:55:03Z",
     "notes": "Used to trace the decision to maintain the full register internally."
+  },
+  {
+    "sourceId": "SRC-VIC-BR-001",
+    "title": "Victorian Government Building Reform page",
+    "issuingAuthority": "Victorian Government",
+    "sourceType": "official_guidance",
+    "jurisdiction": "Victoria, Australia",
+    "url": "https://www.planning.vic.gov.au/guides-and-resources/building-policy/building-reform",
+    "dateAccessed": "2026-08-09",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Building reform overview",
+      "Practitioner registration expansion",
+      "Consumer role clarity",
+      "Building manuals for specified classes"
+    ],
+    "summary": "Current Victorian Government reform page used for practitioner registration expansion, role clarity, competence settings and building-manual context.",
+    "limitations": "This page records current published reform direction. It does not identify advanced residential carpenters as a proposed new registration category.",
+    "supportsClaimIds": [
+      "REG-001",
+      "REG-003",
+      "REG-004",
+      "REG-005",
+      "REG-006",
+      "REG-007",
+      "IMPL-001"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "notes": "Primary current-government context source for the strategic pivot sprint."
+  },
+  {
+    "sourceId": "SRC-VIC-BS-001",
+    "title": "Building Statement — Strengthening Victoria’s Building System",
+    "issuingAuthority": "Victorian Government",
+    "sourceType": "official_guidance",
+    "jurisdiction": "Victoria, Australia",
+    "url": "https://www.planning.vic.gov.au/__data/assets/pdf_file/0036/739917/Building-Statement-Strengthening-Victorias-Building-System.pdf",
+    "dateAccessed": "2026-08-09",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "Enhanced practitioner-registration system",
+      "Authorised work scope",
+      "Competence, qualifications and experience",
+      "Consumer protection and accountability"
+    ],
+    "summary": "Official Building Statement used for practitioner registration principles, scope, competence, qualifications, experience, accountability and consumer protection context.",
+    "limitations": "This statement provides system-level reform direction. It does not endorse Registered Residential Carpenter or identify advanced carpenters as a proposed registration class.",
+    "supportsClaimIds": [
+      "REG-001",
+      "REG-002",
+      "REG-004",
+      "REG-006",
+      "IMPL-001"
+    ],
+    "reviewStatus": "approved",
+    "createdAt": "2026-08-09T09:29:33Z",
+    "lastReviewedAt": "2026-08-09T09:29:33Z",
+    "notes": "Governed reference used for capability-first framing and registration-reform context."
   }
 ]

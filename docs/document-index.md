@@ -54,6 +54,7 @@ Document statuses:
 | RRC Pilot Evidence Schedule | `docs/rrc-pilot-evidence-schedule.md` | WORKING DRAFT | Minimum evidence requirements for pilot projects | July 2026 |
 | RRC Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` | WORKING DRAFT | Evaluation measures, success criteria and failure indicators | July 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | 17 identified risks with causes, consequences and controls | July 2026 |
+| Advanced Residential Carpentry Capability Model v1 | `docs/advanced-residential-carpentry-capability-model-v1.md` | CURRENT | Core capability-first policy architecture and implementation vehicles | August 2026 |
 
 ---
 
@@ -78,6 +79,7 @@ Document statuses:
 | Stakeholder Claims Register | `docs/stakeholder-claims-register.md` | CURRENT | Approved and prohibited wording; evidence status per claim | July 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | Pilot risks and controls | July 2026 |
 | Pull Request Audit | `docs/governance/pull-request-audit.md` | CURRENT | Governance audit of open pull requests | July 2026 |
+| ADR-004 Capability model above statutory vehicle | `docs/decisions/ADR-004-capability-model-above-statutory-vehicle.md` | CURRENT | Records the capability-first strategic pivot and open implementation vehicles | August 2026 |
 
 ---
 
@@ -132,7 +134,7 @@ Document statuses:
 
 | Status | Count |
 |---|---|
-| CURRENT | 21 |
+| CURRENT | 23 |
 | CONSULTATION DRAFT | 2 |
 | WORKING DRAFT | 7 |
 | HISTORICAL | 1 |
@@ -140,4 +142,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — v0.5.0 Brand and Identity Standard sprint.*
+*Updated August 2026 — strategic capability-first pivot sprint.*
