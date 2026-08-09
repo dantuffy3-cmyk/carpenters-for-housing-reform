@@ -1,52 +1,50 @@
 # RRC Pilot — One-Page Summary
 **Carpenters for Housing Reform Victoria**
-Date: July 2026
+Date: August 2026
 Status: Consultation draft. Not government policy.
 
 ## The Problem
-Residential renovation in Victoria often involves uncertain conditions, changing scopes and unclear handoff points between trades, builders and other regulated professionals. Consumers and practitioners can both struggle to identify who should diagnose, plan, refer, coordinate and verify work when concealed conditions are discovered.
+Residential renovation in Victoria often involves concealed conditions, progressive discovery and changing handoff points between carpenters, builders and other regulated professionals. Consumers and practitioners can both struggle to identify who should diagnose, plan, refer, coordinate and verify work when conditions change.
 
-## The Proposal
-The proposal is to explore a bounded Registered Residential Carpenter pilot, not immediate statewide reform. The concept is a limited, safeguarded and evidence-based trial to test whether a clearly defined capability pathway could improve clarity, documentation and referral discipline in a narrow part of the renovation environment.
+## The Capability Proposition
+The initiative now places **Advanced Residential Carpenter — independently assessed** at the centre of the reform architecture.
+
+Registered Residential Carpenter remains the current proposed recognition model, but the final statutory vehicle remains open to government evaluation.
 
 ## Pilot Purpose
-The pilot would test whether a capability-based model can operate safely within Victoria’s existing framework while preserving existing builder pathways and professional boundaries. It would also generate evidence on consumer understanding, auditability, compliance behaviour and implementation practicality.
+The pilot would test **capability**, not new statutory authority. Participants would remain within their existing lawful authority throughout the pilot.
 
-## Participants
-- Demonstrated residential renovation experience in relevant work types
-- Agreed compliance with pilot scope, referral triggers and evidence rules
-- Suitable business systems for recordkeeping and audit participation
-- Willingness to participate in training, review and evaluation processes
+The pilot would test whether a bounded, independently assessed capability model can improve consumer clarity, documentation, escalation discipline and boundary recognition within Victoria's existing framework.
 
-## Scope
-- Defined internal renovation and alteration tasks within a published pilot scope
-- Repair, replacement and adaptation work where existing conditions require diagnostic judgement
-- Coordination of minor renovation sequences within the participant’s authorised scope
-- Identification, recording and escalation of discovered conditions
-- Consumer communication and documented handoff where work moves outside scope
+## What the Pilot Would Test
+- qualification verification
+- practical renovation experience
+- portfolio evidence
+- scenario-based technical assessment
+- concealed-condition recognition
+- sequencing and temporary-support judgement
+- scope-boundary recognition
+- stop-work and escalation decisions
+- documentation capability
+- consumer role communication
+- professional handoff decisions
+- assessor consistency
 
-Excluded work would include any activity outside the published pilot boundary, including work requiring builder, engineer, surveyor or licensed-trade responsibility beyond the participant’s authority.
+## Additional Pilot Requirements
+- **Consumer role-comprehension test:** test whether consumers can identify what the practitioner can do, what remains outside scope, when a builder is required, and when engineering, permits or licensed trades are required.
+- **Persistent pilot work-and-evidence record:** maintain a project record covering practitioner identity, assessed scope, pre-existing conditions, work undertaken, evidence captured, variations, concealed conditions, escalation events, professional referrals or handoffs, and completion status.
+- **Proportional escalation assessment:** test whether participants can distinguish between proceeding within scope, investigating further, obtaining specialist input, obtaining engineering input, involving a builder, or stopping work pending permit or regulatory clarification.
 
 ## Safeguards
-- Clear scope statement with included and excluded examples
-- Mandatory pause-and-refer triggers for discovered higher-risk conditions
-- Consumer disclosure form explaining pilot status and limitations
-- Minimum evidence and recordkeeping requirements
-- Audit, complaints and stop provisions
+- clear scope statement with included and excluded examples
+- mandatory pause-and-refer triggers
+- consumer disclosure form explaining pilot status and limitations
+- minimum evidence and recordkeeping requirements
+- audit, complaints and stop provisions
 
-## Evidence
-Participants would be required to maintain a minimum job record, including scope description, photographs, decision notes, referrals, owner communications and completion verification. Evidence requirements should be proportionate, consistent and capable of audit without creating unnecessary administrative burden.
+## Government Position Requested
+The immediate ask is not adoption of a new statutory class.
 
-## Evaluation
-Outcomes would be measured against consumer clarity, compliance quality, record completeness, referral behaviour, complaints experience and audit findings. The evaluation framework should also test whether the model is workable regionally and whether risks remain manageable within a limited cohort.
+The immediate ask is that government assess advanced residential renovation carpentry as a candidate practitioner function and, if warranted, test the capability model before selecting the most proportionate implementation vehicle.
 
-## Government Decision Requested
-The immediate decision requested is that government consider a structured stakeholder consultation or limited pilot design process for the proposed RRC concept.
-
-## Contact
-[NAME] — Dan Sonsie
-[ORGANISATION] — Carpenters for Housing Reform Victoria / Sonsie Carpentry Pty Ltd
-[EMAIL] — admin@sonsiecarpentry.com
-[WEBSITE] — https://www.carpentryreform.com.au/
-
-*Consultation draft. Not government policy. July 2026.*
+*Consultation draft. Not government policy. August 2026.*
