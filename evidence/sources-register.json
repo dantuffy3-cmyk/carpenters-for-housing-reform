@@ -177,6 +177,7 @@
     "sourceType": "official_guidance",
     "jurisdiction": "Victoria, Australia",
     "url": "https://www.planning.vic.gov.au/guides-and-resources/building-policy/building-reform/cladding-risk-mitigation-framework",
+    "publicationDate": "2023-09-22",
     "dateAccessed": "2026-08-09",
     "currentStatus": "current",
     "reliabilityTier": "tier_1_primary_authoritative",
@@ -194,6 +195,6 @@
     "reviewStatus": "approved",
     "createdAt": "2026-08-09T08:46:22Z",
     "lastReviewedAt": "2026-08-09T08:46:22Z",
-    "notes": "Scope is cladding-specific. Linked framework materials include Minister's Guideline MG-15 (22 September 2023)."
+    "notes": "Scope is cladding-specific. Linked framework materials include Minister's Guideline MG-15 (22 September 2023), used as publication-date reference."
   }
 ]
