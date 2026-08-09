@@ -107,7 +107,7 @@ Repository pilot-readiness materials include:
 
 External engagement, evidence consolidation and pilot-readiness development.
 
-- Formal government submission using docs/government-decision-paper.md
+- Formal government submission using docs/government-registration-alignment-brief.md (current canonical brief)
 - Insurer engagement on insurance framework viability
 - Stakeholder consultation round (builders, engineers, surveyors, consumers) — track in docs/governance/stakeholder-outreach-register.md
 - Evidence collection for claims register TODO items

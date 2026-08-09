@@ -37,7 +37,7 @@ The initiative's preferred outcome is recognition of the capability problem and 
 
 The Victorian Government's building reform program — described in the *Building Statement: Strengthening Victoria's Building System* (2025) and on the Building Reform web pages — is expanding and strengthening practitioner registration across the building industry.
 
-Key reform directions relevant to this proposal include:
+At a high level, published reform materials refer to directions that include:
 
 - expanded participant registration;
 - clearer and more appropriate authorised scope;
@@ -48,7 +48,7 @@ Key reform directions relevant to this proposal include:
 - enhanced practitioner accountability; and
 - ongoing practitioner capability requirements.
 
-**Source basis:** Victorian Government Building Reform page (planning.vic.gov.au); Building Statement 2025. These are used as verified primary sources on current reform direction. No endorsement of this initiative is claimed or implied.
+**Source basis:** Victorian Government Building Reform page (planning.vic.gov.au); Building Statement 2025. These are used as primary sources on general reform direction only. They are not represented as evidence that these settings have already been applied to advanced residential carpentry or this capability model. No endorsement of this initiative is claimed or implied.
 
 ---
 

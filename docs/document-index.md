@@ -19,7 +19,7 @@ Document statuses:
 - **SUPERSEDED** — replaced by a more recent version
 - **HISTORICAL** — an earlier version retained for record purposes
 
-**Capability-first note:** The current canonical strategy is the capability-first architecture set out in `docs/advanced-residential-carpentry-capability-model-v1.md`, `docs/government-engagement-brief.md`, `government-decision-pathway.html` and the updated pilot documents. Retained PDFs and the pre-pivot Government Decision Paper may preserve earlier RRC-first framing and should be read as legacy consultation or record material unless separately updated.
+**Capability-first note:** The current canonical strategy is the capability-first architecture set out in `docs/advanced-residential-carpentry-capability-model-v1.md`, `docs/government-registration-alignment-brief.md`, `docs/government-engagement-brief.md`, `government-decision-pathway.html` and the updated pilot documents. Retained PDFs and the pre-pivot Government Decision Paper may preserve earlier RRC-first framing and should be read as legacy consultation or record material unless separately updated.
 
 ---
 
@@ -29,7 +29,7 @@ Document statuses:
 |---|---|---|---|---|
 | RRC One-Page Pilot Summary | `docs/rrc-pilot-one-page-summary.md` | CONSULTATION DRAFT | One-page summary of the pilot proposal for initial contact | August 2026 |
 | Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT — PRE-PIVOT | 2–3 page decision paper for government; options A–E. **Pre-pivot RRC-first framing. Retained for historical reference. Not the current canonical government ask.** | July 2026 |
-| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | CURRENT | Printable one-page pathway explainer retained as pre-pivot consultation material pending replacement | 2026 |
+| One-Page Explainer (PDF) | `Registered_Residential_Carpenter_Pathway_Victoria_One_Page_Explainer.pdf` | HISTORICAL — PRE-PIVOT | Printable one-page pathway explainer retained as pre-pivot consultation material pending replacement. Not the current canonical government ask. | 2026 |
 
 ---
 

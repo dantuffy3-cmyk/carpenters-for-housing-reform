@@ -50,19 +50,19 @@ It is designed not to be. The capability framework defines seven domains of adva
 
 The initiative is not asking government to predetermine a standalone RRC class. It is asking that advanced residential renovation carpentry be assessed as a candidate practitioner function within Victoria's enhanced registration framework. If the pilot demonstrates a genuine capability and consumer-protection benefit, government would then determine the most proportionate statutory vehicle — which could be RRC, DB-L reform, an advanced credential, or another mechanism.
 
-### 2. "It will increase unlicensed work."
+### 3. "It will increase unlicensed work."
 
 That's a legitimate concern and we've addressed it directly. Informal work has multiple causes. A new category doesn't eliminate informality. That's why the pilot specifically measures whether informal work is reduced or displaced. We're not claiming the pathway eliminates the grey market — we're asking whether it provides a better alternative.
 
-### 3. "Why should we trust this initiative? It's industry-led."
+### 4. "Why should we trust this initiative? It's industry-led."
 
 The initiative is transparent about what it is: a practitioner-led reform proposal asking government to examine a problem and evaluate a solution. It isn't asking government to take anything on trust — it's asking for formal examination, stakeholder consultation and a controlled pilot with independent evaluation. The evidence should be assessed on its merits.
 
-### 4. "The insurance market won't support this."
+### 5. "The insurance market won't support this."
 
 That's an empirical question that requires insurer engagement — which is one of the things we're asking government to do. The current boundary produces work that is already occurring without clear insurance cover. A defined, bounded pathway with documented scope may be more insurable than the current ambiguous situation. That needs to be tested with insurers.
 
-### 5. "Existing builder pathways already cover this."
+### 6. "Existing builder pathways already cover this."
 
 Builder pathways cover the full domestic building scope. For experienced carpenters whose work sits within a defined renovation scope, the full builder pathway may impose obligations disproportionate to their actual risk and work. The question is whether a pathway calibrated to renovation carpentry would provide equivalent consumer protection with lower barriers to the pathway. The pilot would test that.
 
@@ -185,7 +185,7 @@ If the pilot produced positive evidence, the initiative would support government
 | `docs/rrc-pilot-evidence-schedule.md` | Minimum evidence schedule for pilot projects |
 | `docs/rrc-pilot-evaluation-framework.md` | Evaluation measures, success criteria and failure indicators |
 | `docs/rrc-pilot-risk-register.md` | Risk register for the proposed pilot |
-| `docs/government-decision-paper.md` | Decision paper with government options |
+| `docs/government-registration-alignment-brief.md` | Current canonical government-facing alignment brief |
 | `docs/rrc-pilot-one-page-summary.md` | One-page summary for initial government contact |
 
 ---

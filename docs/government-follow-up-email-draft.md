@@ -20,7 +20,7 @@ Dear [Name],
 
 Thank you for [the acknowledgement of our earlier correspondence / our recent meeting / the opportunity to submit materials] regarding Victoria's building reform program.
 
-I am writing on behalf of Carpenters for Housing Reform Victoria to follow up on a matter that we believe aligns with the current direction of Victoria's enhanced practitioner registration reforms.
+I am writing on behalf of Carpenters for Housing Reform Victoria to follow up on a matter that may be relevant to Victoria's current practitioner registration reform work.
 
 **What we have done since last contact**
 
