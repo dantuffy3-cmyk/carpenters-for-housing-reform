@@ -65,6 +65,12 @@ Document statuses:
 | Candidate Evidence Requirements v0.1 | `docs/candidate-evidence-requirements-v0.1.md` | WORKING DRAFT | Evidence types, status vocabulary and metadata requirements | August 2026 |
 | Consumer Role Comprehension Test v0.1 | `docs/consumer-role-comprehension-test-v0.1.md` | WORKING DRAFT | Consumer comprehension testing — pre/post disclosure, outcome categories | August 2026 |
 | Advanced Carpentry Assessment Pilot — One-Page Summary | `docs/advanced-carpentry-assessment-pilot-one-page-summary.md` | WORKING DRAFT | One-page government summary for DTP / BPC / reviewers | August 2026 |
+| **Assessor Calibration Pack v0.1** | `docs/advanced-carpentry-assessor-calibration-pack-v0.1.md` | **WORKING DRAFT** | **Canonical calibration architecture — principles, scenarios, agreement metrics, disagreement review, critical-fail set, consumer communication calibration, bias controls, pilot readiness gate** | August 2026 |
+| Assessor Calibration Benchmark Responses v0.1 | `docs/assessor-calibration-benchmark-responses-v0.1.md` | WORKING DRAFT | Four benchmark candidate profiles (Advanced, Competent, Incomplete, Unsafe) for assessor calibration exercises | August 2026 |
+| Assessor Calibration Score Sheet v0.1 | `docs/assessor-calibration-score-sheet-v0.1.md` | WORKING DRAFT | Individual assessor scoring instrument for calibration exercises — uses 0–4 rubric | August 2026 |
+| Assessor Calibration Session Plan v0.1 | `docs/assessor-calibration-session-plan-v0.1.md` | WORKING DRAFT | Ten-stage structured calibration session design | August 2026 |
+| Assessor Calibration Results Template v0.1 | `docs/assessor-calibration-results-template-v0.1.md` | WORKING DRAFT | Calibration results recording template with readiness recommendation categories | August 2026 |
+| Assessor Calibration — Government Summary | `docs/advanced-carpentry-assessor-calibration-one-page-summary.md` | WORKING DRAFT | One-page calibration summary for DTP / BPC / government reviewers | August 2026 |
 
 ---
 

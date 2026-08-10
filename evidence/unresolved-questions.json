@@ -421,5 +421,31 @@
         "createdAt": "2026-08-10T00:00:00Z",
         "lastReviewedAt": "2026-08-10T00:00:00Z",
         "notes": "Legal review is a precondition for pilot delivery. Do not proceed without it."
+    },
+    {
+        "questionId": "Q-019",
+        "question": "What level of inter-assessor agreement is sufficient before live pilot assessment begins?",
+        "category": "assessment_governance",
+        "whyItMatters": "The calibration pack establishes that live pilot assessment should not begin until assessors demonstrate sufficient consistency. Without a validated threshold, it is not possible to determine whether calibration results support pilot commencement. This is a prerequisite for the pilot readiness gate.",
+        "currentEvidence": "No validated threshold has been established. The calibration pack (docs/advanced-carpentry-assessor-calibration-pack-v0.1.md Section 9.2) uses provisional language: acceptable agreement thresholds remain to be validated through calibration data. Related question Q-013 addresses the recalibration threshold; this question addresses the initial go/no-go readiness threshold.",
+        "evidenceGap": "Requires: (1) calibration data from the assessor calibration exercises; (2) reference to comparable professional assessment frameworks; (3) deliberation by the pilot design group.",
+        "partyToAsk": [
+            "Pilot design group",
+            "Assessment design experts",
+            "Building and Plumbing Commission (for regulatory expectations)"
+        ],
+        "requiredEvidence": [
+            "Calibration session results from assessor calibration exercises.",
+            "Comparable inter-assessor agreement standards from equivalent capability assessment contexts.",
+            "Pilot design group deliberation records."
+        ],
+        "decisionAffected": "Pilot readiness gate; commencement conditions for live candidate assessment; interpretation of calibration results.",
+        "status": "open",
+        "priority": "high",
+        "publicationStatus": "internal_only",
+        "owner": "Carpenters for Housing Reform Victoria",
+        "createdAt": "2026-08-10T00:00:00Z",
+        "lastReviewedAt": "2026-08-10T00:00:00Z",
+        "notes": "See docs/advanced-carpentry-assessor-calibration-pack-v0.1.md Section 9 (Agreement Metrics). Related to Q-013 (recalibration threshold). Do not resolve this question with an arbitrary numeric threshold \u2014 requires validated calibration evidence."
     }
 ]
