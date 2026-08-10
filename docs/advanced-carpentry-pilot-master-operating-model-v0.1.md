@@ -36,18 +36,18 @@ This document shows, in one end-to-end operating map:
 
 ## Core Operating Logic
 
-**Public-interest problem**  
-→ **practitioner-function question**  
-→ **capability definition**  
-→ **pilot governance readiness**  
-→ **recruitment**  
-→ **eligibility**  
-→ **assessor calibration**  
-→ **candidate assessment**  
-→ **review / complaints**  
-→ **pilot evidence aggregation**  
-→ **public-interest evaluation**  
-→ **government decision on statutory vehicle, if any**
+- **Public-interest problem**
+- **Practitioner-function question**
+- **Capability definition**
+- **Pilot governance readiness**
+- **Recruitment**
+- **Eligibility**
+- **Assessor calibration**
+- **Candidate assessment**
+- **Review / complaints**
+- **Pilot evidence aggregation**
+- **Public-interest evaluation**
+- **Government decision on statutory vehicle, if any**
 
 **Practitioner function first. Capability evidence second. Regulatory vehicle last.**
 
@@ -485,14 +485,14 @@ These limits align with:
 
 ## Evidence Flow
 
-**SOURCE EVIDENCE**  
-→ **VERIFIED / CLASSIFIED EVIDENCE**  
-→ **ASSESSMENT EVIDENCE**  
-→ **ASSESSOR RATIONALE**  
-→ **CANDIDATE OUTCOME**  
-→ **PILOT AGGREGATE EVIDENCE**  
-→ **PUBLIC-INTEREST ANALYSIS**  
-→ **GOVERNMENT DECISION SUPPORT**
+- **Source evidence**
+- **Verified / classified evidence**
+- **Assessment evidence**
+- **Assessor rationale**
+- **Candidate outcome**
+- **Pilot aggregate evidence**
+- **Public-interest analysis**
+- **Government decision support**
 
 ### Where canonical evidence statuses are used
 

@@ -19,25 +19,16 @@ Where conflict exists, the detailed governed source document controls.
 
 ## End-to-End Sequence
 
-**Strategic question**  
-↓  
-**Governance readiness**  
-↓  
-**Recruitment**  
-↓  
-**Eligibility**  
-↓  
-**Assessor calibration**  
-↓  
-**Assessment**  
-↓  
-**Review**  
-↓  
-**Pilot evidence**  
-↓  
-**Public-interest evaluation**  
-↓  
-**Government decision**
+- **Strategic question**
+- **Governance readiness**
+- **Recruitment**
+- **Eligibility**
+- **Assessor calibration**
+- **Assessment**
+- **Review**
+- **Pilot evidence**
+- **Public-interest evaluation**
+- **Government decision**
 
 ---
 
@@ -71,14 +62,14 @@ Where conflict exists, the detailed governed source document controls.
 
 ## Evidence pathway
 
-**Source evidence**  
-→ verified / classified evidence  
-→ assessment evidence  
-→ assessor rationale  
-→ candidate outcome  
-→ pilot aggregate evidence  
-→ public-interest analysis  
-→ government decision support
+- **Source evidence**
+- verified / classified evidence
+- assessment evidence
+- assessor rationale
+- candidate outcome
+- pilot aggregate evidence
+- public-interest analysis
+- government decision support
 
 Canonical evidence statuses remain those already defined in the evidence requirements document.
 
@@ -118,4 +109,3 @@ Successful pilot performance would justify further policy evaluation, **not auto
 ---
 
 *WORKING DRAFT. August 2026. Government-facing integration summary only. Not government policy. No statutory authority. No automatic recognition. Government may choose no formal recognition.*
-

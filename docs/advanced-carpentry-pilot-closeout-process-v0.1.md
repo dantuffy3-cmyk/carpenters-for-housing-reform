@@ -139,4 +139,3 @@ Pilot closeout must not claim that a statutory category is justified merely beca
 ---
 
 *WORKING DRAFT. August 2026. Closeout governance process only. No authority is created by pilot closure or closeout recommendation.*
-
