@@ -155,13 +155,38 @@ Document statuses:
 
 ---
 
+## Pilot Governance and Recruitment Pack (v0.1 Sprint)
+
+*Sprint: Advanced Residential Carpentry Pilot Governance & Recruitment Pack — v0.1. August 2026. All documents in this section are WORKING DRAFT.*
+
+| Document | Location | Status | Purpose | Last Reviewed |
+|---|---|---|---|---|
+| Pilot Governance Plan v0.1 | `docs/advanced-carpentry-pilot-governance-plan-v0.1.md` | WORKING DRAFT | Canonical operational governance architecture for the ARC capability-assessment pilot | August 2026 |
+| Pilot Candidate Recruitment Framework v0.1 | `docs/pilot-candidate-recruitment-framework-v0.1.md` | WORKING DRAFT | Defines recruitment channels, eligibility, selection controls and bias management | August 2026 |
+| Pilot Candidate Expression of Interest v0.1 | `docs/pilot-candidate-expression-of-interest-v0.1.md` | WORKING DRAFT | EOI form for candidate carpenters | August 2026 |
+| Pilot Candidate Information Statement v0.1 | `docs/pilot-candidate-information-statement-v0.1.md` | WORKING DRAFT | Plain-language participant information document | August 2026 |
+| Pilot Participant Consent Form v0.1 | `docs/pilot-participant-consent-form-v0.1.md` | WORKING DRAFT | Consent architecture; participation and publication consent separated | August 2026 |
+| Pilot Privacy and Data Handling Plan v0.1 | `docs/pilot-privacy-and-data-handling-plan-v0.1.md` | WORKING DRAFT | Data collection, storage, access, retention and handling | August 2026 |
+| Pilot Conflict of Interest Declaration v0.1 | `docs/pilot-conflict-of-interest-declaration-v0.1.md` | WORKING DRAFT | Conflict declaration form for assessors, reviewers and governance participants | August 2026 |
+| Pilot Role and Responsibility Matrix v0.1 | `docs/pilot-role-responsibility-matrix-v0.1.md` | WORKING DRAFT | Roles, responsibilities, decision rights, escalation and records | August 2026 |
+| Pilot Decision Register Template v0.1 | `docs/pilot-decision-register-template-v0.1.md` | WORKING DRAFT | Template for recording governance decisions | August 2026 |
+| Pilot Participant Register Template v0.1 | `docs/pilot-participant-register-template-v0.1.md` | WORKING DRAFT | Participant tracking register using Participant IDs | August 2026 |
+| Pilot Recruitment and Selection Log v0.1 | `docs/pilot-recruitment-selection-log-v0.1.md` | WORKING DRAFT | Records recruitment activity and selection decisions with controlled reason codes | August 2026 |
+| Pilot Complaints and Review Process v0.1 | `docs/pilot-complaints-review-process-v0.1.md` | WORKING DRAFT | Complaint intake, process review and re-assessment review (separated) | August 2026 |
+| Pilot Safety and Incident Protocol v0.1 | `docs/pilot-safety-and-incident-protocol-v0.1.md` | WORKING DRAFT | Incident categories, immediate response, outcomes and withdrawal after incident | August 2026 |
+| Pilot Observer Protocol v0.1 | `docs/pilot-observer-protocol-v0.1.md` | WORKING DRAFT | Conditions for government, regulator and industry observer access | August 2026 |
+| Pilot Governance and Recruitment One-Page Summary | `docs/advanced-carpentry-pilot-governance-recruitment-one-page-summary.md` | WORKING DRAFT | One-page summary for government and regulator review | August 2026 |
+| Pilot Governance Readiness Checklist v0.1 | `docs/pilot-governance-readiness-checklist-v0.1.md` | WORKING DRAFT | Readiness gate before live candidate recruitment commences | August 2026 |
+
+---
+
 ## Document Status Summary
 
 | Status | Count |
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 8 |
+| WORKING DRAFT | 24 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HISTORICAL | 2 |
@@ -170,4 +195,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — Government Registration Alignment Sprint (v0.5.0).*
+*Updated August 2026 — Pilot Governance and Recruitment Pack Sprint (v0.6.0).*
