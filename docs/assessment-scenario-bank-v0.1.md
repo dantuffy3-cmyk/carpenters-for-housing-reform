@@ -137,7 +137,7 @@ A homeowner has asked the candidate to investigate and remedy a musty smell and 
 On subfloor access, the candidate observes:
 
 - Significant moisture on the underside of the floor boards in multiple areas, not only the area of original complaint.
-- ****** joist timber in approximately a 15m² area at the rear of the building is soft, discoloured and penetrates with a probe — consistent with advanced fungal decay.
+- Floor joist timber in approximately a 15m² area at the rear of the building is soft, discoloured and penetrates with a probe — consistent with advanced fungal decay.
 - Subfloor ventilation is blocked by the concrete pour in part of the space, creating stagnant air conditions.
 - Evidence of recent termite activity is visible on two stumps and the underside of a bearer. Active tunnels are observed.
 
