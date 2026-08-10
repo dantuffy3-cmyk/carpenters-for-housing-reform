@@ -59,6 +59,12 @@ Document statuses:
 | RRC Pilot Evaluation Framework | `docs/rrc-pilot-evaluation-framework.md` | WORKING DRAFT | Evaluation measures, success criteria and failure indicators | August 2026 |
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | 17 identified risks with causes, consequences and controls | July 2026 |
 | Advanced Residential Carpentry Capability Model v1 | `docs/advanced-residential-carpentry-capability-model-v1.md` | CURRENT | Core capability-first policy architecture and implementation vehicles | August 2026 |
+| **Advanced Residential Carpentry Assessment Framework v0.1** | `docs/advanced-residential-carpentry-assessment-framework-v0.1.md` | **WORKING DRAFT** | **Canonical pilot assessment framework — principles, eligibility, domains, methods, scoring, outcomes, flow** | August 2026 |
+| Assessment Scenario Bank v0.1 | `docs/assessment-scenario-bank-v0.1.md` | WORKING DRAFT | Eight governed assessment scenarios for pilot consultation and validation | August 2026 |
+| Assessor Governance v0.1 | `docs/advanced-carpentry-assessor-governance-v0.1.md` | WORKING DRAFT | Assessor independence, calibration, conflict-of-interest, review and appeal | August 2026 |
+| Candidate Evidence Requirements v0.1 | `docs/candidate-evidence-requirements-v0.1.md` | WORKING DRAFT | Evidence types, status vocabulary and metadata requirements | August 2026 |
+| Consumer Role Comprehension Test v0.1 | `docs/consumer-role-comprehension-test-v0.1.md` | WORKING DRAFT | Consumer comprehension testing — pre/post disclosure, outcome categories | August 2026 |
+| Advanced Carpentry Assessment Pilot — One-Page Summary | `docs/advanced-carpentry-assessment-pilot-one-page-summary.md` | WORKING DRAFT | One-page government summary for DTP / BPC / reviewers | August 2026 |
 
 ---
 
