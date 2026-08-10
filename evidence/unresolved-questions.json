@@ -447,5 +447,202 @@
     "createdAt": "2026-08-10T00:00:00Z",
     "lastReviewedAt": "2026-08-10T00:00:00Z",
     "notes": "See docs/advanced-carpentry-assessor-calibration-pack-v0.1.md Section 9 (Agreement Metrics). Related to Q-013 (recalibration threshold). Do not resolve this question with an arbitrary numeric threshold \u2014 requires validated calibration evidence."
+  },
+  {
+    "questionId": "Q-020",
+    "question": "What is an appropriate initial pilot cohort size for Phase 0 (dry run) and Phase 1 (bounded candidate pilot)?",
+    "category": "pilot_design",
+    "whyItMatters": "Cohort size affects assessor capacity requirements, evidence diversity, reliability of findings and governance burden.",
+    "currentEvidence": "No evidence base currently supports a specific cohort size for this pilot design.",
+    "evidenceGap": "Need to define pilot objectives, assessor capacity and evidence-diversity requirements before cohort size can be determined.",
+    "partyToAsk": [
+      "Pilot governance group",
+      "Assessment specialists",
+      "Calibration chair (when appointed)"
+    ],
+    "requiredEvidence": [
+      "Pilot objectives",
+      "Assessor capacity",
+      "Evidence diversity requirements",
+      "Comparable pilot design precedents if available"
+    ],
+    "decisionAffected": "Pilot design, recruitment scope, resource planning.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Cohort size must not be fixed arbitrarily. Remains open until pilot design is validated."
+  },
+  {
+    "questionId": "Q-021",
+    "question": "Is a minimum-experience threshold for candidate eligibility required or supported by evidence?",
+    "category": "pilot_design",
+    "whyItMatters": "An arbitrary years-of-experience threshold may exclude capable practitioners or include incapable ones. Any threshold should be evidence-based.",
+    "currentEvidence": "No evidence currently supports a specific years-of-experience threshold for this assessment.",
+    "evidenceGap": "Need to determine whether experience duration is a valid proxy for the capability domains being assessed.",
+    "partyToAsk": [
+      "Pilot governance group",
+      "Assessment specialists"
+    ],
+    "requiredEvidence": [
+      "Evidence on relationship between experience duration and capability domain performance"
+    ],
+    "decisionAffected": "Candidate inclusion criteria, eligibility screening.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Do not require arbitrary years unless the pilot design evidence supports such a threshold."
+  },
+  {
+    "questionId": "Q-022",
+    "question": "What is the required assessor composition and minimum assessor qualification for the pilot?",
+    "category": "pilot_design",
+    "whyItMatters": "Assessor quality and independence are critical to pilot validity. The composition must be defined before assessors are appointed.",
+    "currentEvidence": "No final assessor composition is documented at v0.1.",
+    "evidenceGap": "Requires governance decision on assessor backgrounds, minimum qualifications and independence requirements.",
+    "partyToAsk": [
+      "Pilot governance group",
+      "Calibration chair (when appointed)",
+      "Training and assessment specialists"
+    ],
+    "requiredEvidence": [
+      "Assessor qualification and experience requirements",
+      "Independence criteria"
+    ],
+    "decisionAffected": "Assessor appointment, calibration planning, pilot governance.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Final assessor composition must not be pre-determined without evidence and governance process."
+  },
+  {
+    "questionId": "Q-023",
+    "question": "What is the required retention period for pilot participant records?",
+    "category": "privacy_and_data",
+    "whyItMatters": "Records must be retained long enough to support audit and review but must not be retained longer than necessary.",
+    "currentEvidence": "No legal or governance advice has been obtained on retention requirements for this pilot.",
+    "evidenceGap": "Requires legal and governance review before live pilot commencement.",
+    "partyToAsk": [
+      "Legal advisor",
+      "Privacy specialist"
+    ],
+    "requiredEvidence": [
+      "Applicable legal obligations for the pilot context",
+      "Governance requirements for audit and review"
+    ],
+    "decisionAffected": "Privacy and Data Handling Plan, evidence custodian responsibilities.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Do not set a retention period without legal review."
+  },
+  {
+    "questionId": "Q-024",
+    "question": "Is audio or video recording of assessment sessions appropriate or required, and what obligations would apply?",
+    "category": "privacy_and_data",
+    "whyItMatters": "Recording may improve calibration and review but creates additional privacy and consent obligations.",
+    "currentEvidence": "Recording approach for v0.1 is not determined.",
+    "evidenceGap": "Need to assess privacy obligations, consent requirements and technical capacity before determining recording approach.",
+    "partyToAsk": [
+      "Legal advisor",
+      "Privacy specialist",
+      "Assessor governance group"
+    ],
+    "requiredEvidence": [
+      "Legal requirements for consent to recording in Victoria",
+      "Technical storage and security requirements"
+    ],
+    "decisionAffected": "Consent form (A2.5), Privacy and Data Handling Plan, evidence integrity.",
+    "status": "open",
+    "priority": "medium",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Consent to recording is currently separated from other consent items in the consent form."
+  },
+  {
+    "questionId": "Q-025",
+    "question": "Should an independent complaint reviewer be appointed, and on what basis?",
+    "category": "governance",
+    "whyItMatters": "An independent reviewer provides credibility and fairness for complaints that cannot be resolved internally.",
+    "currentEvidence": "No mechanism for external complaint review is currently defined.",
+    "evidenceGap": "Need to determine whether an independent reviewer is practicable, who they would be, and how they would be appointed.",
+    "partyToAsk": [
+      "Pilot governance group",
+      "Legal advisor"
+    ],
+    "requiredEvidence": [
+      "Available independent reviewer options",
+      "Appointment and terms-of-reference design"
+    ],
+    "decisionAffected": "Complaints and Review Process.",
+    "status": "open",
+    "priority": "medium",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Desirable for pilot credibility but mechanism not yet determined."
+  },
+  {
+    "questionId": "Q-026",
+    "question": "What access terms apply to government or regulator observers, and how is confidentiality managed?",
+    "category": "governance",
+    "whyItMatters": "Observer access affects participant consent requirements and pilot independence.",
+    "currentEvidence": "Observer Protocol v0.1 defines general terms, but specific access agreements with DTP/BPC have not been established.",
+    "evidenceGap": "Need to confirm access terms with any government or regulator observer before access is granted.",
+    "partyToAsk": [
+      "DTP",
+      "BPC",
+      "Legal advisor"
+    ],
+    "requiredEvidence": [
+      "Agreed access terms",
+      "Confidentiality agreement template",
+      "Consent implications for candidate assessment sessions"
+    ],
+    "decisionAffected": "Observer Protocol, Participant Consent Form.",
+    "status": "open",
+    "priority": "medium",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Observer access is not currently granted. Access terms require governance decision before live pilot."
+  },
+  {
+    "questionId": "Q-027",
+    "question": "What is the scope and nature of legal review required before live pilot commencement?",
+    "category": "legal_and_regulatory",
+    "whyItMatters": "The pilot involves participant data, consent, evidence, and assessment activities that may engage legal obligations.",
+    "currentEvidence": "No legal review has been conducted at v0.1. The governance plan and privacy plan note this as a requirement.",
+    "evidenceGap": "Need to define scope of legal review and identify a qualified reviewer before live pilot commencement.",
+    "partyToAsk": [
+      "Legal advisor with relevant expertise"
+    ],
+    "requiredEvidence": [
+      "Legal review scope definition",
+      "Identification of applicable obligations"
+    ],
+    "decisionAffected": "All governance and privacy documents; readiness checklist item J1.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T08:00:00Z",
+    "lastReviewedAt": "2026-08-10T08:00:00Z",
+    "notes": "Legal review is a readiness gate item. Pilot must not commence recruitment until scope is defined and completed."
   }
 ]
