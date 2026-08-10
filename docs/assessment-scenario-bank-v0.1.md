@@ -137,9 +137,9 @@ A homeowner has asked the candidate to investigate and remedy a musty smell and 
 On subfloor access, the candidate observes:
 
 - Significant moisture on the underside of the floor boards in multiple areas, not only the area of original complaint.
-- Floor joist timber in approximately a 15m² area at the rear of the building is soft, discoloured and penetrates with a probe — consistent with advanced fungal decay.
+- Floor joist timber in approximately a 15m² area at the rear of the building is soft, discoloured and penetrates with a probe. **This is the observation supplied to the candidate.** The cause of the deterioration — whether fungal decay, insect damage or another moisture-related process — requires professional assessment to confirm and must not be assumed from visual observation alone.
 - Subfloor ventilation is blocked by the concrete pour in part of the space, creating stagnant air conditions.
-- Evidence of recent termite activity is visible on two stumps and the underside of a bearer. Active tunnels are observed.
+- Tunnels and surface galleries consistent with termite activity are visible on two stumps and the underside of a bearer. **Whether any infestation is current or historical, and whether any treatment has been effective, has not been established.** This requires confirmation by a licensed pest specialist and must not be concluded from visual observation alone.
 
 ### Incomplete Evidence
 
@@ -167,7 +167,7 @@ On subfloor access, the candidate observes:
 
 ### Mandatory Escalation Triggers
 
-- `SPECIALIST_INPUT_REQUIRED` — licensed pest specialist must assess active termite activity before structural timber decisions.
+- `SPECIALIST_INPUT_REQUIRED` — licensed pest specialist must confirm the nature and current status of the observed termite indicators before any structural timber decisions are made.
 - `ENGINEERING_INPUT_REQUIRED` — extent of bearer and joist replacement must be assessed with reference to structural adequacy.
 - `INVESTIGATE_BEFORE_PROCEEDING` — full extent of moisture and decay must be established before remediation scope is set.
 

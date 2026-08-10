@@ -139,6 +139,7 @@ The pilot design phase must determine what constitutes sufficient verified exper
 ### 2.4 Eligibility Principles
 
 - `ELIGIBLE_FOR_ASSESSMENT` is not a competence finding.
+- `ELIGIBLE_WITH_EVIDENCE_GAPS` does not permit the candidate to proceed to assessment with unresolved mandatory evidence gaps. The eligibility gate is not satisfied until the eligibility reviewer confirms in writing that all identified gaps have been resolved. This confirmation must be recorded. Gaps must not be deferred to the assessment stage.
 - Eligibility review must be conducted by a person independent of the primary assessor.
 - Eligibility decisions must be documented and retained.
 - Candidates must be informed of their eligibility outcome and the reasons for any finding other than `ELIGIBLE_FOR_ASSESSMENT`.
@@ -599,7 +600,7 @@ A candidate cannot achieve an `ADVANCED_CAPABILITY_DEMONSTRATED` or `CAPABILITY_
 4. treat major uncertainty as confirmation of safety;
 5. fabricate, misrepresent or substantially mischaracterise evidence;
 6. recommend a course of action outside their lawful authority as if it were within their authority;
-7. repeatedly fail to communicate material risk to the consumer across multiple assessment components.
+7. fail to communicate material risk to the consumer in two or more separate assessment components (portfolio review, technical interview, scenario assessment, consumer communication exercise or oral defence).
 
 Critical failures must be documented by the assessor with specific reference to the response or behaviour that triggered the rule. Critical-fail findings must be reviewed by a second assessor before the outcome is finalised.
 
