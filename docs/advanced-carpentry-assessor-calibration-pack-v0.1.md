@@ -83,6 +83,7 @@ Calibration results are internal governance records. They are not candidate outc
 | `docs/assessor-calibration-score-sheet-v0.1.md` | Provides the scoring instrument used in calibration exercises |
 | `docs/assessor-calibration-session-plan-v0.1.md` | Provides the structured session design for calibration delivery |
 | `docs/assessor-calibration-results-template-v0.1.md` | Provides the template for recording calibration outcomes |
+| `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md` | Shows where calibration readiness and variance review sit in the full pilot operating sequence |
 
 ---
 
