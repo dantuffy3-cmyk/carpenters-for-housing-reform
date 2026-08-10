@@ -1,425 +1,451 @@
 [
-    {
-        "questionId": "Q-001",
-        "question": "Can BPC create a renovation-specific endorsement or stream within DB-L Carpentry?",
-        "category": "builder_registration",
-        "whyItMatters": "This affects whether reform could occur within an existing registration pathway or would require a new structure.",
-        "currentEvidence": "No current primary-source answer is recorded in Version 0.1.",
-        "evidenceGap": "Need current authoritative material confirming available administrative or statutory mechanisms.",
-        "partyToAsk": [
-            "Building and Plumbing Commission"
-        ],
-        "requiredEvidence": [
-            "Current primary-source advice on available endorsement or stream mechanisms within DB-L Carpentry."
-        ],
-        "decisionAffected": "Implementation model selection and scope of later policy recommendations.",
-        "status": "open",
-        "priority": "critical",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Remain unresolved until current primary sources are obtained."
-    },
-    {
-        "questionId": "Q-002",
-        "question": "Would such a model require legislation, regulation or administrative change?",
-        "category": "legal_and_regulatory",
-        "whyItMatters": "Implementation feasibility depends on the level of change required.",
-        "currentEvidence": "No verified answer is yet recorded in the controlled source set.",
-        "evidenceGap": "Need primary sources or direct documentary evidence on the type of change required.",
-        "partyToAsk": [
-            "Building and Plumbing Commission",
-            "Victorian Government"
-        ],
-        "requiredEvidence": [
-            "Current legislative, regulatory or administrative source material addressing change requirements."
-        ],
-        "decisionAffected": "Program sequencing, government ask and pilot framing.",
-        "status": "open",
-        "priority": "critical",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Do not infer an answer from project preferences."
-    },
-    {
-        "questionId": "Q-003",
-        "question": "How would current Home Warranty requirements apply to each implementation model?",
-        "category": "insurance_and_warranty",
-        "whyItMatters": "Insurance treatment affects viability, consumer protection and implementation risk.",
-        "currentEvidence": "Current insurer or statutory treatment has not yet been verified for each model.",
-        "evidenceGap": "Need authoritative insurance and warranty sources for each implementation option.",
-        "partyToAsk": [
-            "Relevant insurer stakeholders",
-            "Victorian Government"
-        ],
-        "requiredEvidence": [
-            "Current Home Warranty requirements and insurer guidance mapped to each candidate model."
-        ],
-        "decisionAffected": "Insurance positioning, public wording and model comparison.",
-        "status": "open",
-        "priority": "critical",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Version 0.1 intentionally records the gap without answering it."
-    },
-    {
-        "questionId": "Q-004",
-        "question": "What contractual and responsibility arrangements are required after scope escalation?",
-        "category": "scope_escalation",
-        "whyItMatters": "The project requires a defensible escalation process when hidden conditions alter responsibility.",
-        "currentEvidence": "The project has wording controls and protocol concepts, but no completed authoritative answer is yet recorded here.",
-        "evidenceGap": "Need current contractual, permit, insurance and professional-boundary evidence.",
-        "partyToAsk": [
-            "Builders",
-            "Engineers",
-            "Building surveyors",
-            "Insurer stakeholders"
-        ],
-        "requiredEvidence": [
-            "Documented contractual and responsibility arrangements suitable for post-escalation work."
-        ],
-        "decisionAffected": "Handoff protocol design and publication-safe explanations.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Unresolved by design in this sprint."
-    },
-    {
-        "questionId": "Q-005",
-        "question": "Would builders accept documented work initiated under a bounded carpentry scope?",
-        "category": "scope_and_authority",
-        "whyItMatters": "Builder acceptance affects practical uptake and escalation viability.",
-        "currentEvidence": "No controlled evidence set yet records builder acceptance patterns.",
-        "evidenceGap": "Need structured stakeholder evidence from builders and pilot participants.",
-        "partyToAsk": [
-            "Builders",
-            "Pilot stakeholders"
-        ],
-        "requiredEvidence": [
-            "Documented builder responses or pilot evidence on bounded-scope initiation."
-        ],
-        "decisionAffected": "Implementation model design and pilot assumptions.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Do not generalise from anecdotal conversations."
-    },
-    {
-        "questionId": "Q-006",
-        "question": "Which proposed practitioner title is best understood by consumers?",
-        "category": "consumer_protection",
-        "whyItMatters": "Consumer comprehension affects risk, trust and public usability.",
-        "currentEvidence": "No completed consumer-tested comparison is yet recorded.",
-        "evidenceGap": "Need consumer-facing testing or other documented evidence on title comprehension.",
-        "partyToAsk": [
-            "Consumers",
-            "Government stakeholders"
-        ],
-        "requiredEvidence": [
-            "Comparative evidence on comprehension of proposed practitioner titles."
-        ],
-        "decisionAffected": "Public naming and communications design.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Keep unresolved until evidence is collected."
-    },
-    {
-        "questionId": "Q-007",
-        "question": "Would experienced carpenters pursue the pathway?",
-        "category": "occupational_progression",
-        "whyItMatters": "Participation is necessary for any pathway to have practical effect.",
-        "currentEvidence": "No controlled participation evidence is yet recorded.",
-        "evidenceGap": "Need documented practitioner demand testing or pilot interest data.",
-        "partyToAsk": [
-            "Experienced carpenters",
-            "Training stakeholders"
-        ],
-        "requiredEvidence": [
-            "Structured demand evidence for a bounded advanced pathway."
-        ],
-        "decisionAffected": "Pilot design, market assumptions and implementation viability.",
-        "status": "open",
-        "priority": "medium",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Do not infer uptake from support for the broader reform idea."
-    },
-    {
-        "questionId": "Q-008",
-        "question": "Is there sufficient viable work within a bounded RRC scope?",
-        "category": "workforce_and_market",
-        "whyItMatters": "A bounded pathway needs enough legitimate work to be viable and meaningful.",
-        "currentEvidence": "No verified market sizing or work-volume evidence is yet controlled here.",
-        "evidenceGap": "Need documented evidence of work types and market demand within the proposed boundary.",
-        "partyToAsk": [
-            "Practitioners",
-            "Builders",
-            "Government stakeholders"
-        ],
-        "requiredEvidence": [
-            "Controlled market and work-volume evidence for bounded-scope activity."
-        ],
-        "decisionAffected": "Model viability and evaluation criteria.",
-        "status": "open",
-        "priority": "medium",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Remain unresolved pending evidence collection."
-    },
-    {
-        "questionId": "Q-009",
-        "question": "Would the pathway reduce non-compliance or relocate existing grey-market behaviour?",
-        "category": "consumer_protection",
-        "whyItMatters": "This bears directly on consumer outcomes and regulatory effectiveness.",
-        "currentEvidence": "No controlled causal evidence is yet recorded.",
-        "evidenceGap": "Need comparative or pilot evidence on behaviour change and compliance outcomes.",
-        "partyToAsk": [
-            "Government stakeholders",
-            "Consumers",
-            "Practitioners"
-        ],
-        "requiredEvidence": [
-            "Documented evidence on whether the model would reduce or relocate grey-market behaviour."
-        ],
-        "decisionAffected": "Public-benefit framing and pilot metrics.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "No current legal or regulatory conclusion is recorded."
-    },
-    {
-        "questionId": "Q-010",
-        "question": "Can a controlled assessment pilot occur without granting new statutory authority?",
-        "category": "pilot_and_evaluation",
-        "whyItMatters": "Pilot feasibility depends on whether a lawful controlled assessment can occur before statutory change.",
-        "currentEvidence": "No current primary-source answer is yet controlled in this register.",
-        "evidenceGap": "Need authoritative evidence on the permissibility and limits of a non-statutory or pre-statutory pilot.",
-        "partyToAsk": [
-            "Victorian Government",
-            "Building and Plumbing Commission"
-        ],
-        "requiredEvidence": [
-            "Current authoritative advice on pilot arrangements without new statutory authority."
-        ],
-        "decisionAffected": "Pilot design and stakeholder engagement sequence.",
-        "status": "open",
-        "priority": "critical",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-07-31T16:55:03Z",
-        "lastReviewedAt": "2026-07-31T16:55:03Z",
-        "notes": "Do not present a pilot pathway as settled without evidence."
-    },
-    {
-        "questionId": "Q-011",
-        "question": "Which statutory or regulatory vehicle would most proportionately recognise independently assessed Advanced Residential Carpentry capability if a pilot demonstrates a genuine capability and consumer-protection benefit?",
-        "category": "legal_and_regulatory",
-        "whyItMatters": "The initiative deliberately does not recommend a statutory vehicle until pilot evidence is available. Government must determine which vehicle \u2014 distinct RRC class, DB-L Carpentry reform, advanced credential, or other mechanism \u2014 is most appropriate.",
-        "currentEvidence": "No primary-source answer is recorded. The question is by design open pending pilot evidence.",
-        "evidenceGap": "Requires government review of pilot evidence and determination of the most proportionate implementation vehicle.",
-        "partyToAsk": [
-            "Department of Transport and Planning",
-            "Building and Plumbing Commission"
-        ],
-        "requiredEvidence": [
-            "Government assessment of pilot outcomes.",
-            "Government determination of whether any statutory change is warranted.",
-            "Primary-source advice on available vehicles within current legislative framework."
-        ],
-        "decisionAffected": "Selection of implementation vehicle; scope of any future statutory or regulatory change.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-09T10:00:00Z",
-        "lastReviewedAt": "2026-08-09T10:00:00Z",
-        "notes": "Government-facing question. Do not present any vehicle as predetermined. RRC, DB-L reform, advanced credential and government-selected alternatives remain open options."
-    },
-    {
-        "questionId": "Q-012",
-        "question": "What assessor composition provides sufficient technical independence for advanced residential carpentry capability assessment?",
-        "category": "assessment_governance",
-        "whyItMatters": "Assessor composition affects the credibility, balance and conflict-of-interest management of the pilot assessment. Predetermined assessor composition could undermine independence.",
-        "currentEvidence": "No current primary-source answer is recorded. Potential assessor backgrounds are identified for consultation only.",
-        "evidenceGap": "Requires design-phase deliberation with reference to available assessor expertise, independence requirements and regulatory expectations.",
-        "partyToAsk": [
-            "Building and Plumbing Commission",
-            "Department of Transport and Planning",
-            "Pilot design group"
-        ],
-        "requiredEvidence": [
-            "Advice on independence requirements for pilot assessment panels.",
-            "Identification of suitably qualified and independent assessors."
-        ],
-        "decisionAffected": "Assessor panel composition and assessor governance framework.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "See docs/advanced-carpentry-assessor-governance-v0.1.md Section 12."
-    },
-    {
-        "questionId": "Q-013",
-        "question": "What level of inter-assessor agreement is acceptable before pilot recalibration is required?",
-        "category": "assessment_governance",
-        "whyItMatters": "Without a defined threshold, it is not possible to evaluate whether assessors are applying the framework consistently. The threshold determines whether pilot results are interpretable.",
-        "currentEvidence": "No threshold has been set. Pilot design must determine an acceptable variance range with reference to assessment design literature and regulatory expectations.",
-        "evidenceGap": "Requires pilot design deliberation and, ideally, reference to comparable professional assessment frameworks.",
-        "partyToAsk": [
-            "Pilot design group",
-            "Assessment design experts"
-        ],
-        "requiredEvidence": [
-            "Comparable inter-assessor agreement thresholds from equivalent capability assessment frameworks."
-        ],
-        "decisionAffected": "Pilot stop conditions; assessor recalibration triggers; interpretation of pilot results.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "See docs/advanced-residential-carpentry-assessment-framework-v0.1.md Section 8 and Section 9."
-    },
-    {
-        "questionId": "Q-014",
-        "question": "Which capability domains should be designated as mandatory critical domains where failure cannot be compensated by strength in other domains?",
-        "category": "assessment_governance",
-        "whyItMatters": "If all domains are treated equally, a candidate who is technically strong but weak in boundary recognition could achieve a positive outcome. Designation of mandatory critical domains prevents this.",
-        "currentEvidence": "Critical-fail rules in the framework cover specific behaviours. Whether specific domains should be designated as mandatory critical domains is a design question not yet resolved.",
-        "evidenceGap": "Requires pilot design deliberation. Boundary Recognition and Structural Understanding are candidates for mandatory critical domain status.",
-        "partyToAsk": [
-            "Pilot design group",
-            "Assessor panel"
-        ],
-        "requiredEvidence": [
-            "Assessor input during calibration on which domains produce the most consumer-risk when failed."
-        ],
-        "decisionAffected": "Scoring model; critical-fail rules; outcome determination.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "See docs/advanced-residential-carpentry-assessment-framework-v0.1.md Section 6."
-    },
-    {
-        "questionId": "Q-015",
-        "question": "What evidence should be independently verified rather than candidate-declared in the eligibility and portfolio stages?",
-        "category": "assessment_governance",
-        "whyItMatters": "Verification requirements affect the integrity of the eligibility gate. If key evidence is accepted as candidate-declared only, the eligibility gate may not be robust.",
-        "currentEvidence": "Evidence status vocabulary is defined. Verification requirements for each evidence type are not yet set.",
-        "evidenceGap": "Requires pilot design deliberation. Qualification evidence and practitioner registration are strong candidates for independent verification.",
-        "partyToAsk": [
-            "Pilot design group",
-            "Building and Plumbing Commission"
-        ],
-        "requiredEvidence": [
-            "Advice on which categories of evidence can be independently verified through existing systems."
-        ],
-        "decisionAffected": "Eligibility gate robustness; portfolio evidence standards.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "See docs/candidate-evidence-requirements-v0.1.md."
-    },
-    {
-        "questionId": "Q-016",
-        "question": "What constitutes sufficient verified renovation experience for eligibility?",
-        "category": "assessment_governance",
-        "whyItMatters": "Experience thresholds affect who can enter the pilot and how the results can be interpreted. Arbitrary thresholds without evidence basis undermine the integrity of the eligibility gate.",
-        "currentEvidence": "No independently validated experience threshold has been established. Any current proposed threshold is a design proposal, not a validated requirement.",
-        "evidenceGap": "Requires deliberation with reference to the types of renovation experience that are most relevant to the capability domains being assessed.",
-        "partyToAsk": [
-            "Pilot design group",
-            "Experienced practitioners",
-            "Assessor panel candidates"
-        ],
-        "requiredEvidence": [
-            "Evidence-based rationale for any proposed experience threshold."
-        ],
-        "decisionAffected": "Eligibility gate; pilot cohort composition; interpretability of pilot results.",
-        "status": "open",
-        "priority": "high",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "See docs/advanced-residential-carpentry-assessment-framework-v0.1.md Section 2."
-    },
-    {
-        "questionId": "Q-017",
-        "question": "What appeal mechanism is proportionate for a pilot assessment?",
-        "category": "assessment_governance",
-        "whyItMatters": "Candidates have a legitimate interest in a reviewable outcome. The mechanism must be proportionate, accessible and genuinely independent.",
-        "currentEvidence": "The assessment framework defines that a review and appeal pathway must exist. The specific mechanism has not been designed.",
-        "evidenceGap": "Requires pilot design deliberation with reference to comparable professional assessment appeal frameworks.",
-        "partyToAsk": [
-            "Pilot design group",
-            "Legal review"
-        ],
-        "requiredEvidence": [
-            "Comparable appeal mechanisms from equivalent professional assessment frameworks."
-        ],
-        "decisionAffected": "Assessor governance; candidate rights; pilot integrity.",
-        "status": "open",
-        "priority": "medium",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "See docs/advanced-carpentry-assessor-governance-v0.1.md Section 9."
-    },
-    {
-        "questionId": "Q-018",
-        "question": "What legal review is required before pilot delivery?",
-        "category": "legal_and_regulatory",
-        "whyItMatters": "The assessment framework must not inadvertently create legal obligations, confer statutory authority or conflict with existing regulatory frameworks. Legal review is required before any pilot proceeds.",
-        "currentEvidence": "No legal review has been conducted. This is a design precondition for pilot delivery.",
-        "evidenceGap": "Requires qualified legal review of the assessment framework, assessor governance, evidence requirements and outcome categories.",
-        "partyToAsk": [
-            "Building and Plumbing Commission",
-            "Department of Transport and Planning",
-            "Legal counsel"
-        ],
-        "requiredEvidence": [
-            "Legal advice on the assessment framework's compliance with applicable legislation and regulations."
-        ],
-        "decisionAffected": "Whether the pilot can proceed and in what form.",
-        "status": "open",
-        "priority": "critical",
-        "publicationStatus": "internal_only",
-        "owner": "Carpenters for Housing Reform Victoria",
-        "createdAt": "2026-08-10T00:00:00Z",
-        "lastReviewedAt": "2026-08-10T00:00:00Z",
-        "notes": "Legal review is a precondition for pilot delivery. Do not proceed without it."
-    }
+  {
+    "questionId": "Q-001",
+    "question": "Can BPC create a renovation-specific endorsement or stream within DB-L Carpentry?",
+    "category": "builder_registration",
+    "whyItMatters": "This affects whether reform could occur within an existing registration pathway or would require a new structure.",
+    "currentEvidence": "No current primary-source answer is recorded in Version 0.1.",
+    "evidenceGap": "Need current authoritative material confirming available administrative or statutory mechanisms.",
+    "partyToAsk": [
+      "Building and Plumbing Commission"
+    ],
+    "requiredEvidence": [
+      "Current primary-source advice on available endorsement or stream mechanisms within DB-L Carpentry."
+    ],
+    "decisionAffected": "Implementation model selection and scope of later policy recommendations.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Remain unresolved until current primary sources are obtained."
+  },
+  {
+    "questionId": "Q-002",
+    "question": "Would such a model require legislation, regulation or administrative change?",
+    "category": "legal_and_regulatory",
+    "whyItMatters": "Implementation feasibility depends on the level of change required.",
+    "currentEvidence": "No verified answer is yet recorded in the controlled source set.",
+    "evidenceGap": "Need primary sources or direct documentary evidence on the type of change required.",
+    "partyToAsk": [
+      "Building and Plumbing Commission",
+      "Victorian Government"
+    ],
+    "requiredEvidence": [
+      "Current legislative, regulatory or administrative source material addressing change requirements."
+    ],
+    "decisionAffected": "Program sequencing, government ask and pilot framing.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Do not infer an answer from project preferences."
+  },
+  {
+    "questionId": "Q-003",
+    "question": "How would current Home Warranty requirements apply to each implementation model?",
+    "category": "insurance_and_warranty",
+    "whyItMatters": "Insurance treatment affects viability, consumer protection and implementation risk.",
+    "currentEvidence": "Current insurer or statutory treatment has not yet been verified for each model.",
+    "evidenceGap": "Need authoritative insurance and warranty sources for each implementation option.",
+    "partyToAsk": [
+      "Relevant insurer stakeholders",
+      "Victorian Government"
+    ],
+    "requiredEvidence": [
+      "Current Home Warranty requirements and insurer guidance mapped to each candidate model."
+    ],
+    "decisionAffected": "Insurance positioning, public wording and model comparison.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Version 0.1 intentionally records the gap without answering it."
+  },
+  {
+    "questionId": "Q-004",
+    "question": "What contractual and responsibility arrangements are required after scope escalation?",
+    "category": "scope_escalation",
+    "whyItMatters": "The project requires a defensible escalation process when hidden conditions alter responsibility.",
+    "currentEvidence": "The project has wording controls and protocol concepts, but no completed authoritative answer is yet recorded here.",
+    "evidenceGap": "Need current contractual, permit, insurance and professional-boundary evidence.",
+    "partyToAsk": [
+      "Builders",
+      "Engineers",
+      "Building surveyors",
+      "Insurer stakeholders"
+    ],
+    "requiredEvidence": [
+      "Documented contractual and responsibility arrangements suitable for post-escalation work."
+    ],
+    "decisionAffected": "Handoff protocol design and publication-safe explanations.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Unresolved by design in this sprint."
+  },
+  {
+    "questionId": "Q-005",
+    "question": "Would builders accept documented work initiated under a bounded carpentry scope?",
+    "category": "scope_and_authority",
+    "whyItMatters": "Builder acceptance affects practical uptake and escalation viability.",
+    "currentEvidence": "No controlled evidence set yet records builder acceptance patterns.",
+    "evidenceGap": "Need structured stakeholder evidence from builders and pilot participants.",
+    "partyToAsk": [
+      "Builders",
+      "Pilot stakeholders"
+    ],
+    "requiredEvidence": [
+      "Documented builder responses or pilot evidence on bounded-scope initiation."
+    ],
+    "decisionAffected": "Implementation model design and pilot assumptions.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Do not generalise from anecdotal conversations."
+  },
+  {
+    "questionId": "Q-006",
+    "question": "Which proposed practitioner title is best understood by consumers?",
+    "category": "consumer_protection",
+    "whyItMatters": "Consumer comprehension affects risk, trust and public usability.",
+    "currentEvidence": "No completed consumer-tested comparison is yet recorded.",
+    "evidenceGap": "Need consumer-facing testing or other documented evidence on title comprehension.",
+    "partyToAsk": [
+      "Consumers",
+      "Government stakeholders"
+    ],
+    "requiredEvidence": [
+      "Comparative evidence on comprehension of proposed practitioner titles."
+    ],
+    "decisionAffected": "Public naming and communications design.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Keep unresolved until evidence is collected."
+  },
+  {
+    "questionId": "Q-007",
+    "question": "Would experienced carpenters pursue the pathway?",
+    "category": "occupational_progression",
+    "whyItMatters": "Participation is necessary for any pathway to have practical effect.",
+    "currentEvidence": "No controlled participation evidence is yet recorded.",
+    "evidenceGap": "Need documented practitioner demand testing or pilot interest data.",
+    "partyToAsk": [
+      "Experienced carpenters",
+      "Training stakeholders"
+    ],
+    "requiredEvidence": [
+      "Structured demand evidence for a bounded advanced pathway."
+    ],
+    "decisionAffected": "Pilot design, market assumptions and implementation viability.",
+    "status": "open",
+    "priority": "medium",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Do not infer uptake from support for the broader reform idea."
+  },
+  {
+    "questionId": "Q-008",
+    "question": "Is there sufficient viable work within a bounded RRC scope?",
+    "category": "workforce_and_market",
+    "whyItMatters": "A bounded pathway needs enough legitimate work to be viable and meaningful.",
+    "currentEvidence": "No verified market sizing or work-volume evidence is yet controlled here.",
+    "evidenceGap": "Need documented evidence of work types and market demand within the proposed boundary.",
+    "partyToAsk": [
+      "Practitioners",
+      "Builders",
+      "Government stakeholders"
+    ],
+    "requiredEvidence": [
+      "Controlled market and work-volume evidence for bounded-scope activity."
+    ],
+    "decisionAffected": "Model viability and evaluation criteria.",
+    "status": "open",
+    "priority": "medium",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Remain unresolved pending evidence collection."
+  },
+  {
+    "questionId": "Q-009",
+    "question": "Would the pathway reduce non-compliance or relocate existing grey-market behaviour?",
+    "category": "consumer_protection",
+    "whyItMatters": "This bears directly on consumer outcomes and regulatory effectiveness.",
+    "currentEvidence": "No controlled causal evidence is yet recorded.",
+    "evidenceGap": "Need comparative or pilot evidence on behaviour change and compliance outcomes.",
+    "partyToAsk": [
+      "Government stakeholders",
+      "Consumers",
+      "Practitioners"
+    ],
+    "requiredEvidence": [
+      "Documented evidence on whether the model would reduce or relocate grey-market behaviour."
+    ],
+    "decisionAffected": "Public-benefit framing and pilot metrics.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "No current legal or regulatory conclusion is recorded."
+  },
+  {
+    "questionId": "Q-010",
+    "question": "Can a controlled assessment pilot occur without granting new statutory authority?",
+    "category": "pilot_and_evaluation",
+    "whyItMatters": "Pilot feasibility depends on whether a lawful controlled assessment can occur before statutory change.",
+    "currentEvidence": "No current primary-source answer is yet controlled in this register.",
+    "evidenceGap": "Need authoritative evidence on the permissibility and limits of a non-statutory or pre-statutory pilot.",
+    "partyToAsk": [
+      "Victorian Government",
+      "Building and Plumbing Commission"
+    ],
+    "requiredEvidence": [
+      "Current authoritative advice on pilot arrangements without new statutory authority."
+    ],
+    "decisionAffected": "Pilot design and stakeholder engagement sequence.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-07-31T16:55:03Z",
+    "lastReviewedAt": "2026-07-31T16:55:03Z",
+    "notes": "Do not present a pilot pathway as settled without evidence."
+  },
+  {
+    "questionId": "Q-011",
+    "question": "Which statutory or regulatory vehicle would most proportionately recognise independently assessed Advanced Residential Carpentry capability if a pilot demonstrates a genuine capability and consumer-protection benefit?",
+    "category": "legal_and_regulatory",
+    "whyItMatters": "The initiative deliberately does not recommend a statutory vehicle until pilot evidence is available. Government must determine which vehicle \u2014 distinct RRC class, DB-L Carpentry reform, advanced credential, or other mechanism \u2014 is most appropriate.",
+    "currentEvidence": "No primary-source answer is recorded. The question is by design open pending pilot evidence.",
+    "evidenceGap": "Requires government review of pilot evidence and determination of the most proportionate implementation vehicle.",
+    "partyToAsk": [
+      "Department of Transport and Planning",
+      "Building and Plumbing Commission"
+    ],
+    "requiredEvidence": [
+      "Government assessment of pilot outcomes.",
+      "Government determination of whether any statutory change is warranted.",
+      "Primary-source advice on available vehicles within current legislative framework."
+    ],
+    "decisionAffected": "Selection of implementation vehicle; scope of any future statutory or regulatory change.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-09T10:00:00Z",
+    "lastReviewedAt": "2026-08-09T10:00:00Z",
+    "notes": "Government-facing question. Do not present any vehicle as predetermined. RRC, DB-L reform, advanced credential and government-selected alternatives remain open options."
+  },
+  {
+    "questionId": "Q-012",
+    "question": "What assessor composition provides sufficient technical independence for advanced residential carpentry capability assessment?",
+    "category": "assessment_governance",
+    "whyItMatters": "Assessor composition affects the credibility, balance and conflict-of-interest management of the pilot assessment. Predetermined assessor composition could undermine independence.",
+    "currentEvidence": "No current primary-source answer is recorded. Potential assessor backgrounds are identified for consultation only.",
+    "evidenceGap": "Requires design-phase deliberation with reference to available assessor expertise, independence requirements and regulatory expectations.",
+    "partyToAsk": [
+      "Building and Plumbing Commission",
+      "Department of Transport and Planning",
+      "Pilot design group"
+    ],
+    "requiredEvidence": [
+      "Advice on independence requirements for pilot assessment panels.",
+      "Identification of suitably qualified and independent assessors."
+    ],
+    "decisionAffected": "Assessor panel composition and assessor governance framework.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "See docs/advanced-carpentry-assessor-governance-v0.1.md Section 12."
+  },
+  {
+    "questionId": "Q-013",
+    "question": "What level of inter-assessor agreement is acceptable before pilot recalibration is required?",
+    "category": "assessment_governance",
+    "whyItMatters": "Without a defined recalibration threshold, it is not possible to determine when observed assessor disagreement during or after pilot delivery requires the assessor panel to recalibrate before further assessments can proceed. This question addresses the ongoing maintenance threshold \u2014 the point at which disagreement already in the field triggers a stop-and-recalibrate response. It is distinct from Q-019, which addresses the initial go/no-go threshold before live pilot assessment begins.",
+    "currentEvidence": "No threshold has been set. Pilot design must determine an acceptable variance range with reference to assessment design literature and regulatory expectations.",
+    "evidenceGap": "Requires pilot design deliberation and, ideally, reference to comparable professional assessment frameworks.",
+    "partyToAsk": [
+      "Pilot design group",
+      "Assessment design experts"
+    ],
+    "requiredEvidence": [
+      "Comparable inter-assessor agreement thresholds from equivalent capability assessment frameworks."
+    ],
+    "decisionAffected": "Pilot stop conditions; assessor recalibration triggers; interpretation of pilot results.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "Addresses the recalibration trigger, not the commencement threshold. See Q-019 for the go/no-go readiness question. See docs/advanced-carpentry-assessor-calibration-pack-v0.1.md Section 12 (Recalibration Triggers)."
+  },
+  {
+    "questionId": "Q-014",
+    "question": "Which capability domains should be designated as mandatory critical domains where failure cannot be compensated by strength in other domains?",
+    "category": "assessment_governance",
+    "whyItMatters": "If all domains are treated equally, a candidate who is technically strong but weak in boundary recognition could achieve a positive outcome. Designation of mandatory critical domains prevents this.",
+    "currentEvidence": "Critical-fail rules in the framework cover specific behaviours. Whether specific domains should be designated as mandatory critical domains is a design question not yet resolved.",
+    "evidenceGap": "Requires pilot design deliberation. Boundary Recognition and Structural Understanding are candidates for mandatory critical domain status.",
+    "partyToAsk": [
+      "Pilot design group",
+      "Assessor panel"
+    ],
+    "requiredEvidence": [
+      "Assessor input during calibration on which domains produce the most consumer-risk when failed."
+    ],
+    "decisionAffected": "Scoring model; critical-fail rules; outcome determination.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "See docs/advanced-residential-carpentry-assessment-framework-v0.1.md Section 6."
+  },
+  {
+    "questionId": "Q-015",
+    "question": "What evidence should be independently verified rather than candidate-declared in the eligibility and portfolio stages?",
+    "category": "assessment_governance",
+    "whyItMatters": "Verification requirements affect the integrity of the eligibility gate. If key evidence is accepted as candidate-declared only, the eligibility gate may not be robust.",
+    "currentEvidence": "Evidence status vocabulary is defined. Verification requirements for each evidence type are not yet set.",
+    "evidenceGap": "Requires pilot design deliberation. Qualification evidence and practitioner registration are strong candidates for independent verification.",
+    "partyToAsk": [
+      "Pilot design group",
+      "Building and Plumbing Commission"
+    ],
+    "requiredEvidence": [
+      "Advice on which categories of evidence can be independently verified through existing systems."
+    ],
+    "decisionAffected": "Eligibility gate robustness; portfolio evidence standards.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "See docs/candidate-evidence-requirements-v0.1.md."
+  },
+  {
+    "questionId": "Q-016",
+    "question": "What constitutes sufficient verified renovation experience for eligibility?",
+    "category": "assessment_governance",
+    "whyItMatters": "Experience thresholds affect who can enter the pilot and how the results can be interpreted. Arbitrary thresholds without evidence basis undermine the integrity of the eligibility gate.",
+    "currentEvidence": "No independently validated experience threshold has been established. Any current proposed threshold is a design proposal, not a validated requirement.",
+    "evidenceGap": "Requires deliberation with reference to the types of renovation experience that are most relevant to the capability domains being assessed.",
+    "partyToAsk": [
+      "Pilot design group",
+      "Experienced practitioners",
+      "Assessor panel candidates"
+    ],
+    "requiredEvidence": [
+      "Evidence-based rationale for any proposed experience threshold."
+    ],
+    "decisionAffected": "Eligibility gate; pilot cohort composition; interpretability of pilot results.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "See docs/advanced-residential-carpentry-assessment-framework-v0.1.md Section 2."
+  },
+  {
+    "questionId": "Q-017",
+    "question": "What appeal mechanism is proportionate for a pilot assessment?",
+    "category": "assessment_governance",
+    "whyItMatters": "Candidates have a legitimate interest in a reviewable outcome. The mechanism must be proportionate, accessible and genuinely independent.",
+    "currentEvidence": "The assessment framework defines that a review and appeal pathway must exist. The specific mechanism has not been designed.",
+    "evidenceGap": "Requires pilot design deliberation with reference to comparable professional assessment appeal frameworks.",
+    "partyToAsk": [
+      "Pilot design group",
+      "Legal review"
+    ],
+    "requiredEvidence": [
+      "Comparable appeal mechanisms from equivalent professional assessment frameworks."
+    ],
+    "decisionAffected": "Assessor governance; candidate rights; pilot integrity.",
+    "status": "open",
+    "priority": "medium",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "See docs/advanced-carpentry-assessor-governance-v0.1.md Section 9."
+  },
+  {
+    "questionId": "Q-018",
+    "question": "What legal review is required before pilot delivery?",
+    "category": "legal_and_regulatory",
+    "whyItMatters": "The assessment framework must not inadvertently create legal obligations, confer statutory authority or conflict with existing regulatory frameworks. Legal review is required before any pilot proceeds.",
+    "currentEvidence": "No legal review has been conducted. This is a design precondition for pilot delivery.",
+    "evidenceGap": "Requires qualified legal review of the assessment framework, assessor governance, evidence requirements and outcome categories.",
+    "partyToAsk": [
+      "Building and Plumbing Commission",
+      "Department of Transport and Planning",
+      "Legal counsel"
+    ],
+    "requiredEvidence": [
+      "Legal advice on the assessment framework's compliance with applicable legislation and regulations."
+    ],
+    "decisionAffected": "Whether the pilot can proceed and in what form.",
+    "status": "open",
+    "priority": "critical",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "Legal review is a precondition for pilot delivery. Do not proceed without it."
+  },
+  {
+    "questionId": "Q-019",
+    "question": "What level of inter-assessor agreement is sufficient before live pilot assessment begins?",
+    "category": "assessment_governance",
+    "whyItMatters": "The calibration pack establishes that live pilot assessment should not begin until assessors demonstrate sufficient consistency. Without a validated threshold, it is not possible to determine whether calibration results support pilot commencement. This is a prerequisite for the pilot readiness gate.",
+    "currentEvidence": "No validated threshold has been established. The calibration pack (docs/advanced-carpentry-assessor-calibration-pack-v0.1.md Section 9.2) uses provisional language: acceptable agreement thresholds remain to be validated through calibration data. Related question Q-013 addresses the recalibration threshold; this question addresses the initial go/no-go readiness threshold.",
+    "evidenceGap": "Requires: (1) calibration data from the assessor calibration exercises; (2) reference to comparable professional assessment frameworks; (3) deliberation by the pilot design group.",
+    "partyToAsk": [
+      "Pilot design group",
+      "Assessment design experts",
+      "Building and Plumbing Commission (for regulatory expectations)"
+    ],
+    "requiredEvidence": [
+      "Calibration session results from assessor calibration exercises.",
+      "Comparable inter-assessor agreement standards from equivalent capability assessment contexts.",
+      "Pilot design group deliberation records."
+    ],
+    "decisionAffected": "Pilot readiness gate; commencement conditions for live candidate assessment; interpretation of calibration results.",
+    "status": "open",
+    "priority": "high",
+    "publicationStatus": "internal_only",
+    "owner": "Carpenters for Housing Reform Victoria",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "lastReviewedAt": "2026-08-10T00:00:00Z",
+    "notes": "See docs/advanced-carpentry-assessor-calibration-pack-v0.1.md Section 9 (Agreement Metrics). Related to Q-013 (recalibration threshold). Do not resolve this question with an arbitrary numeric threshold \u2014 requires validated calibration evidence."
+  }
 ]
