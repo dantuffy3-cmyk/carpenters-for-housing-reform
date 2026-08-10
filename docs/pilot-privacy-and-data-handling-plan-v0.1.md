@@ -56,6 +56,32 @@ Data is not collected for commercial, marketing or non-pilot purposes.
 
 ---
 
+## 3A. Third-Party Information in Portfolio Evidence
+
+Portfolio evidence submitted by candidate carpenters may contain information belonging to third parties — including homeowners, clients, engineers, builders and other parties involved in renovation projects. This information may include:
+
+- property addresses;
+- client or homeowner names;
+- project photographs showing private residential premises;
+- contracts, invoices or correspondence;
+- engineering or specialist reports;
+- permit documents or records;
+- communications with other parties.
+
+The candidate may not have unilateral authority to disclose this information to the pilot.
+
+Before assessment commences, candidates should be advised to:
+
+- consider whether third-party identifying information can be de-identified or redacted without affecting the evidence quality;
+- consider whether any material they propose to submit is subject to confidentiality obligations;
+- seek appropriate permission where submission of identifiable third-party material is required.
+
+The pilot does not automatically require candidates to submit identifiable third-party information. Assessors must not request more third-party information than is necessary to assess the candidate's demonstrated capability.
+
+This area requires legal and governance review before live pilot commencement. The appropriate approach to third-party information in candidate portfolio evidence is an unresolved question and must not be resolved by assumption.
+
+---
+
 ## 4. Minimum Necessary Collection
 
 Only the minimum data necessary for each purpose is collected. Data collection fields may be reviewed and reduced before live pilot commencement.
@@ -181,6 +207,7 @@ The following privacy-related questions remain open:
 - Q-023: Required retention period for pilot records
 - Q-024: Whether audio or video recording is used and associated obligations
 - Q-027: Scope and nature of legal review required before live pilot commencement
+- Unresolved — third-party information in candidate portfolio evidence: the appropriate framework for candidate disclosure of homeowner or client information requires legal review and cannot be resolved by internal governance assumption alone.
 
 ---
 

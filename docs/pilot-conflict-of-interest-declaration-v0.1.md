@@ -170,7 +170,19 @@ Do you operate a competing service, assessment body or training program that cou
 
 ---
 
-**2.10 Strong prior position affecting impartiality**
+**2.10 Prior collaboration with pilot or initiative leadership**
+
+Have you previously worked with, collaborated with, or been employed or engaged by the pilot leadership (including the initiative lead, pilot sponsor or pilot coordinator) in any capacity — whether professional, commercial or advisory?
+
+☐ Yes ☐ No ☐ Unsure
+
+*Description:*
+
+`__________________________`
+
+---
+
+**2.11 Strong prior position affecting impartiality**
 
 Is there any other reason — whether personal, professional, financial or otherwise — that could reasonably affect your ability to assess or review impartially?
 

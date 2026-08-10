@@ -99,6 +99,16 @@ You will be asked to provide evidence of your renovation work. Evidence may incl
 
 You do not need to produce evidence of every possible project type. Gaps in evidence are noted as part of the assessment, not treated as automatic failures.
 
+**Third-party information in your portfolio evidence**
+
+Your portfolio evidence may include information about homeowners, clients or other parties involved in your projects. Before submitting evidence, you should consider whether:
+
+- property addresses, client names or other identifying details can be de-identified or redacted without reducing the usefulness of the evidence;
+- any material you intend to submit is subject to confidentiality obligations;
+- you require permission from another party before sharing documents such as contracts, specialist reports, correspondence or invoices.
+
+The pilot does not require you to submit identifiable third-party information where de-identification is practicable. Assessors will not request more third-party information than is necessary to assess your capability. The appropriate approach to third-party information in portfolio evidence requires legal review and has not yet been resolved. Guidance will be provided before live assessment commences.
+
 ---
 
 ## What are the possible assessment outcomes?
