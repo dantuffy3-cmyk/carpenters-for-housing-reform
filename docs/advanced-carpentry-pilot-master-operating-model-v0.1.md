@@ -467,9 +467,9 @@ Possible government paths:
 | Observer | Observes without interference | Observation does not constitute endorsement; no decision-making authority |
 | Participant | Provides evidence and undergoes assessment | May withdraw or complain; participation is voluntary |
 
-### Founder and initiative lead boundary
+### Initiative lead boundary
 
-Dan Sonsie / the initiative lead does **not** automatically:
+These constraints apply to the initiative lead / Pilot Sponsor, including Dan Sonsie in the current project structure. The initiative lead does **not** automatically:
 - determine competence;
 - resolve his own conflict;
 - override assessors;
@@ -799,4 +799,3 @@ It is ready for that purpose only because it:
 ---
 
 *WORKING DRAFT. August 2026. This document integrates current pilot architecture for consultation and validation. Where conflict exists, the relevant detailed governed source document controls.*
-

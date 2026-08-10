@@ -182,11 +182,6 @@ Document statuses:
 | Pilot Observer Protocol v0.1 | `docs/pilot-observer-protocol-v0.1.md` | WORKING DRAFT | Conditions for government, regulator and industry observer access | August 2026 |
 | Pilot Governance and Recruitment One-Page Summary | `docs/advanced-carpentry-pilot-governance-recruitment-one-page-summary.md` | WORKING DRAFT | One-page summary for government and regulator review | August 2026 |
 | Pilot Governance Readiness Checklist v0.1 | `docs/pilot-governance-readiness-checklist-v0.1.md` | WORKING DRAFT | Readiness gate before live candidate recruitment commences | August 2026 |
-| Advanced Carpentry Pilot Master Operating Model v0.1 | `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md` | WORKING DRAFT | Integration document showing how the governance and recruitment pack interacts with assessment, calibration, evidence and evaluation controls | August 2026 |
-| Advanced Carpentry Pilot Master Operating Model — One-Page Summary | `docs/advanced-carpentry-pilot-master-operating-model-one-page-summary.md` | WORKING DRAFT | Concise reviewer summary of the integrated operating sequence | August 2026 |
-| Advanced Carpentry Pilot Master Checklist v0.1 | `docs/advanced-carpentry-pilot-master-checklist-v0.1.md` | WORKING DRAFT | Cross-lifecycle completion tracker for pilot delivery and close-out | August 2026 |
-| Advanced Carpentry Pilot Closeout Process v0.1 | `docs/advanced-carpentry-pilot-closeout-process-v0.1.md` | WORKING DRAFT | Controlled close-out pathway for pilot completion, pause or stop | August 2026 |
-| Pilot Control Traceability Matrix v0.1 | `docs/pilot-control-traceability-matrix-v0.1.md` | WORKING DRAFT | Control traceability summary to expose ownership and gaps | August 2026 |
 
 ---
 
