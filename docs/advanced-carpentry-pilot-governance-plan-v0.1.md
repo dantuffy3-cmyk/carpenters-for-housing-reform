@@ -487,6 +487,7 @@ This governance plan should be read alongside:
 | `docs/advanced-carpentry-assessor-governance-v0.1.md` | Assessor governance |
 | `docs/advanced-carpentry-assessor-calibration-pack-v0.1.md` | Assessor calibration |
 | `docs/advanced-residential-carpentry-assessment-framework-v0.1.md` | Assessment framework |
+| `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md` | Integrated end-to-end operating map across governance, calibration, assessment and evaluation |
 
 ---
 

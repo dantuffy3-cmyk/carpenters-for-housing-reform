@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Updated: v0.4.0 — External Engagement and Pilot Readiness Sprint
+Updated: v0.7.0 — Pilot Master Operating Model Sprint
 
 ---
 
@@ -73,6 +73,11 @@ Document statuses:
 | Assessor Calibration Session Plan v0.1 | `docs/assessor-calibration-session-plan-v0.1.md` | WORKING DRAFT | Ten-stage structured calibration session design | August 2026 |
 | Assessor Calibration Results Template v0.1 | `docs/assessor-calibration-results-template-v0.1.md` | WORKING DRAFT | Calibration results recording template with readiness recommendation categories | August 2026 |
 | Assessor Calibration — Government Summary | `docs/advanced-carpentry-assessor-calibration-one-page-summary.md` | WORKING DRAFT | One-page calibration summary for DTP / BPC / government reviewers | August 2026 |
+| Advanced Carpentry Pilot Master Operating Model v0.1 | `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md` | WORKING DRAFT | Integrated end-to-end operating map across governance, assessment, calibration, evidence, evaluation and decision bridges | August 2026 |
+| Advanced Carpentry Pilot Master Operating Model — One-Page Summary | `docs/advanced-carpentry-pilot-master-operating-model-one-page-summary.md` | WORKING DRAFT | Concise government-facing operating summary | August 2026 |
+| Advanced Carpentry Pilot Master Checklist v0.1 | `docs/advanced-carpentry-pilot-master-checklist-v0.1.md` | WORKING DRAFT | Full lifecycle tracking checklist across pre-pilot, delivery, evaluation and close-out | August 2026 |
+| Advanced Carpentry Pilot Closeout Process v0.1 | `docs/advanced-carpentry-pilot-closeout-process-v0.1.md` | WORKING DRAFT | Controlled pilot close-out process and recommendation pathway | August 2026 |
+| Pilot Control Traceability Matrix v0.1 | `docs/pilot-control-traceability-matrix-v0.1.md` | WORKING DRAFT | Cross-map of control objectives, source documents, stages, records and reviewers | August 2026 |
 
 ---
 
@@ -186,7 +191,7 @@ Document statuses:
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 24 |
+| WORKING DRAFT | 29 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HISTORICAL | 2 |
@@ -195,4 +200,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — Pilot Governance and Recruitment Pack Sprint (v0.6.0).*
+*Updated August 2026 — Pilot Master Operating Model Sprint (v0.7.0).*

@@ -20,6 +20,8 @@ Core government question:
 
 This is a question for evaluation, not a conclusion.
 
+For the integrated pilot operating sequence that applies this hierarchy across governance, calibration, assessment, evidence and public-interest review, see `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md`.
+
 ---
 
 ## 1) Public-Interest Problem

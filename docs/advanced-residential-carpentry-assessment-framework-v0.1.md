@@ -37,6 +37,8 @@ This assessment question follows a prior practitioner-function question: whether
 
 The framework converts the capability-first policy architecture into a testable assessment model. It does not predetermine whether any formal recognition mechanism will follow.
 
+For the integrated end-to-end operating sequence that sits above this detailed assessment architecture, see `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md`.
+
 ---
 
 ## Core Architecture

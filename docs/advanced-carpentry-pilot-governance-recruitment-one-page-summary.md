@@ -144,6 +144,7 @@ The full governance and recruitment pack includes:
 - Safety and Incident Protocol
 - Observer Protocol
 - Governance Readiness Checklist
+- Master Operating Model
 
 ---
 
