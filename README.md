@@ -16,12 +16,13 @@ Advanced Residential Carpentry capability — the integrated set of technical, d
 
 Government-facing framing for the current architecture is:
 
-1. Practitioner function question
-2. Capability definition
-3. Assessment reliability
-4. Assessor calibration consistency
-5. Public-interest evaluation
-6. Statutory vehicle selection (if any)
+1. Public-interest problem framing
+2. Practitioner function question
+3. Capability definition
+4. Assessment reliability
+5. Assessor calibration consistency
+6. Public-interest evaluation
+7. Statutory vehicle selection (if any)
 
 This sequence preserves capability-first governance and government discretion, including a valid no-formal-recognition outcome.
 

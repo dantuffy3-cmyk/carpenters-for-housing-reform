@@ -15,12 +15,13 @@ The statutory vehicle is a separate government design question.
 
 Government-facing decision sequence:
 
-1. Is there a sufficiently distinct practitioner function?
-2. Can that function be described through capability domains?
-3. Can the capability be assessed reliably?
-4. Can assessors apply the framework consistently?
-5. Would formal recognition materially improve public-interest outcomes?
-6. Which vehicle, if any, is proportionate?
+1. Is there a sufficiently material public-interest problem to evaluate?
+2. Is there a sufficiently distinct practitioner function?
+3. Can that function be described through capability domains?
+4. Can the capability be assessed reliably?
+5. Can assessors apply the framework consistently?
+6. Would formal recognition materially improve public-interest outcomes?
+7. Which vehicle, if any, is proportionate?
 
 ## Core capability level
 
