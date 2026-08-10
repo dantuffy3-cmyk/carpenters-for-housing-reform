@@ -441,6 +441,7 @@ A disagreement is classified as MATERIAL when assessors differ on any of the fol
 - **Licensed-trade boundary** — assessors disagree about whether the candidate correctly recognised or exceeded a licensed-trade boundary.
 - **ADVANCED outcome vs NOT DEMONSTRATED** — one assessor reaches `ADVANCED_CAPABILITY_DEMONSTRATED` and another reaches `CAPABILITY_NOT_DEMONSTRATED` or `REASSESSMENT_REQUIRED`.
 - **Whether material uncertainty exists** — one assessor considers the candidate adequately acknowledged uncertainty; another considers it unresolved.
+- **Consumer communication suppression or misrepresentation** — one assessor considers the candidate's consumer communication suppressed, minimised or misrepresented a material risk or scope change; another does not. This includes disagreement on whether a candidate's characterisation of required specialist input (for example, describing engineering sign-off as a formality) misled the consumer about professional authority or risk.
 
 Material disagreements require enhanced review in accordance with Section 11.
 
