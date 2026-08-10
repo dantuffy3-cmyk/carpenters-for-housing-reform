@@ -39,6 +39,8 @@ Document statuses:
 |---|---|---|---|---|
 | **Government Registration Alignment Brief** | `docs/government-registration-alignment-brief.md` | **CURRENT** | **Current canonical government-facing alignment brief. Capability-first, registration-reform aligned. August 2026.** | August 2026 |
 | Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
+| Practitioner Function Decision Hierarchy v0.1 | `docs/practitioner-function-decision-hierarchy-v0.1.md` | WORKING DRAFT | Canonical practitioner-function-first decision hierarchy for government-facing sequencing | August 2026 |
+| Victorian Enhanced Registration Alignment Note v0.1 | `docs/victorian-enhanced-registration-alignment-note-v0.1.md` | CURRENT EVIDENCE ALIGNMENT NOTE | Mapping note against Building Statement registration principles without endorsement claims | August 2026 |
 | Government Decision Paper | `docs/government-decision-paper.md` | CONSULTATION DRAFT — PRE-PIVOT | Decision paper with options and recommended next step. **Pre-pivot draft retained for historical reference. Not the current canonical government ask.** | July 2026 |
 | Government Briefing Request Template | `docs/templates/government-briefing-request.md` | CURRENT | Template for requesting a government briefing | July 2026 |
 | Government Follow-Up Email Draft | `docs/government-follow-up-email-draft.md` | CURRENT | Draft follow-up email to Building Policy Reform Team | August 2026 |
@@ -96,6 +98,7 @@ Document statuses:
 | RRC Pilot Risk Register | `docs/rrc-pilot-risk-register.md` | WORKING DRAFT | Pilot risks and controls | July 2026 |
 | Pull Request Audit | `docs/governance/pull-request-audit.md` | CURRENT | Governance audit of open pull requests | July 2026 |
 | ADR-004 Capability model above statutory vehicle | `docs/decisions/ADR-004-capability-model-above-statutory-vehicle.md` | CURRENT | Records the capability-first strategic pivot and open implementation vehicles | August 2026 |
+| ADR-005 Practitioner function before regulatory vehicle | `docs/decisions/ADR-005-practitioner-function-before-regulatory-vehicle.md` | PROPOSED | Records the practitioner-function-first sequencing refinement prior to statutory vehicle determination | August 2026 |
 
 ---
 
@@ -156,9 +159,11 @@ Document statuses:
 
 | Status | Count |
 |---|---|
-| CURRENT | 23 |
+| CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 7 |
+| WORKING DRAFT | 8 |
+| CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
+| PROPOSED | 1 |
 | HISTORICAL | 2 |
 | HISTORICAL — PRE-PIVOT | 5 |
 | SUPERSEDED | 0 |

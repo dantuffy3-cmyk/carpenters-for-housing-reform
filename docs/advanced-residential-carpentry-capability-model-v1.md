@@ -13,6 +13,16 @@ The primary reform object is **Advanced Residential Carpentry capability**.
 
 The statutory vehicle is a separate government design question.
 
+Government-facing decision sequence:
+
+1. Is there a sufficiently material public-interest problem to evaluate?
+2. Is there a sufficiently distinct practitioner function?
+3. Can that function be described through capability domains?
+4. Can the capability be assessed reliably?
+5. Can assessors apply the framework consistently?
+6. Would formal recognition materially improve public-interest outcomes?
+7. Which vehicle, if any, is proportionate?
+
 ## Core capability level
 
 **Advanced Residential Carpenter — independently assessed**
@@ -69,7 +79,7 @@ It is not intended to create automatic new statutory authority.
 
 ## Implementation vehicles
 
-If government concludes that this capability should be formally recognised, the capability model could be delivered through one of four vehicles:
+If government concludes that this capability should be formally recognised, the capability model could be delivered through one of the following vehicles:
 
 ### A. Registered Residential Carpenter
 
@@ -87,6 +97,10 @@ Independent recognition of advanced capability without automatic expansion of st
 
 Another mechanism identified through registration reform, consultation or legislation.
 
+### E. No additional formal recognition (status quo)
+
+Government may conclude that capability distinction, assessment reliability or public-interest benefit is insufficient to justify additional formal recognition at this time.
+
 ## Architecture statement
 
 The capability model is the reform architecture.
@@ -94,6 +108,8 @@ The capability model is the reform architecture.
 The statutory vehicle remains a government-design question.
 
 Registered Residential Carpenter remains a serious proposed implementation model, but it is not the only possible delivery mechanism.
+
+A no-reform outcome remains legitimate if evidence does not support further intervention.
 
 ## Non-negotiable principles across any vehicle
 

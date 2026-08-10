@@ -33,6 +33,8 @@ The central question the framework is designed to answer is:
 
 > Can advanced residential renovation carpentry capability be assessed reliably, consistently and transparently enough to inform government consideration of future recognition?
 
+This assessment question follows a prior practitioner-function question: whether advanced residential renovation carpentry is sufficiently distinct to warrant defined competence assessment at all.
+
 The framework converts the capability-first policy architecture into a testable assessment model. It does not predetermine whether any formal recognition mechanism will follow.
 
 ---
@@ -649,6 +651,8 @@ The following questions must be measurable during the pilot. Specific thresholds
 | 9 | Does assessment identify candidates who are technically strong but weak in boundary recognition? | Cross-domain scoring analysis |
 | 10 | Are assessment tasks too easy, too difficult or poorly calibrated? | Post-pilot calibration review |
 
+Pilot outcomes are evidence inputs only. They do not predetermine formal recognition and may support a no-additional-recognition conclusion.
+
 ---
 
 ## Section 9 — Pilot Stop and Redesign Conditions
@@ -663,6 +667,8 @@ Government must retain the ability to stop, pause, redesign, narrow or decline f
 6. Inability to define a bounded, assessable scope reliably across diverse project types.
 7. Legal or regulatory conflict identified by qualified legal review.
 8. Pilot design creates incentives — anticipated or observed — for participants to operate outside their lawful authority.
+
+Where these conditions cannot be resolved proportionately, government may conclude no additional formal recognition is justified.
 
 ---
 
