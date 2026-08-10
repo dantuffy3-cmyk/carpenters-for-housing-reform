@@ -11,7 +11,7 @@
 
 This summary gives DTP, BPC and government reviewers a single-view operating map of the current pilot architecture.
 
-**The master operating model integrates the pilot’s governance, assessment, calibration and evidence controls without predetermining any regulatory outcome.**
+**The master operating model integrates the pilot’s governance, assessment, calibration and evidence controls without replacing the detailed governed controls or predetermining any regulatory outcome.**
 
 Where conflict exists, the detailed governed source document controls.
 
@@ -21,12 +21,14 @@ Where conflict exists, the detailed governed source document controls.
 
 - **Strategic question**
 - **Governance readiness**
+- **Assessor calibration**
 - **Recruitment**
 - **Eligibility**
-- **Assessor calibration**
+- **Onboarding / consent**
+- **Evidence preparation**
 - **Assessment**
-- **Review**
-- **Pilot evidence**
+- **Review / complaints**
+- **Pilot evidence, assessor-variance and consumer-comprehension review**
 - **Public-interest evaluation**
 - **Government decision**
 
@@ -50,6 +52,7 @@ Where conflict exists, the detailed governed source document controls.
 |---|---|
 | Governance readiness before recruitment | No live recruitment until readiness is recorded |
 | Calibration before live assessment | No candidate assessment until assessor consistency is tested |
+| EOI and selection are not competence findings | Intake and selection do not establish eligibility or capability |
 | Eligibility separate from competence | Entry to assessment is not a pass |
 | Evidence sufficiency explicit | Missing evidence cannot improve an outcome |
 | Critical-fail review | Critical fail cannot be averaged away |
@@ -63,7 +66,7 @@ Where conflict exists, the detailed governed source document controls.
 ## Evidence pathway
 
 - **Source evidence**
-- verified / classified evidence
+- classified evidence with verification status explicit
 - assessment evidence
 - assessor rationale
 - candidate outcome
@@ -71,7 +74,7 @@ Where conflict exists, the detailed governed source document controls.
 - public-interest analysis
 - government decision support
 
-Canonical evidence statuses remain those already defined in the evidence requirements document.
+Canonical evidence statuses remain those already defined in the evidence requirements document. `PHOTO_SUPPORTED` and `DOCUMENT_SUPPORTED` do not automatically prove every conclusion drawn from the material, and `UNKNOWN` / `UNABLE_TO_VERIFY` remain explicit.
 
 ---
 
@@ -97,6 +100,7 @@ Canonical evidence statuses remain those already defined in the evidence require
 - It does **not** create automatic recognition.
 - It does **not** predetermine RRC, DB-L reform or any other vehicle.
 - It does **not** require government to choose formal recognition.
+- It does **not** replace the detailed governed controls.
 
 **Government may choose no formal recognition.**
 
@@ -108,4 +112,4 @@ Successful pilot performance would justify further policy evaluation, **not auto
 
 ---
 
-*WORKING DRAFT. August 2026. Government-facing integration summary only. Not government policy. No statutory authority. No automatic recognition. Government may choose no formal recognition.*
+*WORKING DRAFT. August 2026. Government-facing integration summary only. It integrates rather than replaces detailed controls. Not government policy. No statutory authority. No automatic recognition. Government may choose no formal recognition.*

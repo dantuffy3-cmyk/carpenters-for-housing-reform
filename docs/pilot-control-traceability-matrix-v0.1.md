@@ -25,6 +25,7 @@ Where a detailed governed document conflicts with this summary, the detailed sou
 | Evidence provenance traceable | `docs/candidate-evidence-requirements-v0.1.md` | 7–13 | Evidence record; metadata log | Evidence Custodian / Assessor | Q-015 |
 | Privacy controls maintained | `docs/pilot-privacy-and-data-handling-plan-v0.1.md` | 6, 7, 13, closeout | Access log; privacy incident record | Privacy / Governance Contact | Q-023, Q-024 |
 | Third-party information minimised | `docs/pilot-privacy-and-data-handling-plan-v0.1.md` | 7, 13 | Evidence record; redaction note | Evidence Custodian | Q-023 |
+| Consent / permission uncertainty escalated | `docs/pilot-privacy-and-data-handling-plan-v0.1.md` | 7, 13 | Privacy review note; decision register entry | Privacy / Governance Contact | Q-023, Q-027 |
 | Conflicts declared and managed | `docs/pilot-conflict-of-interest-declaration-v0.1.md` | 2, 5, 8, 10, 12 | Conflict declaration; decision register entry | Pilot Coordinator / Pilot Sponsor | — |
 | Participation consent separated from publication consent | `docs/pilot-participant-consent-form-v0.1.md` | 6 | Consent form | Pilot Coordinator | Q-024 |
 | Recruitment bias controlled | `docs/pilot-candidate-recruitment-framework-v0.1.md` | 3–4 | Recruitment and selection log | Selection panel / Pilot Sponsor | Q-020, Q-021 |

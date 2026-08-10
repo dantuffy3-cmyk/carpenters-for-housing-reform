@@ -40,12 +40,19 @@ This document shows, in one end-to-end operating map:
 - **Practitioner-function question**
 - **Capability definition**
 - **Pilot governance readiness**
+- **Assessor calibration**
 - **Recruitment**
 - **Eligibility**
-- **Assessor calibration**
+- **Onboarding / consent**
+- **Evidence preparation**
 - **Candidate assessment**
+- **Critical-fail / boundary review**
+- **Second review where required**
+- **Candidate outcome**
 - **Review / complaints**
 - **Pilot evidence aggregation**
+- **Assessor variance review**
+- **Consumer comprehension review**
 - **Public-interest evaluation**
 - **Government decision on statutory vehicle, if any**
 
@@ -57,22 +64,24 @@ This document shows, in one end-to-end operating map:
 
 1. Pilot activity must follow the current governed framework.
 2. Participation is voluntary.
-3. Eligibility is not competence.
-4. Experience is evidence of exposure, not automatic competence.
-5. Unknowns remain explicit.
-6. Missing evidence cannot improve an outcome.
-7. Assessment does not confer statutory authority.
-8. Calibration must precede live candidate assessment.
-9. Safety and professional boundaries override pilot completion.
-10. Material assessor disagreement must be reviewed.
-11. Recruitment must not be biased toward supporters or expected passers.
-12. Consent and publication consent remain separate.
-13. Evidence provenance must be traceable.
-14. Third-party evidence must be minimised and de-identified where appropriate.
-15. Adverse and null findings must be retained.
-16. Pilot success does not automatically justify regulation.
-17. Government may choose no formal recognition.
-18. The pilot may be paused, narrowed, redesigned or stopped.
+3. EOI is not eligibility.
+4. Eligibility is not competence.
+5. Selection is not competence.
+6. Experience is evidence of exposure, not automatic competence.
+7. Unknowns remain explicit.
+8. Missing evidence cannot improve an outcome.
+9. Assessment does not confer statutory authority.
+10. Calibration must precede live candidate assessment.
+11. Safety and professional boundaries override pilot completion.
+12. Material assessor disagreement must be reviewed.
+13. Recruitment must not be biased toward supporters or expected passers.
+14. Consent and publication consent remain separate.
+15. Evidence provenance must be traceable.
+16. Third-party evidence must be minimised and de-identified where appropriate, subject to unresolved legal-review questions being escalated rather than assumed away.
+17. Adverse and null findings must be retained.
+18. Pilot success does not automatically justify regulation.
+19. Government may choose no formal recognition.
+20. The pilot may be paused, narrowed, redesigned or stopped.
 
 These principles align with, and do not replace, the current governance plan, assessment framework, calibration pack, privacy plan, complaints process and evidence requirements.
 
@@ -125,18 +134,18 @@ These principles align with, and do not replace, the current governance plan, as
 - **Outputs:** Formal readiness determination.
 - **Decision gate:** Gate 1 — Governance ready?
 - **Records created:** Completed readiness checklist; decision register entry.
-- **Pause / stop trigger:** Governance gap, legal/privacy review gap, unresolved critical questions, or redesign requirement.
+- **Pause / stop trigger:** Governance gap, blocking legal-review issue under Q-018 or Q-027, legal/privacy review gap, unresolved critical questions, or redesign requirement.
 - **Canonical source document:** `docs/pilot-governance-readiness-checklist-v0.1.md`.
 
 ### Stage 2 — Assessor readiness and calibration
 - **Purpose:** Confirm assessors can apply the assessment framework consistently before live candidate assessment.
 - **Responsible role:** Calibration Chair.
 - **Inputs:** Assessment framework; calibration pack; benchmark responses; score sheets; assessor declarations.
-- **Activities:** Prepare assessors; run calibration scenarios; record agreement and disagreement; review material divergence; form readiness recommendation.
-- **Outputs:** Assessor readiness recommendation.
+- **Activities:** Prepare assessors; require independent scoring before discussion; run calibration scenarios; record all agreement and disagreement; review material divergence, including critical-fail disagreement; form readiness recommendation.
+- **Outputs:** Assessor readiness recommendation or delay recommendation.
 - **Decision gate:** Gate 2 — Assessors calibrated?
 - **Records created:** Calibration results; disagreement records; calibration chair recommendation.
-- **Pause / stop trigger:** Material disagreement, critical-fail inconsistency, rubric ambiguity, framework revision requirement.
+- **Pause / stop trigger:** Material disagreement, critical-fail inconsistency, rubric ambiguity, framework revision requirement, or inability to form a defensible readiness position.
 - **Canonical source document:** `docs/advanced-carpentry-assessor-calibration-pack-v0.1.md`.
 
 ### Stage 3 — Recruitment opens
@@ -179,7 +188,7 @@ These principles align with, and do not replace, the current governance plan, as
 - **Activities:** Provide information; obtain participation consent; separately record publication consent if given; assign participant ID.
 - **Outputs:** Onboarded participant or withdrawal.
 - **Decision gate:** Proceed only if participation consent is complete and valid.
-- **Records created:** Consent form; participant register entry; conflict declaration if relevant.
+- **Records created:** Consent form; participant register entry; conflict declaration if relevant; recording-consent status only if Q-024 settings have been resolved for the relevant activity.
 - **Pause / stop trigger:** Inadequate consent, participant withdrawal, privacy concern, or unresolved observer/recording issue.
 - **Canonical source document:** `docs/pilot-participant-consent-form-v0.1.md`.
 
@@ -187,8 +196,8 @@ These principles align with, and do not replace, the current governance plan, as
 - **Purpose:** Assemble, classify and secure the evidence set to be used in assessment.
 - **Responsible role:** Candidate and Evidence Custodian.
 - **Inputs:** Portfolio evidence; reference evidence; metadata requirements; privacy controls.
-- **Activities:** Collect evidence; classify by canonical evidence status; check provenance; minimise third-party identifiable information where appropriate.
-- **Outputs:** Verified/classified candidate evidence set.
+- **Activities:** Collect evidence; classify by canonical evidence status; check provenance and verification status explicitly; minimise third-party identifiable information where appropriate; record consent or permission uncertainty for project photographs, addresses, contracts, specialist reports and homeowner/client information; escalate unresolved legal-review issues rather than resolving them by assumption.
+- **Outputs:** Classified candidate evidence set with verification status explicit.
 - **Decision gate:** Gate 4 — Evidence sufficient to assess?
 - **Records created:** Evidence record; metadata log; access log if required.
 - **Pause / stop trigger:** Missing critical evidence, privacy issue, fabricated evidence concern, or `UNABLE_TO_VERIFY` evidence materially affecting assessment.
@@ -201,7 +210,7 @@ These principles align with, and do not replace, the current governance plan, as
 - **Activities:** Run portfolio review, scenario assessment, technical interview and consumer communication exercise; record findings and rationale.
 - **Outputs:** Complete assessment record.
 - **Decision gate:** Proceed to scoring only when the administered components are complete or a governed pause is recorded.
-- **Records created:** Assessor score sheet; notes; rationale; incident report if needed.
+- **Records created:** Assessor score sheet; notes; rationale; incident report if needed; recording status only where permitted under resolved Q-024 settings.
 - **Pause / stop trigger:** Safety issue, conflict discovered, evidence integrity concern, or process defect.
 - **Canonical source document:** `docs/advanced-residential-carpentry-assessment-framework-v0.1.md`.
 
@@ -217,7 +226,7 @@ These principles align with, and do not replace, the current governance plan, as
 - **Canonical source document:** `docs/advanced-residential-carpentry-assessment-framework-v0.1.md`.
 
 ### Stage 10 — Second review where required
-- **Purpose:** Independently review borderline or critical-fail matters before finalisation.
+- **Purpose:** Independently review borderline outcomes, including material uncertainty about performance level, or critical-fail matters before finalisation.
 - **Responsible role:** Second Assessor.
 - **Inputs:** Assessment record; trigger reason; assessor governance rules.
 - **Activities:** Independently review the record; confirm or dispute the trigger or borderline result; document rationale.
@@ -242,7 +251,7 @@ These principles align with, and do not replace, the current governance plan, as
 - **Purpose:** Review process fairness separately from competence and trigger re-assessment review only when warranted.
 - **Responsible role:** Pilot Coordinator, with independent reviewer where required.
 - **Inputs:** Complaint submission; complaint log; relevant records.
-- **Activities:** Record the complaint; review process; issue finding; trigger re-assessment review only where a process error materially affected an assessment activity.
+- **Activities:** Record the complaint; review process; issue finding; trigger re-assessment review only where process review records a `PROCESS_ERROR_MATERIAL` outcome under the complaints framework.
 - **Outputs:** Complaint outcome and, if required, re-assessment review outcome.
 - **Decision gate:** Complaint outcome applied under the complaints framework.
 - **Records created:** Complaint record; decision register entry; re-assessment review record if triggered.
@@ -277,6 +286,7 @@ These principles align with, and do not replace, the current governance plan, as
 - **Inputs:** Consumer role-comprehension test; candidate communication material.
 - **Activities:** Run the test; classify outcomes; identify misconceptions and role confusion.
 - **Outputs:** Consumer comprehension results.
+- **Consumer-comprehension rule:** This stage tests comprehension, not satisfaction. Clear presentation cannot compensate for unsafe reasoning or boundary failure in assessment.
 - **Decision gate:** Continue, revise communication controls, or pause the relevant component.
 - **Records created:** Consumer comprehension results; consent records for consumer participants.
 - **Pause / stop trigger:** Material misunderstanding pattern, privacy issue, or unsafe exposure risk.
@@ -330,7 +340,7 @@ Possible outcomes:
 - `PILOT_REDESIGN_REQUIRED`
 - `UNABLE_TO_FORM_RELIABLE_POSITION`
 
-**Effect:** Recruitment must not open unless the outcome is `READY_TO_RECRUIT_LIMITED` or `READY_WITH_CONDITIONS`.
+**Effect:** Recruitment must not open unless the outcome is `READY_TO_RECRUIT_LIMITED` or `READY_WITH_CONDITIONS`. A blocking legal-review issue under Q-018 or Q-027 prevents a ready outcome.
 
 ### Gate 2 — Assessors calibrated?
 **Controlling source:** `docs/assessor-calibration-results-template-v0.1.md`
@@ -342,7 +352,7 @@ Possible outcomes:
 - `FRAMEWORK_REVISION_REQUIRED`
 - `UNABLE_TO_FORM_RELIABLE_POSITION`
 
-**Effect:** Live candidate assessment must not begin unless calibration has produced a defensible readiness position.
+**Effect:** Live candidate assessment must not begin unless calibration has produced a defensible readiness position. Attendance alone does not satisfy this gate.
 
 ### Gate 3 — Candidate eligible?
 **Controlling source:** `docs/advanced-residential-carpentry-assessment-framework-v0.1.md`
@@ -373,7 +383,7 @@ Possible outcomes:
 - No critical-fail trigger identified
 - Critical-fail trigger identified — second review mandatory
 
-**Effect:** Critical fail cannot be averaged away. Strong technical performance does not compensate for a critical boundary failure.
+**Effect:** Critical fail cannot be averaged away. Strong technical performance does not compensate for a critical boundary failure. Weak-but-safe performance remains distinct from critical failure.
 
 ### Gate 6 — Second review required?
 **Controlling sources:** `docs/advanced-carpentry-assessor-governance-v0.1.md`, `docs/advanced-residential-carpentry-assessment-framework-v0.1.md`
@@ -474,7 +484,9 @@ These constraints apply to the initiative lead / Pilot Sponsor, including Dan So
 - resolve his own conflict;
 - override assessors;
 - decide his own appeal;
-- suppress adverse evidence.
+- suppress adverse evidence;
+- override a justified pause or stop decision for convenience; or
+- select only preferred candidates.
 
 These limits align with:
 - `docs/pilot-role-responsibility-matrix-v0.1.md`
@@ -486,7 +498,7 @@ These limits align with:
 ## Evidence Flow
 
 - **Source evidence**
-- **Verified / classified evidence**
+- **Classified evidence with verification status explicit**
 - **Assessment evidence**
 - **Assessor rationale**
 - **Candidate outcome**
@@ -508,6 +520,12 @@ These limits align with:
 | Government decision support | Uses aggregate evidence and public-interest analysis only; no statutory claim arises from evidence status alone |
 
 **Evidence rule:** If the repository uses a different final vocabulary in future governed updates, the controlling detailed evidence document overrides this summary.
+
+**Evidence handling notes:**
+- `PHOTO_SUPPORTED` does not by itself establish a technical diagnosis or professional conclusion.
+- `DOCUMENT_SUPPORTED` does not by itself verify every conclusion contained in the document.
+- `UNKNOWN` cannot improve an eligibility, assessment or policy outcome.
+- `UNABLE_TO_VERIFY` remains an explicit state and may block progression or finalisation.
 
 ---
 
@@ -531,11 +549,15 @@ These limits align with:
 | Decision register | Pilot Sponsor / Pilot Coordinator | Depends | No | De-identified extracts only | `docs/pilot-decision-register-template-v0.1.md` |
 | Calibration results | Calibration Chair | Depends | No | Summary publication possible without identifying assessors unless separately approved | `docs/assessor-calibration-results-template-v0.1.md` |
 | Consumer comprehension results | Consumer-Test Facilitator | Depends | No | Aggregate or de-identified publication only | `docs/consumer-role-comprehension-test-v0.1.md` |
+| Observer access record | Pilot Sponsor / Pilot Coordinator | Depends | No | Not for publication except controlled de-identified reporting | `docs/pilot-observer-protocol-v0.1.md` |
+| Privacy incident record | Evidence Custodian / Pilot Coordinator | Yes | Yes | Not for publication except de-identified thematic reporting | `docs/pilot-privacy-and-data-handling-plan-v0.1.md` |
 | Pilot evaluation record | Pilot evaluation team | Depends | No | Aggregate publication candidate, subject to governance review | `docs/rrc-pilot-evaluation-framework.md` |
 | Pause/stop decision | Pilot Sponsor / Pilot Coordinator | Depends | No | Summary publication possible if de-identified and governance-approved | `docs/advanced-carpentry-pilot-governance-plan-v0.1.md` |
 | Aggregate government summary | Initiative Lead / policy team | No if properly aggregated | No | Government-facing controlled summary | `docs/government-registration-alignment-brief.md` |
 
 **Retention note:** Do not invent retention periods. Where identifiable record retention remains unresolved, the controlling privacy document and unresolved question register govern.
+
+**Register note:** Raw participant evidence belongs in the controlled evidence record, not in the central participant register.
 
 ---
 
@@ -557,6 +579,8 @@ These limits align with:
 | Pilot validity | Systematic unreliability, unresolved strategic flaw, inability to form a reliable position | `PAUSE_PILOT_STAGE`, `PILOT_REDESIGN`, `STOP_PILOT_COMPONENT`, `STOP_PILOT` | Pilot Sponsor |
 
 Where an equivalent controlling vocabulary already exists in a detailed document, that detailed vocabulary controls.
+
+Justified pause or stop decisions cannot be overridden merely for convenience. Restart requires documented review, evidence that the trigger has been addressed, and approval under the controlling governance framework.
 
 ---
 
@@ -602,13 +626,16 @@ This limitation is central to the operating model. **Successful pilot performanc
 Validated pilot evidence moves into the public-interest stage only after aggregate evaluation and limitation review.
 
 Public-interest questions include:
-
+- does the pilot generate a credible consumer benefit signal?
 - does role clarity improve?
 - does boundary recognition improve?
 - is assessment reliable enough?
 - is the evidence burden proportionate?
+- what regulatory burden would any further mechanism create?
 - would formal recognition add clarity or complexity?
+- what market complexity might follow?
 - how would builders be affected?
+- how would engineers, building surveyors and licensed trades be affected?
 - how would regulators be affected?
 - what are the insurance implications?
 - what are the enforcement implications?
@@ -630,7 +657,8 @@ Possible government paths include:
 - further evidence;
 - additional pilot;
 - broader consultation;
-- legal / insurance analysis;
+- legal analysis;
+- insurance analysis;
 - RRC consideration;
 - DB-L reform consideration;
 - credential consideration;
