@@ -12,6 +12,19 @@ Advanced Residential Carpentry capability — the integrated set of technical, d
 
 **Advanced Residential Carpentry capability** is the primary subject of this initiative.
 
+## Canonical Decision Hierarchy
+
+Government-facing framing for the current architecture is:
+
+1. Practitioner function question
+2. Capability definition
+3. Assessment reliability
+4. Assessor calibration consistency
+5. Public-interest evaluation
+6. Statutory vehicle selection (if any)
+
+This sequence preserves capability-first governance and government discretion, including a valid no-formal-recognition outcome.
+
 ## Current Proposed Implementation Model
 
 The Registered Residential Carpenter (RRC) pathway is the initiative's current proposed implementation model. It is bounded by exclusions, mandatory handoff triggers and consumer safeguards. It is not a backdoor domestic builder licence and is not currently an approved statutory registration category.
@@ -48,6 +61,12 @@ Government engagement has commenced, including correspondence reference **CMIN-1
 8. Practitioner evidence and consultation
 
 ## Occupational Progression Gap
+
+The occupational progression gap is one indicator that advanced renovation capability may not currently be formally distinguished. It does not by itself establish the case for a new registration category.
+
+The core occupational proposition remains relevant: a major trade should not require its most capable practitioners to become builders merely to receive formal recognition of advanced competence.
+
+This is treated as supporting occupational-policy evidence for investigating the practitioner-function question, not as proof that government intervention is required.
 
 ## Evidence Governance
 

@@ -13,6 +13,12 @@
 
 Carpenters for Housing Reform Victoria is not asking government to predetermine a new statutory class. We are asking that advanced residential renovation carpentry be assessed as a candidate practitioner function within Victoria's enhanced registration framework.
 
+Core government-facing question:
+
+> Does advanced residential renovation carpentry constitute a sufficiently distinct practitioner function that it warrants defined competence assessment, role boundaries and potentially formal recognition within Victoria's enhanced practitioner registration framework?
+
+This is a question for evaluation, not a predetermined conclusion.
+
 A controlled capability-assessment pilot could test whether the proposed framework:
 
 - identifies advanced renovation competence reliably;
@@ -120,16 +126,13 @@ A controlled capability-assessment pilot is proposed as the next step before any
 
 The pilot is designed to test:
 
-1. practitioner eligibility verification;
-2. independent assessment of seven capability domains;
-3. concealed-condition recognition;
-4. renovation sequencing and temporary-support awareness;
-5. structural-boundary awareness;
-6. lawful-scope recognition;
-7. escalation judgement;
-8. evidence and documentation discipline;
-9. consumer-role communication and comprehension; and
-10. assessor consistency across participants.
+1. whether the practitioner function can be defined clearly;
+2. whether the seven capability domains are observable in practice;
+3. whether candidate capability can be assessed reliably;
+4. whether assessors can apply the framework consistently;
+5. whether professional boundaries can be detected and scored;
+6. whether consumers can understand the proposed role; and
+7. whether the evidence architecture is auditable.
 
 **Consumer comprehension** is tested at onboarding and at project completion — not inferred from satisfaction alone.
 
@@ -143,9 +146,29 @@ For full pilot design, see the canonical pilot documents in the `/docs` director
 
 ---
 
-## 7. Implementation Options
+## 7. Public-Interest Questions After Capability Validity
 
-Four implementation vehicles have been identified. The initiative does not choose a winner.
+If capability validity is established, government may then consider whether formal recognition would materially improve:
+
+- consumer benefit and role clarity;
+- defect and non-compliance risk management;
+- regulatory transparency and accountability;
+- proportionate regulatory burden;
+- market complexity and practitioner interfaces;
+- insurance feasibility and claims governance;
+- enforcement practicality;
+- interaction with builders;
+- interaction with engineers, building surveyors and licensed trades;
+- workforce effects; and
+- unintended consequences.
+
+These are evaluation questions. They are not answered in this brief.
+
+---
+
+## 8. Implementation Options
+
+Five implementation outcomes are identified. The initiative does not choose a winner.
 
 ### Option A — Distinct Registered Residential Carpenter Class
 
@@ -175,11 +198,18 @@ Four implementation vehicles have been identified. The initiative does not choos
 | **Advantages** | Preserves government flexibility; can fit emerging registration reform directions |
 | **Risks** | Uncertain implementation shape at this stage |
 
+### Option E — No Additional Formal Recognition (Status Quo)
+
+| | |
+|---|---|
+| **Advantages** | Preserves existing framework if capability distinction, assessment reliability or public-interest benefit is not sufficiently demonstrated |
+| **Risks** | Potential continuation of role-clarity and evidence-quality limitations if a distinct capability problem is later verified |
+
 **The initiative's position:** The preferred outcome is recognition of the capability problem and testing of the assessment architecture. The statutory vehicle should follow evidence.
 
 ---
 
-## 8. Consumer Protection Position
+## 9. Consumer Protection Position
 
 The initiative does not frame this reform primarily as career progression for carpenters. The consumer rationale is:
 
@@ -196,7 +226,7 @@ No claim is made that the proposal will reduce defects. That is an empirical que
 
 ---
 
-## 9. Work and Evidence Record
+## 10. Work and Evidence Record
 
 The initiative proposes a persistent **Advanced Residential Carpentry Work and Evidence Record** as a pilot governance document.
 
@@ -215,7 +245,7 @@ Its purpose in the pilot is to test whether persistent records improve:
 
 ---
 
-## 10. Proportional Regulation
+## 11. Proportional Regulation
 
 Victoria has used structured, risk-based intervention in other building contexts — including the cladding risk mitigation framework — demonstrating that proportionate, evidence-based responses to building risk are achievable within the existing regulatory framework.
 
@@ -233,23 +263,23 @@ In the renovation context, this means:
 
 ---
 
-## 11. Government Decision Requested
+## 12. Government Decision Requested
 
 Five questions are offered for government consideration:
 
-1. Does government consider advanced residential renovation carpentry a legitimate capability question within practitioner-registration reform?
+1. Does government consider advanced residential renovation carpentry a sufficiently distinct practitioner-function question within practitioner-registration reform?
 
-2. Would the Department of Transport and Planning or the Building and Plumbing Commission consider reviewing the proposed capability domains and bounded scope architecture?
+2. Would the Department of Transport and Planning or the Building and Plumbing Commission consider reviewing whether the proposed capability domains define that function clearly enough for assessment?
 
-3. Would government consider a controlled capability-assessment pilot that grants no additional statutory authority?
+3. Would government consider a controlled pilot to test definition, assessment reliability, calibration consistency, consumer comprehension and auditability without additional statutory authority?
 
-4. Which statutory vehicle — if any — should be evaluated after pilot evidence is available?
+4. After capability and public-interest evaluation, which statutory vehicle — if any — should be evaluated?
 
-5. Which DTP or BPC team should own or coordinate this assessment?
+5. Which DTP or BPC team should own or coordinate this staged evaluation process?
 
 ---
 
-## 12. Important Limitations
+## 13. Important Limitations
 
 The following limitations apply to all claims in this brief:
 
@@ -259,6 +289,7 @@ The following limitations apply to all claims in this brief:
 - The initiative does not claim that advanced carpenters are already included in any registration expansion.
 - Cladding-specific legal rules are not applied to Class 1a renovation carpentry.
 - Plumbing registration classes are not represented as legally applicable to carpentry.
+- Plumbing classification reform, where referenced, is used only as policy-design precedent that governments may revisit practitioner classes where capability and risk differ; it is not treated as legal authority, mandatory template or evidence that equivalent carpentry classes will be created.
 - The pilot does not grant any statutory authority.
 - Historical documents produced before the capability-first pivot may retain earlier RRC-first framing and should be read as legacy material unless separately updated.
 

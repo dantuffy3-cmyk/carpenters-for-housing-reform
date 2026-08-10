@@ -35,6 +35,8 @@ If assessors apply the framework inconsistently, pilot outcomes will not be defe
 
 This calibration pack exists to test and improve that consistency before live pilot assessment begins.
 
+Calibration is one stage in a broader sequence: practitioner function question → capability definition → assessment reliability → calibration consistency → public-interest evaluation → statutory vehicle (if any).
+
 ---
 
 ## 1 — Purpose
@@ -701,6 +703,8 @@ The following conditions must be satisfied before live candidate assessment comm
 **Readiness is evidenced, not assumed.**
 
 Calibration outcomes do not confer practitioner authority. Completing calibration does not confer any credential or recognition on assessors or candidates.
+
+If calibration cannot demonstrate sufficient consistency, government may reasonably conclude that no additional formal recognition should proceed.
 
 ---
 
