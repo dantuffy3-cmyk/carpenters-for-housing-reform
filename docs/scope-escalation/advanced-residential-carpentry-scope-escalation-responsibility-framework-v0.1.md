@@ -32,7 +32,7 @@ The framework establishes how an Advanced Residential Carpenter — a capability
 - decide whether work can safely and lawfully proceed;
 - investigate further where required;
 - refer to another practitioner;
-- escalate responsibility to the appropriate party;
+- escalate operational decision ownership to the appropriate practitioner or authority;
 - stop work where necessary;
 - communicate the issue clearly to the consumer;
 - record the decision and rationale; and
@@ -161,7 +161,7 @@ Condition identified
 → responsible practitioner / authority identified
 → consumer informed
 → decision recorded
-→ work resumes only when responsibility is sufficiently clear
+→ work resumes only when operational decision ownership is sufficiently clear
 ```
 
 ---
@@ -375,15 +375,15 @@ Issue identified
 → responsible practitioner type identified
 → referral or escalation issued
 → evidence transferred to receiving practitioner
-→ receiving practitioner confirms scope of their involvement
-→ responsibility boundary recorded
+→ receiving practitioner confirms referred scope or question
+→ operational next-decision ownership recorded
 → conditions for resumption recorded
 → work resumes / scope changes / project remains stopped
 ```
 
 The Responsibility Handoff Record (Document 3 in this sprint) provides the standard template for recording these steps.
 
-Responsibility does not transfer automatically by the act of making a referral. The receiving practitioner must confirm their involvement and the scope of their role.
+A referral or handoff records operational responsibility for the next defined question or scope. It does not itself determine, transfer or extinguish legal liability, statutory responsibility, contractual responsibility or professional obligations. Acceptance by a receiving practitioner means that practitioner has confirmed the defined referred scope or question they will address. It does not by itself establish transfer of legal liability or release another party from existing obligations.
 
 ---
 
@@ -434,6 +434,8 @@ The practitioner should record the discovered condition and its potential effect
 ## 12. Responsibility Resolution States
 
 The following controlled states classify the resolution of a responsibility question. They are governance classifications only and do not carry independent statutory meaning.
+
+These states describe operational governance and decision ownership. They do not determine legal liability, negligence, statutory responsibility, contractual responsibility, insurance responsibility, or the release or indemnity of any practitioner.
 
 | State | Meaning |
 |---|---|

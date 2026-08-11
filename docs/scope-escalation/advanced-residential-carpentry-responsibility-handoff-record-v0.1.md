@@ -42,7 +42,7 @@ Use only the following status classifications:
 | `OPEN` | Handoff initiated; receiving practitioner not yet engaged |
 | `AWAITING_INFORMATION` | Waiting for evidence, documents or access before referral can be issued |
 | `REFERRED` | Question has been formally referred to the receiving practitioner |
-| `ACCEPTED_BY_RECEIVING_PRACTITIONER` | Receiving practitioner has confirmed their involvement and scope |
+| `ACCEPTED_BY_RECEIVING_PRACTITIONER` | Receiving practitioner has confirmed the referred scope or question they will address. This does not constitute transfer of legal liability or release any other party from existing obligations. |
 | `CONDITIONAL` | Receiving practitioner has accepted but with conditions or limitations on scope |
 | `RESOLVED` | The question has been resolved and work can resume or scope has been adjusted |
 | `CLOSED_NO_ACTION` | Handoff closed without further action (e.g., investigation found no issue) |
@@ -156,7 +156,7 @@ Complete all applicable fields. Mark fields as `N/A` where genuinely not applica
 | Field | Entry |
 |---|---|
 | **Receiving Practitioner Response** | *(Record what the receiving practitioner said: did they accept, decline, or accept conditionally?)* |
-| **Responsibility Accepted / Not Accepted / Conditional** | *(Select and explain)* |
+| **Referred Scope or Question Accepted / Not Accepted / Conditional** | *(Select and explain. Acceptance here means the receiving practitioner has confirmed the defined referred scope or question they will address. It does not constitute transfer of legal liability or release any other party from existing obligations.)* |
 | **Date Response Received** | |
 | **Scope Accepted by Receiving Practitioner** | *(Describe the specific scope the receiving practitioner has accepted — this should match the question in Section F)* |
 | **Conditions Imposed by Receiving Practitioner** | *(If conditional, record the specific conditions)* |
@@ -253,6 +253,10 @@ Complete each applicable sub-section. Mark `N/A` where not applicable.
 ### Authority
 
 This record does not transfer legal liability. Liability follows statutory responsibility under applicable Victorian law. The record documents governance decisions and practitioner reasoning.
+
+A referral or handoff records operational responsibility for the next defined question or scope. It does not itself determine, transfer or extinguish legal liability, statutory responsibility, contractual responsibility or professional obligations. Acceptance by a receiving practitioner means that practitioner has confirmed the defined referred scope or question they will address. It does not by itself establish transfer of legal liability or release another party from existing obligations.
+
+The responsibility states used in this record are operational governance classifications. They do not determine legal liability, negligence, statutory responsibility, contractual responsibility, insurance responsibility, or the release or indemnity of any practitioner.
 
 ### Consumer acknowledgement
 

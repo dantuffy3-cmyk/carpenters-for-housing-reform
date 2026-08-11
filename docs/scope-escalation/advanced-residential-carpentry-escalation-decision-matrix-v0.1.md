@@ -19,7 +19,7 @@ This matrix provides practical escalation scenarios for use in candidate assessm
 - `PROCEED_WITH_CONTROL` — may continue with documented controls
 - `INVESTIGATE` — more evidence required before decision
 - `REFER` — specific technical input required from another practitioner
-- `ESCALATE` — responsibility must transfer to another practitioner or authority
+- `ESCALATE` — operational decision ownership must move to another practitioner or authority; does not determine legal liability transfer
 - `STOP` — work must not continue until material issue is resolved
 
 **Evidence statuses used in this matrix:**
@@ -42,7 +42,7 @@ Each row represents one scenario. Columns are:
 | Authority Question | Whether the practitioner holds lawful authority over the relevant scope |
 | Initial Decision State | The governed decision state for this scenario |
 | Potential Referral | Type of practitioner who may need to provide technical input |
-| Potential Escalation | Type of practitioner or authority to whom responsibility may need to transfer |
+| Potential Escalation | Type of practitioner or authority to whom operational decision ownership may need to move |
 | Consumer Communication Required | Whether formal consumer notification is required |
 | Work Allowed to Continue? | Whether other work may proceed while this condition is unresolved |
 | Resumption Condition | What must occur before the paused scope resumes |
