@@ -63,6 +63,7 @@ Where a conflict is identified, the detailed governed source document remains co
 | TRM-026 | Validation outcome vocabulary | No prior source document. | — | Success Criteria | Yes — validation outcome classifications are new. They are consistent with the decision hierarchy in the governed documents. | None |
 | TRM-027 | Privacy controls for reviewer findings | `docs/pilot-privacy-and-data-handling-plan-v0.1.md` | Privacy and data handling controls | All external validation documents | No — privacy controls applied by reference. | Reviewer-specific privacy provisions may require a future update to the privacy plan. |
 | TRM-028 | No government endorsement implied | `docs/advanced-carpentry-pilot-governance-plan-v0.1.md` | Important Notice; Governance Principle 4 | All external validation documents | No | None |
+| TRM-029 | Validation closeout record | External Validation Process — Stage 13; External Validation Success Criteria — Criterion 8 | Validation closeout requirements | External Validation Closeout Record (`external-validation-closeout-record-v0.1.md`) | Yes — closeout record template is a new implementation document. It is consistent with the existing governed process architecture and does not introduce a new policy position. It is an initiative governance document and does not constitute government approval, regulatory endorsement or statutory recognition. | None |
 
 ---
 
@@ -75,6 +76,7 @@ The following controls are introduced by the external validation pack that do no
 | External validation process (TRM-023) | A new process stage prior to pilot preparation. Consistent with governed hierarchy but not previously documented. |
 | Feedback classification system (TRM-025) | Operational vocabulary for classifying reviewer findings. Consistent with evidence governance principles. |
 | Validation outcome vocabulary (TRM-026) | Operational vocabulary for recording validation conclusions. Consistent with decision hierarchy. |
+| Validation closeout record (TRM-029) | Implementation document completing the closeout stage of the governed validation process. An initiative governance document only — does not constitute government approval, regulatory endorsement or statutory recognition. |
 
 No new policy position is introduced that contradicts the existing governed architecture.
 

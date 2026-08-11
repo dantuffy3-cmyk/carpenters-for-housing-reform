@@ -43,7 +43,7 @@ The initiative has responded to each material objection. Responses are recorded 
 Any changes made to the framework in response to reviewer findings are documented, with the reviewer finding, the initiative's reasoning and the change made all visible.
 
 ### 8. Unresolved Matters Visible
-Matters that could not be resolved during external validation are identified in the validation closeout record and remain open for consideration in subsequent stages.
+Matters that could not be resolved during external validation are identified in the External Validation Closeout Record (`external-validation-closeout-record-v0.1.md`) and remain open for consideration in subsequent stages.
 
 ### 9. No Suppression of Adverse Findings
 Adverse findings, null findings and unresolved objections are present in the Evidence Register and have not been deleted, hidden or materially distorted.

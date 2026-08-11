@@ -45,6 +45,7 @@ The documents in this folder are designed to be read in the following order, dep
 | 10 | [Reviewer Category Framework](external-reviewer-category-framework-v0.1.md) | Reviewer perspectives, areas of challenge, potential conflicts, relevant questions |
 | 11 | [Validation Readiness Checklist](external-validation-readiness-checklist-v0.1.md) | Checklist to complete before approaching any reviewer |
 | 12 | [Control Traceability Matrix](external-validation-control-traceability-matrix-v0.1.md) | Maps each validation control back to the existing governed source documents |
+| 13 | [External Validation Closeout Record](external-validation-closeout-record-v0.1.md) | Template completed at the close of each validation round — records findings, unresolved matters, framework changes, reviewer independence and the recommended validation outcome |
 
 ---
 

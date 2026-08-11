@@ -21,7 +21,7 @@ No outreach to reviewers may commence until this checklist has been reviewed by 
 
 ### Framework Consistency
 
-- [ ] The canonical practitioner-function hierarchy (public-interest problem → practitioner function → capability → assessment → calibration → governed pilot → public-interest evaluation → statutory vehicle, if any) is documented and internally consistent across the governing source documents.
+- [ ] The canonical practitioner-function hierarchy (public-interest problem → practitioner function → capability → assessment → calibration → governed pilot → public-interest evaluation → government decision support) is documented and internally consistent across the governing source documents.
 
 - [ ] The capability-first / statutory-vehicle-second logic is explicit in the framework documents and is not contradicted by any document in the repository.
 
@@ -140,6 +140,18 @@ No outreach to reviewers may commence until this checklist has been reviewed by 
 - [ ] No recruitment of pilot candidates has commenced.
 
 - [ ] No outreach to reviewers has commenced as part of this sprint.
+
+---
+
+### Validation Closeout Readiness
+
+- [ ] The External Validation Closeout Record template (`external-validation-closeout-record-v0.1.md`) is present in the external validation folder.
+
+- [ ] The closeout record template captures all required fields: reviewer perspectives engaged, reviewer categories not covered, declared conflicts, material findings by classification, unresolved matters, specialist review required, framework changes made, framework changes not made and rationale, adverse and null findings retained, evidence register references, remaining evidence limitations, assessment of reviewer independence, and recommended validation outcome.
+
+- [ ] The closeout record governance notice is present: a validation closeout recommendation is an initiative governance recommendation only and does not constitute government approval, regulatory endorsement, statutory recognition or a decision to create any practitioner category.
+
+- [ ] The closeout record states that a positive validation outcome does not establish that formal recognition is required.
 
 ---
 

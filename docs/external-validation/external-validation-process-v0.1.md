@@ -175,15 +175,23 @@ Cross-reviewer comparison does not resolve disagreements. It informs the validat
 
 ### Stage 13 — Validation Closeout
 
-The initiative prepares a validation closeout record that includes:
+The initiative completes the External Validation Closeout Record (`external-validation-closeout-record-v0.1.md`), which includes:
 
 - a summary of reviewer perspectives engaged;
 - reviewer categories not covered and why;
-- a summary of material findings and their dispositions;
+- declared conflicts relevant to interpretation;
+- a summary of material findings and their dispositions (SUPPORTS, CHALLENGES, IDENTIFIES_GAP, REQUIRES_EVIDENCE, SUGGESTS_REFINEMENT, MATERIAL_OBJECTION, OUT_OF_SCOPE where materially relevant);
 - a list of unresolved matters;
+- specialist review required;
 - a list of framework changes made;
-- the initiative's overall assessment of the validation;
-- the recommended validation outcome (from the External Validation Success Criteria document).
+- framework changes not made and the rationale;
+- confirmation that adverse and null findings are retained;
+- evidence register references and remaining evidence limitations;
+- an assessment of reviewer independence and challenge quality;
+- the recommended validation outcome and the rationale for it; and
+- whether the framework should proceed toward governed pilot preparation, further review, revision, specialist review or stop.
+
+The closeout record is an initiative governance document. It does not constitute government approval, regulatory endorsement, statutory recognition or a decision to create any practitioner category. A positive validation outcome does not establish that formal recognition is required.
 
 ---
 

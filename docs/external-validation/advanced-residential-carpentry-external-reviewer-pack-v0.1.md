@@ -185,7 +185,7 @@ Governance readiness check
 → Assessor variance review
 → Consumer comprehension review
 → Public-interest evaluation
-→ Government decision on statutory vehicle, if any
+→ Government decision support
 ```
 
 Each stage is governed by a detailed controlled source document. The master operating model is an integration document; it does not replace the source documents.
