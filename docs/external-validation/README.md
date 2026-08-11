@@ -49,6 +49,23 @@ The documents in this folder are designed to be read in the following order, dep
 
 ---
 
+## Round 1 — Reviewer Selection and Preparation
+
+The `round-1/` subfolder contains documents prepared for the first external reviewer round.
+
+Round 1 is deliberately small and challenge-focused. It tests three specific questions through three independent professional perspectives. No outreach has occurred.
+
+| # | Document | Purpose |
+|---|---|---|
+| R1 | [Round 1 Reviewer Selection Strategy](round-1/round-1-reviewer-selection-strategy-v0.1.md) | Selection objectives, three reviewer perspectives, independence principle, reviewer/assessor separation and Round 1 limits |
+| R2 | [Reviewer Candidate Screening Record](round-1/reviewer-candidate-screening-record-v0.1.md) | Reusable template for recording candidate screening — one record per candidate |
+| R3 | [Round 1 Reviewer Selection Register](round-1/round-1-reviewer-selection-register-v0.1.md) | Governance register tracking selection and approval status for each Round 1 reviewer position |
+| R4 | [Reviewer Invitation Draft](round-1/reviewer-invitation-draft-v0.1.md) | Draft invitation for Dan Sonsie's review — not approved for sending |
+
+**Governance control:** No reviewer may be contacted unless Dan Sonsie has explicitly approved approach for that individual. No reviewer names have been entered into the register. No outreach has occurred.
+
+---
+
 ## Governing Architecture
 
 The external validation documents integrate and are consistent with the existing governed architecture. They do not replace it.
