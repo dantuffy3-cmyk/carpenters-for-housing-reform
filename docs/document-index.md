@@ -185,13 +185,25 @@ Document statuses:
 
 ---
 
+## Scope Escalation & Responsibility Resolution Sprint (v0.1)
+
+*Sprint: Advanced Residential Carpentry Scope Escalation & Responsibility Resolution Framework — v0.1. August 2026. All documents in this section are WORKING DRAFT.*
+
+| Document | Location | Status | Purpose | Last Reviewed |
+|---|---|---|---|---|
+| Scope Escalation & Responsibility Resolution Framework v0.1 | `docs/scope-escalation/advanced-residential-carpentry-scope-escalation-responsibility-framework-v0.1.md` | WORKING DRAFT | Governing framework for escalation decisions when work may exceed practitioner capability or authority | August 2026 |
+| Escalation Decision Matrix v0.1 | `docs/scope-escalation/advanced-residential-carpentry-escalation-decision-matrix-v0.1.md` | WORKING DRAFT | Practical scenario matrix for candidate assessment and assessor calibration, covering 15 escalation scenarios | August 2026 |
+| Responsibility Handoff Record v0.1 | `docs/scope-escalation/advanced-residential-carpentry-responsibility-handoff-record-v0.1.md` | WORKING DRAFT | Reusable governance template for recording escalation, referral and work-stoppage decisions | August 2026 |
+
+---
+
 ## Document Status Summary
 
 | Status | Count |
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 29 |
+| WORKING DRAFT | 32 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HISTORICAL | 2 |
@@ -200,4 +212,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — Pilot Master Operating Model Sprint (v0.7.0).*
+*Updated August 2026 — Scope Escalation & Responsibility Resolution Sprint (v0.1).*
