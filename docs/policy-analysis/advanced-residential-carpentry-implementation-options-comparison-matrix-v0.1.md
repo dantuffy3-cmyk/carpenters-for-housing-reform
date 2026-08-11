@@ -16,7 +16,7 @@ This comparison matrix draws on the same source verification conducted for the c
 
 Readers should consult that document for full source confidence ratings and wording corrections.
 
-Direct access to bpc.vic.gov.au was not available in the verification environment. Claims regarding current BPC registration requirements, scope, forms, and reform activities are classified as PARTIALLY VERIFIED unless stated otherwise.
+A second verification pass has upgraded several key claims from PARTIALLY VERIFIED to VERIFIED on the basis of directly accessed official BPC material. The matrix has been updated to reflect those upgrades.
 
 No government endorsement of this initiative or its proposed options is implied.
 
@@ -80,7 +80,7 @@ Selecting Option A does not close the initiative's other options at a capability
 
 This option is dependent on a legal determination about whether the existing DB-L Carpentry class can support a renovation endorsement without legislative amendment. That determination has not been made and is outside this initiative's scope to resolve.
 
-Current BPC public material, as reported in secondary sources, indicates that the registration reform program is reviewing assessment practices for existing classes. Whether that reform program creates a pathway for a renovation endorsement within DB-L Carpentry is not established.
+**Updated context from verified BPC scope:** Official BPC material confirms that DB-L Carpentry already expressly includes bathroom, kitchen and laundry renovations, external wall cladding, framing, and door and window replacement. This verified scope makes Option B's design question more precise: an endorsement or stream would need to distinguish advanced renovation capability — in terms of depth, assessment method, or occupational responsibility — from what is already within the existing class scope. The question is not whether these activities can be done under DB-L Carpentry. The question is whether the current assessment tests the capability depth needed to manage renovation-specific complexity safely.
 
 **Source limitation:** The feasibility of Option B within the current legislative framework is NOT DIRECTLY VERIFIED. It is treated as a policy option requiring legal advice.
 
@@ -108,15 +108,16 @@ Further evidence gathering before any decision is a responsible and legitimate o
 
 | Claim | Classification | Action Taken |
 |---|---|---|
-| DB-L Carpentry covers construction, alteration, renovation, repair of homes and associated structures | PARTIALLY VERIFIED | Retained with qualifying language |
-| DB-L Carpentry includes bathroom/kitchen/laundry renovation | NOT SUPPORTED | Removed; bathroom/kitchen/laundry renovation is a separate DB-L class (SD TRR 027) |
-| DB-L Carpentry includes external wall cladding | NOT DIRECTLY VERIFIED | Retained with explicit qualification |
-| Certificate III in Carpentry (CPC30220) required for DB-L Carpentry | PARTIALLY VERIFIED | Retained with qualifying language |
-| Prescribed units covering approvals, scheduling, contracts | NOT DIRECTLY VERIFIED | Qualified; not treated as confirmed BPC assessment requirement |
-| Technical Referee Report SD TRR 028 exists for DB-L Carpentry | PARTIALLY VERIFIED | Form reference retained; direct access not confirmed; explicit notice given |
-| BPC moving toward objective, class-specific examination | PARTIALLY VERIFIED | Retained as policy context; no endorsement implied |
-| DB-L Carpentry-specific exam exists | NOT DIRECTLY VERIFIED | Not claimed; reform described only as policy context |
-| Minimum Financial Requirements for domestic builders | PARTIALLY VERIFIED | Retained; used only to distinguish builder responsibility from capability recognition |
+| DB-L Carpentry covers construction, alteration, renovation, repair of homes and associated Class 10 structures | **VERIFIED** | Retained; sourced from official BPC registration class page |
+| DB-L Carpentry scope includes bathroom/kitchen/laundry renovations | **VERIFIED** | Restored; expressly included in official BPC scope list — prior removal reversed |
+| DB-L Carpentry scope includes framing, external wall cladding, door and window replacement, cabinet making, joinery, stair construction, gates and fences, non-habitable structures, attaching external fixtures | **VERIFIED** | Retained; full official BPC scope list confirmed |
+| Certificate III in Carpentry (CPC30211 or CPC30220) required for DB-L Carpentry | **VERIFIED** | Retained; confirmed from official BPC registration class material |
+| Prescribed units CPCCBC4026, CPCCBC4005, CPCCBC4003 required for DB-L Carpentry | **VERIFIED** | Confirmed; these units are specifically required by BPC for this registration class |
+| At least three years of practical experience required for DB-L Carpentry | **VERIFIED** | Confirmed from official BPC registration class material |
+| Technical Referee Report SD TRR 028 (Domestic Builder Limited to Carpentry), Version 9.0, 1 March 2026 | **VERIFIED** | Confirmed from official BPC resource hub — secondary-source caveats removed |
+| BPC moving toward objective, class-specific examination for building registration classes | **PARTIALLY VERIFIED** | Retained as policy context; no confirmation that DB-L Carpentry-specific examination currently exists |
+| DB-L Carpentry-specific examination currently exists | **NOT DIRECTLY VERIFIED** | Not claimed; reform described as policy context only |
+| Minimum Financial Requirements for registered domestic builders from 1 July 2026 | **VERIFIED** | Confirmed from official BPC material; used only to distinguish builder regulatory responsibility from capability recognition |
 
 ---
 
@@ -157,7 +158,7 @@ It has not been submitted to the Building and Plumbing Commission, the Victorian
 
 No government endorsement is implied.
 
-This document is subject to revision as source verification is completed and additional evidence is gathered.
+Key BPC source claims have now been verified from official BPC material (see Source Confidence Summary). Remaining PARTIALLY VERIFIED claims are identified and should be confirmed before submission to government.
 
 ---
 

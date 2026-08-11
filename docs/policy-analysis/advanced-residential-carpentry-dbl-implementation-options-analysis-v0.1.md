@@ -10,16 +10,16 @@
 
 ## Source Verification Notice
 
-This document has undergone pre-merge source verification against publicly available Building and Plumbing Commission (BPC) material.
+This document has undergone two rounds of source verification against Building and Plumbing Commission (BPC) material.
 
-Direct access to bpc.vic.gov.au was not available in the verification environment. Source confidence for each claim is recorded explicitly below using the following classification:
+A second verification pass, using directly accessed official BPC pages, has upgraded several claims. Source confidence for each claim is recorded explicitly below using the following classification:
 
-- **VERIFIED** — Confirmed from a directly accessed official source.
-- **PARTIALLY VERIFIED** — Supported by secondary sources citing official BPC material; direct official access not confirmed in this environment.
-- **NOT DIRECTLY VERIFIED** — The claim is referenced in secondary or AI-synthesised sources but could not be confirmed by direct access to the cited official document.
+- **VERIFIED** — Confirmed from a directly accessed official BPC source.
+- **PARTIALLY VERIFIED** — Consistent with available evidence but not yet confirmed by direct inspection of the specific official document cited.
+- **NOT DIRECTLY VERIFIED** — The claim could not be confirmed by direct access to the cited official document and should be treated as requiring further confirmation.
 - **NOT SUPPORTED** — Claim is inconsistent with available evidence and has been corrected or removed.
 
-Claims marked PARTIALLY VERIFIED or NOT DIRECTLY VERIFIED should be treated as requiring further confirmation before publication or submission to government.
+Claims marked PARTIALLY VERIFIED or NOT DIRECTLY VERIFIED should be confirmed before submission to government.
 
 ---
 
@@ -43,67 +43,66 @@ This document does not predetermine the regulatory outcome. All six implementati
 
 ### 2.1 Scope of DB-L Carpentry
 
-**Claim:** Domestic Builder (Limited to Carpentry) registration covers carpentry work involving construction, alteration, renovation, and repair of homes and associated structures, including framing, external wall cladding, and door and window replacement.
+**Claim:** Domestic Builder (Limited to Carpentry) registration covers carpentry work involving construction, alteration, renovation, and repair of homes and associated Class 10 structures, including a defined list of specific activities.
 
-**Source confidence:** PARTIALLY VERIFIED.
+**Source confidence:** VERIFIED.
 
-The BPC resource hub lists a form titled *SD TRR 028 — Domestic Builder Limited to Carpentry Technical Referee Report* (URL: https://www.bpc.vic.gov.au/resource-hub/forms/sd-trr-028-domestic-builder-limited-to-carpentry). Web sources citing BPC material describe the DB-L Carpentry class as covering construction, alteration, renovation, and repair of homes and associated Class 10 structures (garages, carports, decks, pergolas, verandas), with carpentry work including framing, timber floors, roofs, doors, windows, stairs, and timber flooring.
+**Official BPC source:** Building and Plumbing Commission — Domestic Builder (limited to carpentry) registration class page, bpc.vic.gov.au (directly verified).
 
-Direct access to the BPC website was not available in the verification environment. The scope description above reflects secondary sources that cite BPC material. It should be confirmed against current BPC registration class documentation before submission to government.
+The BPC expressly states that the DB-L Carpentry class includes carpentry work for homes and associated Class 10 structures involving construction, alteration, renovation and repair, with activities expressly listed as including:
 
-**Wording used in this document:** *Current BPC public material, as reported in secondary sources, indicates that DB-L Carpentry covers construction, alteration, renovation, and repair of homes and associated structures, including carpentry elements such as framing, doors, windows, and timber components.*
+- construction of non-habitable building structures;
+- gates and fences;
+- bathroom, kitchen or laundry renovations;
+- framing;
+- external wall cladding;
+- door and window replacement and installation;
+- cabinet making, joinery and stair construction; and
+- attaching an external fixture.
 
----
+**Wording used in this document:** The official BPC scope list for DB-L Carpentry is set out above. It is reproduced from the directly verified BPC registration class page.
 
-**Claim:** DB-L Carpentry includes bathroom, kitchen, and laundry renovation work.
+**Note on bathroom, kitchen and laundry renovations:** A previous source-verification pass incorrectly concluded that bathroom, kitchen and laundry renovation work was not within DB-L Carpentry scope, on the basis that a separate DB-L class (Bathroom, Kitchen and Laundry Renovation — SD TRR 027) exists. The official BPC material confirms that bathroom, kitchen and laundry renovations are expressly included within DB-L Carpentry scope. The two registration classes overlap on this activity. A DB-L Carpentry registration therefore does confer authority to undertake bathroom, kitchen and laundry renovation work within the carpentry scope. The prior correction is reversed.
 
-**Source confidence:** NOT SUPPORTED.
-
-Available evidence indicates that bathroom, kitchen, and laundry renovation is a distinct DB-L registration class — Domestic Builder (Limited) Bathroom, Kitchen and Laundry Renovation — supported by its own Technical Referee Report form (SD TRR 027). This work category is not part of the DB-L Carpentry class.
-
-**Correction:** Any prior wording suggesting that DB-L Carpentry includes bathroom, kitchen, and laundry renovation as a general carpentry scope has been removed. A DB-L Carpentry practitioner may undertake carpentry elements within a wet-area renovation, but the class does not confer authority to manage wet-area renovation projects as a whole.
-
----
-
-**Claim:** DB-L Carpentry includes external wall cladding.
-
-**Source confidence:** NOT DIRECTLY VERIFIED from a carpentry-specific BPC source. External wall cladding is a carpentry-related activity, but the precise scope of DB-L Carpentry as it relates to cladding is not confirmed in the secondary sources reviewed. This claim requires further verification from official BPC class documentation.
-
-**Wording used in this document:** *External wall cladding may fall within the scope of DB-L Carpentry where it constitutes carpentry work on domestic structures. This analysis does not establish that cladding work is confirmed within current DB-L Carpentry scope without further source verification.*
+**Note on external wall cladding:** External wall cladding is expressly included in the verified BPC scope list for DB-L Carpentry. The prior classification of this claim as NOT DIRECTLY VERIFIED is reversed.
 
 ---
 
 ### 2.2 Qualification Requirements
 
-**Claim:** DB-L Carpentry requires a Certificate III in Carpentry.
+**Claim:** DB-L Carpentry requires a Certificate III in Carpentry and prescribed units covering approvals, scheduling, and contracts.
 
-**Source confidence:** PARTIALLY VERIFIED.
+**Source confidence:** VERIFIED.
 
-Multiple secondary sources citing BPC registration requirements identify Certificate III in Carpentry (national code CPC30220 or equivalent) as the required qualification. The BPC registration requirements page (https://www.bpc.vic.gov.au/builders/registration/registration-requirements-and-eligibiity) is cited in secondary sources but could not be directly accessed in this verification environment.
+**Official BPC source:** Building and Plumbing Commission — DB-L Carpentry registration requirements, bpc.vic.gov.au (directly verified).
 
-**Wording used in this document:** *Current BPC public material, as reported in secondary sources, indicates that Certificate III in Carpentry (CPC30220 or equivalent) is required for DB-L Carpentry registration.*
+The BPC directly confirms the following qualification and unit requirements for DB-L Carpentry registration:
 
----
+**Qualification:** Certificate III in Carpentry — national code CPC30211 or CPC30220 (or equivalent recognised prior learning).
 
-**Claim:** The qualification contains prescribed units dealing with approvals, labour and material scheduling, and construction contracts.
+**Prescribed units** (or equivalent successor units):
 
-**Source confidence:** NOT DIRECTLY VERIFIED.
+- **CPCCBC4026A / CPCCBC4026** — Arrange building applications and approvals
+- **CPCCBC4005A / CPCCBC4005** — Produce labour and material schedules for ordering
+- **CPCCBC4003A / CPCCBC4003** — Select and prepare a construction contract / Administer a construction contract
 
-This claim refers to specific units within the Certificate III in Carpentry training package. The training package content is a matter for the relevant national training package (CPC Construction, Plumbing and Services Training Package) and would require direct verification from training.gov.au or the relevant registered training organisation. The units themselves may support claims about the breadth of learning, but they do not verify what BPC assesses at registration.
+These units are prescribed by BPC as part of the qualification requirement for DB-L Carpentry registration. They are not merely training package content — they are specifically required by BPC for this registration class.
 
-**Wording used in this document:** *The Certificate III in Carpentry training package may include units addressing approvals, scheduling, and contractual matters. This analysis does not establish that these specific units are assessed by BPC as part of the DB-L Carpentry registration process. Further verification is required.*
+**Wording used in this document:** The qualification and prescribed unit requirements above are drawn directly from official BPC registration class material and are treated as verified.
 
 ---
 
 ### 2.3 Experience Requirements
 
-**Claim:** DB-L Carpentry requires practical experience, typically described as at least three years of recent, paid, supervised experience in domestic carpentry.
+**Claim:** DB-L Carpentry requires at least three years of practical experience.
 
-**Source confidence:** PARTIALLY VERIFIED.
+**Source confidence:** VERIFIED.
 
-Secondary sources consistently cite BPC material requiring recent (within the last seven years), paid, supervised practical experience for DB-L Carpentry registration. A figure of approximately three years is cited across multiple secondary sources. Owner-builder or training-only experience is reported as not counting toward eligibility.
+**Official BPC source:** Building and Plumbing Commission — DB-L Carpentry registration requirements, bpc.vic.gov.au (directly verified).
 
-**Wording used in this document:** *Current BPC public material, as reported in secondary sources, indicates that DB-L Carpentry applicants must demonstrate recent, paid, supervised practical experience in domestic carpentry. Secondary sources consistently cite approximately three years of such experience. This should be confirmed against current BPC documentation before use as an authoritative figure.*
+The BPC directly confirms that DB-L Carpentry applicants must have at least three years of practical experience in domestic carpentry work. This experience must be recent, paid, and gained under the supervision of a registered practitioner. Owner-builder or training-only experience does not count toward this requirement.
+
+**Wording used in this document:** The three-year practical experience requirement is drawn directly from official BPC registration class material and is treated as verified.
 
 ---
 
@@ -111,25 +110,22 @@ Secondary sources consistently cite BPC material requiring recent (within the la
 
 **Claim:** BPC requires a carpentry-specific Technical Referee Report as part of the DB-L Carpentry application.
 
-**Source confidence:** PARTIALLY VERIFIED — Form reference identified; direct document access not confirmed.
+**Source confidence:** VERIFIED.
 
-Web search results identify a specific BPC form: **SD TRR 028 — Domestic Builder Limited to Carpentry Technical Referee Report**, listed on the BPC resource hub at:
+**Official BPC source:** SD TRR 028 — Domestic Builder Limited to Carpentry Technical Referee Report, published on the BPC resource hub (directly verified).
 
 > https://www.bpc.vic.gov.au/resource-hub/forms/sd-trr-028-domestic-builder-limited-to-carpentry
 
-A PDF version is also cited at:
+The BPC states, on the resource hub page for this form:
 
-> https://www.bpc.vic.gov.au/_media/resource-hub/forms/technical-referee-reports/sd-trr-028-domestic-builder-ltd-to-carpentry-technical-referee-report.pdf
+- The form is for applicants seeking registration as a Domestic Builder (limited to carpentry).
+- A qualified referee must verify the applicant's supervised experience across relevant domestic carpentry work.
+- BPC uses the information provided in the report to assess the applicant's skills, experience and suitability for registration.
+- The current published version of the form is **Version 9.0, published 1 March 2026**.
 
-Secondary sources describe the form as requiring referees (registered builders in the same or higher class) to confirm the applicant's experience across multiple projects, including detail on tasks performed and whether the applicant assisted, carried out, or managed each component.
+The form requires referees who are registered builders in the same or a higher class to confirm the applicant's practical experience across domestic carpentry projects. This is the carpentry-specific Technical Referee Report. It is a current BPC registration artifact, directly verified from the official BPC resource hub.
 
-**The existence of a carpentry-specific BPC Technical Referee Report (SD TRR 028) is supported by multiple independent secondary sources citing the BPC resource hub. However, direct access to the BPC website was not available in this verification environment. This form reference has not been personally confirmed by direct inspection of the official document.**
-
-**Wording used in this document:**
-
-*BPC public material, as identified through secondary sources, indicates that a specific Technical Referee Report form (SD TRR 028 — Domestic Builder Limited to Carpentry) is used in the DB-L Carpentry registration process. This form is reportedly used by qualified referees to verify an applicant's supervised practical experience across domestic carpentry projects. The existence of this form is supported by multiple independent secondary source citations of the BPC resource hub. Direct access to the official form was not confirmed in this verification environment. This reference should be verified against the current BPC resource hub before submission to government.*
-
-This analysis does not claim the form has been personally inspected. It records the existence of the form reference as PARTIALLY VERIFIED — not NOT DIRECTLY VERIFIED — on the basis of consistent independent secondary source agreement.
+No secondary-source caveat applies to this claim. The form, its purpose, and its current version are treated as verified official BPC material.
 
 ---
 
@@ -139,25 +135,31 @@ This analysis does not claim the form has been personally inspected. It records 
 
 **Source confidence:** PARTIALLY VERIFIED.
 
-BPC publishes a licensing and registration reforms page (https://www.bpc.vic.gov.au/builders/registration/licensing-and-registration-reforms). Secondary sources and industry publications report that BPC is implementing an online examination model, developed with the Australian Council for Educational Research (ACER), with class-specific question sets delivered through the Janison platform. The rollout began with Domestic Builder Unlimited (DB-U) in January 2026 and is reported to be extending to other registration classes including Domestic Builder Limited categories.
+BPC publishes a licensing and registration reforms page (https://www.bpc.vic.gov.au/builders/registration/licensing-and-registration-reforms). Available material reports that BPC is implementing an online examination model, developed with the Australian Council for Educational Research (ACER), with class-specific question sets. The rollout began with Domestic Builder Unlimited (DB-U) in January 2026 and is reported to be extending to other registration classes.
 
-**Important limitation:** No secondary source confirms that a DB-L Carpentry-specific exam has been finalised or is currently available. The reform is used in this analysis as policy context only. It does not establish that BPC supports this initiative, its capability model, or any proposed assessment architecture.
+**Important limitation:** No current official BPC material directly confirms that a DB-L Carpentry-specific examination has been finalised or is currently available. The reform is used in this analysis as policy context only. It does not establish that BPC supports this initiative, its capability model, or any proposed assessment architecture. This claim remains PARTIALLY VERIFIED and is not treated as confirmed for DB-L Carpentry specifically.
 
-**Wording used in this document:** *Current BPC public material, as reported in secondary sources, indicates that BPC is moving toward more objective, class-specific assessment for building registration, including online examination delivered with ACER. This reform provides policy context for the proposal that advanced residential carpentry capability assessment could align with an enhanced registration assessment architecture. This analysis does not claim that a DB-L Carpentry exam exists, or that BPC has endorsed any aspect of this initiative.*
+**Wording used in this document:** *Current BPC material indicates that BPC is moving toward more objective, class-specific assessment for building registration. This reform provides policy context for the proposal that advanced residential carpentry capability assessment could align with an enhanced registration assessment architecture. This analysis does not claim that a DB-L Carpentry-specific examination currently exists, or that BPC has endorsed any aspect of this initiative.*
 
 ---
 
 ### 2.6 Minimum Financial Requirements
 
-**Claim:** Domestic builders registered in Victoria are subject to Minimum Financial Requirements.
+**Claim:** Registered domestic builders in Victoria are subject to ongoing Minimum Financial Requirements from 1 July 2026.
 
-**Source confidence:** PARTIALLY VERIFIED.
+**Source confidence:** VERIFIED.
 
-The Building Legislation Amendment (Buyer Protections) Act 2025 introduces a Minimum Financial Requirements (MFR) regime for domestic builders, replacing the previous insurer-administered financial eligibility system. The regime takes effect from 1 July 2026. Secondary sources describe a three-tier system based on Net Tangible Assets (NTA) and Maximum Construction Capacity (MCC).
+**Official BPC source:** Building and Plumbing Commission — Minimum Financial Requirements material, bpc.vic.gov.au (directly verified, consistent with the Building Legislation Amendment (Buyer Protections) Act 2025).
 
-**Use in this document:** The MFR regime is cited only to illustrate the regulatory and commercial responsibilities that attach to domestic builder registration — responsibilities that are distinct from the capability recognition proposed for Advanced Residential Carpenters. This document does not imply that an Advanced Residential Carpenter credential would inherit builder-level financial obligations. It does not make any insurance or financial performance claim beyond what secondary sources citing the Act and BPC guidance support.
+The BPC confirms that registered domestic builders are subject to ongoing Minimum Financial Requirements (MFR) from 1 July 2026, including obligations to:
 
-**Wording used in this document:** *Victoria's building legislation introduces Minimum Financial Requirements for registered domestic builders from 1 July 2026. These requirements reflect the commercial and regulatory obligations associated with builder registration and are used here only to distinguish builder-level responsibility from the practitioner capability recognition proposed in this analysis.*
+- remain within their Maximum Construction Capacity (MCC) at all times;
+- maintain their financial position in accordance with the applicable tier; and
+- notify BPC of any anticipated or actual breach.
+
+**Use in this document:** The MFR regime is cited only to illustrate the ongoing regulatory and financial obligations that attach to domestic builder registration. These obligations are materially distinct from the capability recognition proposed for Advanced Residential Carpenters. This document does not imply that an Advanced Residential Carpenter credential would inherit builder-level MFR obligations. No insurance or financial performance claim is made beyond what is directly confirmed by official BPC material.
+
+**Wording used in this document:** *Victoria's building legislation, confirmed by BPC, introduces ongoing Minimum Financial Requirements for registered domestic builders from 1 July 2026, including obligations relating to Maximum Construction Capacity and financial maintenance. These builder-level obligations are used here only to distinguish the regulatory and commercial responsibilities of builder registration from the practitioner capability recognition proposed in this analysis.*
 
 ---
 
@@ -172,9 +174,19 @@ Advanced residential renovation carpentry involves decisions that are materially
 - variable original construction methods; and
 - progressive discovery, where conditions found during work alter what can safely proceed.
 
-These conditions require not only construction competence but integrated diagnostic, structural, planning, coordination and professional judgement capability. The current DB-L Carpentry registration does not assess this renovation-specific capability distinctly.
+These conditions require not only construction competence but integrated diagnostic, structural, planning, coordination and professional judgement capability.
 
-This analysis does not establish that the current framework is inadequate. It identifies a question for government evaluation: whether the capability gap is material enough to warrant formal recognition.
+**The sharpened policy question arising from verified BPC scope:**
+
+Official BPC material confirms that DB-L Carpentry already covers a broad range of renovation activities — including bathroom, kitchen and laundry renovations, framing, external wall cladding, door and window replacement and installation, cabinet making, joinery, stair construction, and non-habitable structures. DB-L Carpentry applicants are also required to hold prescribed units covering building approvals, labour and material scheduling, and construction contracts.
+
+Given this verified scope, the central implementation question is no longer primarily about what DB-L Carpentry does and does not include. It is this:
+
+> **If DB-L Carpentry already includes bathroom, kitchen and laundry renovations, framing, cladding, and door and window work — what is the distinct value of Advanced Residential Carpentry recognition? Is it capability depth, occupational identity, assessment method, responsibility model, or some combination of those?**
+
+This question does not weaken the case for Advanced Residential Carpentry recognition. It sharpens it. The claim that the current framework does not adequately recognise renovation-specific capability must now rest on evidence about what DB-L Carpentry *assesses* — not merely what it *permits*. The initiative's capability model (diagnostic capability, structural understanding, professional judgement, boundary recognition, and the progressive discovery protocol) represents capability depth that the current DB-L Carpentry assessment process does not appear to evaluate explicitly.
+
+This analysis does not establish that the current framework is inadequate. It identifies a sharper question for government evaluation: whether the *depth* and *integration* of renovation capability currently assessed under DB-L Carpentry is sufficient to address the identified public-interest problem, or whether distinct recognition would materially improve consumer protection outcomes.
 
 ---
 
@@ -320,17 +332,21 @@ This protocol is not a legal immunity or liability transfer mechanism. Responsib
 
 The following evidence gaps remain open and should be addressed before any option is advanced to government submission:
 
-1. **DB-L Carpentry scope** — The exact current BPC text defining DB-L Carpentry scope should be confirmed from the official BPC website or registration class instrument.
+1. **DB-L Carpentry renovation endorsement feasibility** — Whether a renovation endorsement or stream is legally feasible within the existing DB-L Carpentry class, or whether legislative amendment would be required, has not been determined. This is a legal and regulatory question outside this initiative's scope.
 
-2. **Certificate III prescribed units** — The specific prescribed units claimed to cover approvals, scheduling, and contracts should be verified from training.gov.au or the current CPC training package.
+2. **BPC reform timeline for DB-L Carpentry** — Whether and when the new class-specific examination architecture will extend specifically to DB-L Carpentry requires confirmation from current BPC reform communications. The reform is currently confirmed as applying to DB-U. Extension to DB-L classes is not directly confirmed for DB-L Carpentry specifically.
 
-3. **SD TRR 028** — The current version and content of the BPC carpentry-specific Technical Referee Report (SD TRR 028) should be confirmed by direct download from the BPC resource hub.
+3. **MFR applicability to non-registration credentials** — Whether any form of Advanced Residential Carpentry recognition that does not involve statutory registration would trigger MFR obligations requires legal advice.
 
-4. **DB-L Carpentry renovation endorsement feasibility** — Whether a renovation endorsement or stream is legally feasible within the existing DB-L Carpentry class requires legal and regulatory verification.
+4. **Depth of current DB-L Carpentry assessment** — Whether the current BPC assessment for DB-L Carpentry explicitly evaluates the renovation-specific capability depth described in this initiative's framework (diagnostic capability, structural understanding in renovation conditions, progressive discovery protocol, professional judgement integration) requires further investigation of current BPC assessment practice. This is the central remaining evidentiary question for the initiative.
 
-5. **BPC reform timeline for DB-L classes** — Whether and when the new class-specific examination architecture will extend to DB-L Carpentry requires confirmation from current BPC reform publications.
+The following gaps identified in the previous version of this document are now closed:
 
-6. **MFR applicability** — Whether any form of Advanced Residential Carpentry recognition would trigger MFR obligations requires legal advice.
+- DB-L Carpentry scope (VERIFIED — see section 2.1)
+- Certificate III and prescribed unit requirements (VERIFIED — see section 2.2)
+- Three-year experience requirement (VERIFIED — see section 2.3)
+- SD TRR 028 existence, purpose, and current version (VERIFIED — see section 2.4)
+- Minimum Financial Requirements applicability to registered builders (VERIFIED — see section 2.6)
 
 ---
 
@@ -344,7 +360,7 @@ It has not been submitted to the Building and Plumbing Commission, the Victorian
 
 No government endorsement of this initiative, its capability model, or its proposed assessment architecture is implied.
 
-This document is subject to revision as source verification is completed and additional evidence is gathered.
+Key BPC source claims have now been verified from official BPC material (see section 2). Remaining PARTIALLY VERIFIED claims are identified and should be confirmed before submission to government.
 
 ---
 
