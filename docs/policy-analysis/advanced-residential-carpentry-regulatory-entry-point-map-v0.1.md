@@ -248,7 +248,7 @@ The following distinction is critical for ARC entry-point purposes:
 
 Victorian statutory rules are subject to the *Subordinate Legislation Act 1994* (Vic), which provides for automatic expiry of statutory rules unless they are extended or remade.
 
-**Sunset date for Building Regulations 2018:** The current public evidence indicates that the *Building Regulations 2018* are subject to a sunset or review date in 2028 under the *Subordinate Legislation Act 1994*. This date should be verified against the current text of the Regulations on legislation.vic.gov.au and the Department of Treasury and Finance Subordinate Legislation Program.
+**Sunset date for Building Regulations 2018:** The *Building Regulations 2018* remain in force. Victorian statutory rules made under the *Subordinate Legislation Act 1994* (Vic) are subject to automatic expiry unless remade or extended. General commentary and secondary sources have suggested a 2028 replacement context; however, the exact legal expiry mechanism and date for the *Building Regulations 2018* has not been directly verified from the current primary text of either the Regulations or the *Subordinate Legislation Act 1994* in preparing this document. This should be confirmed against the current text of the Regulations on legislation.vic.gov.au and the Department of Treasury and Finance Subordinate Legislation Program before being relied upon.
 
 `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` — The precise sunset date and the current stage of any replacement process requires verification from primary sources. The following classification is applied on current available public evidence:
 
@@ -356,7 +356,7 @@ The following table assesses the likely entry point for each of the twenty ident
 | 9 | DB-L Carpentry revised assessment | `BPC_ADMINISTRATIVE` | BPC administers DB-L Carpentry assessment; revision within existing scope is administrative | Building and Plumbing Commission | High | Whether any revised criterion implies scope change; if so: `REGULATION_CHANGE_LIKELY` |
 | 10 | DB-L Carpentry renovation endorsement / stream | `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` | Not clear from current public evidence whether BPC can create an endorsement within existing class without regulatory amendment | BPC / DTP | Low | Whether the *Building Regulations 2018* authorise BPC to create sub-class streams or endorsements administratively |
 | 11 | DB-L Carpentry scope amendment | `REGULATION_CHANGE_LIKELY` | Scope is prescribed by or under the *Building Regulations 2018* | DTP / Governor in Council | High | Exact regulatory provision; RIS requirements; impact on existing registrants |
-| 12 | Distinct RRC class/category | `PRIMARY_LEGISLATION_LIKELY` or `REGULATION_CHANGE_LIKELY` | A new domestic builder limited class would require regulatory amendment at minimum; if it confers new statutory authority not currently within the Act's framework, primary legislation may be required | Victorian Parliament / Governor in Council / DTP | Medium | Whether the *Building Act 1993* head power is sufficient for the proposed RRC class, or whether the Act must first be amended |
+| 12 | Distinct RRC class/category | `MIXED_MECHANISM — exact statutory vehicle unresolved` | A new domestic builder limited class would require regulatory amendment at minimum. Whether existing head powers under the *Building Act 1993* (as amended by the 2026 Act) are sufficient to prescribe a new class by regulation alone, or whether primary legislation is required, cannot be determined from current public evidence. | Governor in Council / DTP / Victorian Parliament (if primary legislation required) | Low–Medium | Whether existing head powers could support a new prescribed class; whether regulation change alone could be sufficient; whether primary legislation would be required; whether 2026/2027 legislative reforms alter that position — all `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` |
 | 13 | Trade-level carpentry registration | `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` | Separate licensing or registration for trade-level carpentry does not currently exist in Victoria; any creation would require primary legislation or regulations depending on scope | DTP / Victorian Parliament | Low | Whether government is considering trade-level registration for carpentry; no public evidence found |
 | 14 | Consumer title protection | `PRIMARY_LEGISLATION_LIKELY` | Protected titles in regulated occupations typically require primary legislation | Victorian Parliament | High | Whether a title could be protected through the *Building Act 1993* or whether separate legislation is needed |
 | 15 | Continuing competence / CPD | `REGULATION_CHANGE_LIKELY` | CPD requirements for building practitioners are a regulatory matter; some existing CPD obligations exist | DTP / BPC | Medium | Whether BPC already has administrative authority to require CPD for specific classes; `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` |
@@ -382,7 +382,7 @@ The following table assesses the likely entry point for each of the twenty ident
 | **Regulation role** | Class creation; scope prescription; qualification and experience requirements; insurance and warranty obligations. |
 | **Primary legislation role** | May be required if the proposed RRC authority (including any contracting entitlement or consumer protection provision) requires an amendment to the *Building Act 1993* head power or the *Domestic Building Contracts Act 1995*. Consumer title protection would likely require primary legislation. |
 | **Implementation uncertainty** | `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` — Whether the *Building Act 1993* as currently amended (including the 2026 Act) provides sufficient head power to prescribe an RRC class without further primary legislation is not determinable from current public evidence alone. |
-| **Entry-point classification** | `REGULATION_CHANGE_LIKELY` at minimum; `PRIMARY_LEGISLATION_LIKELY` for title protection and possibly for full class authority. `MIXED_MECHANISM` overall. |
+| **Entry-point classification** | `MIXED_MECHANISM — exact statutory vehicle unresolved`. At minimum `REGULATION_CHANGE_LIKELY` for class prescription. Whether `PRIMARY_LEGISLATION_LIKELY` applies — for full class authority, and separately for consumer title protection — cannot be determined from current public evidence without legal review of existing head powers. `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` on the head power question. |
 
 ---
 
@@ -594,7 +594,7 @@ The following findings, if confirmed, would materially change the entry-point an
 | New primary legislation (new Building Act) will supersede the current class architecture before any ARC recognition decision | Not confirmed; Building System Review Stage 3 / new Act is `EXPECTED_FUTURE` with no timetable | If confirmed and imminent: focus should shift to influencing new-Act design rather than amending current Regulations |
 | Building Regulations 2018 sunset/replacement will not address practitioner class structures, which will be separately addressed by primary legislation | Not confirmed | If confirmed: Options A and B3 have no regulations-remake pathway; primary legislation becomes the only statutory vehicle |
 | The Victorian Government is already developing a trade-registration mechanism for carpentry or residential renovation | Not confirmed; no public evidence identified | If confirmed: could provide an additional or preferred entry point outside the domestic builder class architecture |
-| Statutory title protection for ARC does not require primary legislation and can be achieved by regulation | Not confirmed; current analysis classifies title protection as `PRIMARY_LEGISLATION_LIKELY` | If confirmed: Option A becomes `REGULATION_CHANGE_LIKELY` throughout, reducing parliamentary pathway requirement |
+| Statutory title protection for ARC does not require primary legislation and can be achieved by regulation | Not confirmed; the mechanism for title protection is `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` — primary legislation is one possible requirement but has not been confirmed as necessary from current public evidence | If confirmed as achievable by regulation: the title-protection component of Option A becomes `REGULATION_CHANGE_LIKELY`, removing the need for a parliamentary pathway for that element |
 | BPC's online exam rollout will include ARC-domain content for DB-L Carpentry before any regulatory change | Not confirmed; exam rollout status for DB-L Carpentry is `NOT_CONFIRMED_FOR_DBLC` | If confirmed: assessment reform (B1) is already in progress; a significant administrative entry point is open now |
 
 ---
@@ -656,7 +656,7 @@ The 65% confidence reflects that:
 | 4 | No assumption regulation can create every desired class | PASS | Primary legislation flag applied to title protection and potentially RRC class |
 | 5 | No assumption primary legislation is required where regulations may suffice | PASS | Regulation pathway assessed as sufficient for scope changes where head power is adequate |
 | 6 | Assessment mechanics separated from statutory authority | PASS | Part 9 dedicated to this distinction |
-| 7 | Building Regulations sunset status verified, not inferred | PASS with caveat | `EXPECTED_BUT_NOT_PUBLIC` classification applied; primary source citation for sunset date noted as `REQUIRES_LEGAL_OR_REGULATORY_REVIEW` |
+| 7 | Building Regulations sunset status verified, not inferred | PASS | `EXPECTED_BUT_NOT_PUBLIC` classification applied; 2028 reference qualified as not directly verified from primary text; primary source verification recommended. |
 | 8 | No invented DTP internal timeline | PASS | No specific DTP timeline stated; all timing described as unverified |
 | 9 | Better Regulation Victoria role sourced | PASS | Sourced from betterregulation.vic.gov.au and the *Subordinate Legislation Act 1994* |
 | 10 | Current BPC role sourced | PASS | Sourced from bpc.vic.gov.au (directly verified in companion documents) |
@@ -698,7 +698,7 @@ DB-L Carpentry scope, qualification and experience requirements are publicly ver
 
 ## Sunset Status
 
-`EXPECTED_BUT_NOT_PUBLIC` — Statutory framework supports expectation of replacement; no public timetable confirmed.
+`EXPECTED_BUT_NOT_PUBLIC` — The *Building Regulations 2018* remain in force. A 2028 replacement context has been referenced in secondary sources; the exact legal expiry mechanism and date is not directly verified from primary text in this document and requires confirmation from legislation.vic.gov.au.
 
 ## BPC Administrative Powers
 
