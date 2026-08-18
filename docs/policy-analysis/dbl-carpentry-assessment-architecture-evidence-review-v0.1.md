@@ -160,7 +160,7 @@ The controlling conclusion is therefore evidentiary insufficiency, not capabilit
 Primary sources relied on for this bounded QC:
 
 1. Building and Plumbing Commission — `Domestic builder` class material — <https://www.bpc.vic.gov.au/builders/builder-classes/domestic-builder>
-2. Building and Plumbing Commission — `Builder registration requirements and eligibility` — <https://www.bpc.vic.gov.au/builders/registration/registration-requirements-and-eligibiity>
+2. Building and Plumbing Commission — `Builder registration requirements and eligibility`.
 3. Building and Plumbing Commission — `SD TRR 028 Domestic builder limited to carpentry` — <https://www.bpc.vic.gov.au/resource-hub/forms/sd-trr-028-domestic-builder-limited-to-carpentry>
 4. Building and Plumbing Commission — `Building exams` — <https://www.bpc.vic.gov.au/builders/building-exams>
 5. Building and Plumbing Commission — `Home Warranty` — <https://www.bpc.vic.gov.au/home-owners/insurance-for-domestic-building-work/home-warranty>
