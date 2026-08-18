@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Updated: v0.7.0 — Pilot Master Operating Model Sprint
+Updated: v0.7.1 — DB-L Assessment Architecture Evidence Review
 
 ---
 
@@ -91,6 +91,14 @@ Document statuses:
 | Scope and Handoff Matrix (web) | `scope-matrix.html` | CURRENT | Operational scope matrix by work category | July 2026 |
 | RRC Consultation Package V2 (PDF) | `RRC_Consultation_Package_Website_V2.pdf` | HISTORICAL — PRE-PIVOT | Full consultation package. Pre-pivot RRC-first framing. Retained for reference. |
 | RRC Consultation Package V1 (PDF) | `RRC_Consultation_Package_Website_V1.pdf` | HISTORICAL | Earlier consultation package | 2026 |
+
+---
+
+## Policy Analysis
+
+| Document | Location | Status | Purpose | Last Reviewed |
+|---|---|---|---|---|
+| DB-L Carpentry Assessment Architecture Evidence Review v0.1 | `docs/policy-analysis/dbl-carpentry-assessment-architecture-evidence-review-v0.1.md` | WORKING DRAFT | Bounded evidence review of what current public BPC material does and does not establish about the relationship between DB-L Carpentry assessment and the ARC seven-domain capability model | August 2026 |
 
 ---
 
@@ -203,7 +211,7 @@ Document statuses:
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 32 |
+| WORKING DRAFT | 33 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HISTORICAL | 2 |
@@ -212,4 +220,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — Scope Escalation & Responsibility Resolution Sprint (v0.1).*
+*Updated August 2026 — DB-L Assessment Architecture Evidence Review v0.1.*
