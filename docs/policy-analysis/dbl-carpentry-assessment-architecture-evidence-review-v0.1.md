@@ -3,8 +3,7 @@
 **Version:** 0.1  
 **Prepared by:** Carpenters for Housing Reform Victoria  
 **Date:** August 2026  
-**Status:** WORKING DRAFT — bounded evidence QC completed for review  
-**Branch:** copilot/copilotdbl-assessment-architecture-evidence-review
+**Status:** WORKING DRAFT — bounded evidence QC completed for review
 
 ---
 
