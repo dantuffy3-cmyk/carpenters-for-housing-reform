@@ -99,6 +99,7 @@ Document statuses:
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
 | DB-L Carpentry Assessment Architecture Evidence Review v0.1 | `docs/policy-analysis/dbl-carpentry-assessment-architecture-evidence-review-v0.1.md` | WORKING DRAFT | Bounded evidence review of what current public BPC material does and does not establish about the relationship between DB-L Carpentry assessment and the ARC seven-domain capability model | August 2026 |
+| **ARC Regulatory Entry-Point Map v0.1** | `docs/policy-analysis/advanced-residential-carpentry-regulatory-entry-point-map-v0.1.md` | **WORKING DRAFT** | **Current regulatory architecture map of the Victorian entry points (administrative, regulatory, legislative, non-statutory) relevant to Advanced Residential Carpentry recognition. Fifteen-part analysis. Not a legal opinion. Not a government submission.** | August 2026 |
 
 ---
 
