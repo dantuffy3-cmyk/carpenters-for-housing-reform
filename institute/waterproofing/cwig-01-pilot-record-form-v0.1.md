@@ -719,6 +719,8 @@ For research purposes only.
 
 ---
 
+## PART I — ASSURANCE ARCHITECTURE AND FIELD RULES
+
 ### 26. Relationship to the Wider Assurance Architecture
 
 CWIG-01 occurs before waterproofing installation.
