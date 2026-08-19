@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Purpose
+# 1. Purpose
 
 This sprint pressure-tests the Critical Waterproofing Interface Gate (CWIG-01) against representative residential bathroom scenarios.
 
@@ -34,7 +34,7 @@ It is not field-pilot evidence and does not demonstrate actual defect reduction.
 
 ---
 
-## 2. Documents Under Test
+# 2. Documents Under Test
 
 The simulation assesses the architecture established through:
 
@@ -63,7 +63,7 @@ The gate-level decision states are:
 
 ---
 
-## 3. Simulation Method
+# 3. Simulation Method
 
 Each scenario tests CWIG-01 against four questions:
 
@@ -90,6 +90,7 @@ Each scenario is classified:
 - **PASS WITH GAP**
 - **AMBIGUOUS**
 - **USABILITY CONCERN**
+- **CALIBRATION RISK — REQUIRES TESTING**
 - **FAIL — MATERIAL GAP**
 
 ---
@@ -678,7 +679,7 @@ The purpose should be practitioner calibration rather than turning every decisio
 | Material interface change after gate | FAIL — MATERIAL GAP |
 | STOP → rectify → reassess | STRONG PASS |
 | Ordinary laundry | USABILITY CONCERN |
-| Assessor variation | CALIBRATION RISK |
+| Assessor variation | CALIBRATION RISK — REQUIRES TESTING |
 
 ---
 
