@@ -779,7 +779,7 @@ until the material issue is resolved.
 
 ---
 
-#### Pilot Document Control
+### Pilot Document Control
 
 **Document:** CWIG-01 Pilot Record Form  
 **Version:** v0.1  
