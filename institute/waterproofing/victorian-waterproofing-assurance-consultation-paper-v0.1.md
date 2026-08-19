@@ -13,7 +13,7 @@ Victoria is currently undertaking significant reform of its building regulatory 
 
 Waterproofing sits within this reform environment because failures can involve concealed work, multiple practitioner interfaces and substantial rectification consequences once construction is completed.
 
-Proposed additional mandatory inspections at the pre-lining and waterproofing stages were removed from the Building Amendment (Building Manuals) Regulations 2026 to enable development of an **alternative approach**. *[Requires verification against official Gazette or explanatory material before publication — date and precise mechanism to be confirmed.]*
+On 23 June 2026, the Department of Transport and Planning published its Notice of Decision for the Building Amendment (Building Manuals) Regulations 2026. The separate proposal for additional mandatory inspections at the pre-lining and waterproofing stages was completely removed from the regulations to enable the development of an **alternative approach**.
 
 This consultation paper does not presume what that alternative approach should be.
 
