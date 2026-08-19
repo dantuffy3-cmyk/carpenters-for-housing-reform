@@ -74,9 +74,9 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# PART A — PROJECT IDENTIFICATION
+## PART A — PROJECT IDENTIFICATION
 
-## 4. Project Record
+### 4. Project Record
 
 | Field | Record |
 |---|---|
@@ -99,7 +99,7 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-## 5. Waterproofing System Identification
+### 5. Waterproofing System Identification
 
 | Field | Record |
 |---|---|
@@ -116,9 +116,10 @@ Missing evidence must not be treated as positive evidence.
 | Cure/recoat requirement identified? | Yes / No / To verify |
 | Other relevant manufacturer documents | |
 
-### System Identification Decision
+#### System Identification Decision
 
-- [ ] ACCEPTABLE
+- [ ] PROCEED
+- [ ] PROCEED WITH CONTROL
 - [ ] INVESTIGATE
 - [ ] REFER
 - [ ] ESCALATE
@@ -128,11 +129,11 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# PART B — CRITICAL INTERFACE CHECKS
+## PART B — CRITICAL INTERFACE CHECKS
 
-# 6. CWI-01 — Substrate Acceptance
+### 6. CWI-01 — Substrate Acceptance
 
-## Controlling Question
+#### Controlling Question
 
 > **Is the exposed substrate suitable for reliable installation of the identified waterproofing system?**
 
@@ -149,14 +150,14 @@ Missing evidence must not be treated as positive evidence.
 | Protrusions affecting membrane | None / Present | |
 | Other visible substrate concern | None / Record | |
 
-### CWI-01 Finding
+#### CWI-01 Finding
 
 - [ ] ACCEPTABLE
 - [ ] ACCEPTABLE WITH CONTROL
 - [ ] NOT ACCEPTABLE
 - [ ] UNABLE TO VERIFY
 
-### Required Gate Action
+#### Required Gate Action
 
 - [ ] PROCEED
 - [ ] PROCEED WITH CONTROL
@@ -171,13 +172,13 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# 7. CWI-02 — Water-Management Geometry
+### 7. CWI-02 — Water-Management Geometry
 
-## Controlling Question
+#### Controlling Question
 
 > **Is the visible and measurable geometry capable of providing the required water-management arrangement for this configuration?**
 
-### Configuration
+#### Configuration
 
 | Field | Record |
 |---|---|
@@ -189,7 +190,7 @@ Missing evidence must not be treated as positive evidence.
 | Unenclosed shower | Yes / No / N/A |
 | Other configuration | |
 
-### Geometry Checks
+#### Geometry Checks
 
 | Check | Result | Evidence |
 |---|---|---|
@@ -205,7 +206,7 @@ Missing evidence must not be treated as positive evidence.
 | Drainage path visually unobstructed | Yes / No / Unable to verify | |
 | Geometry matches applicable technical detail | Yes / No / Unable to verify | |
 
-### Measurements
+#### Measurements
 
 | Measurement | Result | Method |
 |---|---|---|
@@ -214,14 +215,14 @@ Missing evidence must not be treated as positive evidence.
 | Threshold / hob / set-down | | |
 | Other | | |
 
-### CWI-02 Finding
+#### CWI-02 Finding
 
 - [ ] ACCEPTABLE
 - [ ] ACCEPTABLE WITH CONTROL
 - [ ] NOT ACCEPTABLE
 - [ ] UNABLE TO VERIFY
 
-### Required Gate Action
+#### Required Gate Action
 
 - [ ] PROCEED
 - [ ] PROCEED WITH CONTROL
@@ -236,9 +237,9 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# 8. CWI-03 — Drainage and Penetration Interface
+### 8. CWI-03 — Drainage and Penetration Interface
 
-## Controlling Question
+#### Controlling Question
 
 > **Can the selected waterproofing system form a reliable interface with the wastes and penetrations presented?**
 
@@ -254,14 +255,14 @@ Missing evidence must not be treated as positive evidence.
 | Unresolved clash present | No / Yes | |
 | Other interface concern | None / Record | |
 
-### CWI-03 Finding
+#### CWI-03 Finding
 
 - [ ] ACCEPTABLE
 - [ ] ACCEPTABLE WITH CONTROL
 - [ ] NOT ACCEPTABLE
 - [ ] UNABLE TO VERIFY
 
-### Required Gate Action
+#### Required Gate Action
 
 - [ ] PROCEED
 - [ ] PROCEED WITH CONTROL
@@ -270,7 +271,7 @@ Missing evidence must not be treated as positive evidence.
 - [ ] ESCALATE
 - [ ] STOP
 
-### Referral if Required
+#### Referral if Required
 
 | Field | Record |
 |---|---|
@@ -285,9 +286,9 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# 9. CWI-04 — Junction and Movement Treatability
+### 9. CWI-04 — Junction and Movement Treatability
 
-## Controlling Question
+#### Controlling Question
 
 > **Can all relevant visible junctions, material transitions and movement locations be treated using a documented detail for the selected waterproofing system?**
 
@@ -302,7 +303,7 @@ Missing evidence must not be treated as positive evidence.
 | Penetration adjacent to junction | Yes / With control / No / N/A | |
 | Other unusual geometry | Yes / With control / No / N/A | |
 
-### System Detail
+#### System Detail
 
 - [ ] Documented treatment identified
 - [ ] Manufacturer advice required
@@ -310,14 +311,14 @@ Missing evidence must not be treated as positive evidence.
 - [ ] Alternative system/detail required
 - [ ] Unable to determine
 
-### CWI-04 Finding
+#### CWI-04 Finding
 
 - [ ] TREATABLE
 - [ ] TREATABLE WITH CONTROL
 - [ ] UNRESOLVED
 - [ ] NOT APPLICABLE
 
-### Required Gate Action
+#### Required Gate Action
 
 - [ ] PROCEED
 - [ ] PROCEED WITH CONTROL
@@ -332,9 +333,9 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# 10. CWI-05 — Surface and Moisture Acceptance
+### 10. CWI-05 — Surface and Moisture Acceptance
 
-## Controlling Question
+#### Controlling Question
 
 > **Is the exposed surface in a condition that permits reliable installation of the selected waterproofing system?**
 
@@ -351,7 +352,7 @@ Missing evidence must not be treated as positive evidence.
 | Manufacturer moisture criterion identified | Yes / No / N/A | |
 | Surface preparation requirements satisfied | Yes / No / Unable to verify | |
 
-### Moisture Measurement — If Required
+#### Moisture Measurement — If Required
 
 | Field | Record |
 |---|---|
@@ -361,14 +362,14 @@ Missing evidence must not be treated as positive evidence.
 | Manufacturer/system criterion | |
 | Result acceptable | Yes / No / Unable to verify |
 
-### CWI-05 Finding
+#### CWI-05 Finding
 
 - [ ] ACCEPTABLE
 - [ ] ACCEPTABLE WITH CONTROL
 - [ ] NOT ACCEPTABLE
 - [ ] UNABLE TO VERIFY
 
-### Required Gate Action
+#### Required Gate Action
 
 - [ ] PROCEED
 - [ ] PROCEED WITH CONTROL
@@ -383,9 +384,9 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# 11. CWI-06 — Waterproofing System Compatibility
+### 11. CWI-06 — Waterproofing System Compatibility
 
-## Controlling Question
+#### Controlling Question
 
 > **Has a documented waterproofing system been identified that is compatible with the conditions and components actually presented?**
 
@@ -406,7 +407,7 @@ Missing evidence must not be treated as positive evidence.
 | Cure requirement | Yes / No | Resolved / Unresolved | |
 | Testing requirement if applicable | Yes / No / N/A | Resolved / Unresolved | |
 
-### Known System Deviation
+#### Known System Deviation
 
 - [ ] None identified
 - [ ] Deviation identified
@@ -414,14 +415,14 @@ Missing evidence must not be treated as positive evidence.
 
 **Deviation details:**
 
-### CWI-06 Finding
+#### CWI-06 Finding
 
 - [ ] COMPATIBILITY RESOLVED
 - [ ] COMPATIBILITY RESOLVED WITH CONTROL
 - [ ] UNRESOLVED
 - [ ] NOT ACCEPTABLE
 
-### Required Gate Action
+#### Required Gate Action
 
 - [ ] PROCEED
 - [ ] PROCEED WITH CONTROL
@@ -436,9 +437,9 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-# PART C — GATE DECISION
+## PART C — GATE DECISION
 
-## 12. CWI Domain Summary
+### 12. CWI Domain Summary
 
 | Domain | Finding | Required Action |
 |---|---|---|
@@ -451,7 +452,7 @@ Missing evidence must not be treated as positive evidence.
 
 ---
 
-## 13. Unresolved Conditions
+### 13. Unresolved Conditions
 
 List every material unresolved condition.
 
@@ -463,7 +464,7 @@ List every material unresolved condition.
 
 ---
 
-## 14. CWIG-01 Gate Decision
+### 14. CWIG-01 Gate Decision
 
 Select one only.
 
@@ -474,23 +475,23 @@ Select one only.
 - [ ] **ESCALATE**
 - [ ] **STOP**
 
-### Gate Decision Reason
+#### Gate Decision Reason
 
 ---
 
-### Controls Required Before / During Waterproofing
+#### Controls Required Before / During Waterproofing
 
 ---
 
-### Referrals Required
+#### Referrals Required
 
 ---
 
-### Escalations Required
+#### Escalations Required
 
 ---
 
-## 15. Hard Gate Confirmation
+### 15. Hard Gate Confirmation
 
 Before selecting **PROCEED**, confirm:
 
@@ -507,9 +508,9 @@ If any required confirmation cannot be made, **PROCEED must not be selected**.
 
 ---
 
-# PART D — RECTIFICATION AND REASSESSMENT
+## PART D — RECTIFICATION AND REASSESSMENT
 
-## 16. Intervention Record
+### 16. Intervention Record
 
 Do not delete or overwrite the original finding after rectification.
 
@@ -523,7 +524,7 @@ Preserve the sequence.
 
 ---
 
-## 17. Re-Presentation Record
+### 17. Re-Presentation Record
 
 Complete where a condition required correction before waterproofing.
 
@@ -540,7 +541,7 @@ Complete where a condition required correction before waterproofing.
 
 ---
 
-## 18. Final CWIG-01 Decision After Reassessment
+### 18. Final CWIG-01 Decision After Reassessment
 
 - [ ] **PROCEED**
 - [ ] **PROCEED WITH CONTROL**
@@ -553,15 +554,15 @@ Complete where a condition required correction before waterproofing.
 
 ---
 
-# PART E — RESPONSIBILITY BOUNDARY
+## PART E — RESPONSIBILITY BOUNDARY
 
-## 19. Practitioner Acceptance Statement
+### 19. Practitioner Acceptance Statement
 
 The following statement forms part of the CWIG-01 pilot record:
 
 > **CWIG acceptance records only the condition of the observable and reasonably measurable waterproofing interfaces presented at the time of assessment and their suitability for installation of the identified waterproofing system. It does not certify concealed construction, structural adequacy, plumbing compliance, overall building compliance, design compliance or work outside the practitioner's competence and scope.**
 
-### Practitioner Confirmation
+#### Practitioner Confirmation
 
 - [ ] I understand the above boundary.
 - [ ] The CWIG decision relates only to the conditions reasonably observable or measurable at the time recorded.
@@ -578,9 +579,9 @@ The following statement forms part of the CWIG-01 pilot record:
 
 ---
 
-# PART F — PILOT EVALUATION DATA
+## PART F — PILOT EVALUATION DATA
 
-## 20. Pilot Completion Metrics
+### 20. Pilot Completion Metrics
 
 This section is for evaluation of CWIG-01 and is not part of the technical acceptance decision.
 
@@ -608,47 +609,47 @@ This section is for evaluation of CWIG-01 and is not part of the technical accep
 
 ---
 
-## 21. Pilot Feedback
+### 21. Pilot Feedback
 
-### Which CWIG check added the most practical value?
-
----
-
-### Which check added the least practical value?
+#### Which CWIG check added the most practical value?
 
 ---
 
-### Was any check difficult to interpret?
+#### Which check added the least practical value?
 
 ---
 
-### Did any question duplicate normal project supervision without adding useful assurance?
+#### Was any check difficult to interpret?
 
 ---
 
-### Did any question require judgement outside reasonable waterproofing competence?
+#### Did any question duplicate normal project supervision without adding useful assurance?
 
 ---
 
-### Did CWIG create or clarify responsibility?
+#### Did any question require judgement outside reasonable waterproofing competence?
 
 ---
 
-### Was any important pre-waterproofing condition missing?
+#### Did CWIG create or clarify responsibility?
 
 ---
 
-### Could this form be shortened without materially reducing assurance?
+#### Was any important pre-waterproofing condition missing?
 
 ---
 
-### Other practitioner comments
+#### Could this form be shortened without materially reducing assurance?
 
 ---
 
-# PART G — EVIDENCE REGISTER
+#### Other practitioner comments
 
-## 22. Evidence Attachments
+---
+
+## PART G — EVIDENCE REGISTER
+
+### 22. Evidence Attachments
 
 | Evidence ID | CWI ID | Evidence Type | Description | Date/Time |
 |---|---|---|---|---|
@@ -660,9 +661,9 @@ This section is for evaluation of CWIG-01 and is not part of the technical accep
 
 ---
 
-# PART H — PILOT GOVERNANCE
+## PART H — PILOT GOVERNANCE
 
-## 23. Interpretation Controls
+### 23. Interpretation Controls
 
 This pilot record must not be interpreted as proving that:
 
@@ -684,7 +685,7 @@ CWIG-01 tests one narrower proposition:
 
 ---
 
-## 24. Pilot Falsification Record
+### 24. Pilot Falsification Record
 
 Where applicable, record evidence that challenges the usefulness of CWIG-01.
 
@@ -702,7 +703,7 @@ Where applicable, record evidence that challenges the usefulness of CWIG-01.
 
 ---
 
-## 25. Pilot Outcome Classification
+### 25. Pilot Outcome Classification
 
 For research purposes only.
 
@@ -718,7 +719,7 @@ For research purposes only.
 
 ---
 
-# 26. Relationship to the Wider Assurance Architecture
+### 26. Relationship to the Wider Assurance Architecture
 
 CWIG-01 occurs before waterproofing installation.
 
@@ -758,7 +759,7 @@ CWIG-01 must not absorb the functions of PCR-01 or PMP-01.
 
 ---
 
-# 27. Core Field Rule
+### 27. Core Field Rule
 
 > **If the practitioner cannot responsibly determine that the presented interface is suitable for the identified waterproofing system, waterproofing should not proceed merely because the project schedule expects it to.**
 
@@ -778,7 +779,7 @@ until the material issue is resolved.
 
 ---
 
-## Pilot Document Control
+#### Pilot Document Control
 
 **Document:** CWIG-01 Pilot Record Form  
 **Version:** v0.1  
