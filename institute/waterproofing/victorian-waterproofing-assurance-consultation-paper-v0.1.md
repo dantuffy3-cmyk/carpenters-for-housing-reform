@@ -3,8 +3,9 @@
 ## Consultation Paper — Alternative Pre-Concealment Assurance Model
 
 **Prepared by:** Carpenters for Housing Reform Victoria
-**Status:** Consultation Draft
+**Status:** Consultation Draft — v0.1
 **Date:** August 2026
+**Disclaimer:** This paper is an independent working draft. It has not been endorsed by the Victorian Government, the Building and Plumbing Commission, or any government agency.
 
 ## Purpose
 
@@ -12,7 +13,7 @@ Victoria is currently undertaking significant reform of its building regulatory 
 
 Waterproofing sits within this reform environment because failures can involve concealed work, multiple practitioner interfaces and substantial rectification consequences once construction is completed.
 
-In June 2026, proposed additional mandatory inspections at the pre-lining and waterproofing stages were removed from the Building Amendment (Building Manuals) Regulations 2026 to enable development of an **alternative approach**.
+Proposed additional mandatory inspections at the pre-lining and waterproofing stages were removed from the Building Amendment (Building Manuals) Regulations 2026 to enable development of an **alternative approach**. *[Requires verification against official Gazette or explanatory material before publication — date and precise mechanism to be confirmed.]*
 
 This consultation paper does not presume what that alternative approach should be.
 
@@ -70,14 +71,14 @@ This paper does not assume that the current system is ineffective.
 
 Existing controls include:
 
-* NCC and referenced technical requirements;
+* National Construction Code (NCC) and referenced technical requirements;
 * builder responsibilities;
 * existing practitioner registration pathways;
 * plumbing responsibilities;
 * manufacturer installation requirements;
 * building-surveyor functions where applicable;
 * additional inspections where required;
-* BPC inspection, audit and enforcement powers;
+* Building and Plumbing Commission (BPC) inspection, audit and enforcement powers;
 * contractual responsibilities;
 * consumer-protection and defect-rectification mechanisms.
 
@@ -106,7 +107,7 @@ The readiness decision could use defined states:
 
 **PROCEED**
 
-**PROCEED_WITH_CONTROL**
+**PROCEED WITH CONTROL**
 
 **INVESTIGATE**
 
