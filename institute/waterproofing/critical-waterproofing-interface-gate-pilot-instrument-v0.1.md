@@ -154,16 +154,18 @@ Unknown or unavailable evidence must not be treated as a positive condition.
 
 ---
 
-# 6. CWIG-01 — Six Critical Waterproofing Interface Checks
+## 6. CWIG-01 — Six Critical Waterproofing Interface Checks
 
 CWIG-01 contains six core interface domains.
 
-1. Substrate Acceptance
-2. Water-Management Geometry
-3. Drainage and Penetration Interface
-4. Junction and Movement Treatability
-5. Surface and Moisture Acceptance
-6. Waterproofing System Compatibility
+Each domain is assigned a **CWI check identifier** (CWI-01 through CWI-06). "CWI" denotes an individual Critical Waterproofing Interface check within the gate. "CWIG-01" denotes the overall gate instrument. The distinction matters: a finding against one CWI check produces a gate-level decision for CWIG-01 as a whole.
+
+1. CWI-01 — Substrate Acceptance
+2. CWI-02 — Water-Management Geometry
+3. CWI-03 — Drainage and Penetration Interface
+4. CWI-04 — Junction and Movement Treatability
+5. CWI-05 — Surface and Moisture Acceptance
+6. CWI-06 — Waterproofing System Compatibility
 
 A practitioner is not required to certify the whole upstream construction system in order to complete these checks.
 
@@ -171,9 +173,9 @@ The relevant question is whether the **waterproofing interface presented at the 
 
 ---
 
-# 7. CWI-01 — Substrate Acceptance
+## 7. CWI-01 — Substrate Acceptance
 
-## Controlling Question
+### Controlling Question
 
 > **Is the exposed substrate presented to the waterproofing practitioner suitable for reliable installation of the identified waterproofing system?**
 
@@ -233,9 +235,9 @@ The relevant question is whether the **waterproofing interface presented at the 
 
 ---
 
-# 8. CWI-02 — Water-Management Geometry
+## 8. CWI-02 — Water-Management Geometry
 
-## Controlling Question
+### Controlling Question
 
 > **Is the visible and measurable geometry capable of providing the required water-management arrangement for this configuration?**
 
@@ -279,9 +281,9 @@ The applicable requirement must be derived from the actual:
 
 ---
 
-# 9. CWI-03 — Drainage and Penetration Interface
+## 9. CWI-03 — Drainage and Penetration Interface
 
-## Controlling Question
+### Controlling Question
 
 > **Can the selected waterproofing system form a reliable interface with the wastes and penetrations presented?**
 
@@ -351,9 +353,9 @@ The practitioner determines only whether the visible interface can responsibly r
 
 ---
 
-# 10. CWI-04 — Junction and Movement Treatability
+## 10. CWI-04 — Junction and Movement Treatability
 
-## Controlling Question
+### Controlling Question
 
 > **Can all relevant visible junctions, material transitions and movement locations be treated using a documented detail for the selected waterproofing system?**
 
@@ -424,9 +426,9 @@ The required detail depends on the applicable construction pathway and selected 
 
 ---
 
-# 11. CWI-05 — Surface and Moisture Acceptance
+## 11. CWI-05 — Surface and Moisture Acceptance
 
-## Controlling Question
+### Controlling Question
 
 > **Is the exposed surface in a condition that permits reliable installation of the selected waterproofing system?**
 
@@ -495,9 +497,9 @@ No finding of fault is necessary for the gate to prevent membrane installation o
 
 ---
 
-# 12. CWI-06 — Waterproofing System Compatibility
+## 12. CWI-06 — Waterproofing System Compatibility
 
-## Controlling Question
+### Controlling Question
 
 > **Has the practitioner identified a documented waterproofing system that is compatible with the conditions and components actually presented?**
 
@@ -561,17 +563,17 @@ and obtain appropriate manufacturer, design or technical advice where required.
 
 ---
 
-# 13. Gate Decision States
+## 13. Gate Decision States
 
 CWIG-01 uses the following decision states.
 
-## PROCEED
+### PROCEED
 
 All material CWIG conditions are acceptable.
 
 No unresolved condition prevents reliable membrane installation.
 
-## PROCEED WITH CONTROL
+### PROCEED WITH CONTROL
 
 A condition exists but can be addressed through a specific, documented control without undermining reliable installation.
 
@@ -579,25 +581,25 @@ The control must be recorded.
 
 This state must not become a general "near enough" pathway.
 
-## INVESTIGATE
+### INVESTIGATE
 
 Additional evidence or investigation is required before a reliable decision can be made.
 
-## REFER
+### REFER
 
 Another appropriate practitioner or responsible party needs to resolve the condition.
 
-## ESCALATE
+### ESCALATE
 
 The condition requires a higher-order technical, design, engineering, manufacturer, regulatory or other decision.
 
-## STOP
+### STOP
 
 The current condition prevents reliable waterproofing from proceeding.
 
 ---
 
-# 14. Hard Gate Rule
+## 14. Hard Gate Rule
 
 CWIG-01 cannot reach **PROCEED** while any material:
 
@@ -623,7 +625,7 @@ A **PROCEED WITH CONTROL** decision must identify:
 
 ---
 
-# 15. Correction Ownership
+## 15. Correction Ownership
 
 CWIG identifies the **condition** first.
 
@@ -652,7 +654,7 @@ Responsibility for rectification remains determined by the actual:
 
 ---
 
-# 16. Practitioner Acceptance Statement
+## 16. Practitioner Acceptance Statement
 
 The following statement should accompany every completed CWIG-01 pilot record:
 
@@ -664,7 +666,7 @@ It must not be weakened into language implying that the waterproofing practition
 
 ---
 
-# 17. Deliberate Exclusions From CWIG-01
+## 17. Deliberate Exclusions From CWIG-01
 
 CWIG-01 does not certify:
 
@@ -700,7 +702,7 @@ or
 
 ---
 
-# 18. Upstream Wet-Area Construction Evidence
+## 18. Upstream Wet-Area Construction Evidence
 
 The narrowing of CWIG-01 does not mean upstream construction evidence lacks value.
 
@@ -726,29 +728,29 @@ The waterproofing practitioner may use available upstream evidence to inform a d
 
 ---
 
-# 19. Worked Pilot Scenario A — Dusty Shower Substrate
+## 19. Worked Pilot Scenario A — Dusty Shower Substrate
 
-## Condition
+### Condition
 
 A water-resistant wall lining is presented following stopping and sanding.
 
 Significant dust remains across the waterproofing substrate.
 
-## CWIG Assessment
+### CWIG Assessment
 
 **CWI-01 — Substrate identity:** Acceptable
 
 **CWI-05 — Surface condition:** Not acceptable
 
-## Gate Decision
+### Gate Decision
 
 **STOP**
 
-## Action
+### Action
 
 Surface is cleaned and prepared.
 
-## Evidence
+### Evidence
 
 - initial photograph;
 - STOP record;
@@ -756,13 +758,13 @@ Surface is cleaned and prepared.
 - post-cleaning photograph;
 - reassessment.
 
-## Final Result
+### Final Result
 
 If all six domains are subsequently acceptable:
 
 **PROCEED**
 
-## Pilot Value Being Tested
+### Pilot Value Being Tested
 
 Whether a low-cost intervention at the correct sequence point prevents waterproofing from being applied to a visibly unsuitable surface.
 
@@ -770,45 +772,45 @@ The pilot must not claim that a future waterproofing failure was definitely prev
 
 ---
 
-# 20. Worked Pilot Scenario B — Drain Interface Cannot Receive Selected Detail
+## 20. Worked Pilot Scenario B — Drain Interface Cannot Receive Selected Detail
 
-## Condition
+### Condition
 
 Falls and substrate are acceptable.
 
 The waste/interface arrangement cannot be reconciled with the selected membrane system's documented drainage detail.
 
-## CWIG Assessment
+### CWIG Assessment
 
 **CWI-03 — Drainage Interface:** NOT ACCEPTABLE
 
 **CWI-06 — System Compatibility:** UNRESOLVED
 
-## Gate Decision
+### Gate Decision
 
 **REFER / STOP**
 
-## Practitioner Finding
+### Practitioner Finding
 
 > The presented waterproofing-to-drain interface is not currently suitable for installation using the identified waterproofing system.
 
 The practitioner does not certify that the plumbing installation is non-compliant.
 
-## Action
+### Action
 
 Appropriate plumber, builder, designer or system adviser resolves the interface.
 
 The condition is then re-presented.
 
-## Reassessment
+### Reassessment
 
 CWI-03 and CWI-06 are reassessed before waterproofing proceeds.
 
 ---
 
-# 21. Worked Pilot Scenario C — Hidden Framing Cannot Be Verified
+## 21. Worked Pilot Scenario C — Hidden Framing Cannot Be Verified
 
-## Condition
+### Condition
 
 Wall lining is already installed.
 
@@ -816,7 +818,7 @@ No photographic or other upstream framing evidence is available.
 
 The visible substrate appears stable.
 
-## CWIG Boundary
+### CWIG Boundary
 
 The waterproofing practitioner does not become responsible for determining:
 
@@ -843,9 +845,9 @@ The absence of information must not be converted into assumed compliance.
 
 ---
 
-# 22. Worked Pilot Scenario D — System Requires Different Preparation
+## 22. Worked Pilot Scenario D — System Requires Different Preparation
 
-## Condition
+### Condition
 
 The substrate is generally clean and sound.
 
@@ -855,17 +857,17 @@ The manufacturer's documented system requires a particular primer or preparation
 
 The preparation has not been completed.
 
-## CWIG Assessment
+### CWIG Assessment
 
 **CWI-05 — Surface/Preparation:** NOT ACCEPTABLE
 
 **CWI-06 — System Compatibility:** CONDITION UNRESOLVED
 
-## Decision
+### Decision
 
 **STOP**
 
-## Action
+### Action
 
 Complete the required system-specific preparation.
 
@@ -877,7 +879,7 @@ Record:
 - completion evidence;
 - reassessment.
 
-## Pilot Principle
+### Pilot Principle
 
 The finding is not:
 
@@ -889,19 +891,19 @@ The finding is:
 
 ---
 
-# 23. Worked Pilot Scenario E — Unusual Junction
+## 23. Worked Pilot Scenario E — Unusual Junction
 
-## Condition
+### Condition
 
 A material transition or unusual junction exists for which the practitioner cannot identify a documented treatment within the selected waterproofing system.
 
-## CWIG Assessment
+### CWIG Assessment
 
 **CWI-04 — Junction Treatability:** UNRESOLVED
 
 **CWI-06 — System Compatibility:** UNRESOLVED
 
-## Decision
+### Decision
 
 **INVESTIGATE / ESCALATE**
 
@@ -923,7 +925,7 @@ and reassess.
 
 ---
 
-# 24. Minimum CWIG Evidence Pack
+## 24. Minimum CWIG Evidence Pack
 
 A completed CWIG-01 pilot record should ordinarily contain:
 
@@ -959,7 +961,7 @@ This produces an audit trail rather than a perfect-looking final checklist that 
 
 ---
 
-# 25. Relationship to PCR-01
+## 25. Relationship to PCR-01
 
 CWIG-01 occurs **before membrane installation**.
 
@@ -967,7 +969,7 @@ It cannot assess the quality of membrane work that does not yet exist.
 
 Those matters belong primarily in:
 
-# PCR-01 — Pre-Concealment Release
+### PCR-01 — Pre-Concealment Release
 
 Potential PCR-01 matters include:
 
@@ -989,7 +991,7 @@ CWIG-01 must not absorb PCR-01 merely to create one large checklist.
 
 ---
 
-# 26. Relationship to PMP-01
+## 26. Relationship to PMP-01
 
 CWIG-01 and PCR-01 cannot prevent all later failures.
 
@@ -1007,13 +1009,13 @@ Waterproofing may subsequently be damaged by:
 
 These conditions should be considered through:
 
-# PMP-01 — Post-Membrane Protection Control
+### PMP-01 — Post-Membrane Protection Control
 
 PMP-01 should be developed separately.
 
 ---
 
-# 27. Overall Assurance Architecture
+## 27. Overall Assurance Architecture
 
 The emerging internal wet-area assurance architecture is:
 
@@ -1025,7 +1027,7 @@ The emerging internal wet-area assurance architecture is:
 
 ↓
 
-# CWIG-01 — CRITICAL WATERPROOFING INTERFACE GATE
+### CWIG-01 — CRITICAL WATERPROOFING INTERFACE GATE
 
 1. substrate acceptance  
 2. water-management geometry  
@@ -1040,7 +1042,7 @@ The emerging internal wet-area assurance architecture is:
 
 ↓
 
-# PCR-01 — PRE-CONCEALMENT RELEASE
+### PCR-01 — PRE-CONCEALMENT RELEASE
 
 ↓
 
@@ -1048,7 +1050,7 @@ The emerging internal wet-area assurance architecture is:
 
 ↓
 
-# PMP-01 — POST-MEMBRANE PROTECTION CONTROL
+### PMP-01 — POST-MEMBRANE PROTECTION CONTROL
 
 ↓
 
@@ -1064,7 +1066,7 @@ It is not a final regulatory recommendation.
 
 ---
 
-# 28. Pilot Metrics
+## 28. Pilot Metrics
 
 The pilot must test whether CWIG-01 adds useful assurance rather than assuming that it does.
 
@@ -1090,7 +1092,7 @@ The pilot must test whether CWIG-01 adds useful assurance rather than assuming t
 
 ---
 
-# 29. Evidence Interpretation Rule
+## 29. Evidence Interpretation Rule
 
 A STOP decision does not prove that a future defect or leak was prevented.
 
@@ -1110,7 +1112,7 @@ Similarly:
 
 ---
 
-# 30. Falsification Criteria
+## 30. Falsification Criteria
 
 CWIG-01 should be narrowed, redesigned or rejected if pilot evidence shows that it:
 
@@ -1131,7 +1133,7 @@ A failed pilot remains a legitimate research outcome.
 
 ---
 
-# 31. Conditions Supporting Retention
+## 31. Conditions Supporting Retention
 
 CWIG-01 would warrant further development if pilot evidence demonstrates that:
 
@@ -1148,13 +1150,13 @@ CWIG-01 would warrant further development if pilot evidence demonstrates that:
 
 ---
 
-# 32. Pilot Instrument Decision
+## 32. Pilot Instrument Decision
 
 The broad concept of a practitioner certifying complete "waterproofing readiness" is not retained.
 
 The pilot instead tests a narrower proposition:
 
-# CWIG-01 — Critical Waterproofing Interface Gate
+### CWIG-01 — Critical Waterproofing Interface Gate
 
 CWIG-01 is limited to six pre-membrane interface domains:
 
@@ -1171,7 +1173,7 @@ The practitioner is not certifying the whole bathroom.
 
 ---
 
-# 33. Provisional Position
+## 33. Provisional Position
 
 **CWIG-01 warrants controlled pilot testing.**
 
@@ -1194,7 +1196,7 @@ The immediate objective is narrower:
 
 ---
 
-# 34. Core Pilot Principle
+## 34. Core Pilot Principle
 
 The controlling principle for CWIG-01 is:
 
