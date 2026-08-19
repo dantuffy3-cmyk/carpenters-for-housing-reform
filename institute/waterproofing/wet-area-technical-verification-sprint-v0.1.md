@@ -1,7 +1,15 @@
-Critical Waterproofing Interface Gate v0.1
-1. First control: identify the applicable technical pathway
+# Critical Waterproofing Interface Gate v0.1
 
-For Victorian work commencing under the current regime, NCC 2025 took effect on 1 May 2026. Projects whose design had already substantially progressed may potentially remain under the earlier NCC arrangements, depending on the Victorian transitional provisions and RBS decision.
+**Prepared by:** Carpenters for Housing Reform Victoria  
+**Status:** Working Draft — Technical Verification Sprint v0.1  
+**Date:** August 2026  
+**Purpose:** Internal evidence-governed technical development. Not a final regulatory proposal or external government submission.
+
+---
+
+## 1. First control: identify the applicable technical pathway
+
+For Victorian work commencing under the current regime, National Construction Code (NCC) 2025 took effect on 1 May 2026. Projects whose design had already substantially progressed may potentially remain under the earlier NCC arrangements, depending on the Victorian transitional provisions and relevant building surveyor (RBS) decision.
 
 That means the first field in any future assurance record should actually be:
 
@@ -210,7 +218,7 @@ protrusions;
 visible moisture;
 moisture measurement where the selected system requires it;
 required preparation completed.
-This validates your plaster-dust example
+The plaster-dust sequencing example illustrates this failure pathway
 
 The important question isn't:
 
@@ -346,11 +354,11 @@ This sentence could become one of the most important statements in the reform:
 
 Acceptance at the Critical Waterproofing Interface Gate means only that the practitioner has determined that the observable and reasonably measurable conditions presented at the waterproofing interface are suitable for installation of the identified waterproofing system. It does not certify concealed construction, structural compliance, plumbing compliance, design compliance or work outside the practitioner's competence and scope.
 
-That's the liability boundary I want us to preserve.
+This establishes the intended responsibility and liability boundary.
 
 10. What gets deliberately excluded
 
-The red team was right that our original proposal was too broad.
+An independent third-party technical red-team review conducted during development challenged the proposed model for overreach, duplication, responsibility distortion and unsupported technical assumptions. The red-team review was right that our original proposal was too broad.
 
 So these are out of CWIG-01:
 
@@ -448,7 +456,7 @@ grab-rail installer;
 fixtures;
 later alterations.
 
-The third-party red team specifically identified this as a missing failure pathway.
+The red-team review specifically identified this as a missing failure pathway.
 
 14. Bathroom and balcony now separate
 
