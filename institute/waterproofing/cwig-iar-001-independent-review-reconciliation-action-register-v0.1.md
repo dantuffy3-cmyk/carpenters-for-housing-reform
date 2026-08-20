@@ -363,7 +363,7 @@ The Participant Information & Consent Record should not be finalised until CWIG'
 
 ### Required Sequence
 
-**CWIG Scope & Limitation Statement v0.1**
+**CWIG-01 Scope & Limitation Statement v0.1**
 
 ↓
 
@@ -487,7 +487,7 @@ Add explicitly to the controlling scope architecture:
 
 ### Disposition
 
-**ACCEPT — MINOR**
+**ACCEPT WITH MODIFICATION**
 
 For the pilot, define the functional role without creating a new practitioner category.
 
@@ -565,7 +565,7 @@ PROCEED WITH CONTROL must not be used merely to avoid:
 
 ### Disposition
 
-**ACCEPT MINOR REFINEMENT**
+**ACCEPT WITH MODIFICATION**
 
 A referral should record:
 
@@ -827,7 +827,7 @@ The reviewer considered independent comparison insufficiently structured.
 
 ### Disposition
 
-**ALREADY ADDRESSED — VERIFY CONSISTENCY**
+**ALREADY ADDRESSED**
 
 The current calibration architecture already requires:
 
@@ -861,7 +861,7 @@ Where a material PROCEED versus STOP disagreement occurs:
 
 ### Disposition
 
-**ACCEPT MINOR**
+**ACCEPT WITH MODIFICATION**
 
 For a 5–10 case cohort, perform calibration comparison:
 
@@ -894,7 +894,7 @@ It is not statistically representative.
 
 ### Disposition
 
-**ACCEPT CONCERN / REJECT PRESCRIBED OUTCOMES**
+**ACCEPT WITH MODIFICATION**
 
 ### Accepted Concern
 
@@ -935,7 +935,7 @@ Outcomes remain unknown before assessment.
 
 ### Disposition
 
-**ACCEPT IN PRINCIPLE**
+**ACCEPT WITH MODIFICATION**
 
 For a 5–10 case feasibility pilot:
 
@@ -967,7 +967,7 @@ Ordinary cases remain important baseline evidence.
 
 ### Disposition
 
-**PARTIALLY ALREADY ADDRESSED — STRENGTHEN**
+**PARTIALLY ALREADY ADDRESSED**
 
 The Pilot Evidence Register already contains:
 
@@ -993,7 +993,7 @@ Adopt an explicit append-only principle:
 
 ### Disposition
 
-**ALREADY SUBSTANTIALLY ADDRESSED**
+**ALREADY ADDRESSED**
 
 The current register records:
 
@@ -1037,7 +1037,7 @@ No structural rewrite is presently justified.
 
 ### Disposition
 
-**ACCEPT MINOR**
+**ACCEPT WITH MODIFICATION**
 
 Clarify:
 
@@ -1059,7 +1059,7 @@ The register should link to the source form rather than requiring unnecessary ma
 
 ### Disposition
 
-**ACCEPT SUBJECT TO SPECIALIST REVIEW**
+**SPECIALIST ADVICE REQUIRED**
 
 The Participant Information & Consent Record should address, at minimum:
 
@@ -1105,7 +1105,7 @@ The following remain:
 before the consent record is approved for field use:
 
 - Privacy Act 1988 (Cth) applicability;
-- relevant Australian Privacy Principle obligations if applicable;
+- relevant Australian Privacy Principles obligations if applicable;
 - Victorian privacy-law applicability;
 - photograph/privacy requirements in occupied residential property;
 - any mandatory disclosure/reporting obligations triggered by adverse findings;
@@ -1197,7 +1197,7 @@ A governance/architecture failure may create pilot HOLD.
 
 ### Disposition
 
-**ACCEPT PRINCIPLE / MODIFY THRESHOLDS**
+**ACCEPT WITH MODIFICATION**
 
 Do not rely solely on arbitrary event counts.
 
@@ -1329,7 +1329,7 @@ These findings remain part of the external evidence record.
 | Action ID | Action | Priority | Status |
 |---|---|---|---|
 | IAR-A01 | Preserve independent review unchanged in repository | High | OPEN |
-| IAR-A02 | Create CWIG Scope & Limitation Statement v0.1 | BLOCKER | OPEN |
+| IAR-A02 | Create CWIG-01 Scope & Limitation Statement v0.1 | BLOCKER | OPEN |
 | IAR-A03 | Establish Hard Gate / Non-PROCEED rules | BLOCKER | OPEN |
 | IAR-A04 | Create Pre-Application Status Reconfirmation Record v0.1 | BLOCKER | OPEN |
 | IAR-A05 | Define automatic Pilot HOLD triggers | BLOCKER | OPEN |
