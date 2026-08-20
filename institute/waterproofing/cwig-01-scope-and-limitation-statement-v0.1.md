@@ -50,7 +50,7 @@ The assessment is limited to conditions that are:
 
 ---
 
-## 3. CWI-01 — Substrate as Presented
+## 3. CWI-01 — Substrate Acceptance
 
 CWI-01 applies an important responsibility boundary.
 
@@ -340,7 +340,7 @@ This document is the canonical CWIG-01 Scope & Limitation Statement for the cont
 Its core meaning should be incorporated into or provided with:
 
 - CWIG-01 Pilot Record Form;
-- CWIG Pilot Participant Information & Consent Record;
+- future CWIG Pilot Participant Information & Consent Record (once issued);
 - assessor information;
 - builder/project-controller information;
 - independent reviewer information;
@@ -366,7 +366,7 @@ The full Scope & Limitation Statement remains controlling where any interpretati
 
 Until the remaining pre-pilot controls identified through CWIG-IAR-001 are completed:
 
-# CWIG-PILOT-001 — HOLD
+**CWIG-PILOT-001 — HOLD**
 
 Creation or publication of this statement does not itself authorise commencement of a field pilot.
 
