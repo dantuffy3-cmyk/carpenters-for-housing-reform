@@ -1,18 +1,40 @@
-1. Targeted test — can the wrong technical detail still be used?
-Attack
+# CWIG-01 Targeted Adversarial Simulation Sprint v0.2
+
+**Prepared by:** Carpenters for Housing Reform Victoria  
+**Status:** Working Draft — Targeted Adversarial Simulation Sprint v0.2  
+**Date:** August 2026  
+**Purpose:** Controlled targeted adversarial simulation of the four refinements introduced in CWIG-01 Pilot Record Form v0.2, following the v0.1 simulation sprint. This document records attack scenarios, results and verdicts for each refinement and identifies remaining operational controls to be assigned to the Assessor Calibration Guide and Field Pilot Protocol.
+
+---
+
+# 1. Simulation status and limitations
+
+This is simulation evidence only.
+
+It does not constitute field-pilot evidence.
+
+It does not establish defect reduction, statutory certification, government endorsement or a final regulatory mechanism.
+
+The purpose of this sprint is adversarial: to attempt to demonstrate that the v0.2 refinements are insufficient, can be gamed or fail under realistic pressure.
+
+---
+
+## 2. Attack — can the wrong technical detail still be used?
+
+### Attack
 
 An assessor correctly fills in CWI-02 but chooses the wrong shower configuration and therefore records the wrong technical detail.
 
 For example:
 
-Configuration selected: enclosed level threshold
-Technical reference: recorded
-Measurement: accurately taken
+Configuration selected: enclosed level threshold  
+Technical reference: recorded  
+Measurement: accurately taken  
 Result: apparently acceptable
 
 But the actual shower configuration was different.
 
-What v0.2 fixes
+### What v0.2 fixes
 
 v0.1 could leave us with little record of why the practitioner made the geometry decision.
 
@@ -24,35 +46,39 @@ So an incorrect technical basis is now visible and auditable.
 
 An independent reviewer can reconstruct:
 
-“The measurement wasn't the problem — the assessor selected the wrong configuration.”
+"The measurement wasn't the problem — the assessor selected the wrong configuration."
 
 That is a meaningful improvement.
 
-What v0.2 does NOT do
+### What v0.2 does NOT do
 
-CWIG cannot magically guarantee that a practitioner selects the correct NCC/AS/project detail.
+CWIG cannot guarantee that a practitioner selects the correct NCC/AS/project detail.
 
-That is an assessor competence/calibration issue.
+That is an assessor competence and calibration issue.
 
-Verdict
+### Verdict
+
 PASS WITH CALIBRATION DEPENDENCY
 
 No additional CWI field is presently justified.
 
 The forthcoming Assessor Calibration Guide should contain examples of:
 
-enclosed shower;
-unenclosed shower;
-level threshold;
-hob;
-preformed base;
-ambiguous configuration;
-when technical advice is required.
-2. Attack — project drawing conflicts with technical requirement
+- enclosed shower;
+- unenclosed shower;
+- level threshold;
+- hob;
+- preformed base;
+- ambiguous configuration;
+- when technical advice is required.
+
+---
+
+## 3. Attack — project drawing conflicts with technical requirement
 
 This was a harder version of Test 1.
 
-Scenario
+### Scenario
 
 The project drawing shows a particular waterstop/detail.
 
@@ -64,17 +90,17 @@ and the construction matches the drawing.
 
 But suppose the drawing itself is inconsistent with the applicable technical pathway.
 
-Risk
+### Risk
 
 CWIG must not convert:
 
-“matches drawing”
+"matches drawing"
 
 into:
 
-“therefore compliant.”
+"therefore compliant."
 
-Result
+### Result
 
 The v0.2 architecture can handle this because the form separately requires the applicable technical basis, but the distinction needs to be reinforced during assessor calibration.
 
@@ -88,38 +114,42 @@ INVESTIGATE / REFER / ESCALATE
 
 rather than allowing the waterproofer to redesign the bathroom.
 
-Verdict
+### Verdict
+
 PASS — PROTOCOL/CALIBRATION CONTROL REQUIRED
 
 This does not justify another redesign of the form.
 
-3. Targeted test — hidden framing genuinely outside CWIG scope
-Scenario
+---
+
+## 4. Targeted test — hidden framing genuinely outside CWIG scope
+
+### Scenario
 
 Sheeting is installed.
 
 The waterproofing practitioner cannot see every:
 
-stud;
-nogging;
-hidden fixing;
-backing member.
+- stud;
+- nogging;
+- hidden fixing;
+- backing member.
 
 The visible substrate is stable and the selected waterproofing system can be assessed from the presented interface.
 
-v0.1 problem
+### v0.1 problem
 
 UNKNOWN / UNABLE TO VERIFY
 
 could accidentally imply:
 
-“Unknown = automatic failure”
+"Unknown = automatic failure"
 
 or:
 
-“Unknown = ignore it.”
+"Unknown = ignore it."
 
-v0.2 result
+### v0.2 result
 
 The practitioner records:
 
@@ -127,24 +157,27 @@ NOT VERIFIED — OUTSIDE CWIG SCOPE
 
 That explicitly says:
 
-“I have not certified this.”
+"I have not certified this."
 
 It does not say:
 
-“It complies.”
+"It complies."
 
 And provided the information is genuinely unnecessary to determine the waterproofing-interface decision, the gate can still proceed.
 
-Verdict
+### Verdict
+
 STRONG PASS
 
 The new uncertainty architecture works considerably better.
 
-4. Attack — misuse OUTSIDE CWIG SCOPE to hide a material unknown
+---
 
-Now we deliberately try to game the new category.
+## 5. Attack — misuse OUTSIDE CWIG SCOPE to hide a material unknown
 
-Scenario
+Now we deliberately attempt to game the new category.
+
+### Scenario
 
 The practitioner cannot determine whether the drain interface can actually receive the selected membrane connection.
 
@@ -168,10 +201,11 @@ INVESTIGATE / REFER / STOP
 
 as appropriate.
 
-Verdict
+### Verdict
+
 STRONG PASS
 
-This is probably the most important success of the uncertainty split.
+This is the most significant success of the uncertainty split.
 
 The principle now survives attack:
 
@@ -179,10 +213,11 @@ Trade responsibility and decision relevance are different questions.
 
 A plumber may own the originating work while the visible interface remains material to the waterproofer's decision.
 
-Excellent.
+---
 
-5. Targeted test — known product substitution
-Scenario
+## 6. Targeted test — known product substitution
+
+### Scenario
 
 CWIG passes using:
 
@@ -194,13 +229,13 @@ Waterproofing System B
 
 with different preparation, compatibility or installation requirements.
 
-v0.1
+### v0.1
 
 The old CWIG could still appear to say:
 
 PROCEED
 
-v0.2
+### v0.2
 
 Product/system change is an explicit reassessment trigger.
 
@@ -228,12 +263,15 @@ Only after reassessment can the record return to:
 
 VALID
 
-Verdict
+### Verdict
+
 STRONG PASS
 
 The new validity layer works.
 
-6. Targeted test — penetration altered after CWIG
+---
+
+## 7. Targeted test — penetration altered after CWIG
 
 Same attack, different cause.
 
@@ -253,13 +291,17 @@ REASSESSMENT REQUIRED
 
 The original evidence remains preserved.
 
-Verdict
+### Verdict
+
 STRONG PASS
-7. Harder attack — nobody tells the waterproofer something changed
+
+---
+
+## 8. Harder attack — nobody tells the waterproofer something changed
 
 This exposed an important limitation, but not a flaw that the form itself can solve.
 
-Scenario
+### Scenario
 
 CWIG occurs Monday.
 
@@ -283,23 +325,24 @@ If no:
 
 current status can be relied upon.
 
-Verdict
+### Verdict
+
 PASS — FIELD-PILOT PROTOCOL CONTROL REQUIRED
 
-I would put this into the pilot protocol rather than create another CWIG version.
+This belongs in the pilot protocol rather than in a further form revision.
 
-Something as simple as:
+A pre-application status reconfirmation checkpoint in the protocol is sufficient:
 
 PRE-APPLICATION STATUS RECONFIRMATION
 
- No material change known since CWIG
- Material change identified — reassessment required
-date/time
-practitioner
+- No material change known since CWIG
+- Material change identified — reassessment required  
+- date/time  
+- practitioner
 
-That's enough.
+---
 
-8. Attack — moisture or contamination changes after CWIG
+## 9. Attack — moisture or contamination changes after CWIG
 
 This tests the same mechanism against site conditions rather than another trade.
 
@@ -307,11 +350,11 @@ CWIG records a clean/dry acceptable substrate.
 
 Then:
 
-rain enters;
-plaster sanding occurs nearby;
-substrate is contaminated;
-water is spilled;
-significant site moisture occurs.
+- rain enters;
+- plaster sanding occurs nearby;
+- substrate is contaminated;
+- water is spilled;
+- significant site moisture occurs.
 
 v0.2 already identifies contamination/moisture events as reassessment triggers.
 
@@ -325,13 +368,17 @@ CWI-05
 
 No need to reassess every CWI domain if only one condition changed.
 
-Verdict
+### Verdict
+
 STRONG PASS
 
 That selective reassessment is important because it keeps burden proportionate.
 
-9. Targeted test — SUPERSEDED evidence history
-Scenario
+---
+
+## 10. Targeted test — SUPERSEDED evidence history
+
+### Scenario
 
 CWIG Record 001 reaches STOP.
 
@@ -357,12 +404,15 @@ bad condition → decision → correction → later assessment
 
 rather than creating a sanitised final record.
 
-Verdict
+### Verdict
+
 STRONG PASS
 
 No change.
 
-10. Small usability risk — VALID does not mean PROCEED
+---
+
+## 11. Small usability risk — VALID does not mean PROCEED
 
 This is worth explicitly recognising.
 
@@ -382,79 +432,93 @@ It does not mean waterproofing is approved.
 
 This is logically correct, but practitioners could misread the word VALID.
 
-Decision
+### Decision
 
-I would not change the form again.
+The form should not be changed again.
 
 Instead the calibration/protocol should always display the two fields together:
 
-ASSESSMENT STATUS: VALID
+ASSESSMENT STATUS: VALID  
 GATE DECISION: STOP
 
 and explain:
 
 VALID describes whether the assessment is current. It does not mean the technical outcome is positive.
 
-Verdict
+### Verdict
+
 PASS WITH CALIBRATION NOTE
-11. Targeted test — narrowed pilot scope
-Scenario A
+
+---
+
+## 12. Targeted test — narrowed pilot scope
+
+### Scenario A
 
 Class 1 ensuite with shower.
 
 IN SCOPE.
 
-Scenario B
+### Scenario B
 
 Class 1 bathroom with shower-over-bath.
 
 Potentially IN SCOPE, subject to configuration being identified appropriately.
 
-Scenario C
+### Scenario C
 
 Standalone laundry without shower.
 
 OUTSIDE INITIAL PILOT.
 
-Scenario D
+### Scenario D
 
 Apartment bathroom — Class 2.
 
 OUTSIDE INITIAL v0.2 PILOT.
 
-Scenario E
+### Scenario E
 
 External balcony.
 
 OUTSIDE CWIG INTERNAL-WET-AREA PILOT.
 
-The narrowed scope significantly reduces irrelevant N/A fields and prevents us from pretending the first field trial covers all waterproofing situations.
+The narrowed scope significantly reduces irrelevant N/A fields and prevents the first field trial from being treated as covering all waterproofing situations.
 
-Verdict
+### Verdict
+
 PASS
 
-For the very first real pilot cohort I would go narrower still operationally:
+For the initial pilot cohort the recommended operational scope is:
 
 Class 1 bathroom/ensuite cases containing a shower.
 
-But I would define that in the pilot protocol, not rewrite v0.2 again.
+That definition belongs in the pilot protocol, not in another revision of v0.2.
 
-12. The four v0.2 corrections — final scorecard
-v0.2 refinement	Targeted result
-Technical-detail traceability	PASS WITH CALIBRATION DEPENDENCY
-Split material uncertainty / outside-scope non-verification	STRONG PASS
-Validity / reassessment / superseded controls	STRONG PASS
-Narrow Class 1 pilot population	PASS
-13. Did v0.2 create any new material architectural defect?
+---
+
+## 13. The four v0.2 corrections — final scorecard
+
+| v0.2 refinement | Targeted result |
+|---|---|
+| Technical-detail traceability | PASS WITH CALIBRATION DEPENDENCY |
+| Split material uncertainty / outside-scope non-verification | STRONG PASS |
+| Validity / reassessment / superseded controls | STRONG PASS |
+| Narrow Class 1 pilot population | PASS |
+
+---
+
+## 14. Did v0.2 create any new material architectural defect?
+
 NO.
 
-I found two things that must be controlled operationally:
+Two items must be controlled operationally:
 
-A. Assessor calibration
+### A. Assessor calibration
 
 The form makes the technical basis visible, but competence is still needed to choose the correct basis.
 
-B. Change notification / pre-application reconfirmation
+### B. Change notification / pre-application reconfirmation
 
 A form cannot react to an unreported change.
 
@@ -468,16 +532,18 @@ CWIG-01 Field Pilot Protocol v0.1
 
 They do not justify adding more CWI domains or creating a v0.3 field form at this stage.
 
-14. Targeted falsification result
+---
+
+## 15. Targeted falsification result
 
 We actively attempted to demonstrate that v0.2:
 
-still permits hidden uncertainty to become a positive result;
-cannot respond to material change;
-allows system substitution without reassessment;
-still confuses upstream responsibility with CWIG relevance;
-remains too broad for a first pilot;
-requires another major redesign.
+- still permits hidden uncertainty to become a positive result;
+- cannot respond to material change;
+- allows system substitution without reassessment;
+- still confuses upstream responsibility with CWIG relevance;
+- remains too broad for a first pilot;
+- requires another major redesign.
 
 We did not establish any of those propositions strongly enough to reject v0.2.
 
@@ -491,8 +557,11 @@ CWIG depends on material changes being disclosed or detected before waterproofin
 
 Those are now pilot questions.
 
-15. Final targeted simulation decision
-CWIG-01 Pilot Record Form v0.2
+---
+
+## 16. Final targeted simulation decision
+
+CWIG-01 Pilot Record Form v0.2  
 PASS — READY FOR CONTROLLED FIELD-PILOT PREPARATION
 
 Not:
@@ -517,26 +586,28 @@ Technically and procedurally mature enough to prepare a small controlled real-wo
 
 That is a meaningful maturity step.
 
-16. What I would freeze now
+---
 
-I recommend we freeze the six-domain CWIG field-form architecture at v0.2 while field-pilot preparation occurs.
+## 17. What should be frozen now
 
-No more checklist additions simply because someone thinks of another possible issue.
+The six-domain CWIG field-form architecture should be frozen at v0.2 while field-pilot preparation occurs.
 
-Any further change to the form should need:
+No further checklist additions are justified on the basis that another possible issue has been identified.
 
-pilot evidence;
-assessor calibration evidence;
-technical verification;
-or a genuinely material defect.
+Any further change to the form should require:
 
-Otherwise this could turn into the exact giant compliance checklist we've been trying to avoid.
+- pilot evidence;
+- assessor calibration evidence;
+- technical verification;
+- or a genuinely material defect.
 
-17. Next three development documents
+---
 
-The next order should now be:
+## 18. Next three development documents
 
-1. CWIG-01 Assessor Calibration Guide v0.1
+The next sequence should be:
+
+### 1. CWIG-01 Assessor Calibration Guide v0.1
 
 Teach consistent application of:
 
@@ -544,21 +615,22 @@ acceptable / unacceptable / material uncertainty / outside scope / refer / escal
 
 and configuration selection.
 
-2. CWIG-01 Field Pilot Protocol v0.1
+### 2. CWIG-01 Field Pilot Protocol v0.1
 
 Define:
 
-pilot eligibility;
-who assesses;
-when CWIG occurs;
-pre-application status reconfirmation;
-change notification;
-reassessment;
-independent reviewer process;
-privacy/evidence controls;
-pilot success/failure measures.
-3. CWIG-01 Pilot Evidence Register v0.1
+- pilot eligibility;
+- who assesses;
+- when CWIG occurs;
+- pre-application status reconfirmation;
+- change notification;
+- reassessment;
+- independent reviewer process;
+- privacy/evidence controls;
+- pilot success/failure measures.
+
+### 3. CWIG-01 Pilot Evidence Register v0.1
 
 Capture comparable evidence across actual pilot cases.
 
-Then we can begin with a very small controlled cohort, rather than suddenly declaring CWIG live across the industry.
+A very small controlled cohort should precede any broader application of CWIG across the industry.
