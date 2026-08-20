@@ -181,6 +181,19 @@ A NOT ACCEPTABLE finding will ordinarily lead to:
 - REFER;
 - or another non-positive gate decision.
 
+### Domain-Specific Finding Language — CWI-04
+
+CWI-04 (Junction and Movement Treatability) uses **TREATABLE** and **TREATABLE WITH CONTROL** in place of ACCEPTABLE and ACCEPTABLE WITH CONTROL. These are domain-specific labels for the same conceptual positions:
+
+| CWI-04 finding | Core-term equivalent |
+|---|---|
+| TREATABLE | ACCEPTABLE |
+| TREATABLE WITH CONTROL | ACCEPTABLE WITH CONTROL |
+
+This terminology is intentional. The CWI-04 domain question concerns whether a junction *can be treated* using a documented detail; the word "treatable" directly reflects that question. The gateway logic and record-status rules are unchanged.
+
+TREATABLE and TREATABLE WITH CONTROL are **domain finding states**, not gate decision states. The gate decision states remain PROCEED / PROCEED WITH CONTROL / INVESTIGATE / REFER / ESCALATE / STOP throughout all six CWI domains.
+
 ---
 
 ## 8. UNRESOLVED — MATERIAL TO CWIG DECISION
