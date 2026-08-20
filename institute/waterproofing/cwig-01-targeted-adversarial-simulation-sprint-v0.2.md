@@ -7,7 +7,7 @@
 
 ---
 
-# 1. Simulation status and limitations
+## 1. Simulation status and limitations
 
 This is simulation evidence only.
 
@@ -500,7 +500,7 @@ That definition belongs in the pilot protocol, not in another revision of v0.2.
 ## 13. The four v0.2 corrections — final scorecard
 
 | v0.2 refinement | Targeted result |
-|---|---|
+| --- | --- |
 | Technical-detail traceability | PASS WITH CALIBRATION DEPENDENCY |
 | Split material uncertainty / outside-scope non-verification | STRONG PASS |
 | Validity / reassessment / superseded controls | STRONG PASS |
