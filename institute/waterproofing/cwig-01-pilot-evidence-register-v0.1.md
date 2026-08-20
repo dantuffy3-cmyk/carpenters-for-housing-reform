@@ -1010,24 +1010,24 @@ Where a material register change is necessary:
 
 The first planned cohort remains:
 
-**5–10 Class 1 residential bathrooms, ensuites or shower areas containing a shower.**
+**5–10 bathrooms, ensuites or shower areas containing a shower within Class 1 residential buildings.**
 
 Suggested register placeholders:
 
-| Pilot Case ID | Status |
-|---|---|
-| CWIG-PILOT-001 | PROSPECTIVE |
-| CWIG-PILOT-002 | PROSPECTIVE |
-| CWIG-PILOT-003 | PROSPECTIVE |
-| CWIG-PILOT-004 | PROSPECTIVE |
-| CWIG-PILOT-005 | PROSPECTIVE |
-| CWIG-PILOT-006 | NOT YET ALLOCATED |
-| CWIG-PILOT-007 | NOT YET ALLOCATED |
-| CWIG-PILOT-008 | NOT YET ALLOCATED |
-| CWIG-PILOT-009 | NOT YET ALLOCATED |
-| CWIG-PILOT-010 | NOT YET ALLOCATED |
+| Pilot Case ID | Allocation Status | Case Status if Allocated |
+|---|---|---|
+| CWIG-PILOT-001 | ALLOCATED | PROSPECTIVE |
+| CWIG-PILOT-002 | ALLOCATED | PROSPECTIVE |
+| CWIG-PILOT-003 | ALLOCATED | PROSPECTIVE |
+| CWIG-PILOT-004 | ALLOCATED | PROSPECTIVE |
+| CWIG-PILOT-005 | ALLOCATED | PROSPECTIVE |
+| CWIG-PILOT-006 | AVAILABLE | |
+| CWIG-PILOT-007 | AVAILABLE | |
+| CWIG-PILOT-008 | AVAILABLE | |
+| CWIG-PILOT-009 | AVAILABLE | |
+| CWIG-PILOT-010 | AVAILABLE | |
 
-A placeholder does not mean a project has been recruited.
+An available placeholder does not mean a project has been recruited. Case Status should only be recorded once a pilot case is actually allocated.
 
 ---
 
