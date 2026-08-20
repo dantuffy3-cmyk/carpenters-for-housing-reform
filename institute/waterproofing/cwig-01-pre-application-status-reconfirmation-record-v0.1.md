@@ -491,7 +491,7 @@ Where a material change may affect the current assessment:
 
 ### CWIG Record Status
 
-# REASSESSMENT REQUIRED
+`REASSESSMENT REQUIRED`
 
 Record:
 
@@ -518,7 +518,7 @@ If that uncertainty is material to the waterproofing decision:
 
 ### CWIG Record Status
 
-# REASSESSMENT REQUIRED
+`REASSESSMENT REQUIRED`
 
 Missing information does not improve the outcome.
 
@@ -679,7 +679,7 @@ By completing this record, the practitioner records that:
 | CWIG Assessment ID | |
 | Reconfirmation ID | |
 | Reconfirmation Outcome | NO MATERIAL CHANGE IDENTIFIED / MATERIAL CHANGE IDENTIFIED / UNABLE TO CONFIRM |
-| Affected CWI Domain(s) | |
+| Affected CWI domain(s) | |
 | CWIG Record Status After Reconfirmation | VALID / REASSESSMENT REQUIRED |
 | Current Gate Decision | |
 | Waterproofing May Proceed Under Current CWIG Decision | Yes / No |
