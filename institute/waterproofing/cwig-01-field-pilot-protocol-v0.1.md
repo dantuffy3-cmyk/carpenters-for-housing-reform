@@ -635,7 +635,7 @@ Each pilot case should ordinarily preserve:
 - STOP/REFER/INVESTIGATE/ESCALATE records;
 - rectification;
 - reassessment;
-- pre-application reconfirmation;
+- pre-application status reconfirmation;
 - final current status;
 - practitioner feedback;
 - independent-review result where undertaken.
@@ -1040,7 +1040,7 @@ The cohort should include ordinary straightforward work.
 
 ### Pilot 1–2
 
-Use primarily for workflow debugging.
+Use cases 1–2 primarily for workflow debugging.
 
 Do not immediately rewrite the architecture after minor usability problems.
 
@@ -1259,7 +1259,7 @@ Before Pilot Case 001 begins, the following should exist:
 - [ ] first project eligibility confirmed
 - [ ] evidence-storage pathway identified
 - [ ] escalation/referral pathway understood
-- [ ] pre-application reconfirmation process understood
+- [ ] pre-application status reconfirmation process understood
 
 ---
 
