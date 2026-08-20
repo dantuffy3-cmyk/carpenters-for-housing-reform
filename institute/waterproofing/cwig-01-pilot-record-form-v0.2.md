@@ -450,7 +450,7 @@ The geometry decision must identify the technical or project basis used.
 | Applicable geometry/detail reference | |
 | Source | NCC / AS 3740 / Project Drawing / Performance Solution / Other |
 | Exact clause/detail/drawing reference where available | |
-| Configuration confirmed from | OBSERVED / DOCUMENT_SUPPORTED / OTHER |
+| Configuration confirmed from | OBSERVED / DOCUMENT_SUPPORTED / MANUFACTURER_SUPPORTED / INDEPENDENTLY_VERIFIED / Other (record basis) |
 | Technical document/version/date where available | |
 | Assumption or limitation | |
 
@@ -1047,7 +1047,7 @@ This section is for evaluation of CWIG-01 and is not part of the technical accep
 | | | MEASUREMENT | | |
 | | | DOCUMENT | | |
 | | | MANUFACTURER | | |
-| | | OTHER | | |
+| | | OTHER (specify type) | | |
 
 ---
 
