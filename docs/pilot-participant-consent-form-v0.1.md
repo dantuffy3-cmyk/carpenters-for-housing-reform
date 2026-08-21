@@ -1,5 +1,18 @@
 # Pilot Participant Consent Form — v0.1
 
+> **LEGACY DOCUMENT — NOT FOR CWIG-01 FIELD USE**
+>
+> This earlier draft is retained for repository history and conflict checking only. It is not the controlling CWIG-01 participant instrument.
+>
+> The controlling CWIG-specific working draft is:
+> `institute/waterproofing/cwig-01-pilot-participant-information-and-consent-record-v0.1.md`
+>
+> That document is also a working draft and **NOT APPROVED FOR FIELD USE**.
+>
+> No consent is currently being collected under these drafts.
+>
+> **CWIG-PILOT-001 remains HOLD.**
+
 **Status:** WORKING DRAFT
 
 **Prepared by:** Carpenters for Housing Reform Victoria

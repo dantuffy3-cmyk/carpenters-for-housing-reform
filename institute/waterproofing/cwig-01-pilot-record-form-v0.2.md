@@ -400,6 +400,22 @@ If an outside-scope matter becomes necessary to establish substrate suitability,
 
 and do not assume compliance.
 
+### Domain Observation / Access
+
+Select one:
+
+- [ ] COMPLETE — Sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment.
+- [ ] PARTIAL — Observable access was limited. Record the limitation and its decision effect below.
+- [ ] UNABLE TO OBSERVE — Conditions in this domain could not be assessed. Record the limitation and its decision effect below.
+
+> **Note:** COMPLETE means only that sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment. It does not mean concealed conditions have been verified, hidden work has been inspected, or upstream work has been certified.
+
+**Observation/access limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+**Decision effect of limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+Where the limitation is material to the CWIG decision, classify the affected finding as `UNRESOLVED — MATERIAL TO CWIG DECISION`. Where the limitation is genuinely outside CWIG scope or competence, `NOT VERIFIED — OUTSIDE CWIG SCOPE` remains applicable.
+
 ### CWI-01 Finding
 
 - [ ] ACCEPTABLE
@@ -485,6 +501,22 @@ A precise measurement assessed against the wrong configuration or technical deta
 | Threshold / hob / set-down | | | |
 | Other | | | |
 
+### Domain Observation / Access
+
+Select one:
+
+- [ ] COMPLETE — Sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment.
+- [ ] PARTIAL — Observable access was limited. Record the limitation and its decision effect below.
+- [ ] UNABLE TO OBSERVE — Conditions in this domain could not be assessed. Record the limitation and its decision effect below.
+
+> **Note:** COMPLETE means only that sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment. It does not mean concealed conditions have been verified, hidden work has been inspected, or upstream work has been certified.
+
+**Observation/access limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+**Decision effect of limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+Where the limitation is material to the CWIG decision, classify the affected finding as `UNRESOLVED — MATERIAL TO CWIG DECISION`. Where the limitation is genuinely outside CWIG scope or competence, `NOT VERIFIED — OUTSIDE CWIG SCOPE` remains applicable.
+
 ### CWI-02 Finding
 
 - [ ] ACCEPTABLE
@@ -547,6 +579,22 @@ Where missing plumbing-interface information prevents a reliable waterproofing d
 
 `UNRESOLVED — MATERIAL TO CWIG DECISION`
 
+### Domain Observation / Access
+
+Select one:
+
+- [ ] COMPLETE — Sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment.
+- [ ] PARTIAL — Observable access was limited. Record the limitation and its decision effect below.
+- [ ] UNABLE TO OBSERVE — Conditions in this domain could not be assessed. Record the limitation and its decision effect below.
+
+> **Note:** COMPLETE means only that sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment. It does not mean concealed conditions have been verified, hidden work has been inspected, or upstream work has been certified.
+
+**Observation/access limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+**Decision effect of limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+Where the limitation is material to the CWIG decision, classify the affected finding as `UNRESOLVED — MATERIAL TO CWIG DECISION`. Where the limitation is genuinely outside CWIG scope or competence, `NOT VERIFIED — OUTSIDE CWIG SCOPE` remains applicable.
+
 ### CWI-03 Finding
 
 - [ ] ACCEPTABLE
@@ -605,6 +653,22 @@ Where missing plumbing-interface information prevents a reliable waterproofing d
 - [ ] UNRESOLVED — MATERIAL TO CWIG DECISION
 - [ ] NOT VERIFIED — OUTSIDE CWIG SCOPE
 
+### Domain Observation / Access
+
+Select one:
+
+- [ ] COMPLETE — Sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment.
+- [ ] PARTIAL — Observable access was limited. Record the limitation and its decision effect below.
+- [ ] UNABLE TO OBSERVE — Conditions in this domain could not be assessed. Record the limitation and its decision effect below.
+
+> **Note:** COMPLETE means only that sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment. It does not mean concealed conditions have been verified, hidden work has been inspected, or upstream work has been certified.
+
+**Observation/access limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+**Decision effect of limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+Where the limitation is material to the CWIG decision, classify the affected finding as `UNRESOLVED — MATERIAL TO CWIG DECISION`. Where the limitation is genuinely outside CWIG scope or competence, `NOT VERIFIED — OUTSIDE CWIG SCOPE` remains applicable.
+
 ### CWI-04 Finding
 
 - [ ] TREATABLE
@@ -661,6 +725,22 @@ If a system-specific moisture requirement is necessary but cannot be established
 
 `UNRESOLVED — MATERIAL TO CWIG DECISION`
 
+### Domain Observation / Access
+
+Select one:
+
+- [ ] COMPLETE — Sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment.
+- [ ] PARTIAL — Observable access was limited. Record the limitation and its decision effect below.
+- [ ] UNABLE TO OBSERVE — Conditions in this domain could not be assessed. Record the limitation and its decision effect below.
+
+> **Note:** COMPLETE means only that sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment. It does not mean concealed conditions have been verified, hidden work has been inspected, or upstream work has been certified.
+
+**Observation/access limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+**Decision effect of limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+Where the limitation is material to the CWIG decision, classify the affected finding as `UNRESOLVED — MATERIAL TO CWIG DECISION`. Where the limitation is genuinely outside CWIG scope or competence, `NOT VERIFIED — OUTSIDE CWIG SCOPE` remains applicable.
+
 ### CWI-05 Finding
 
 - [ ] ACCEPTABLE
@@ -714,6 +794,22 @@ If a system-specific moisture requirement is necessary but cannot be established
 - [ ] UNRESOLVED — MATERIAL TO CWIG DECISION
 
 **Deviation details:**
+
+### Domain Observation / Access
+
+Select one:
+
+- [ ] COMPLETE — Sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment.
+- [ ] PARTIAL — Observable access was limited. Record the limitation and its decision effect below.
+- [ ] UNABLE TO OBSERVE — Conditions in this domain could not be assessed. Record the limitation and its decision effect below.
+
+> **Note:** COMPLETE means only that sufficient observable and reasonably measurable conditions within this domain were available for the bounded CWIG assessment. It does not mean concealed conditions have been verified, hidden work has been inspected, or upstream work has been certified.
+
+**Observation/access limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+**Decision effect of limitation (if PARTIAL or UNABLE TO OBSERVE):**
+
+Where the limitation is material to the CWIG decision, classify the affected finding as `UNRESOLVED — MATERIAL TO CWIG DECISION`. Where the limitation is genuinely outside CWIG scope or competence, `NOT VERIFIED — OUTSIDE CWIG SCOPE` remains applicable.
 
 ### CWI-06 Finding
 
@@ -826,6 +922,8 @@ Before selecting **PROCEED**, confirm:
 - [ ] The selected waterproofing system has been identified.
 - [ ] Practitioner responsibility boundaries have been preserved.
 - [ ] Significant outside-scope matters have been recorded without being treated as positive evidence.
+- [ ] All six CWI domains (CWI-01 through CWI-06) have a completed Domain Observation / Access status recorded.
+- [ ] No material PARTIAL or UNABLE TO OBSERVE condition is silently supporting ACCEPTABLE, ACCEPTABLE WITH CONTROL, TREATABLE, TREATABLE WITH CONTROL, COMPATIBILITY RESOLVED, or COMPATIBILITY RESOLVED WITH CONTROL without the limitation and its decision effect being recorded.
 
 If any required confirmation cannot be made, **PROCEED must not be selected**.
 
@@ -984,6 +1082,8 @@ This section is for evaluation of CWIG-01 and is not part of the technical accep
 | Responsibility disagreement arose | Yes / No |
 | Independent review undertaken | Yes / No |
 | Independent reviewer agreed with gate decision | Yes / Partly / No / N/A |
+
+> **Independent Review Limitation:** Independent review under CWIG-01 is conducted for pilot comparison, reproducibility and governance purposes. It is not a statutory inspection. It does not create a statutory compliance finding, replace any legally required inspection, or transfer legal responsibility for the work.
 
 ---
 
