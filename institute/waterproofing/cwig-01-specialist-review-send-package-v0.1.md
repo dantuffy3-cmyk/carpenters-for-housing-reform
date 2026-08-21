@@ -125,7 +125,7 @@ CWIG is currently experimental and non-statutory.
 
 ---
 
-## 8. Six CWIG Domains
+## 8. Six CWI Domains
 
 The architecture contains six domains:
 
@@ -926,7 +926,7 @@ Please let us know if you require additional factual information about the propo
 
 Kind regards,
 
-Dan Sonsie  
+[Sender name]  
 Carpenters for Housing Reform Victoria  
 [Contact details]
 
@@ -1041,9 +1041,11 @@ Do not retrospectively rewrite the external advice.
 
 ## 55. Specialist Advice Does Not Automatically Amend CWIG
 
-External advice should first be entered into:
+External advice should first be entered into the future post-advice record:
 
-> **CWIG-01 Legal & Privacy Reconciliation Record v0.1**
+> **CWIG-01 Legal & Privacy Reconciliation Record v0.1**  
+> `institute/waterproofing/cwig-01-legal-and-privacy-reconciliation-record-v0.1.md`  
+> **FUTURE POST-ADVICE RECORD — TO BE CREATED**
 
 Each recommendation should then be classified and reconciled before controlled documents are amended.
 
@@ -1075,11 +1077,14 @@ After specialist advice:
 
 ↓
 
-**CWIG-01 Legal & Privacy Reconciliation Record v0.1**
+**CWIG-01 Legal & Privacy Reconciliation Record v0.1**  
+`institute/waterproofing/cwig-01-legal-and-privacy-reconciliation-record-v0.1.md`  
+**FUTURE POST-ADVICE RECORD — TO BE CREATED**
 
 ↓
 
-**Participant Information & Consent Record v0.2**
+**Participant Information & Consent Record v0.2**  
+**FUTURE CONTROLLED DRAFT — VERSION TO BE CREATED AFTER RECONCILIATION**
 
 ↓
 
@@ -1095,7 +1100,8 @@ After specialist advice:
 
 ↓
 
-**CWIG-01 Pilot Readiness Review v0.1**
+**CWIG-01 Pilot Readiness Review v0.1**  
+**FUTURE READINESS DOCUMENT — TO BE CREATED**
 
 ↓
 
