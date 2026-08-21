@@ -557,6 +557,8 @@ Record the current position immediately before waterproofing proceeds or the pil
 
 Where an independent comparison is undertaken:
 
+> **Independent Review Limitation:** Independent review under CWIG-01 is conducted for pilot comparison, reproducibility and governance purposes. It is not a statutory inspection. It does not create a statutory compliance finding, replace any legally required inspection, or transfer legal responsibility for the work.
+
 | Field | Record |
 |---|---|
 | Independent Review ID | |
