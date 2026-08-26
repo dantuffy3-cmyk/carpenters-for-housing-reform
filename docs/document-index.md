@@ -101,6 +101,7 @@ Document statuses:
 |---|---|---|---|---|
 | DB-L Carpentry Assessment Architecture Evidence Review v0.1 | `docs/policy-analysis/dbl-carpentry-assessment-architecture-evidence-review-v0.1.md` | WORKING DRAFT | Bounded evidence review of what current public BPC material does and does not establish about the relationship between DB-L Carpentry assessment and the ARC seven-domain capability model | August 2026 |
 | **ARC Regulatory Entry-Point Map v0.1** | `docs/policy-analysis/advanced-residential-carpentry-regulatory-entry-point-map-v0.1.md` | **WORKING DRAFT** | **Current regulatory architecture map of the Victorian entry points (administrative, regulatory, legislative, non-statutory) relevant to Advanced Residential Carpentry recognition. Fifteen-part analysis. Not a legal opinion. Not a government submission.** | August 2026 |
+| **Existing Pathways and Alternative-Cause Baseline Review v0.1** | `docs/policy-analysis/existing-pathways-alternative-cause-baseline-review-v0.1.md` | **WORKING DRAFT** | **Bounded evidence review testing whether the apparent ARC problem is already addressed by existing Victorian pathways or attributable to causes other than carpenter capability. Thirteen pathways, eighteen alternative causes, governed attribution test, seven-domain crosswalk, market-mechanism test, residual-problem test, minimum effective intervention analysis. Not an ARC advocacy document. Stop for Dan and Atlas review.** | August 2026 |
 
 ---
 
@@ -213,7 +214,7 @@ Document statuses:
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 33 |
+| WORKING DRAFT | 34 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HISTORICAL | 2 |
@@ -222,4 +223,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — DB-L Assessment Architecture Evidence Review v0.1.*
+*Updated August 2026 — Existing Pathways and Alternative-Cause Baseline Review v0.1 added.*
