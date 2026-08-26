@@ -688,6 +688,7 @@ The project is not yet at full consultation-ready or government-meeting-ready st
 | Field | Detail |
 |---|---|
 | File | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` |
+| Filename continuity note | Filename retained at v0.1 for continuity; content version is upgraded to v0.2 |
 | Version | 0.2 |
 | Date | 26 August 2026 |
 | Status | INTERNAL WORKING DOCUMENT |
