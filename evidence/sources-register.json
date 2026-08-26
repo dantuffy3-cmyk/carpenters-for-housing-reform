@@ -198,5 +198,31 @@
     "createdAt": "2026-08-09T09:29:33Z",
     "lastReviewedAt": "2026-08-09T09:29:33Z",
     "notes": "Governed reference used for capability-first framing and registration-reform context."
+  },
+  {
+    "sourceId": "SRC-VIC-DTP-CORR-20260826-001",
+    "title": "DTP Building Policy Reform Team — forthcoming Engage Victoria carpentry registration/licensing consultation",
+    "issuingAuthority": "Department of Transport and Planning — Building Policy Reform Team, Building Policy and Reform Division",
+    "sourceType": "government_correspondence",
+    "jurisdiction": "Victoria, Australia",
+    "localFileReference": "SOURCE_HELD_EXTERNALLY",
+    "publicationDate": "2026-08-26",
+    "dateAccessed": "2026-08-26",
+    "currentStatus": "current",
+    "reliabilityTier": "tier_1_primary_authoritative",
+    "sectionsReliedUpon": [
+      "\"currently finalising consultation material for public release on Engage Victoria.\"",
+      "\"seeks views from the public on a registration and licensing structure for carpentry in Victoria.\"",
+      "\"This provides an avenue for the work you have been progressing to inform the development of the reform.\"",
+      "\"The pathways and structures for carpentry you have been developing would provide valuable perspective for us to consider.\"",
+      "\"We would welcome your feedback through this engagement period.\"",
+      "\"key stakeholder distribution list\""
+    ],
+    "summary": "Direct Victorian Government correspondence dated 26 August 2026 thanking Dan Sonsie for an update on a proposed carpentry pilot program, confirming forthcoming Engage Victoria consultation on a registration and licensing structure for carpentry in Victoria, inviting feedback during the engagement period, and confirming inclusion on a key stakeholder distribution list.",
+    "limitations": "This correspondence is evidence of forthcoming government consultation and an invitation for stakeholder participation. It is not evidence of government endorsement of RRC, ARC, the controlled pilot, or any particular statutory or regulatory outcome.",
+    "reviewStatus": "approved",
+    "createdAt": "2026-08-26T09:22:46Z",
+    "lastReviewedAt": "2026-08-26T09:22:46Z",
+    "notes": "Classification: DIRECT_GOVERNMENT_CORRESPONDENCE. Evidence status: VERIFIED_PRIMARY. Relevance: HIGH. Topics: carpentry registration; carpentry licensing; Engage Victoria consultation; stakeholder engagement; practitioner pathways; government reform process. Source record: Original email and screenshots retained by evidence custodian. Evidence custodian: Dan Sonsie. Internal project implications (not government instruction): PREPARE_FOR_FORMAL_CONSULTATION; DO_NOT_SEND_ADDITIONAL_UNSOLICITED_SUBMISSION_YET; WAIT_FOR_ENGAGE_VICTORIA_MATERIAL; ANALYSE_GOVERNMENT_QUESTIONS_BEFORE_TAILORING_RESPONSE."
   }
 ]
