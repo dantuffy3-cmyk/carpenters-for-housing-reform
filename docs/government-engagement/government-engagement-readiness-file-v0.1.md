@@ -200,7 +200,7 @@ The governed assessment architecture developed for this project operates on the 
 | Scenario-based assessment | Candidates respond to renovation scenarios that present realistic ambiguity, concealed conditions and escalation decisions |
 | 0–4 rubric | Each domain is scored 0 to 4; higher scores reflect more sophisticated judgment and documentation |
 | Critical-fail rule | A critical failure on a boundary, safety or escalation decision cannot be averaged away by strong performance on other domains |
-| Stopping/referring as evidence | Recognising that a scenario requires referral to another professional is treated as a demonstration of advanced competence, not a failure |
+| Stopping/referring as evidence | how professional judgement, recognition of scope limitations, and any referral or escalation expectations are treated within the assessment process |
 | Unknown evidence rule | Evidence not before the assessor at the time of assessment cannot improve an outcome retrospectively |
 | Assessor calibration | Assessors are calibrated against benchmark scenarios to reduce variance; calibration is a formal process, not a one-time event |
 | Second review | An independent second review process exists for contested assessments |
@@ -255,7 +255,7 @@ This project does not portray DB-L Carpentry as deficient. The absence of public
 
 **BPC administrative mechanisms** may potentially affect, without requiring statutory change:
 
-- assessment format and delivery (e.g. online exam architecture)
+- the assessment methods used, including the role of qualifications, practical experience, Technical Referee evidence, and any examination or other assessment process, if applicable
 - evidence requirements and documentation
 - Technical Referee process and referee criteria
 - calibration and quality assurance for assessors

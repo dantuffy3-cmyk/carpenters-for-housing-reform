@@ -37,7 +37,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
-| **Government Engagement Readiness File v0.1** | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | **INTERNAL WORKING DOCUMENT** | **Internal readiness file for Engage Victoria consultation response. Consolidates current evidence. Parts 1–20. Not a submission.** | August 2026 |
+| **Government Engagement Readiness File v0.1** | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | **INTERNAL WORKING DOCUMENT** | **Internal readiness file for Engage Victoria consultation response. Consolidates current evidence. Parts 1–23. Not a submission.** | August 2026 |
 | **Government Registration Alignment Brief** | `docs/government-registration-alignment-brief.md` | **CURRENT** | **Current canonical government-facing alignment brief. Capability-first, registration-reform aligned. August 2026.** | August 2026 |
 | Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
 | Practitioner Function Decision Hierarchy v0.1 | `docs/practitioner-function-decision-hierarchy-v0.1.md` | WORKING DRAFT | Canonical practitioner-function-first decision hierarchy for government-facing sequencing | August 2026 |
