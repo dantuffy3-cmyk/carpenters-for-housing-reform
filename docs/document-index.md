@@ -37,6 +37,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
+| **DB-L Assessment Information Request — Hold Draft v0.1** | `docs/government-engagement/db-l-assessment-information-request-hold-draft-v0.1.md` | **HOLD — DO NOT SEND** | **Internal hold draft only. Not a submission, not an FOI request. To be reviewed against Engage Victoria consultation material before any decision to send. Preserves Finding D / 75% and Classification C / 45%.** | August 2026 |
 | **Government Engagement Readiness File v0.1** | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | **INTERNAL WORKING DOCUMENT** | **Internal readiness file for Engage Victoria consultation response. Consolidates current evidence. Parts 1–20. Not a submission.** | August 2026 |
 | **Government Registration Alignment Brief** | `docs/government-registration-alignment-brief.md` | **CURRENT** | **Current canonical government-facing alignment brief. Capability-first, registration-reform aligned. August 2026.** | August 2026 |
 | Government Engagement Brief | `docs/government-engagement-brief.md` | CURRENT | Full engagement brief for government officials | August 2026 |
@@ -217,10 +218,11 @@ Document statuses:
 | WORKING DRAFT | 34 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
+| HOLD — DO NOT SEND | 1 |
 | HISTORICAL | 2 |
 | HISTORICAL — PRE-PIVOT | 5 |
 | SUPERSEDED | 0 |
 
 ---
 
-*Updated August 2026 — Existing Pathways and Alternative-Cause Baseline Review v0.1 added.*
+*Updated August 2026 — DB-L Assessment Information Request Hold Draft v0.1 added.*
