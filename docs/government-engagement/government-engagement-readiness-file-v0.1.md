@@ -1,7 +1,7 @@
-# Government Engagement Readiness File — v0.1
+# Government Engagement Readiness File — v0.2
 
 **Carpenters for Housing Reform Victoria**
-**Version:** 0.1
+**Version:** 0.2
 **Date:** 26 August 2026
 **Status:** INTERNAL WORKING DOCUMENT — not a submission, not public website copy, not advocacy material
 **Classification:** INTERNAL
@@ -458,6 +458,14 @@ Identify for each question whether the project has:
 - an unknown
 - a need for additional evidence before the consultation deadline
 
+**STEP 5A — Pre-drafting consultation controls**
+Before drafting any response, identify:
+- the government base case
+- the statutory/head-power constraints
+- the options government has actually put forward
+- the burden/cost criteria government has identified
+- whether government is asking for evidence, preference, implementation feedback, or all three
+
 **STEP 6 — Draft in government terminology**
 Draft the response using the government's own terminology and framing. Do not impose project-internal terminology on government consultation questions.
 
@@ -494,6 +502,7 @@ All claims made in any consultation response must be classified against the foll
 | DIRECTLY_SUPPORTED | Current project evidence directly supports the claim without inference |
 | PARTIALLY_SUPPORTED | Current evidence is consistent with the claim but does not fully establish it |
 | INFERENCE | The claim is a reasonable inference from available evidence but is not directly supported |
+| ASSUMPTION | The claim is an assumption and is not currently evidenced |
 | UNKNOWN | The current evidence base does not permit a position on this question |
 | REQUIRES_GOVERNMENT_CLARIFICATION | The answer depends on government policy determinations not yet made |
 | REQUIRES_LEGAL_REVIEW | The answer depends on legal or regulatory interpretation not yet obtained |
@@ -503,7 +512,81 @@ All claims made in any consultation response must be classified against the foll
 
 ---
 
-## PART 18 — FIRST 48-HOUR RESPONSE PLAN
+## PART 18 — RESIDUAL PROBLEM TEST
+
+Every future consultation response must answer the following question before reaching any policy recommendation:
+
+> **“What public-interest problem remains after accounting for the current legal, registration, assessment and consumer-protection framework?”**
+
+The base case must explicitly account for:
+- Cert III Carpentry
+- DB-L Carpentry
+- builder registration
+- current BPC assessment reform
+- existing statutory responsibilities
+- existing consumer protections
+- any new government registration/licensing proposals once published
+
+Residual-problem classification must be recorded as one of:
+- VERIFIED
+- PLAUSIBLE
+- NOT_YET_PROVEN
+- UNKNOWN
+
+> A policy gap must not be inferred merely from an occupational progression gap.
+
+---
+
+## PART 19 — MINIMUM EFFECTIVE INTERVENTION TEST
+
+All options A–F (and any additional option raised in consultation) must be tested against:
+
+> **“Is there a materially lighter intervention capable of achieving substantially the same public-interest outcome?”**
+
+Progressive intervention testing must consider:
+- status quo strengthened
+- better guidance / enforcement
+- assessment-only reform
+- non-statutory capability recognition
+- DB-L reform / endorsement
+- another regulatory mechanism
+- distinct statutory class
+
+Do not assume this sequence is always correct in every consultation context.  
+Do not prefer stronger intervention merely because it creates more formal control.
+
+For each option, record:
+- expected benefit
+- expected burden
+- implementation complexity
+- consumer clarity
+- duplication risk
+- legal uncertainty
+- workforce impact
+- small-business impact
+- evidence required
+
+---
+
+## PART 20 — EVIDENCE / ASSUMPTION / LIMITATION REGISTER
+
+Use the following reusable register for all consultation drafting, internal review and final response QC.
+
+| Claim | Evidence Source | Evidence Status | Assumption | Limitation | Confidence | What Would Change the Conclusion | Next Evidence Route |
+|---|---|---|---|---|---|---|---|
+| *[Insert claim]* | *[Insert source]* | *[DIRECTLY_SUPPORTED / PARTIALLY_SUPPORTED / INFERENCE / ASSUMPTION / UNKNOWN / REQUIRES_GOVERNMENT_CLARIFICATION / REQUIRES_LEGAL_REVIEW / REQUIRES_PILOT_EVIDENCE]* | *[Insert if any]* | *[Insert if any]* | *[High/Medium/Low]* | *[Insert trigger]* | *[Insert route]* |
+
+Future consultation responses should always distinguish:
+- government-stated facts
+- project evidence
+- project assumptions
+- unresolved uncertainty
+
+No unknown may improve a conclusion.
+
+---
+
+## PART 21 — FIRST 48-HOUR RESPONSE PLAN
 
 Once the Engage Victoria consultation is published:
 
@@ -514,12 +597,20 @@ Once the Engage Victoria consultation is published:
 - Save exact versions with access date and URL
 
 **Within the first 12 hours:**
+- Identify the government base case
+- Identify statutory/head-power constraints
+- Identify the options government has actually put forward
+- Identify burden/cost criteria in the consultation material
+- Identify whether government is asking for evidence, preference, implementation feedback, or all three
 - Map each consultation question to existing project evidence using Part 17 classifications
+- Apply the Residual Problem Test (Part 18)
+- Start the Evidence / Assumption / Limitation Register (Part 20)
 - Identify major evidence gaps
 - Identify whether any government proposal materially changes the relevance of options A–F
 
 **Within the first 24 hours:**
 - Produce a first response architecture (which questions can be answered, which cannot, what evidence is needed)
+- Apply the Minimum Effective Intervention Test across options (Part 19)
 - Identify required evidence attachments
 - Identify legal and regulatory questions that require external advice before answering
 
@@ -531,11 +622,11 @@ Once the Engage Victoria consultation is published:
 
 ---
 
-## PART 19 — GOVERNMENT ENGAGEMENT TRIGGERS
+## PART 22 — GOVERNMENT ENGAGEMENT TRIGGERS
 
 | Trigger | Significance | Immediate action | What NOT to do | Evidence to use |
 |---|---|---|---|---|
-| Engage Victoria consultation published | Primary trigger — formal opportunity for structured participation | Apply Parts 15–18 of this file; archive all material; open question register | Do not submit within 48 hours unless deadline requires it; do not claim endorsement | ARC capability model; DB-L review; assessment framework; regulatory entry-point map; implementation options matrix |
+| Engage Victoria consultation published | Primary trigger — formal opportunity for structured participation | Apply Parts 15–21 of this file; archive all material; open question register | Do not submit within 48 hours unless deadline requires it; do not claim endorsement | ARC capability model; DB-L review; assessment framework; regulatory entry-point map; implementation options matrix |
 | Direct DTP invitation to engage | Confirms stakeholder status; does not confer endorsement | Acknowledge promptly; identify what is being asked; do not over-commit | Do not interpret invitation as policy support for any option | Government engagement brief; ARC capability model summary |
 | BPC DB-L Carpentry assessment reform announced | May directly affect options B and E; may affect project relevance | Review announced reform against ARC seven domains; update DB-L evidence review | Do not claim BPC reform validates or invalidates RRC | DB-L Assessment Architecture Evidence Review; implementation options matrix |
 | New practitioner-registration consultation published | May provide a broader or parallel vehicle | Review scope; identify whether ARC fits within consultation framing | Do not assume the consultation covers ARC unless explicitly confirmed | Regulatory entry-point map; ARC capability model; implementation options matrix |
@@ -548,7 +639,7 @@ Once the Engage Victoria consultation is published:
 
 ---
 
-## PART 20 — CURRENT READINESS POSITION
+## PART 23 — CURRENT READINESS POSITION
 
 **Classification: B — PARTIALLY_READY**
 
@@ -577,26 +668,18 @@ The project is not yet at full consultation-ready or government-meeting-ready st
 
 | # | Check | Status |
 |---|---|---|
-| 1 | DTP correspondence accurately represented — date, body, evidence ID, consultation context and invitation | PASS |
-| 2 | No endorsement inferred from correspondence | PASS |
-| 3 | Capability-first hierarchy preserved throughout | PASS |
-| 4 | ARC classification separated from statutory authority | PASS |
-| 5 | RRC remains one option among A–F | PASS |
-| 6 | DB-L Carpentry strengths accurately summarised | PASS |
-| 7 | DB-L Carpentry uncertainty (Finding D, 75% confidence) preserved | PASS |
-| 8 | Regulatory uncertainty (Finding E, 65% confidence) preserved | PASS |
-| 9 | Pilot remains evidence-generating — does not grant authority | PASS |
-| 10 | External validation is independent — adverse and null findings must be retained | PASS |
-| 11 | Options A–F remain open — none ranked | PASS |
-| 12 | Consultation response is not pre-written before questions exist | PASS |
-| 13 | Government terminology will control final submission structure | PASS |
-| 14 | No unsupported sunset review claim | PASS |
-| 15 | No public site changes | PASS |
-| 16 | No outreach conducted | PASS |
-| 17 | No personal contact details exposed | PASS |
-| 18 | Internal material clearly labelled | PASS |
-| 19 | No duplicate canonical architecture created — this file references existing source documents | PASS |
-| 20 | No unrelated files modified other than document-index.md for discoverability | PASS |
+| 1 | No new ARC/RRC advocacy introduced | PASS |
+| 2 | DB-L Carpentry not portrayed as deficient | PASS |
+| 3 | Status quo remains a legitimate policy option | PASS |
+| 4 | Lighter interventions remain legitimate policy options | PASS |
+| 5 | Burden/cost analysis is required in option testing | PASS |
+| 6 | Assumptions explicitly separated from evidence | PASS |
+| 7 | Government base case explicitly required before drafting | PASS |
+| 8 | Head-power/legal constraints explicitly required before drafting | PASS |
+| 9 | No unsupported legal claims introduced | PASS |
+| 10 | No website changes made | PASS |
+| 11 | No outreach conducted | PASS |
+| 12 | No unrelated files changed | PASS |
 
 ---
 
@@ -605,7 +688,8 @@ The project is not yet at full consultation-ready or government-meeting-ready st
 | Field | Detail |
 |---|---|
 | File | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` |
-| Version | 0.1 |
+| Filename continuity note | Filename retained at v0.1 for continuity; content version is upgraded to v0.2 |
+| Version | 0.2 |
 | Date | 26 August 2026 |
 | Status | INTERNAL WORKING DOCUMENT |
 | Author | Carpenters for Housing Reform Victoria |
