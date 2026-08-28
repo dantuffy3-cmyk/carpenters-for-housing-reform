@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Updated: v0.8 — Government Engagement Readiness File v0.1 added
+Updated: v0.9 — Engage Victoria Carpentry Consultation Intake & Evidence Mapping Sheet v0.1 added
 
 ---
 
@@ -37,6 +37,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
+| **Engage Victoria Carpentry Consultation — Intake & Evidence Mapping Sheet v0.1** | `docs/government-engagement/engage-victoria-carpentry-consultation-intake-v0.1.md` | **INTERNAL WORKING DOCUMENT — NOT A SUBMISSION** | **Internal intake and evidence mapping worksheet for the forthcoming Engage Victoria carpentry registration/licensing consultation. Parts 1–14. To be completed before any response is drafted. Not public material.** | August 2026 |
 | **DB-L Assessment Information Request — Hold Draft v0.1** | `docs/government-engagement/db-l-assessment-information-request-hold-draft-v0.1.md` | **HOLD — DO NOT SEND** | **Internal hold draft only. Not a submission, not an FOI request. To be reviewed against Engage Victoria consultation material before any decision to send. Preserves Finding D / 75% and Classification C / 45%.** | August 2026 |
 | **Government Engagement Readiness File v0.1** | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | **INTERNAL WORKING DOCUMENT** | **Internal readiness file for Engage Victoria consultation response. Consolidates current evidence. Parts 1–20. Not a submission.** | August 2026 |
 | **Government Registration Alignment Brief** | `docs/government-registration-alignment-brief.md` | **CURRENT** | **Current canonical government-facing alignment brief. Capability-first, registration-reform aligned. August 2026.** | August 2026 |
