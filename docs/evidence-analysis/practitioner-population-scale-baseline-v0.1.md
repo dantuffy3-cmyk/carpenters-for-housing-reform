@@ -847,7 +847,8 @@ This classification is reached independently from the third-party reconnaissance
 |---|---|
 | Strongest evidence supporting conclusion | SYSTEM_DERIVED Victorian carpenter estimate (~44,700) is consistent with a large workforce. No primary Victorian renovation-specific cohort count is identifiable from public sources. |
 | Strongest alternative explanation | A renovation-focused cohort may be identifiable from ABS Census occupation × industry cross-tabulation or from NCVER qualification data, but this has not been confirmed in this review. The classification may understate the available evidence if Census cross-tabulation supports a defensible residential or renovation workforce estimate. |
-| Largest data gap | Absence of a directly published Victorian carpenter count (LFS or Census) and the complete unavailability of DB-L Carpentry population data. |
+| Largest data gap — A (total workforce precision) | Absence of a directly published Victorian ANZSCO 3312 count (LFS or Census). This gap affects precision of Population A only. Closing it would not identify the renovation or advanced-capability cohort. |
+| Largest data gap — B (cohort identification — the more important policy gap) | No public dataset identifies renovation-focused carpenters (Population C) or advanced-capability practitioners (Population H) as distinct, measurable sub-populations. A directly published Victorian carpenter count does not resolve this gap. DB-L Carpentry population data does not resolve this gap. Both gaps remain open and require different evidence to address. |
 | What evidence would change conclusion | A primary-source Victorian renovation carpenter count (from ABS Census cross-tabulation or authoritative government data) would allow reclassification to C or D. DB-L Carpentry population data would allow a more specific assessment of Population D. |
 
 ### Impact on existing project findings
@@ -901,7 +902,8 @@ This classification is reached independently from the third-party reconnaissance
 | Confidence | **65%** (governed baseline; lower than third-party 74% reflecting SYSTEM_DERIVED basis of Victorian estimate) |
 | Impact on ARC C / 45% | No change — confidence 45% retained |
 | Impact on Harm B / 55% | No change — confidence 55% retained |
-| Biggest remaining gap | Directly published Victorian LFS or Census ANZSCO 3312 count; DB-L Carpentry registration numbers |
+| Biggest remaining gap — A (total workforce precision) | Directly published Victorian LFS or Census ANZSCO 3312 count; DB-L Carpentry registration numbers. These gaps affect precision of Population A and scale of Population D respectively. |
+| Biggest remaining gap — B (cohort identification — the more important policy gap) | No public dataset identifies renovation-focused carpenters (Population C) or advanced-capability practitioners (Population H). A precise Victorian total count does not resolve this gap. A DB-L Carpentry count does not resolve this gap. Even with complete Population A and D data, the renovation and advanced-capability cohorts would remain unidentifiable from public statistical sources unless a targeted survey or purpose-specific data collection were undertaken. |
 | QC 1–20 | All PASS |
 | Files changed | `docs/evidence-analysis/practitioner-population-scale-baseline-v0.1.md`; `docs/document-index.md` |
 | Merge instruction | **DO NOT MERGE — stop for Dan and Atlas review** |
