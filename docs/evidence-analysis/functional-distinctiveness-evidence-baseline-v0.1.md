@@ -140,7 +140,7 @@ No BPC outreach, no DTP outreach, no FOI activity and no public advocacy are pro
 | 11. Population B / 65% preserved | PASS |
 | 12. Gap cluster A–C included | PASS |
 | 13. Consultation-first control retained | PASS |
-| 14. Only intended files changed | PASS (subject to git diff verification) |
+| 14. Document index entry present | PASS (see docs/document-index.md) |
 
 ---
 
