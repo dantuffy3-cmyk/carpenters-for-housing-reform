@@ -96,6 +96,14 @@ Document statuses:
 
 ---
 
+## Evidence Analysis
+
+| Document | Location | Status | Purpose | Last Reviewed |
+|---|---|---|---|---|
+| **Public-Interest Harm and Attribution Evidence Baseline v0.1** | `docs/evidence-analysis/public-interest-harm-attribution-baseline-v0.1.md` | **WORKING DRAFT** | **Bounded falsification exercise. Tests whether publicly available Victorian evidence can establish material harm associated with renovation carpentry, scale, attribution to carpenter capability, and support for a distinct ARC policy question. Parts 1–14. Final classification: B — CARPENTRY_ASSOCIATED_HARM_EXISTS_BUT_ATTRIBUTION_IS_WEAK, 55%. ARC C/45% preserved unchanged. Not an ARC advocacy document. Stop for Dan and Atlas review.** | August 2026 |
+
+---
+
 ## Policy Analysis
 
 | Document | Location | Status | Purpose | Last Reviewed |
@@ -215,7 +223,7 @@ Document statuses:
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 34 |
+| WORKING DRAFT | 35 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HOLD — DO NOT SEND | 1 |
@@ -225,4 +233,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — DB-L Assessment Information Request Hold Draft v0.1 added.*
+*Updated August 2026 — Public-Interest Harm and Attribution Evidence Baseline v0.1 added.*
