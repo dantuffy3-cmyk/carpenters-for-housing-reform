@@ -178,10 +178,10 @@ Assess whether the missing information is decision-relevant before considering u
 
 Complete one row per consultation question. Do not answer questions at this stage.
 
-| Question ID | Exact question text | Government framing | Question type | Evidence needed | Relevant project evidence | Evidence strength | Unknowns | Response position | Attachment needed? | Legal review needed? | QC status |
+| Question ID | Exact question text | Government framing | Question type | Evidence needed | Relevant project evidence | Evidence classification | Unknowns | Response position | Attachment needed? | Legal review needed? | QC status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Q1 | [TO BE COMPLETED — verbatim] | [TO BE COMPLETED] | FACTUAL / PREFERENCE / IMPLEMENTATION / COST_BURDEN / SCOPE / REGISTRATION / ASSESSMENT / CONSUMER_PROTECTION / OTHER | [TO BE COMPLETED] | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK / NONE | [TO BE COMPLETED] | DO_NOT_DRAFT_YET | YES / NO / TBC | YES / NO / TBC | PENDING |
-| Q2 | [TO BE COMPLETED] | [TO BE COMPLETED] | [type] | [TO BE COMPLETED] | [TO BE COMPLETED] | [strength] | [TO BE COMPLETED] | DO_NOT_DRAFT_YET | [TO BE COMPLETED] | [TO BE COMPLETED] | PENDING |
+| Q1 | [TO BE COMPLETED — verbatim] | [TO BE COMPLETED] | FACTUAL / PREFERENCE / IMPLEMENTATION / COST_BURDEN / SCOPE / REGISTRATION / ASSESSMENT / CONSUMER_PROTECTION / OTHER | [TO BE COMPLETED] | [TO BE COMPLETED] | DIRECTLY_SUPPORTED / PARTIALLY_SUPPORTED / INFERENCE / UNKNOWN / REQUIRES_GOVERNMENT_CLARIFICATION / REQUIRES_LEGAL_REVIEW / REQUIRES_PILOT_EVIDENCE | [TO BE COMPLETED] | DO_NOT_DRAFT_YET | YES / NO / TBC | YES / NO / TBC | PENDING |
+| Q2 | [TO BE COMPLETED] | [TO BE COMPLETED] | [type] | [TO BE COMPLETED] | [TO BE COMPLETED] | [classification] | [TO BE COMPLETED] | DO_NOT_DRAFT_YET | [TO BE COMPLETED] | [TO BE COMPLETED] | PENDING |
 
 *(Add rows for each consultation question.)*
 
@@ -196,6 +196,15 @@ Complete one row per consultation question. Do not answer questions at this stag
 - **CONSUMER_PROTECTION** — Relates to consumer outcomes or protections.
 - **OTHER** — Does not fit the above categories.
 
+**Evidence classification key** — This is the canonical evidence-classification system from `docs/government-engagement/government-engagement-readiness-file-v0.1.md` Part 17 — Response Evidence Classification, used across the government-engagement workflow:
+- **DIRECTLY_SUPPORTED** — A specific verified source directly supports the claim.
+- **PARTIALLY_SUPPORTED** — Relevant evidence exists but does not fully resolve the claim.
+- **INFERENCE** — The position is a reasonable inference from available evidence.
+- **UNKNOWN** — No evidence has been located or assessed.
+- **REQUIRES_GOVERNMENT_CLARIFICATION** — The claim depends on information only government can supply.
+- **REQUIRES_LEGAL_REVIEW** — The claim requires legal interpretation before it can be relied upon.
+- **REQUIRES_PILOT_EVIDENCE** — The claim can only be resolved through a controlled pilot or trial.
+
 Do not answer questions at this stage.
 
 ---
@@ -204,19 +213,19 @@ Do not answer questions at this stage.
 
 Map only existing governed project material. Do not duplicate document content.
 
-| Document | Location | Question relevance | Evidence strength | Safe for external use? | Needs QC? | Current limitation |
+| Document | Location | Question relevance | Use in response | Safe for external use? | Needs QC? | Current limitation |
 |---|---|---|---|---|---|---|
-| ARC Capability Model | `docs/advanced-residential-carpentry-capability-model-v1.md` | [TO BE COMPLETED — list relevant question IDs] | STRONG / PARTIAL / WEAK | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
-| ARC Assessment Framework | `docs/advanced-residential-carpentry-assessment-framework-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
-| Assessor Calibration Framework | `docs/advanced-carpentry-assessor-calibration-pack-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
-| Controlled Pilot Architecture | `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
-| DB-L Assessment Architecture Evidence Review | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
-| Regulatory Entry-Point Map | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
-| Existing Pathways & Alternative-Cause Baseline Review | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
-| Public-Interest Harm & Attribution Evidence Baseline | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
-| Scope Escalation & Responsibility Framework | `docs/scope-escalation/` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
-| Government Engagement Readiness File | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
-| DB-L Assessment Information Request Hold Draft | `docs/government-engagement/db-l-assessment-information-request-hold-draft-v0.1.md` | [TO BE COMPLETED] | STRONG / PARTIAL / WEAK | NO — HOLD DRAFT | YES — See Part 6 | Conditional on Part 6 DB-L classification |
+| ARC Capability Model | `docs/advanced-residential-carpentry-capability-model-v1.md` | [TO BE COMPLETED — list relevant question IDs] | [TO BE COMPLETED] | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
+| ARC Assessment Framework | `docs/advanced-residential-carpentry-assessment-framework-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
+| Assessor Calibration Framework | `docs/advanced-carpentry-assessor-calibration-pack-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
+| Controlled Pilot Architecture | `docs/advanced-carpentry-pilot-master-operating-model-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
+| DB-L Assessment Architecture Evidence Review | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
+| Regulatory Entry-Point Map | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
+| Existing Pathways & Alternative-Cause Baseline Review | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
+| Public-Interest Harm & Attribution Evidence Baseline | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
+| Scope Escalation & Responsibility Framework | `docs/scope-escalation/` | [TO BE COMPLETED] | [TO BE COMPLETED] | YES / NO / CONDITIONAL | YES / NO | [TO BE COMPLETED] |
+| Government Engagement Readiness File | `docs/government-engagement/government-engagement-readiness-file-v0.1.md` | [TO BE COMPLETED] | [TO BE COMPLETED] | NO — INTERNAL | YES / NO | [TO BE COMPLETED] |
+| DB-L Assessment Information Request Hold Draft | `docs/government-engagement/db-l-assessment-information-request-hold-draft-v0.1.md` | [TO BE COMPLETED] | HOLD_DRAFT_ONLY — use only if Part 6 trigger is met | NO — HOLD DRAFT | YES — See Part 6 | Conditional on Part 6 DB-L classification |
 
 Do not duplicate content. Record document-level relevance only.
 
