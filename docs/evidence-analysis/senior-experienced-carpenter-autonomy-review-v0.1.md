@@ -77,13 +77,13 @@ No finding above is changed automatically by this review.
 
 ### Internal project documents consulted (synthesis layer only)
 
-1. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md`
-2. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/real-world-carpenter-judgement-boundary-workflow-review-v0.1.md`
-3. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/residual-function-recurrence-evidence-review-v0.1.md`
-4. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/functional-distinctiveness-evidence-baseline-v0.1.md`
-5. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/practitioner-population-scale-baseline-v0.1.md`
-6. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/policy-analysis/existing-pathways-alternative-cause-baseline-review-v0.1.md`
-7. `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/document-index.md`
+1. `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md`
+2. `docs/evidence-analysis/real-world-carpenter-judgement-boundary-workflow-review-v0.1.md`
+3. `docs/evidence-analysis/residual-function-recurrence-evidence-review-v0.1.md`
+4. `docs/evidence-analysis/functional-distinctiveness-evidence-baseline-v0.1.md`
+5. `docs/evidence-analysis/practitioner-population-scale-baseline-v0.1.md`
+6. `docs/policy-analysis/existing-pathways-alternative-cause-baseline-review-v0.1.md`
+7. `docs/document-index.md`
 
 ---
 
@@ -488,7 +488,7 @@ No public-advocacy step is created by this review.
 
 ### File created
 
-`/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/senior-experienced-carpenter-autonomy-review-v0.1.md`
+`docs/evidence-analysis/senior-experienced-carpenter-autonomy-review-v0.1.md`
 
 ### Direct external sources reviewed
 
