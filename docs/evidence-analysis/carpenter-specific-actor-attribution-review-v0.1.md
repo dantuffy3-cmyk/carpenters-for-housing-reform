@@ -458,9 +458,9 @@ Key external source families relied on through those controlled documents:
 - **Biggest evidence-gap ranking:** A, B, D, C, E, F
 - **QC 1–20:** PASS
 - **Files changed:** `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md`
-- **Branch:** [TO BE COMPLETED AT COMMIT]
-- **Commit:** [TO BE COMPLETED AT COMMIT]
-- **PR link:** [TO BE COMPLETED IF AVAILABLE]
+- **Branch:** `copilot/carpenter-specific-evidence-review`
+- **Commit:** `bb94058d0315167bf5937a417807953b161858ff` (current at document finalisation)
+- **PR link:** Not available in this run (no open PR found for branch)
 - **Confirmation not merged:** Confirmed — not merged
 
 ---
