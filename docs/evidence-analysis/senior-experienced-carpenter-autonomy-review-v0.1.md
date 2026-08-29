@@ -75,6 +75,15 @@ No finding above is changed automatically by this review.
 9. **Safe Work Australia / WorkSafe Victoria safety-duty and stop-work guidance**
 10. **VCAT / AustLII domestic building case material**
 
+### Second-pass verification control
+
+This second pass tested late-agent claims against authoritative sources only.
+
+- Where an official source could be tied directly to the claim through official Fair Work, training.gov.au, legislation.vic.gov.au, AustLII or BPC citations, the claim is treated as **DIRECTLY_SUPPORTED** or **PARTIALLY_SUPPORTED**.
+- Where the claim could not be tied directly to an authoritative source in this pass, it is treated as **NOT_CLEARLY_EVIDENCED**, **UNVERIFIED** or **DO_NOT_USE**.
+- The late research-agent report is **not** counted as evidence. It is a lead list only.
+- Several source hosts were not directly reachable from this runtime by raw fetch. Where that occurred, only claims returned with identifiable official-source citations were integrated. Other late-agent claims were rejected or left unverified.
+
 ### Internal project documents consulted (synthesis layer only)
 
 1. `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md`
@@ -115,9 +124,9 @@ The following actor categories are kept separate throughout this review:
 | Role | Source | What is directly supported | Autonomy / authority distinction | Review finding | Limitation |
 |---|---|---|---|---|---|
 | Carpenter / carpenter and joiner | ANZSCO 3312; JSA occupation profile | Occupation includes construction, repair, alteration and renovation work | No formal senior/expert autonomy tier identified within the carpenter occupation | **NOT_FORMALLY_DISTINGUISHED** | Occupation summaries are high-level and do not set decision-depth standards |
-| Leading hand | ABS OSCA leading-hand material; Fair Work leading-hand allowance; CPC40120 context | Leading hand is associated with directing a crew, monitoring work, ensuring safety, organising labour/materials | Distinction is supervisory responsibility, not a publicly defined advanced carpentry function | **SUPERVISORY_AUTONOMY_DIRECTLY_SUPPORTED** | ABS OSCA example is broader construction/civil, not a Victorian residential carpentry standard |
-| Foreman | Fair Work award coverage guidance | Forepersons/supervisors are mainly engaged to supervise employees and site operations rather than work “on the tools” | Higher autonomy is attached to supervision | **SUPERVISORY_AUTONOMY_DIRECTLY_SUPPORTED** | Source is industrial coverage guidance, not a trade capability standard |
-| Site supervisor / construction supervisor | ABS OSCA 3124/312432; JSA; CPC40120 | Organises daily operations, coordinates resources, supervises work, monitors safety/compliance | Higher autonomy is site-supervision autonomy | **SUPERVISORY_AUTONOMY_DIRECTLY_SUPPORTED** | Site-supervisor evidence is broader than residential carpentry specifically |
+| Leading hand | Fair Work leading-hand allowance guidance; CPC40120 official qualification description | Fair Work distinguishes a worker "placed in charge of other employees" who is not employed as a supervisor or foreperson; CPC40120 includes "Leading Hand" and emphasises planning and supervising safe building and construction work | Distinction is limited supervisory responsibility, not a publicly defined advanced carpentry function | **SUPERVISORY_AUTONOMY_DIRECTLY_SUPPORTED** | Leading hand remains a role/function distinction; not a defined advanced carpentry class |
+| Foreman | Fair Work award coverage guidance; Clause 43 structure | Fair Work describes forepersons/supervisors as supervising a site, part of a site or a particular type of work, and notes they do not generally work "on the tools" | Higher autonomy is attached to supervision | **SUPERVISORY_AUTONOMY_DIRECTLY_SUPPORTED** | Industrial coverage guidance, not a trade capability standard |
+| Site supervisor / construction supervisor | Fair Work award coverage guidance; CPC40120 official qualification description | Site supervisors/supervisors oversee site operations, safety, plans and coordination; CPC40120 lists construction supervisor, site manager and site supervisor as occupation titles | Higher autonomy is site-supervision autonomy | **SUPERVISORY_AUTONOMY_DIRECTLY_SUPPORTED** | Source set shows supervisory scope more clearly than trade-specific technical judgement |
 | Building associate / builder-aligned supervisory occupations | CPC40120/CPC50220 and BPC builder pathway context | Qualification progression moves into supervision, coordination, compliance and builder-management functions | Functions move away from occupational carpentry toward broader building responsibility | **DIFFERENT_OCCUPATIONAL_FUNCTION** | Does not prove an advanced carpentry layer inside the carpenter occupation |
 
 **Part 2 finding:** authoritative occupational and industrial materials distinguish **carpenter** from **leading hand / foreman / supervisor** primarily through supervision, coordination and reporting-line responsibilities. They do **not** directly establish a separate formal “senior carpenter autonomy” tier inside the occupational carpenter category.
@@ -129,8 +138,8 @@ The following actor categories are kept separate throughout this review:
 | Qualification | Direct external qualification class | What it most clearly represents | Greater carpentry competence? | Supervision / coordination / builder-management? | Review finding |
 |---|---|---|---|---|---|
 | CPC30220 | Certificate III in Carpentry | Baseline trade carpentry qualification | **Yes — trade entry/baseline competence** | Limited; not primarily a supervision qualification | **TRADE_EXECUTION_QUALIFICATION** |
-| CPC40120 | Certificate IV in Building and Construction (Building) | Site supervision, sequencing, discrepancy resolution, code/regulatory application, coordination | **Not shown to be “advanced carpentry” alone** | **Yes — supervision / site coordination / builder-adjacent** | **SUPERVISOR_FUNCTION_BETTER_EXPLAINS** |
-| CPC50220 | Diploma of Building and Construction (Building) | Higher project, compliance, commercial and management responsibilities | **No direct basis to treat as advanced carpentry** | **Yes — management / builder-level occupational progression** | **BUILDER_MANAGEMENT_FUNCTION** |
+| CPC40120 | Certificate IV in Building and Construction (Building) | Official description: role of builders, site managers and managers of small-to-medium building businesses who apply codes, standards and legal requirements, plan and supervise safe work, prepare/administer contracts, and apply quality principles; occupation titles include builder, construction supervisor, site manager, site supervisor and leading hand | **Not shown to be “advanced carpentry” alone** | **Yes — supervision / site management / compliance / builder-adjacent** | **SUPERVISOR_FUNCTION_BETTER_EXPLAINS** |
+| CPC50220 | Diploma of Building and Construction (Building) | Official description: role of building professionals who apply structural principles, risk and financial management, estimating, preparing/administering contracts, selecting contractors, overseeing work and quality, and managing construction work; occupation titles may include builder, general foreperson, building inspector | **No direct basis to treat as advanced carpentry** | **Yes — project management / compliance / builder-management** | **BUILDER_MANAGEMENT_FUNCTION** |
 
 **Part 3 finding:** movement from Cert III to Cert IV / Diploma is better understood as movement from **trade execution** to **supervision, coordination and builder-management functions**, not as a direct formal recognition of an advanced autonomous carpenter tier.
 
@@ -170,11 +179,12 @@ The following actor categories are kept separate throughout this review:
 
 | Dimension | Finding | Classification | Reason |
 |---|---|---|---|
-| BUSINESS_AUTONOMY | Higher than ordinary employee carpenter in client selection, pricing, workflow control and contracting choices | **DIRECTLY_SUPPORTED / PRACTICALLY_OBSERVED** | Self-employment and subcontracting are commercial engagement models |
+| BUSINESS_AUTONOMY | Higher than ordinary employee carpenter in client selection, pricing, workflow control and contracting choices | **PRACTICALLY_INDICATED** | Self-employment and subcontracting are commercial engagement models, but this pass did not identify a carpenter-specific authoritative source that formalises that distinction |
+| DUTY_HOLDER_AUTONOMY | Self-employed persons hold direct OHS duties under Victorian legislation | **DIRECTLY_SUPPORTED** | Section 24 of the Occupational Health and Safety Act 2004 (Vic) places direct safety duties on the self-employed person |
 | TECHNICAL_JUDGEMENT_AUTONOMY | Not formally distinguished by public sources reviewed | **NOT_FORMALLY_DISTINGUISHED** | Contracting independently does not prove greater technical judgement |
 | STATUTORY_AUTHORITY | Remains with builder / DB-L / DB-U / specialist / surveyor actors where law assigns it | **DIRECTLY_SUPPORTED** | Existing regulated authority sits elsewhere |
 
-**Part 6 finding:** self-employment and subcontracting more clearly evidence **business autonomy** than **technical judgement autonomy**.
+**Part 6 finding:** self-employment and subcontracting more clearly evidence **business autonomy** and, for self-employed persons, **duty-holder autonomy** than distinct **technical judgement autonomy**.
 
 ---
 
@@ -220,6 +230,13 @@ The following actor categories are kept separate throughout this review:
 | VCAT domestic building decisions reviewed in current governed workflow review | Builder-dominant | Usually no | Builder / multi-actor dispute setting | Scope, defects, responsibility and expert reliance | **Higher autonomy sits with builder/expert actors** | Sometimes implicit | Yes | Yes | Moderate | CASE_LEVEL_EVIDENCE only; carpenter often not separately identified |
 | BPC / permit-amendment process material already relied on in current governed reviews | Builder / surveyor | No | Regulatory process actor | Decide and process permit/scope changes | **No carpenter-specific autonomy identified** | No | Yes | Yes | High | Regulatory process, not a full practice ethnography |
 
+### Late-agent VCAT claims checked in this pass
+
+| Late-agent case claim | Verification result | Use status | Limitation |
+|---|---|---|---|
+| `Alderson v Nelson [2024] VCAT 751` | Not verified from official VCAT / AustLII search paths returned in this pass | **DO_NOT_USE** | No direct official case text was available in this runtime |
+| `Ktenas v Vendro Construction Pty Ltd [2023] VCAT 110` | Not verified from official VCAT / AustLII search paths returned in this pass | **DO_NOT_USE** | No direct official case text was available in this runtime |
+
 **Part 9 finding:** real-world practice evidence reviewed does not directly identify a recurring public class of senior carpenter exercising distinct independent technical authority. Where authority is visible, it is mainly **builder**, **supervisor**, **surveyor**, **specialist**, or **generic worker-safety** authority.
 
 ---
@@ -242,17 +259,18 @@ The following actor categories are kept separate throughout this review:
 
 ---
 
-## Part 11 — Positive Senior-Autonomy Evidence (S2–S4)
+## Part 11 — Newly Verified Pro-Autonomy Evidence
 
-**No strong direct S3 or S4 evidence was identified.** The strongest positive evidence sits at **S2** and is substantially overlapped by supervisory-role explanations.
+**Very little pro-autonomy material survived second-pass verification as direct evidence for senior-carpenter autonomy.** The newly verified material strengthens **S2-type autonomy** more than S3 or S4, and much of it is better explained by supervisory or duty-holder status than by a distinct advanced carpenter function.
 
-| Source | Role | Function | Autonomy | Decision authority | Carpentry-specific? | Supervisor overlap? | Direct / inferred? | Level | Limitation | Confidence |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Fair Work leading-hand allowance material | Leading hand | In charge of other employees | Yes | Limited crew-level direction | No — role is supervisory | High | Direct | **S2** | Award allowance reflects responsibility/pay, not advanced technical trade function | Moderate-high |
-| ABS OSCA leading-hand occupation descriptor | Leading hand | Supervise small team; monitor work; ensure safety; organise resources | Yes | Team-level organising authority | No — broader construction supervisory role | High | Direct | **S2** | Not residential carpentry specific; leading hand is already a separate role class | Moderate |
-| training.gov.au CPC40120 | Supervisor / leading hand / builder-adjacent role | Coordinate sequencing; resolve discrepancies; supervise site activities | Yes | Greater site-level coordination and issue resolution | Not ordinary carpenter specific | High | Direct | **S2–S3 boundary** | Qualification describes supervisor/builder function, not a senior carpenter tier within CPC30220 | Moderate |
-| CPC30220 / plan-interpretation and discrepancy-reporting material relied on in current governed reviews | Carpenter | Identify discrepancies and report | Limited | Recognition and reporting, not final decision | Yes | Medium | Inferred | **S3 (weak)** | Upward-reporting structure remains explicit | Low |
-| Safe Work / WorkSafe worker stop-work guidance | Worker including carpenter | Cease work for serious safety risk and escalate | Limited | Safety stop only | No | Medium | Inferred | **S4 (weak)** | Generic safety duty is not technical boundary authority | Low |
+| Source | Role | Function | Direct wording | Autonomy type | S-level | Supervisor overlap | DB-L overlap | Limitation | Confidence |
+|---|---|---|---|---|---|---|---|---|---|
+| Fair Work leading-hand allowance guidance | Leading hand | In charge of other employees | Employee is placed in charge of other employees but is not employed as a supervisor or foreperson | **SUPERVISORY_AUTONOMY** | **S2** | High | Low | Shows limited supervision, not advanced carpentry judgement | Moderate-high |
+| Fair Work foreperson/supervisor guidance | Foreperson / supervisor | Site, part-site or work-type supervision | Supervisors/forepersons may supervise a site, part of a site or a particular type of work and do not generally work "on the tools" | **SUPERVISORY_AUTONOMY** | **S2** | High | Low | Supports separate supervisory classification rather than senior carpenter autonomy | Moderate-high |
+| training.gov.au CPC40120 | Leading hand / supervisor / builder-adjacent roles | Plan and supervise safe work; contracts; quality; site management | Qualification reflects the role of builders, site managers and managers of small to medium-sized building businesses; occupation titles may include builder, construction supervisor, site manager, site supervisor and leading hand | **SUPERVISORY_AUTONOMY / SITE_MANAGEMENT_AUTONOMY** | **S2** | High | Medium | Supports role progression out of trade execution more than distinct advanced carpentry | Moderate-high |
+| Occupational Health and Safety Act 2004 (Vic) s24 | Self-employed carpenter | Direct legal safety duty | A self-employed person must ensure, so far as is reasonably practicable, that persons are not exposed to health or safety risks arising from the conduct of the undertaking | **DUTY_HOLDER_AUTONOMY** | **S1–S2** | Low | Low | Duty-holder autonomy is not the same as technical-judgement autonomy | Moderate |
+
+**Part 11 finding:** no newly verified material directly established **S3** or **S4**. The surviving verified material supports **supervisory** or **duty-holder** autonomy, not a distinct advanced carpenter autonomy function.
 
 ---
 
@@ -265,6 +283,7 @@ The following actor categories are kept separate throughout this review:
 | Builder role | Holds stronger contractual, statutory and practical authority |
 | DB-L | More plausible formal pathway for scope-limit and escalation expectations than “senior carpenter” label |
 | Business ownership | Can explain independence without proving advanced technical judgement |
+| Self-employed duty-holder status | Can explain direct legal autonomy without proving advanced carpentry judgement |
 | Employer delegation | Can allocate responsibility project-by-project without formal occupational distinction |
 | Project-specific responsibility | Complex projects may produce ad hoc autonomy that is not a stable occupation-wide function |
 | Informal seniority | Seniority labels may signal trust or pay status rather than a distinct competence standard |
@@ -300,7 +319,7 @@ The following actor categories are kept separate throughout this review:
 | Full assessment depth proved publicly | **No — preserve DB-L D / 75%** |
 | Clean separation from senior carpenter autonomy claim | **PARTIAL_OVERLAP** |
 
-**Part 14 finding:** DB-L remains the more plausible public formal pathway for any higher carpentry-adjacent autonomy claim, while the governed DB-L uncertainty finding (**D / 75%**) is preserved unchanged.
+**Part 14 finding:** current Victorian public material verified in this pass shows a Domestic Builder (Limited) framework with carpentry distinguished from other limited classes, while the BPC summary page reviewed in this pass does not itself show a separate named remedial class. That supports **bounded class structure** and **partial overlap**, but not public proof of assessment depth. The governed DB-L uncertainty finding (**D / 75%**) is preserved unchanged.
 
 ---
 
@@ -446,10 +465,12 @@ No public-advocacy step is created by this review.
 | Significant claim or finding | Provenance |
 |---|---|
 | Carpenter occupation includes renovation/repair work but no formal senior autonomy tier was identified | **DIRECT_EXTERNAL_PRIMARY / DIRECT_EXTERNAL_SECONDARY** |
-| Leading hand, foreman and site supervisor materials distinguish supervisory responsibility | **DIRECT_EXTERNAL_INDUSTRIAL / DIRECT_EXTERNAL_PRIMARY / DIRECT_EXTERNAL_QUALIFICATION** |
+| Leading hand, foreman and site supervisor materials distinguish supervisory responsibility | **DIRECT_EXTERNAL_INDUSTRIAL / DIRECT_EXTERNAL_QUALIFICATION** |
 | CPC40120/CPC50220 reflect supervision, coordination and builder-management functions more than advanced carpentry alone | **DIRECT_EXTERNAL_QUALIFICATION** |
 | Generic stop-work duties apply to workers including carpenters | **DIRECT_EXTERNAL_REGULATORY / INDUSTRY_GUIDANCE** |
+| Self-employed persons hold direct OHS duties under Victorian legislation | **DIRECT_EXTERNAL_REGULATORY** |
 | VCAT decisions reviewed are builder-dominant and do not clearly attribute independent senior carpenter authority | **CASE_EVIDENCE_ONLY** |
+| Late-agent VCAT claims `Alderson v Nelson [2024] VCAT 751` and `Ktenas v Vendro Construction Pty Ltd [2023] VCAT 110` were not verified and were excluded | **DO_NOT_USE / UNVERIFIED** |
 | Existing governed reviews inform interpretation but are not counted as independent evidence | **PROJECT_INTERNAL_SYNTHESIS** |
 
 ---
@@ -490,20 +511,35 @@ No public-advocacy step is created by this review.
 
 `docs/evidence-analysis/senior-experienced-carpenter-autonomy-review-v0.1.md`
 
-### Direct external sources reviewed
+### Direct external sources verified
 
-- ABS ANZSCO 3312 carpenter and joiner material
-- ABS OSCA construction supervisor / leading-hand material
-- Jobs and Skills Australia occupation profiles
-- training.gov.au CPC30220
-- training.gov.au CPC40120
-- training.gov.au CPC50220
-- Fair Work Building and Construction General On-site Award 2020
 - Fair Work leading-hand allowance guidance
-- Fair Work site-superintendent / supervisor / foreperson coverage guidance
-- BPC public registration and class material
-- Safe Work Australia / WorkSafe Victoria safety guidance
-- VCAT / AustLII domestic building case material
+- Fair Work foreperson / supervisor coverage guidance and Award structure
+- training.gov.au CPC40120 official qualification description
+- training.gov.au CPC50220 official qualification description
+- Occupational Health and Safety Act 2004 (Vic) s24
+- Building Regulations 2018 (Vic) Schedule 12 / reg 261 scope framework for Domestic Builder (Limited) classes
+- BPC domestic builder class summary page
+
+### VCAT claims verified / rejected
+
+- `Alderson v Nelson [2024] VCAT 751` — **rejected / DO_NOT_USE**
+- `Ktenas v Vendro Construction Pty Ltd [2023] VCAT 110` — **rejected / DO_NOT_USE**
+- No late-agent VCAT claim was newly integrated into this review in the second pass.
+
+### BPC claims verified / rejected
+
+- DB-L exists as a separate Domestic Builder (Limited) class within the Victorian builder-class framework — **DIRECTLY_SUPPORTED**
+- Building Regulations 2018 (Vic) Schedule 12 / reg 261 distinguish carpentry from other limited classes — **DIRECTLY_SUPPORTED**
+- Current public BPC summary material shows Domestic Builder (Unlimited) and Domestic Builder (Limited) class structure, not a separate named remedial class on the summary page reviewed in this pass — **PARTIALLY_SUPPORTED**
+- Any claim that current public BPC material proves DB-L assessment depth or proves autonomy sits outside occupational carpentry — **NOT_CLEARLY_EVIDENCED / rejected**
+
+### Training claims verified / rejected
+
+- CPC40120 emphasises planning and supervising safe building and construction work, contracts, quality principles, site management and occupation titles including leading hand / construction supervisor / site supervisor — **DIRECTLY_SUPPORTED**
+- CPC50220 emphasises structural principles, risk and financial management, estimating, contracts, contractor selection, overseeing work quality and managing construction work — **DIRECTLY_SUPPORTED**
+- Any claim that CPC40120 or CPC50220 establish a distinct advanced carpentry function — **rejected / NOT_CLEARLY_EVIDENCED**
+- Any late-agent paraphrase not matched to official training.gov.au wording in this pass — **UNVERIFIED**
 
 ### Internal project documents consulted
 
@@ -521,15 +557,15 @@ Experienced carpenters are plausibly allocated more complex work in practice, bu
 
 ### Strongest S2 evidence
 
-Fair Work leading-hand material, ABS OSCA leading-hand material and CPC40120 supervisory qualification content directly support team-direction and small-crew guidance functions.
+Fair Work leading-hand material and CPC40120 official qualification content directly support team-direction, limited worker-in-charge status, and supervisory/site-management functions.
 
 ### Strongest S3 evidence
 
-No strong direct S3 evidence was identified. The closest evidence is CPC40120 supervisor-level sequencing/discrepancy resolution content, but that supports a supervisory role rather than a distinct senior carpenter role.
+No strong direct S3 evidence was identified. The closest verified evidence is CPC40120, but it supports a supervisory/site-management role rather than a distinct senior carpenter role.
 
 ### Strongest S4 evidence
 
-No strong direct S4 evidence was identified. The closest evidence is generic worker stop-work / reporting duties and carpenter discrepancy-reporting obligations, which do not establish independent senior carpenter boundary authority.
+No strong direct S4 evidence was identified. The closest verified evidence is the self-employed duty-holder safety obligation and generic worker stop/report duties, which do not establish independent senior carpenter boundary authority.
 
 ### Strongest evidence against distinct senior-carpenter autonomy
 
@@ -541,15 +577,15 @@ Leading hand is the clearest directly supported higher-autonomy role, but it is 
 
 ### Foreman / supervisor overlap finding
 
-Foreman and supervisor evidence substantially overlaps the autonomy functions under review and better explains sequencing, work checking, coordination and crew-level decision-making.
+Foreman and supervisor evidence substantially overlaps the autonomy functions under review and better explains sequencing, work checking, coordination, part-site/site supervision and crew-level decision-making.
 
 ### DB-L overlap finding
 
-DB-L remains the more plausible formal pathway for higher scope/boundary responsibility, but the governed DB-L **D / 75%** finding remains unchanged.
+DB-L remains a plausible formal pathway for bounded carpentry scope within the Domestic Builder (Limited) framework, but this second pass did not verify any public claim about assessment depth; the governed DB-L **D / 75%** finding remains unchanged.
 
 ### Self-employed / subcontractor finding
 
-Self-employed and subcontract carpenter status more clearly evidences **business autonomy** than distinct **technical judgement autonomy**.
+Self-employed and subcontract carpenter status more clearly evidences **business autonomy** and, for self-employed persons, **duty-holder autonomy** than distinct **technical judgement autonomy**.
 
 ### Renovation-specialist finding
 
@@ -603,6 +639,26 @@ Market recognition is more clearly evidenced than formal competence recognition 
 
 **No change**
 
+### Exact integrations made
+
+- Added second-pass verification control and runtime limitation note
+- Replaced broad leading-hand / foreman / supervisor summaries with verified Fair Work and training.gov.au wording
+- Replaced broad CPC40120 / CPC50220 summaries with verified official qualification descriptions
+- Added **DUTY_HOLDER_AUTONOMY** for self-employed persons under the Occupational Health and Safety Act 2004 (Vic)
+- Added late-agent VCAT rejection table for the two unverified citations
+- Replaced the earlier general positive-evidence table with a newly verified pro-autonomy table limited to surviving verified evidence
+- Added explicit verified/rejected BPC and training claim summaries
+- Retained the existing governed conclusion because the second pass did not produce strong direct S3/S4 evidence
+
+### Late-agent claims rejected / unverified
+
+- `Alderson v Nelson [2024] VCAT 751` — **DO_NOT_USE**
+- `Ktenas v Vendro Construction Pty Ltd [2023] VCAT 110` — **DO_NOT_USE**
+- Any claim that current public BPC material proves DB-L assessment depth — **UNVERIFIED / NOT_CLEARLY_EVIDENCED**
+- Any claim that CPC40120 or CPC50220 prove a distinct advanced carpentry function — **rejected**
+- Any claim that self-employment alone proves advanced trade competence or technical judgement autonomy — **rejected**
+- Any late-agent paraphrase not tied to official wording in this pass — **UNVERIFIED**
+
 ### Biggest evidence-gap ranking
 
 **C, D, A, B, E, F, G**
@@ -614,7 +670,6 @@ Market recognition is more clearly evidenced than formal competence recognition 
 ### Files changed
 
 - `docs/evidence-analysis/senior-experienced-carpenter-autonomy-review-v0.1.md`
-- `docs/document-index.md` *(if index update retained in final change set)*
 
 ### Branch
 
