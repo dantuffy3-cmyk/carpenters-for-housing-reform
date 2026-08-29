@@ -107,6 +107,7 @@ Document statuses:
 | **Public-Interest Harm and Attribution Evidence Baseline v0.1** | `docs/evidence-analysis/public-interest-harm-attribution-baseline-v0.1.md` | **WORKING DRAFT** | **Bounded falsification exercise. Tests whether publicly available Victorian evidence can establish material harm associated with renovation carpentry, scale, attribution to carpenter capability, and support for a distinct ARC policy question. Parts 1–14. Final classification: B — CARPENTRY_ASSOCIATED_HARM_EXISTS_BUT_ATTRIBUTION_IS_WEAK, 55%. ARC C/45% preserved unchanged. Not an ARC advocacy document. Stop for Dan and Atlas review.** | August 2026 |
 | **DB-L Judgement & Boundary Recognition Evidence Review v0.1** | `docs/evidence-analysis/db-l-judgement-boundary-recognition-review-v0.1.md` | **WORKING DRAFT** | **Governed evidence review focused on what current public evidence does and does not show about DB-L Carpentry assessment of professional judgement, scope-limit recognition, referral/escalation, stop-work judgement and boundary recognition in renovation contexts. Final classification: D — PUBLIC_EVIDENCE_INSUFFICIENT_TO_DETERMINE_ASSESSMENT_DEPTH, 75%. Existing governed baselines preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 | **Assessability Validation Evidence Review v0.1** | `docs/evidence-analysis/assessability-validation-evidence-review-v0.1.md` | **WORKING DRAFT** | **Governed evidence review testing whether the hypothesised ARC residual function capabilities — diagnostic judgement, uncertainty recognition, boundary recognition, stop/refer decisions, sequencing under uncertainty — can be assessed reliably, consistently and fairly. Third-party reconnaissance controlled. Final classification: B — ASSESSMENT_METHODS_ARE_PLAUSIBLE_BUT_RELIABILITY_IS_UNPROVEN, 55%. All existing governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
+| **Carpenter-Specific Actor Attribution Evidence Review v0.1** | `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md` | **WORKING DRAFT** | **Governed review testing whether recurring residual-function components are specifically attributable to carpenters versus shared or alternative actors. Final classification: B — CARPENTRY_ASSOCIATION_EXISTS_BUT_INDEPENDENT_CARPENTER_JUDGEMENT_IS_NOT_ESTABLISHED, 72%. Existing governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 
 ---
 
@@ -229,7 +230,7 @@ Document statuses:
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 35 |
+| WORKING DRAFT | 36 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HOLD — DO NOT SEND | 1 |
@@ -239,4 +240,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — Public-Interest Harm and Attribution Evidence Baseline v0.1 added.*
+*Updated August 2026 — Carpenter-Specific Actor Attribution Evidence Review v0.1 added.*
