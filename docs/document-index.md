@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Updated: v1.0 — Carpenter-Specific Actor Attribution Review v0.1 added
+Updated: v1.0 — Real-World Carpenter Judgement and Boundary Workflow Evidence Review v0.1 added
 
 ---
 
@@ -108,6 +108,7 @@ Document statuses:
 | **DB-L Judgement & Boundary Recognition Evidence Review v0.1** | `docs/evidence-analysis/db-l-judgement-boundary-recognition-review-v0.1.md` | **WORKING DRAFT** | **Governed evidence review focused on what current public evidence does and does not show about DB-L Carpentry assessment of professional judgement, scope-limit recognition, referral/escalation, stop-work judgement and boundary recognition in renovation contexts. Final classification: D — PUBLIC_EVIDENCE_INSUFFICIENT_TO_DETERMINE_ASSESSMENT_DEPTH, 75%. Existing governed baselines preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 | **Carpenter-Specific Actor Attribution Review v0.1** | `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md` | **WORKING DRAFT** | **Final provenance and actor-attribution QC review. Applies independent-source counting control, separates project-internal synthesis from direct external evidence, and reassesses actor attribution without inferring independent carpenter authority beyond evidence. Attribution result: SHARED_MULTI_ACTOR, 66%. Final classification: B — CARPENTRY_ASSOCIATION_EXISTS_BUT_INDEPENDENT_CARPENTER_JUDGEMENT_IS_NOT_ESTABLISHED, 74%. Existing governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 | **Assessability Validation Evidence Review v0.1** | `docs/evidence-analysis/assessability-validation-evidence-review-v0.1.md` | **WORKING DRAFT** | **Governed evidence review testing whether the hypothesised ARC residual function capabilities — diagnostic judgement, uncertainty recognition, boundary recognition, stop/refer decisions, sequencing under uncertainty — can be assessed reliably, consistently and fairly. Third-party reconnaissance controlled. Final classification: B — ASSESSMENT_METHODS_ARE_PLAUSIBLE_BUT_RELIABILITY_IS_UNPROVEN, 55%. All existing governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
+| **Real-World Carpenter Judgement and Boundary Workflow Evidence Review v0.1** | `docs/evidence-analysis/real-world-carpenter-judgement-boundary-workflow-review-v0.1.md` | **WORKING DRAFT** | **Governed evidence review testing whether real-world residential renovation workflows provide direct evidence that carpenters exercise diagnostic judgement, boundary recognition, stop/withhold decisions, referral and sequencing judgement beyond technical participation. 25-part analysis. 12 workflow stages decomposed. Final classification: B — REAL_WORLD_CARPENTER_PARTICIPATION_IS_EVIDENCED_BUT_INDEPENDENT_JUDGEMENT_REMAINS_UNCLEAR, 72%. Highest directly supported level: L2. All governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 
 ---
 
