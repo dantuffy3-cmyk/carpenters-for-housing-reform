@@ -393,7 +393,7 @@ No public advocacy action initiated.
 | 2. carpenter participation ≠ independent judgement | PASS |
 | 3. reporting ≠ boundary decision | PASS |
 | 4. generic WHS ≠ carpenter-specific technical stop | PASS |
-| 5. seniority ≠ advanced competence | PASS |
+| 5. seniority ≠ formally distinguished actor authority | PASS |
 | 6. builder/supervisor overlap retained | PASS |
 | 7. DB-L retained as alternative | PASS |
 | 8. engineer/surveyor boundaries protected | PASS |
