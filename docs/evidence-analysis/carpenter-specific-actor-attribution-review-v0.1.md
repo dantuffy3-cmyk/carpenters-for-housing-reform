@@ -457,7 +457,7 @@ Key external source families relied on through those controlled documents:
 - **Impact on Canonical ARC C / 45%:** No change
 - **Biggest evidence-gap ranking:** A, B, D, C, E, F
 - **QC 1–20:** PASS
-- **Files changed:** `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md`
+- **Files changed:** `docs/evidence-analysis/carpenter-specific-actor-attribution-review-v0.1.md`, `docs/document-index.md`
 - **Branch:** `copilot/carpenter-specific-evidence-review`
 - **Commit:** See current branch HEAD at review time
 - **PR link:** Not available in this run (no open PR found for branch)
