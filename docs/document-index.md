@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Updated: v1.0 — Real-World Carpenter Judgement and Boundary Workflow Evidence Review v0.1 added
+Last updated: August 2026 — Real-World Carpenter Judgement and Boundary Workflow Evidence Review v0.1 added
 
 ---
 

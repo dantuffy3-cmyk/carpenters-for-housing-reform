@@ -711,7 +711,7 @@ All analysis is based on publicly available sources and internal project synthes
 | 12 | L3 ≠ L4 | PASS — L3 and L4 separately defined and maintained distinct |
 | 13 | cases not prevalence | PASS — Part 8 VCAT analysis explicitly states CASE_LEVEL_EVIDENCE not prevalence evidence |
 | 14 | internal reviews not independent evidence | PASS — provenance classification maintained throughout; internal documents marked PROJECT_INTERNAL_SYNTHESIS |
-| 15 | seniority ≠ competence | PASS — Part 15 note: "Experience alone is not competence" |
+| 15 | seniority ≠ formal authority | PASS — Part 15 note: "Experience alone is not competence. Seniority is not formal authority." |
 | 16 | recurrence ≠ actor ownership | PASS — Part 18 note: "A recurring workflow stage does not establish carpenter-specific ownership" |
 | 17 | null outcome permitted | PASS — legitimate null conclusions stated in purpose notice |
 | 18 | actor attribution ≠ harm | PASS — harm finding not modified; harm and attribution treated as separate analyses |
