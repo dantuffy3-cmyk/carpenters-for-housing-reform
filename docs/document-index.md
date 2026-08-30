@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Last updated: August 2026 — Direct Source Verification & Real-World Renovation Role Evidence Review v0.1 added for internal discoverability
+Last updated: August 2026 — Real-World Renovation Function Evidence Capture Protocol v0.1 added for internal discoverability
 
 ---
 
@@ -101,6 +101,7 @@ Document statuses:
 
 | Document | Location | Status | Purpose | Last Reviewed |
 |---|---|---|---|---|
+| **Real-World Renovation Function Evidence Capture Protocol v0.1** | `docs/evidence-analysis/real-world-renovation-function-evidence-capture-protocol-v0.1.md` | **WORKING DRAFT — DESIGN ONLY (NOT EXECUTED)** | **Governed design-only protocol for future field evidence capture of real-world renovation judgement/boundary functions using critical-incident capture, multi-actor reconstruction and documentary corroboration. Execution not authorised. Existing governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 | **Functional Distinctiveness Evidence Baseline v0.1** | `docs/evidence-analysis/functional-distinctiveness-evidence-baseline-v0.1.md` | **WORKING DRAFT** | **Governed baseline testing whether a distinct residual renovation function is evidenced in public material. Final classification: C — DISTINCT_FUNCTION_IS_PLAUSIBLE_BUT_NOT_SUFFICIENTLY_EVIDENCED, 50%. Canonical ARC preserved: C — DISTINCT_CAPABILITY_QUESTION_REMAINS_PLAUSIBLE, 45%. Harm B/55% and Population B/65% preserved. Residual function result: PARTIAL_RESIDUAL_FUNCTION. Stop for Dan and Atlas review.** | August 2026 |
 | **Residual Function Recurrence Evidence Review v0.1** | `docs/evidence-analysis/residual-function-recurrence-evidence-review-v0.1.md` | **WORKING DRAFT** | **Governed review of whether independent evidence shows recurrence of the hypothesised partial residual function beyond internal cases. Final classification: C — REPEATED_RECURRENCE_IS_PLAUSIBLE_BUT_ACTOR_OR_FUNCTION_DISTINCTION_REMAINS_UNCLEAR, 60%. Existing governed findings preserved unchanged. Stop for Dan and Atlas review.** | August 2026 |
 | **Practitioner Population and Scale Baseline v0.1** | `docs/evidence-analysis/practitioner-population-scale-baseline-v0.1.md` | **WORKING DRAFT** | **Governed primary-source evidence review. Tests whether a distinct and materially sized renovation-focused or advanced residential carpentry population can be demonstrated from public data. Parts 1–20. Populations A–H tracked separately. Final classification: B — LARGE_GENERAL_CARPENTRY_WORKFORCE_BUT_RENOVATION_COHORT_NOT_IDENTIFIABLE, 65%. ARC C/45% and Harm B/55% preserved unchanged. Not an ARC advocacy document. Stop for Dan and Atlas review.** | August 2026 |
