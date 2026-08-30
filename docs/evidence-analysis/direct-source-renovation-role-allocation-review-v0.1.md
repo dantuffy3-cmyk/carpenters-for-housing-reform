@@ -62,14 +62,14 @@ The third-party scout report is treated as **THIRD_PARTY_SEARCH_LEAD** only.
 |---|---|---|---|---|---|---|---|---|---|---|
 | CPCCCA3026 | Not reliably provided | Assemble partitions | Current | Referenced as included in CPC30220 relationship tables | Higher-order determination wording | No direct L3/L4 wording located in verified extracts | NO | https://training.gov.au/Training/Details/CPCCCA3026 ; https://training.gov.au/Training/Details/CPC30220 | Release 2 (reported as current from 24 Dec 2024) | VERIFIED_CURRENT |
 | CPCCCA3028 | Erect and dismantle formwork for footings and slabs on ground | Erect and dismantle formwork for footings and slabs on ground | Current | Referenced as core in CPC30220 in retrieved register responses | Higher-order determination wording | No direct L3/L4 wording located in verified extracts | NO | https://training.gov.au/Training/Details/CPCCCA3028 ; https://training.gov.au/Training/Details/CPC30220 | Release 3 (reported as current from 24 Dec 2024) | VERIFIED_CURRENT |
-| CPCCCA3029 | Install windows and doors (in some scout-derived chains) | **Conflicted in retrievals** (both “Install exterior cladding” and “Install windows and doors” returned in different retrievals) | Unclear from this pass | Relationship to CPC30220 not reliably stable in this pass | Role-authority wording | No reliable official quote chain | NO | https://training.gov.au/Training/Details/CPCCCA3029 | Not reliably established | UNVERIFIED |
+| CPCCCA3029 | Carry out renovation and refurbishment work (third-party claim) | **Not directly verifiable in this runtime from official register text** | **UNRESOLVED** (official lookup blocked in runtime) | Current/historical CPC30220 relationship cannot be directly verified in this runtime | Claimed L3/L4 role-authority wording | Not found in directly verified official unit extracts | NO | https://training.gov.au/Training/Details/CPCCCA3029 ; https://training.gov.au/ | Official source URL identified; content unreachable from runtime due host-resolution failure | DO_NOT_USE |
 | CPCCCA3033 | Not reliably provided | Install lining, panelling and moulding | Current (reported) | Reported as included in CPC30220 packaging | Role-authority wording | No direct L3/L4 wording located in verified extracts | NO | https://training.gov.au/Training/Details/CPCCCA3033 ; https://training.gov.au/Training/Details/CPC30220 | Release 1 (reported) | PARTIALLY_VERIFIED |
 | CPCCCA3007 | Not reliably provided | Construct pitched roofs | Current | Reported core in CPC30220 | Role-authority wording | No direct L3/L4 wording located in verified extracts | NO | https://training.gov.au/Training/Details/CPCCCA3007 ; https://training.gov.au/Training/Details/CPC30220 | Release 3 (reported current 24 Dec 2024) | VERIFIED_CURRENT |
 | CPCCCA3002 | Not reliably provided | Carry out setting out | Current | Reported core in CPC30220 | “determine conditions to proceed” style wording | “Confirm site is ready for setting out…” reported in retrieval | PARTIAL | https://training.gov.au/Training/Details/CPCCCA3002 | Release 2 (reported current 24 Dec 2024) | PARTIALLY_VERIFIED |
 | CPCCWHS2001 | Not reliably provided | Apply WHS requirements, policies and procedures in the construction industry | Current | Reported core in CPC30220 | Stop-work style wording | Hazard/risk reporting and safe-work wording identified | PARTIAL | https://training.gov.au/Training/Details/CPCCWHS2001 | Release 2 (reported current 24 Dec 2024) | VERIFIED_CURRENT |
 | CPCWHS3001 | Not reliably provided | Identify construction work hazards and select risk control strategies | Current | Reported core in CPC30220 | Stop-work / risk-control wording | Hazard inspection, risk-control selection, consult/confirm wording identified | PARTIAL | https://training.gov.au/Training/Details/CPCWHS3001 | Release 3 (reported current 24 Dec 2024) | PARTIALLY_VERIFIED |
 
-**Part 1 result:** unit-by-unit verification does **not** support adopting scout claims without narrowing; CPCCCA3029 is unresolved and excluded from governed uplift.
+**Part 1 result:** unit-by-unit verification does **not** support adopting scout claims without narrowing; CPCCCA3029 remains **UNRESOLVED / DO_NOT_USE** and is **explicitly excluded from governed reliance**.
 
 ---
 
@@ -278,7 +278,8 @@ If stricter direct-authority threshold is applied, effective outcome is **NONE**
 |---|---|---|---|---|
 | CPCCCA3026 and CPCCCA3028 support stronger independent L3/L4 carpenter authority | Third-party scout training-unit mapping | Title/status verified; authority claim not verified | training.gov.au unit detail records | ACCEPT_WITH_NARROWING |
 | CPCCCA3028 title differs from current register | Third-party scout variation chain | Current title verified as “...footings and slabs on ground” in direct pass | training.gov.au CPCCCA3028 | REJECT (for mismatch claim) / ACCEPT (for current title where correctly stated) |
-| CPCCCA3029 supports windows/doors authority logic | Third-party scout unit chain | Conflicted retrievals; unresolved | training.gov.au CPCCCA3029 (manual direct check required) | DO_NOT_USE |
+| CPCCCA3029 has title “Carry out renovation and refurbishment work” | Third-party scout unit chain | Direct official text not reachable in this runtime; claim not directly verified | training.gov.au CPCCCA3029 URL identified but content unresolved in runtime | UNRESOLVED / DO_NOT_USE |
+| CPCCCA3029 supports independent stop/refer/scope/resume authority via claimed performance criteria | Third-party scout quote/paraphrase chain | Claimed criteria not found in directly verified official extracts; CPCCCA3029 text unresolved in runtime | training.gov.au CPCCCA3029 URL identified; no direct quote verified | CLAIMED_WORDING_NOT_FOUND / MISATTRIBUTED / DO_NOT_USE |
 | Quoted wording equivalent to independent stop/scope/resume authority appears in units | Third-party scout quote/paraphrase set | Material exact wording not found in direct pass | training.gov.au unit records reviewed | REJECT |
 | Carpenter can independently authorise specialist engagement/variation/resume based on unit evidence | Third-party inference | Not supported by direct statutory/contractual authority sources | Building Act, DBCA, BPC guidance, WHS units | REJECT |
 | Generic WHS stop duties evidence carpenter-specific technical authority | Third-party inference | Generic stop duties verified; carpenter-specific authority not verified | OHS Act, CPCCWHS2001, CPCWHS3001, WorkSafe guidance | ACCEPT_WITH_NARROWING |
@@ -347,12 +348,15 @@ Third-party scout material was not counted as independent evidence.
 
 ## QC Checklist (1–24)
 
+**Recovery dependency check (CPCCCA3029 only):** no final governed conclusion in this review depends on CPCCCA3029.  
+CPCCCA3029 is quarantined as **UNRESOLVED / DO_NOT_USE** and excluded from governed evidence reliance.
+
 | QC item | PASS/FAIL | Note |
 |---|---|---|
-| 1. every training unit code/title verified | FAIL | CPCCCA3029 remained conflicted/unresolved |
-| 2. every material quote verified | PASS | Unverified quotes excluded from governed findings |
-| 3. current vs superseded status distinguished | PASS | Applied where direct verification chain existed |
-| 4. qualification inclusion verified | PASS | Verified/partial flags applied per unit |
+| 1. every relied-upon training unit code/title verified | PASS | All relied-upon units are verified or explicitly bounded; CPCCCA3029 quarantined and not relied upon |
+| 2. every relied-upon material quote verified | PASS | Unverified quotes excluded from governed findings; no governed finding relies on unverified CPCCCA3029 wording |
+| 3. current vs superseded status distinguished | PASS | Distinguished for relied-upon units; CPCCCA3029 marked unresolved and excluded |
+| 4. qualification inclusion verified | PASS | Verified/partial flags applied for relied-upon units; CPCCCA3029 excluded from reliance |
 | 5. L2 ≠ L3 | PASS | Maintained |
 | 6. L3 ≠ L4 | PASS | Maintained |
 | 7. recognition ≠ authority | PASS | Maintained |
@@ -364,8 +368,8 @@ Third-party scout material was not counted as independent evidence.
 | 13. builder/supervisor overlap retained | PASS | Retained |
 | 14. engineering boundary protected | PASS | Retained |
 | 15. surveyor authority protected | PASS | Retained |
-| 16. third-party evidence not counted independently | PASS | Enforced |
-| 17. rejected third-party claims retained in claim register | PASS | Included |
+| 16. third-party evidence not counted independently | PASS | Enforced, including CPCCCA3029 quarantine treatment |
+| 17. rejected/unresolved third-party claims retained in claim register | PASS | Included, with CPCCCA3029 unresolved status retained |
 | 18. source silence ≠ affirmative contrary evidence | PASS | Maintained |
 | 19. absence of formal authority ≠ absence of practical skill | PASS | Stated explicitly |
 | 20. null outcome allowed | PASS | Preserved |
@@ -398,5 +402,6 @@ Third-party scout material was not counted as independent evidence.
 - Scope-change finding: identification/recommendation participation possible; variation authority sits with builder/owner process.
 - Resume-work finding: no direct carpenter-specific restart authority evidenced.
 - DB-L comparator: formal authority and regulatory architecture remain materially stronger at builder/registration layer than occupational carpenter unit evidence.
+- CPCCCA3029 recovery QC finding: unresolved in this runtime at official-text level and quarantined as **DO_NOT_USE**; no governed conclusion relies on CPCCCA3029.
 
 **Stop for Dan and Atlas review.**
