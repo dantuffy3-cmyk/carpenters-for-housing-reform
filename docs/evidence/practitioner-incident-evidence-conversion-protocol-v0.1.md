@@ -132,7 +132,7 @@ Every evidence item must be labelled using one or more of the following controll
 
 ## 7. Capability Coding
 
-Each incident may be coded against one or more capability domains using only:
+Each incident may be coded against one or more capability domains using the controlled practitioner-incident capability set below:
 
 The controlled practitioner-incident capability set is:
 
@@ -147,6 +147,8 @@ The controlled practitioner-incident capability set is:
 - Interface recognition
 - Documentation / accountability
 - Boundary recognition
+
+Apply only the following coding values to those capability items:
 
 - `DEMONSTRATED`
 - `PARTIALLY DEMONSTRATED`
