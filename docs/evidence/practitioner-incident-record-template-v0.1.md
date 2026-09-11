@@ -90,13 +90,17 @@ Use only: `DEMONSTRATED`, `PARTIALLY DEMONSTRATED`, `NOT DEMONSTRATED`, `INSUFFI
 
 | Capability Domain | Code | Basis / limitation |
 |---|---|---|
-| Technical Capability | | |
-| Diagnostic Capability | | |
-| Structural Understanding | | |
-| Planning Capability | | |
-| Coordination Capability | | |
-| Professional Judgement | | |
-| Boundary Recognition | | |
+| Existing-building indicator recognition | | |
+| Controlled discovery | | |
+| Technical carpentry judgement | | |
+| Uncertainty recognition | | |
+| Investigation judgement | | |
+| Stop / Refer / Escalate judgement | | |
+| Specialist handoff | | |
+| Carpentry-scope sequencing | | |
+| Interface recognition | | |
+| Documentation / accountability | | |
+| Boundary recognition | | |
 
 ### Independent coding record
 
