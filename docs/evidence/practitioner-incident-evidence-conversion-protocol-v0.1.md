@@ -155,6 +155,8 @@ Apply only the following coding values to those capability items:
 - `NOT DEMONSTRATED`
 - `INSUFFICIENT EVIDENCE`
 
+Every capability item in the controlled set must be considered for each incident record. Rows should not be left blank in the completed controlled record. Where the incident does not provide a sufficient basis to assess a capability item, record `INSUFFICIENT EVIDENCE`.
+
 Coding must remain separate from legal authority, project success, commercial outcome and practitioner status.
 
 ### 7.1 Independent coding — mandatory

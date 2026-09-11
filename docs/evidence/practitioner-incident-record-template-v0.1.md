@@ -88,6 +88,8 @@ List each evidence item separately. Use only these labels: `CONTEMPORANEOUS DOCU
 
 Use only: `DEMONSTRATED`, `PARTIALLY DEMONSTRATED`, `NOT DEMONSTRATED`, `INSUFFICIENT EVIDENCE`.
 
+Consider every capability domain row for each incident. Do not leave rows blank in the completed controlled record. Where the incident does not provide a sufficient basis to assess a domain, record `INSUFFICIENT EVIDENCE`.
+
 | Capability Domain | Code | Basis / limitation |
 |---|---|---|
 | Existing-building indicator recognition | | |
