@@ -134,6 +134,20 @@ Every evidence item must be labelled using one or more of the following controll
 
 Each incident may be coded against one or more capability domains using only:
 
+The controlled practitioner-incident capability set is:
+
+- Existing-building indicator recognition
+- Controlled discovery
+- Technical carpentry judgement
+- Uncertainty recognition
+- Investigation judgement
+- Stop / Refer / Escalate judgement
+- Specialist handoff
+- Carpentry-scope sequencing
+- Interface recognition
+- Documentation / accountability
+- Boundary recognition
+
 - `DEMONSTRATED`
 - `PARTIALLY DEMONSTRATED`
 - `NOT DEMONSTRATED`
