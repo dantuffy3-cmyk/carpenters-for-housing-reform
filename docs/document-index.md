@@ -3,7 +3,7 @@
 **Carpenters for Housing Reform Victoria**
 Version: 1.0
 Date: July 2026
-Last updated: August 2026 — Real-World Renovation Function Evidence Capture Protocol v0.1 added for internal discoverability
+Last updated: September 2026 — Practitioner Incident Evidence Governance v0.1 documents added for internal evidence governance
 
 ---
 
@@ -137,6 +137,9 @@ Document statuses:
 | Pull Request Audit | `docs/governance/pull-request-audit.md` | CURRENT | Governance audit of open pull requests | July 2026 |
 | ADR-004 Capability model above statutory vehicle | `docs/decisions/ADR-004-capability-model-above-statutory-vehicle.md` | CURRENT | Records the capability-first strategic pivot and open implementation vehicles | August 2026 |
 | ADR-005 Practitioner function before regulatory vehicle | `docs/decisions/ADR-005-practitioner-function-before-regulatory-vehicle.md` | PROPOSED | Records the practitioner-function-first sequencing refinement prior to statutory vehicle determination | August 2026 |
+| Practitioner Incident Evidence Conversion Protocol v0.1 | `docs/evidence/practitioner-incident-evidence-conversion-protocol-v0.1.md` | WORKING DRAFT | Governs conversion of practitioner incidents into bounded function evidence, assessment-design inputs and de-identified illustrative use without converting anecdote into systemic or regulatory claims | September 2026 |
+| Practitioner Incident Record Template v0.1 | `docs/evidence/practitioner-incident-record-template-v0.1.md` | WORKING DRAFT | Empty reusable template for de-identified practitioner incident records using controlled evidence labels, capability codes and claims controls | September 2026 |
+| Practitioner Incident Register Composition Log v0.1 | `docs/evidence/practitioner-incident-register-composition-log-v0.1.md` | WORKING DRAFT | Empty mandatory composition-log template for reviewing register balance, documentation coverage and selection effects | September 2026 |
 
 ---
 
@@ -236,7 +239,7 @@ Document statuses:
 |---|---|
 | CURRENT | 24 |
 | CONSULTATION DRAFT | 1 |
-| WORKING DRAFT | 36 |
+| WORKING DRAFT | 39 |
 | CURRENT EVIDENCE ALIGNMENT NOTE | 1 |
 | PROPOSED | 1 |
 | HOLD — DO NOT SEND | 1 |
@@ -246,4 +249,4 @@ Document statuses:
 
 ---
 
-*Updated August 2026 — Carpenter-Specific Actor Attribution Review v0.1 added.*
+*Updated September 2026 — Practitioner Incident Evidence Governance v0.1 documents added.*
