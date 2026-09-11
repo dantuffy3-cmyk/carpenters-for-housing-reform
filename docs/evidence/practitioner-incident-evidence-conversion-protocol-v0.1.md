@@ -132,7 +132,7 @@ Every evidence item must be labelled using one or more of the following controll
 
 ## 7. Capability Coding
 
-Each incident may be coded against one or more capability domains using the controlled practitioner-incident capability set below:
+Each incident record must review every capability item in the controlled practitioner-incident capability set below:
 
 The controlled practitioner-incident capability set is:
 
