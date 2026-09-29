@@ -7,283 +7,300 @@
 
 ---
 
-## Source Status Update (Mandatory)
+## Source Status and Evidence Hierarchy (Updated)
 
-### Primary material currently available
+### Primary/secondary source control
 
-1. **Verbatim meeting transcript excerpt** — available from approximately **00:28–10:55** only; transcript ends mid-sentence at:  
+1. **Verbatim transcript evidence (primary):** 29 Sep 2026 transcript excerpt, approximately **00:28–10:55** only; ends mid-sentence:  
    > “A licensed employee would only -”
-2. **Eight-point meeting summary** — supplied separately by Dan.
+2. **Structured meeting-record evidence:** meeting **Summary**, **Action Items**, **Key Discussion Points**, and **Notepad (“No notes”)** supplied after prior update.
+3. **Eight-point summary evidence:** shorter summary list supplied separately.
+4. **Repository evidence:** existing policy/evidence documents used for controlled comparison.
 
-### Source-gate controls that remain active
+### Source-gate controls retained
 
-- The available transcript is **partial**, not complete.
-- Later discussion is not available verbatim in current source set.
-- The supplied summary is **not equivalent** to verbatim transcript evidence.
-- Full transcript remains required for complete meeting analysis.
-
-### Source hierarchy check (updated)
-
-1. **Meeting transcript/material supplied by Dan** — **PARTIAL (00:28–10:55 only)**  
-2. **September 2026 DTP consultation paper in repository** — **NOT FOUND in repository**  
-3. **Existing repository evidence and qualification audits** — AVAILABLE and reviewed  
-4. **Existing repository policy/reform architecture** — AVAILABLE and reviewed
+- Full meeting transcript is still unavailable.
+- Later discussion is not available as verbatim transcript in current source set.
+- Structured meeting record is not treated as verbatim transcript.
+- Summary evidence is not treated as transcript.
+- Full transcript remains required for complete attribution-level analysis.
 
 ---
 
 ## Sources Inspected
 
 - `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/AGENTS.md`
-- `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/index.html`
-- `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/government-decision-pathway.html`
+- `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence/dtp-carpentry-consultation-meeting-record-2026-09-29-v0.1.md` (prior version)
 - `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/government-engagement/engage-victoria-carpentry-consultation-intake-v0.1.md`
 - `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/government-engagement/engage-victoria-carpentry-consultation-decision-update-protocol-v0.1.md`
 - `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/policy-analysis/existing-pathways-alternative-cause-baseline-review-v0.1.md`
 - `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/policy-analysis/db-l-carpentry-capability-and-assessment-gap-analysis-v0.1.md`
 - `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/docs/evidence-analysis/residual-function-recurrence-evidence-review-v0.1.md`
-- `/home/runner/work/carpenters-for-housing-reform/carpenters-for-housing-reform/evidence/sources-register.json`
-- Dan-supplied partial verbatim transcript excerpt (00:28–10:55)
-- Dan-supplied eight-point meeting summary
+- Dan-supplied transcript excerpt (00:28–10:55)
+- Dan-supplied structured meeting record (Summary, Action Items, Key Discussion Points, Notepad)
+- Dan-supplied eight-point summary
 
 ---
 
-## Task 1 — Current Reform Architecture Inspection
+## Current Reform Architecture Inspection
 
-Repository content reviewed remains consistent with a **baseline-first** sequence:
+Repository baseline remains:
 
 Foundational qualification (Certificate III)  
-→ current carpentry registration/licensing clarification  
-→ competence/scope/accountability/authority clarification  
-→ test for any materially different residual capability question  
-→ assess proportionality and options  
+→ clarify baseline registration/licensing settings  
+→ clarify authorisation/accountability boundaries  
+→ test residual capability question (if any)  
+→ assess options/proportionality  
 → choose mechanism last.
 
-This sequence remains a repository position, not a claim of DTP endorsement.
+No repository evidence was found that this sequence has been formally displaced.
 
 ---
 
-## Task 2 — Meeting Evidence Register (Transcript-Backed + Summary-Controlled)
+## DTPM Evidence Register (Transcript + Structured Record + Summary)
 
-| ID | Meeting point | Speaker/source | Evidence classification | Confidence | Reform relevance | Follow-up required |
-|---|---|---|---|---|---|---|
-| DTPM-001 | Session opened by DTP Executive Director (Heidi Young), consultation purpose and note-taking recording statement | 29 Sep transcript, approx. 01:46–03:52 | DTP_STATEMENT | High | High | None |
-| DTPM-002 | State budget funding included **$16 million** to commence work for carpentry, waterproofing and welders | 29 Sep transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | High | Verify with published budget docs if cited externally |
-| DTPM-003 | DTP released a discussion/consultation paper on how carpenter registration/licensing could operate; feedback sought through survey and written submissions | 29 Sep transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Critical | Link to consultation paper when available in repo |
-| DTPM-004 | Early survey feedback reported as showing general support for trades registration/licensing | 29 Sep transcript, approx. 03:52–06:23 | DTP_STATEMENT | Medium-High | High | Treat as early feedback, not final result |
-| DTPM-005 | Draft 2024 impact analysis was released as a point-in-time reference and **does not represent current policy** | 29 Sep transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Critical | Keep separated from current policy settings |
-| DTPM-006 | Consultation process framed as opportunity to shape future direction | 29 Sep transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | High | None |
-| DTPM-007 | Trades registration/licensing concept described as requiring people physically carrying out prescribed work to hold registration/licence | 29 Sep transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | Critical | Confirm final legal drafting once published |
-| DTPM-008 | DTP described alignment with currently regulated trades (plumbers and electricians) | 29 Sep transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | High | None |
-| DTPM-009 | Intended policy benefits identified: competence assurance and regulator disciplinary reach over non-compliant work | 29 Sep transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | Critical | Distinguish intent from proven outcomes |
-| DTPM-010 | DTP expectation stated: reduced defects, rectification costs, disputes and burden | 29 Sep transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | Critical | Treat as expected benefit, not causal proof |
-| DTPM-011 | Legislative history: Building Act amendments passed in 2018 and amended in 2021 | 29 Sep transcript, approx. 08:07–09:33 | DTP_STATEMENT | High | High | Verify references if quoted in submission |
-| DTPM-012 | Earlier options consultation identified carpentry as priority for implementation design | 29 Sep transcript, approx. 08:07–09:33 | DTP_STATEMENT | High | High | None |
-| DTPM-013 | Work paused as priorities shifted after Porter Davis period toward insurance availability and other building reforms; now revisited following BPC establishment and First Resort Home Warranty commencement | 29 Sep transcript, approx. 08:07–09:33 | DTP_STATEMENT | Medium-High | High | Keep chronology factual/non-evaluative |
-| DTPM-014 | DTP stated regulatory landscape has shifted and consultation is testing whether previous design remains fit for purpose | 29 Sep transcript, approx. 09:33–09:58 | DTP_STATEMENT | High | Critical | Use as context for open-policy status |
-| DTPM-015 | Current framework described as three tiers: registered builders, subcontractors, employees | 29 Sep transcript, approx. 09:58–10:55 | DTP_STATEMENT | High | Critical | Verify complete employee scope once full transcript available |
-| DTPM-016 | DTP described that only builders are currently registered; regulations still required for subcontractor registration and employee licensing; only builders can enter major domestic building contracts; subcontractors described as able to contract with a registered builder and for work under $10,000 | 29 Sep transcript, approx. 09:58–10:55 | DTP_STATEMENT | High | Critical | Employee authorisation incomplete due transcript cutoff |
-| DTPM-017 | Transcript cuts off mid-sentence on employee licensing scope (“A licensed employee would only -”) | 29 Sep transcript, 10:55 cutoff | UNRESOLVED | High | Critical | Obtain full transcript before concluding employee scope |
-| DTPM-018 | Summary proposition: proposed scheme extends regulation beyond plumbers/electricians | Dan-supplied meeting summary — verbatim support not yet available beyond partial excerpt | MEETING_SUMMARY | Medium | Medium | Map against full transcript when available |
-| DTPM-019 | Summary proposition: existing workforce estimated at 20,000 carpenters | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript or official source verification |
-| DTPM-020 | Summary proposition: five-year provisional licence pathway gained support | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript verification |
-| DTPM-021 | Summary proposition: participants favoured a simple general carpentry licence | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript verification |
-| DTPM-022 | Summary proposition: renovation work remains largely absent from training pathways | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript + qualification-source cross-check |
-| DTPM-023 | Summary proposition: evidence linking licensing to defects remains incomplete | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript verification |
-| DTPM-024 | Summary proposition: contractor accountability may be preferable to licensing every worker | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript verification |
-| DTPM-025 | Summary proposition: tiered credentials could recognise advanced/specialist work | Dan-supplied meeting summary — verbatim support not yet available | MEETING_SUMMARY | Low-Medium | High | Requires full transcript verification |
+| ID | Finding | Source | Classification | Confidence | Notes / control |
+|---|---|---|---|---|---|
+| DTPM-001 | Heidi Young opened consultation, identified DTP role and recording for note-taking | Transcript, approx. 01:46–03:52 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-002 | DTP described state budget funding of $16m covering carpentry, waterproofing and welders | Transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-003 | DTP said consultation paper released on how carpenter registration/licensing could operate | Transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-004 | DTP sought feedback via online survey and written submissions; engagement sessions running | Transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-005 | Early survey feedback described as showing general support for trades registration/licensing | Transcript, approx. 03:52–06:23 | DTP_STATEMENT | Medium-High | Early signal only |
+| DTPM-006 | 2024 impact analysis released as point-in-time reference and not current policy | Transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-007 | Consultation process framed as opportunity to shape future direction | Transcript, approx. 03:52–06:23 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-008 | Scheme concept described as requiring people physically carrying out prescribed work to hold registration/licence | Transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-009 | DTP described intended benefits: skills/experience assurance and disciplinary accountability reach | Transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | Transcript-backed expectation framing |
+| DTPM-010 | DTP expectation stated: defects/rectification/disputes/burden reduction | Transcript, approx. 06:27–08:07 | DTP_STATEMENT | High | Expected policy benefit; not treated as proven causality |
+| DTPM-011 | Reform history described: Building Act amendments in 2018 and 2021 | Transcript, approx. 08:07–09:33 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-012 | Earlier options consultation identified carpentry as implementation priority | Transcript, approx. 08:07–09:33 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-013 | Work pause explained in context of broader building-system priorities after Porter Davis period | Transcript, approx. 08:07–09:33 | DTP_STATEMENT | Medium-High | Context statement |
+| DTPM-014 | DTP said regulatory landscape changed and consultation re-tests fit-for-purpose settings | Transcript, approx. 09:33–09:58 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-015 | Framework described as three authorisation tiers: registered builders, subcontractors, employees | Transcript, approx. 09:58–10:55 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-016 | DTP said regulations still required to implement subcontractor registration and employee licensing | Transcript, approx. 09:58–10:55 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-017 | DTP said only registered builders can enter major domestic building contracts under described framework | Transcript, approx. 09:58–10:55 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-018 | DTP described proposed subcontractor authorisation incl. subcontracting with builder and work under $10,000 | Transcript, approx. 09:58–10:55 | DTP_STATEMENT | High | Transcript-backed |
+| DTPM-019 | Employee authorisation statement cuts off mid-sentence | Transcript cutoff at 10:55 | UNRESOLVED | High | Full transcript required |
+| DTPM-020 | Structured summary states meeting examined registration/licensing/training pathway options | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Not verbatim transcript |
+| DTPM-021 | Structured summary records 20,000-carpenter workforce estimate | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Requires independent verification for external claim use |
+| DTPM-022 | Structured summary records support for five-year provisional licence pathway | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Participant support signal; not adopted policy |
+| DTPM-023 | Structured summary records participant preference for simple general carpentry licence | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Not DTP policy |
+| DTPM-024 | Structured summary records proposition that renovation work remains largely absent from training pathways | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Not converted into qualification fact |
+| DTPM-025 | Structured summary records proposition that defect-link evidence remains incomplete | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Treated as evidence question |
+| DTPM-026 | Structured summary records contractor-accountability alternative to licensing every worker | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | Stakeholder position, not DTP policy |
+| DTPM-027 | Structured summary records tiered advanced/specialist credential discussion | Structured meeting Summary | STRUCTURED_MEETING_RECORD | Medium | No endorsement inference |
+| DTPM-028 | Structured discussion points record themes on scheme objectives, risk-based calibration, transition, implementation operations | Structured Key Discussion Points | STRUCTURED_MEETING_RECORD | Medium | Synthesis-level record |
+| DTPM-029 | Structured discussion points record debate about general licence simplicity vs multiple classes, with prevailing simplicity-first view | Structured Key Discussion Points | STRUCTURED_MEETING_RECORD | Medium | Participant-preference signal |
+| DTPM-030 | Structured discussion points record distinction between individual licensing, scope definition, and contracting arrangements | Structured Key Discussion Points | STRUCTURED_MEETING_RECORD | Medium | Supports accountability-architecture questions |
+| DTPM-031 | Structured discussion points record Carpentry Australia concern that RIS causation assumptions are contestable | Structured Key Discussion Points | PARTICIPANT_VIEW | Medium | Stakeholder critique; not DTP statement |
+| DTPM-032 | Structured discussion points record contractor-focused alternative model (incl. reference to Queensland model) raised by Carpentry Australia | Structured Key Discussion Points | PARTICIPANT_VIEW | Medium | Stakeholder policy option |
+| DTPM-033 | Structured discussion points record participant discussion of transition for existing workforce and pragmatic recognition arrangements | Structured Key Discussion Points | STRUCTURED_MEETING_RECORD | Medium | Collective discussion |
+| DTPM-034 | Structured discussion points record exploration of Certificate III baseline plus additional advanced/specialist credentials | Structured Key Discussion Points | STRUCTURED_MEETING_RECORD | Medium | Collective exploration; not adopted setting |
+| DTPM-035 | Notepad records “No notes” | Structured Notepad | STRUCTURED_MEETING_RECORD | High | Administrative provenance only |
+| DTPM-036 | Eight-point summary propositions align broadly with structured summary topics but remain lower-tier than transcript and structured record | Eight-point summary + hierarchy check | ANALYTICAL_INFERENCE | Medium | Used as corroborative summary layer only |
 
-**Transcript-backed findings captured:** **17** (DTPM-001 to DTPM-017)  
-**Summary-only findings captured:** **8** (DTPM-018 to DTPM-025)
-
----
-
-## Task 3 — Summary Proposition Verification Table
-
-| Summary proposition | Current status | Basis | Control outcome |
-|---|---|---|---|
-| Proposed scheme extends regulation beyond plumbers/electricians | A. DIRECTLY_SUPPORTED (in concept framing) | Transcript 06:27–08:07 describes extension beyond currently licensed trades | Keep as transcript-backed concept; avoid over-expansion |
-| Existing workforce estimated at 20,000 carpenters | E. REQUIRES_FULL_TRANSCRIPT | No number appears in available transcript excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
-| Five-year provisional licence pathway gained support | E. REQUIRES_FULL_TRANSCRIPT | Not in available excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
-| Participants favoured simple general carpentry licence | E. REQUIRES_FULL_TRANSCRIPT | Not in available excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
-| Renovation work largely absent from training pathways | E. REQUIRES_FULL_TRANSCRIPT | Not in available excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
-| Evidence linking licensing to defects remains incomplete | E. REQUIRES_FULL_TRANSCRIPT | Not in available excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
-| Contractor accountability preferable to licensing every worker | E. REQUIRES_FULL_TRANSCRIPT | Not in available excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
-| Tiered credentials could recognise advanced/specialist work | E. REQUIRES_FULL_TRANSCRIPT | Not in available excerpt | Keep as MEETING_SUMMARY_ONLY pending verification |
+**Count — transcript-backed findings:** 19 (DTPM-001 to DTPM-019)  
+**Count — structured-record findings:** 16 (DTPM-020 to DTPM-035)  
+**Count — summary-layer synthesis findings:** 1 (DTPM-036)
 
 ---
 
-## Task 4 — Policy Status Assessment (Updated)
+## Dan’s Recorded Contributions
 
-| Issue | Current classification | Basis |
+Recorded where structured source attributes content to Dan/Daniel Sunsey:
+
+1. Career-progression concern: post-apprenticeship progression framed as limited, with builder pathway presented as dominant route.  
+   **Source:** Structured Key Discussion Points (Carpenter Career Pathways and Work Thresholds).  
+   **Classification:** DAN_CONTRIBUTION.
+
+2. $10,000 threshold issue: current threshold described as limiting ability to undertake common carpentry jobs.  
+   **Source:** Structured Key Discussion Points (Carpenter Career Pathways and Work Thresholds).  
+   **Classification:** DAN_CONTRIBUTION.
+
+3. Wet-area accountability and sequencing concerns raised.  
+   **Source:** Structured Key Discussion Points (Wet-Area Quality Controls and Licensing Participation).  
+   **Classification:** DAN_CONTRIBUTION.
+
+4. Proposed staged sign-off before waterproofing.  
+   **Source:** Structured Key Discussion Points (Wet-Area Quality Controls and Licensing Participation).  
+   **Classification:** DAN_CONTRIBUTION.
+
+5. Proposed registered residential carpentry pathway discussion appears in structured record within broader participant discussion of renovation/advanced carpentry.  
+   **Source:** Structured Key Discussion Points (Renovation Skills and Advanced Carpentry).  
+   **Classification:** STRUCTURED_MEETING_RECORD (not attributed solely to Dan unless explicitly stated).
+
+6. Follow-up involving Dan is recorded in action items: participant to continue discussions with Daniel Sunsey on wet-area quality-control approach.  
+   **Source:** Structured Action Items.  
+   **Classification:** STRUCTURED_MEETING_RECORD.
+
+---
+
+## Action-Item Register (Structured Record)
+
+| AI ID | Action item text | Attribution status | Classification | Control |
+|---|---|---|---|---|
+| AI-001 | Meeting participant will provide department further information on proposed wet-area staged sign-off pilot and case studies | Ambiguous “meeting participant” (unresolved identity) | STRUCTURED_MEETING_RECORD | Attribution preserved as ambiguous |
+| AI-002 | Meeting participant will continue discussions with Daniel Sunsey about proposed wet-area quality-control approach | Ambiguous “meeting participant” + named Dan reference | STRUCTURED_MEETING_RECORD | Do not assume participant identity |
+| AI-003 | Meeting participant will clarify insurance implications and permitted scope for proposed advanced carpentry pathway | Ambiguous “meeting participant” | STRUCTURED_MEETING_RECORD | Do not assign to Dan without explicit source |
+| AI-004 | Meeting participant will provide tangible examples of carpenter-related defects/consumer problems for intended licensing framework | Ambiguous “meeting participant” | STRUCTURED_MEETING_RECORD | Evidence request remains open |
+| AI-005 | Rob will identify specific carpentry categories previously considered appropriate for licensing/registration | Named participant (“Rob”) | PARTICIPANT_VIEW | Not DTP adoption |
+| AI-006 | Meeting participant will clarify evidence base/rationale for categories identified in earlier RIS | Ambiguous “meeting participant” | STRUCTURED_MEETING_RECORD | Keep attribution unresolved |
+
+---
+
+## Policy Status Assessment (Updated)
+
+| Issue | Classification | Evidence basis |
 |---|---|---|
-| Registration/licensing consultation is active for carpentry | CURRENT_GOVERNMENT_DIRECTION | Transcript 03:52–06:23 |
-| Consultation mechanism (survey + written submissions + engagement sessions) | ESTABLISHED_CONTEXT | Transcript 03:52–06:23 |
+| Active consultation on carpenter registration/licensing settings | CURRENT_GOVERNMENT_DIRECTION | Transcript 03:52–06:23 |
+| Consultation channels (survey/submissions/sessions) | ESTABLISHED_CONTEXT | Transcript 03:52–06:23 |
 | 2024 impact analysis is reference only, not current policy | CURRENT_GOVERNMENT_DIRECTION | Transcript 03:52–06:23 |
-| Framework includes builder/subcontractor/employee tiers with different authorisations | ESTABLISHED_CONTEXT | Transcript 09:58–10:55 |
-| Regulations still needed for subcontractor registration and employee licensing | OPEN_QUESTION | Transcript indicates requirement; implementation details unresolved due partial transcript |
-| Employee licensing scope specifics | UNRESOLVED_EVIDENCE_QUESTION | Transcript cut off at 10:55 |
-| General carpenter licence preference | MEETING_SUMMARY_ONLY | Summary only |
-| Five-year provisional pathway | MEETING_SUMMARY_ONLY | Summary only |
-| Contractor accountability preference vs worker licensing | MEETING_SUMMARY_ONLY | Summary only |
-| Defect reduction expected benefit from licensing | CURRENT_GOVERNMENT_DIRECTION | Transcript 06:27–08:07 (stated expectation) |
-| Empirical strength of licensing-defect causal evidence | UNRESOLVED_EVIDENCE_QUESTION | Summary-only claim of incomplete evidence; no transcript support yet |
-| Renovation training coverage proposition | MEETING_SUMMARY_ONLY | Summary only |
-| Tiered advanced/specialist credentials | MEETING_SUMMARY_ONLY | Summary only |
-| Final regulatory model to be adopted | OPTION_UNDER_CONSIDERATION | Consultation framed as shaping future direction |
+| Three-tier framework framing (builder/subcontractor/employee) | ESTABLISHED_CONTEXT | Transcript 09:58–10:55 |
+| Employee licensing scope detail | UNRESOLVED_EVIDENCE_QUESTION | Transcript cutoff 10:55 |
+| General licence simplicity-first view | PARTICIPANT_PREFERENCE | Structured record (prevailing participant view) |
+| Five-year provisional pathway support | PARTICIPANT_PREFERENCE | Structured record (participants supported) |
+| Renovation training-gap proposition | STRUCTURED_MEETING_RECORD | Structured discussion summary only |
+| Defect causation challenge to RIS assumptions | PARTICIPANT_PREFERENCE | Carpentry Australia position in structured record |
+| Contractor-focused alternative model | PARTICIPANT_PREFERENCE | Carpentry Australia position in structured record |
+| Tiered advanced/specialist credential exploration | OPTION_UNDER_CONSIDERATION | Structured participant discussion |
+| Final model selection | OPEN_QUESTION | No final setting in transcript or structured record |
 
 ---
 
-## Task 5 — Baseline-First Architecture Reassessment
+## Baseline-First Architecture Reassessment
 
-Partial transcript evidence is **compatible with** a baseline-first clarification sequence and does not displace repository sequencing.
+Current evidence indicates:
 
-- DTP framing in this excerpt focuses on consultation, implementation settings, and fit-for-purpose reassessment.
-- No final mechanism is selected in the available transcript segment.
-- No statement in the excerpt endorses RRC or any advanced statutory class.
+- Transcript-backed DTP framing remains consultation/implementation oriented and non-final.
+- Structured record adds stronger participant pressure on transition/accountability/design choices.
+- No source establishes final mechanism selection.
 
-Assessment: **PARTIALLY_ALIGNED / REMAINS OPEN** pending full transcript.
-
----
-
-## Task 6 — Accountability Assessment (Partial Evidence)
-
-Transcript-supported accountability elements currently include:
-
-- reform focus on people physically carrying out prescribed work (06:27–08:07);
-- regulator disciplinary reach over registered/licensed actors (06:27–08:07);
-- differentiated authorisation tiers (builder/subcontractor/employee) (09:58–10:55);
-- builder contract authority and proposed subcontractor contract limits as described (09:58–10:55).
-
-Not yet supported in available transcript excerpt:
-
-- any concluded preference for contractor accountability over employee licensing.
-
-Status: **high-priority full-transcript verification question**.
+Assessment: **MINOR_REFINEMENT** to analysis emphasis (accountability allocation and transition design), with baseline-first sequence retained.
 
 ---
 
-## Task 7 — Defect Claim Control
+## Accountability Assessment
 
-### A. DTP expectation (transcript-supported)
+Evidence-supported distinctions now recorded:
 
-DTP stated registration/licensing is expected to reduce defects, rectification costs, disputes and burden (06:27–08:07).
+- individual worker licensing/registration questions;
+- builder/subcontractor/employee authorisation differentiation;
+- contracting authority vs technical work authority;
+- stakeholder alternative proposing contractor-accountability emphasis.
 
-### B. Evidence question (not transcript-supported in available excerpt)
+Control outcome:
 
-Whether empirical evidence establishes magnitude/causal effect of carpenter licensing on defect reduction remains unresolved in this record.
-
-Current classification for the “evidence incomplete” proposition: **MEETING_SUMMARY_ONLY / REQUIRES_VERIFICATION**.
-
-These two propositions are not treated as mutually disproving.
-
----
-
-## Task 8 — Qualification / Renovation Capability Claim Control
-
-Repository evidence controls remain unchanged:
-
-- qualification and pathway evidence supports substantial carpentry execution/planning/safety competence;
-- “not clearly established as a mandatory qualification outcome” must not be converted into “not taught” or “not covered.”
-
-Summary proposition (“renovation work remains largely absent from training pathways”) remains:
-
-- **MEETING_SUMMARY_ONLY / REQUIRES_FULL_TRANSCRIPT**.
-
-No claim is made that Certificate III is insufficient or excludes renovation.
+- Contractor model remains **stakeholder position** (not selected policy).
+- Accountability allocation remains a core unresolved design question for submission response.
 
 ---
 
-## Task 9 — Advanced / Specialist Capability Claim Control
+## Defect Claim Control (Updated)
 
-Summary proposition (“tiered credentials could recognise advanced/specialist work”) remains:
-
-- **MEETING_SUMMARY_ONLY / REQUIRES_FULL_TRANSCRIPT**.
-
-No claim is made that DTP endorsed advanced registration, RRC, or a tiered statutory model.
+1. **DTP transcript-backed expectation:** licensing may reduce defects/costs/disputes/burden.
+2. **Stakeholder challenge (structured record):** causation assumptions and RIS evidence questioned by participants/Carpentry Australia.
+3. **Current evidence position:** empirical magnitude/causality remains unresolved in this record and should be answered with verifiable evidence in submission work.
 
 ---
 
-## Task 10 — RRC Implications
+## Qualification / Renovation Claim Control
 
-Based on currently available evidence:
-
-- **RETAIN_AS_RESEARCH** — yes.
-- **REPOSITION** — continue as evidence architecture, not predetermined vehicle.
-- **REQUIRES_EVIDENCE** — yes (meeting evidence remains partial).
-- **POSSIBLE_FUTURE_MECHANISM** — remains open, not selected.
-- **NOT_CURRENTLY_JUSTIFIED_AS_STATUTORY_MODEL** — maintained on current record.
+- Structured record discussion of renovation-training gap is retained as **structured meeting evidence**, not as verified qualification fact.
+- Repository qualification boundary remains: outcomes “not clearly established as mandatory” must not be converted into “not taught” or “not covered.”
+- No claim is made that Certificate III is inherently insufficient.
 
 ---
 
-## Task 11 — Dan Contribution Status
+## EB-01 to EB-06B Relevance Recheck
 
-No DAN_CONTRIBUTION findings are recorded from the current partial excerpt. The available verbatim content is predominantly DTP introductory and framing material.
+| EB capability | Current relevance assessment | Basis |
+|---|---|---|
+| EB-01 Controlled Existing-Building Investigation | INDIRECTLY_RELEVANT | Structured discussion on renovation conditions/risk-based thresholds |
+| EB-02 Carpentry Condition Assessment | INDIRECTLY_RELEVANT | Structured defect/quality and competency discussions |
+| EB-03 Progressive Scope Determination | DIRECTLY_RELEVANT_TO_MEETING_ISSUE | Transcript + structured distinction of scope/authorisation/contracting |
+| EB-04 Retention/Replacement Boundary | REQUIRES_FURTHER_EVIDENCE | Not explicitly detailed in transcript excerpt |
+| EB-05 Constructability Conflict Recognition and Resolution | INDIRECTLY_RELEVANT | Wet-area sequencing/accountability discussion |
+| EB-06A Safety Changed-Condition Response | REQUIRES_FURTHER_EVIDENCE | Not explicitly detailed in available verbatim segment |
+| EB-06B Technical/Authority Escalation | DIRECTLY_RELEVANT_TO_MEETING_ISSUE | Tiered authorisation and accountability framing |
 
----
-
-## Task 12 — Candidate Issues for Dan’s Written Submission (Updated)
-
-### A. EVIDENCE-SUPPORTED NOW
-
-1. DTP is actively consulting on carpentry registration/licensing implementation settings.
-2. DTP states 2024 impact analysis is historical/reference and not current policy.
-3. DTP frames intended policy benefits (competence assurance, disciplinary reach, expected defect/cost/dispute reduction).
-4. DTP describes current three-tier authorisation structure and builder/subcontractor distinctions.
-5. DTP indicates regulatory design has shifted context and is being retested for fit-for-purpose.
-
-### B. HIGH-PRIORITY ITEMS REQUIRING FULL TRANSCRIPT
-
-1. Five-year provisional pathway discussion and level of support.
-2. General carpenter licence preference discussion.
-3. Renovation training coverage discussion.
-4. Defect-evidence completeness discussion.
-5. Contractor-versus-worker accountability preference discussion.
-6. Advanced/specialist tiered-credential discussion.
-7. Full employee licensing scope (cut off at 10:55).
+No endorsement of EB framework by DTP is claimed.
 
 ---
 
-## Task 13 — Architecture Impact
+## RRC Position Reassessment
+
+- **RETAIN_AS_RESEARCH:** yes.
+- **REPOSITION:** yes (evidence architecture and option analysis, not preselected statutory mechanism).
+- **REQUIRES_EVIDENCE:** yes.
+- **POSSIBLE_FUTURE_MECHANISM:** remains open only.
+- **NOT_CURRENTLY_JUSTIFIED_AS_STATUTORY_MODEL:** retained on current evidence.
+
+No government endorsement inference is made.
+
+---
+
+## Candidate Submission Priorities (Updated)
+
+### A. Evidence-supported now
+
+1. Clarify intended regulatory problem and policy objective in government terms.
+2. Clarify role/accountability allocation between workers, subcontractors, contractors and builders.
+3. Distinguish technical authority from contracting authority.
+4. Confirm transition design principles that preserve workforce capacity while setting competence controls.
+5. Separate expected policy benefits from proven evidence on defects.
+
+### B. High-priority full-transcript questions
+
+1. Full employee-authorisation statement and constraints beyond 10:55 cutoff.
+2. Specific evidentiary basis used for workforce estimate and defect assumptions.
+3. Attributed speaker-level details for provisional pathway and tiered credentials.
+4. Detailed treatment of renovation-training proposition and qualification boundaries.
+
+---
+
+## Questions Raised by the Meeting That the Submission Should Answer
+
+1. What regulatory problem is carpenter licensing intended to solve?
+2. Who should carry accountability across worker, subcontractor, contractor and builder roles?
+3. What should baseline registration/licensing establish before additional layers are considered?
+4. How should existing competence be recognised without unnecessary workforce exclusion?
+5. What evidence supports or limits defect-reduction assumptions?
+6. How should contracting authority differ from technical authority?
+7. Is additional/specialist capability materially different from baseline capability?
+8. What role should renovation/existing-building competence have in final settings?
+9. How can calibration avoid over-regulating lower-risk work while protecting consumers?
+
+(Questions listed only; not resolved beyond available evidence.)
+
+---
+
+## Architecture Impact
 
 **Classification:** **MINOR_REFINEMENT**
 
-Reason:
-
-- Core baseline-first architecture is not displaced by available evidence.
-- Partial transcript strengthens the need to analyse role-based authorisation/accountability allocation explicitly within baseline clarification work.
-
-Refined architecture (provisional, evidence-gated):
+Refined analysis order (still baseline-first):
 
 Foundational qualification  
-→ clarify carpenter registration/licensing baseline  
-→ clarify role-based authorisation and accountability by tier  
-→ test whether materially different residual capability question remains  
-→ assess proportionality/options  
-→ choose mechanism last.
+→ clarify baseline registration/licensing scope  
+→ clarify accountability and contracting/technical authority allocation  
+→ test residual capability question (including renovation/existing-building components)  
+→ test evidence strength and proportionality  
+→ compare mechanism options last.
 
 ---
 
-## Task 14 — Traceability Controls
+## QC Record
 
-- Transcript-derived findings include timestamp ranges.
-- Summary-derived findings are explicitly marked as **MEETING_SUMMARY** and flagged for verification.
-- No summary proposition is attributed to Heidi Young or DTP as settled position unless transcript-supported.
+Checks completed:
 
----
-
-## Task 15 — QC Record
-
-QC checks completed on this document:
-
-- only existing evidence document updated;
-- no public HTML/CSS/JS files changed;
-- no invented speaker attribution;
-- transcript limitation recorded: available excerpt ends at 10:55 mid-sentence;
-- summary not represented as full transcript;
-- participant preferences not presented as government policy;
-- DTP expected policy benefits not presented as proven causal evidence;
-- Certificate III overstatement controls preserved;
+- only existing evidence document changed;
+- no public HTML/CSS/JS changes;
+- transcript remains clearly marked as partial (00:28–10:55 cutoff);
+- structured record is not represented as verbatim transcript;
+- participant/stakeholder preferences not represented as DTP policy;
+- no Certificate III insufficiency claim;
 - no RRC endorsement claim;
-- no advanced-registration endorsement claim;
-- no unsupported five-year provisional claim asserted as fact;
-- timestamp traceability included.
+- no advanced-licence endorsement claim;
+- contractor-focused model not represented as selected policy;
+- ambiguous “meeting participant” action-item attribution preserved;
+- transcript timestamp traceability retained for transcript-backed findings;
+- no merge performed.
