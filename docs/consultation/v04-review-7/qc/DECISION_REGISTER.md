@@ -1,7 +1,7 @@
 # Controlled consultation drafting decision register
 
-Prepared by Atlas: 8 October 2026 (Australia/Sydney).
-Scope: consultation submission v0.4 Review 3 only. This is not a replacement for the repository's broader policy architecture.
+Prepared by Atlas: 8 October 2026; updated 10 October 2026 (Australia/Sydney).
+Scope: controlled consultation drafting through v0.4 Review 5. This is not a replacement for the repository's broader policy architecture.
 Status: approved drafting directions recorded; working draft, not approved for publication or submission.
 
 ## Provenance and transfer status
@@ -35,10 +35,24 @@ Remote checkpoint independently read on 8 October 2026: `copilot/controlled-cons
 
 ## D02 — Future entrants and existing-worker equivalence
 
-- Status: PENDING Dan's final decision; no approval inferred from D01, D03 or transfer authorisation.
-- Question for review: apprenticeship plus Certificate III as the foundation for future entrants, distinguished from reliably verified equivalent competence and targeted gap training for the existing workforce.
-- Affected material if approved: Question 7 and related entry, transition and assessment passages. No such substantive change is authorised by this register or import package.
-- Retain pending review: the existing Review 3 wording, which identifies apprenticeship as the preferred foundation and explicitly leaves final treatment of future non-apprenticeship routes for policy review.
+- Decision date: 8 October 2026.
+- Status: Dan approved for controlled drafting; not approved for submission or publication.
+- Previous position: Review 3 described apprenticeship plus Certificate III as the preferred foundation and left future non-apprenticeship entry for review.
+- Approved direction: require a completed carpentry apprenticeship plus Certificate III for future entrants. Provide the existing workforce with a separate route through reliably verified equivalent competence and targeted gap training or experience. No automatic grandfathering based on tenure; no unnecessary full-qualification repetition for competent existing workers.
+- Reason: preserve a credible entry standard while recognising demonstrated existing competence and limiting avoidable transition burden.
+- Affected material: Review 4 Question 7, primary assessment recommendation, assessment architecture, existing-worker safeguard and document control.
+- Source distinction: Courtney Gleeson referred to the historical RIS provisional assessment sections. This referral informs the reasoning; it does not establish government adoption of D02 or remove the RIS historical disclaimer.
+- Limits: final eligibility, exemption, experience, transition duration and conditions need current source and legal review. D01 and D03 remain as approved.
+
+## Departmental reply supplied on 8 October 2026
+
+- Provenance: text supplied by Dan, signed Courtney Gleeson, Communications and Engagement Manager – Building, DTP. Incoming date not supplied. Quoted outbound email dated 7 October 2026, 9:44 pm.
+- Current rule checked: Domestic Building Contracts Act 1995 version 094, sections 3 and 29; Domestic Building Contracts Regulations 2017 version 004, regulation 6 fixing $10,000.
+- Separate proposal checked: DTP public notice of 18 August 2026 proposes a $20,000 major-contract threshold. Courtney reports expected making this month and 31 March 2027 commencement. Final instrument and timing were not independently confirmed; this is not the carpenter scheme commencement date.
+- Historical RIS reviewed: sections 1.3 and 1.3.2, Table 0.1 on printed page 31, sections 3.3.4 and 3.3.4.1 on printed pages 71–72, and Chapter 2 on printed pages 34–46. Historical-reference-only status retained.
+- Drafting effect: correct the apparent under-$10,000 slide/meeting inconsistency, distinguish current and proposed contract rules, attribute historical assessment settings, and retain current workforce and incremental-benefit evidence requests.
+- Still open: permits, insurance, corporate and mixed-use boundaries, final trade regulations and commencement, current workforce methodology and the promised existing-building/wet-area discussion contact.
+- Remote checkpoint last independently verified earlier on 8 October: controlled branch at `3a3d962e9f75906c90f03bdb86b8d0b119103448`, with the Review 3 import present. Review 4 is prepared separately; no new remote write or merge is claimed.
 
 ## Earlier drafting directions and evidence controls
 
@@ -46,7 +60,7 @@ The supplied Drafting Decision Record v0.1 records the previously authorised app
 
 Maintain contrary evidence and alternatives. Do not treat the early survey signal or the 6 October email as a vote count or consensus. Keep the partial transcript (approximately 00:28–10:55), structured meeting record, deck and departmental email separately attributed. No new evidence-confidence values or government endorsement are created by the approvals.
 
-The under-$10,000 statement, permits, insurance, statutory terminology, mixed-use boundaries and commencement remain source-gated. Dan reports sending the follow-up email manually on 7 October; no response is included in this package.
+Courtney’s subsequent reply is recorded above and separately preserved as supplied text. Contract threshold and historical permission-table findings have been added to Review 4; permits, insurance, statutory terminology, mixed-use boundaries and final scheme commencement remain source-gated.
 
 Baseline competence remains separate from advanced residential capability research. RRC remains one possible mechanism, not a predetermined outcome or a mandatory prerequisite to builder registration. Existing builder pathways and professional boundaries are preserved.
 
@@ -63,36 +77,7 @@ Atlas previously rendered and visually inspected all 15 pages of Review 3. The a
 
 Authorised transfer: import these working files and this scoped register on the controlled branch, after checking the latest HEAD and any intervening changes. If a decision register already exists by then, preserve it and reconcile this proposed entry rather than overwrite it blindly.
 
-No merge, website change, deployment, publication, submission, outreach or further substantive policy edit is authorised. Explicit Dan approval is required before publication or submission. The next policy decision remains D02 / Question 7.
-
-## Later controlled decisions — historical Review 3 pending entries superseded
-
-The original register above is preserved. The following later approvals and checkpoints supersede its D02-pending and submission-pending status. The submitted documents remain unchanged; no broader repository architecture is rewritten.
-
-## Later D02 — Future entrants and existing-worker equivalence
-
-
-- Decision date: 8 October 2026.
-- Status: Dan approved for controlled drafting; not approved for submission or publication.
-- Previous position: Review 3 described apprenticeship plus Certificate III as the preferred foundation and left future non-apprenticeship entry for review.
-- Approved direction: require a completed carpentry apprenticeship plus Certificate III for future entrants. Provide the existing workforce with a separate route through reliably verified equivalent competence and targeted gap training or experience. No automatic grandfathering based on tenure; no unnecessary full-qualification repetition for competent existing workers.
-- Reason: preserve a credible entry standard while recognising demonstrated existing competence and limiting avoidable transition burden.
-- Affected material: Review 4 Question 7, primary assessment recommendation, assessment architecture, existing-worker safeguard and document control.
-- Source distinction: Courtney Gleeson referred to the historical RIS provisional assessment sections. This referral informs the reasoning; it does not establish government adoption of D02 or remove the RIS historical disclaimer.
-- Limits: final eligibility, exemption, experience, transition duration and conditions need current source and legal review. D01 and D03 remain as approved.
-
-
-## Departmental reply supplied on 8 October 2026
-
-
-- Provenance: text supplied by Dan, signed Courtney Gleeson, Communications and Engagement Manager – Building, DTP. Incoming date not supplied. Quoted outbound email dated 7 October 2026, 9:44 pm.
-- Current rule checked: Domestic Building Contracts Act 1995 version 094, sections 3 and 29; Domestic Building Contracts Regulations 2017 version 004, regulation 6 fixing $10,000.
-- Separate proposal checked: DTP public notice of 18 August 2026 proposes a $20,000 major-contract threshold. Courtney reports expected making this month and 31 March 2027 commencement. Final instrument and timing were not independently confirmed; this is not the carpenter scheme commencement date.
-- Historical RIS reviewed: sections 1.3 and 1.3.2, Table 0.1 on printed page 31, sections 3.3.4 and 3.3.4.1 on printed pages 71–72, and Chapter 2 on printed pages 34–46. Historical-reference-only status retained.
-- Drafting effect: correct the apparent under-$10,000 slide/meeting inconsistency, distinguish current and proposed contract rules, attribute historical assessment settings, and retain current workforce and incremental-benefit evidence requests.
-- Still open: permits, insurance, corporate and mixed-use boundaries, final trade regulations and commencement, current workforce methodology and the promised existing-building/wet-area discussion contact.
-- Remote checkpoint last independently verified earlier on 8 October: controlled branch at `3a3d962e9f75906c90f03bdb86b8d0b119103448`, with the Review 3 import present. Review 4 is prepared separately; no new remote write or merge is claimed.
-
+D02 drafting and incorporation of the departmental reply are authorised. No merge, website change, deployment, publication, submission or outreach is authorised. Explicit Dan approval is required before publication or submission. Next gate: review the controlled Review 4 pair and remaining source checks.
 
 ## Review 4 QC
 
@@ -147,8 +132,3 @@ Current candidate is Review 7; Review 6 remains an unchanged historical checkpoi
 Dan replied “yes i do” to approval of the exact Review 7 PDF for government submission. Government submission approval is recorded; public GitHub import/publication and approval of a specific merge remain separate and outstanding.
 
 The unchanged Review 7 PDF, SHA-256 `db0bd5b46dca94bc6f45ccdb86a340a8226622275817c23622cf4ca441330405`, was submitted through Engage Victoria’s written-submission form. The site confirmed submission ID **1535134** and thanked the submitter. Confirmation recorded UTC: 2026-10-10T06:54:11.787863+00:00. Receipt record and screenshot retained separately. No server-side byte verification or government endorsement claimed. No GitHub remote write or merge occurred. Historical candidate documents and transfer ZIP are unchanged.
-
-
-## 10 October 2026 public GitHub import approval
-
-Dan explicitly approved publication of the final submitted Review 7 package, including source correspondence, to the controlled branch and creation of a draft PR. Government submission ID 1535134 is already recorded. This approval does not authorise merging, deployment or further policy edits. Historical pending-publication status above is superseded for this exact package.

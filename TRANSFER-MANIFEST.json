@@ -1,0 +1,139 @@
+{
+  "package_version": "Submitted Review 7 GitHub preparation, 10 October 2026",
+  "government_submission_id": "1535134",
+  "status": "Government lodged; public GitHub import and merge require separate approval",
+  "approved_base": "5ffbc77b172938f3a4fda316d552a34b2ceb04c4",
+  "remote_checkpoint": "3a3d962e9f75906c90f03bdb86b8d0b119103448",
+  "members": [
+    {
+      "path": "GitHub-Agent-Submitted-Review-7-Handoff.txt",
+      "bytes": 3470,
+      "sha256": "c57c348fbba72ee78f0d055c1eece9819b2a74ecb536f01dbe1700bcc4d3c054"
+    },
+    {
+      "path": "docs/consultation/v04-review-4/qc/review4-changes.json",
+      "bytes": 9794,
+      "sha256": "3bc54ed1cf3972c52c9450c5d3cc6c70d29b0cf7962c14b0d001496267bb6997"
+    },
+    {
+      "path": "docs/consultation/v04-review-4/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-4.docx",
+      "bytes": 55953,
+      "sha256": "c4f7f9498afb7a1b3ee682152888a9455014356f1ff03f2ae025d747c6ede98f"
+    },
+    {
+      "path": "docs/consultation/v04-review-4/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-4.pdf",
+      "bytes": 252616,
+      "sha256": "0c28a549bae934d1578e0fd0f73a30dd7dde85f1a1ef6966e22012daa7c64f03"
+    },
+    {
+      "path": "docs/consultation/v04-review-4/review/Consultation-v0.4-Review-4-Change-Record.docx",
+      "bytes": 38727,
+      "sha256": "bf0304c83038c93aa51cf9c1d4473b43fba50cba8d342ee6b918a92d97af9b03"
+    },
+    {
+      "path": "docs/consultation/v04-review-4/review/Consultation-v0.4-Review-4-Change-Record.pdf",
+      "bytes": 48506,
+      "sha256": "6a53008cc7555a94575a5e4976a142fbab0731de83ae2e34bb2af5665bc0d0d7"
+    },
+    {
+      "path": "docs/consultation/v04-review-5/qc/Review-5-Exact-Changes.json",
+      "bytes": 19239,
+      "sha256": "f2d6dccc116361de1a8e8a52142d3394150e9ecaee5979c15227b7dc3f8104b6"
+    },
+    {
+      "path": "docs/consultation/v04-review-5/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-5.docx",
+      "bytes": 60452,
+      "sha256": "ad50ee9a03096377a3155f1ed1fbfc2ac982850e92900551aa7797ec4337fee7"
+    },
+    {
+      "path": "docs/consultation/v04-review-5/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-5.pdf",
+      "bytes": 262135,
+      "sha256": "6ef832b5cd8b698c594189632856ff25f9cc5ecd8bc8a389e338d045c7d18a56"
+    },
+    {
+      "path": "docs/consultation/v04-review-5/review/Consultation-v0.4-Review-5-Change-Record.docx",
+      "bytes": 41753,
+      "sha256": "d73c16cbfbc8b5f04dc503b5b94246c717b05fb4607c4a615421daa8ac25aee7"
+    },
+    {
+      "path": "docs/consultation/v04-review-5/review/Consultation-v0.4-Review-5-Change-Record.pdf",
+      "bytes": 53929,
+      "sha256": "88bba0890319da752035e47282dfb8b64e0054ecf5e5fcae361ac74ee2f7387c"
+    },
+    {
+      "path": "docs/consultation/v04-review-6/qc/DECISION_REGISTER.md",
+      "bytes": 15668,
+      "sha256": "d60fbbe30104d015564035ff1d32db689b7808c724a7d6ec3661615f2ec622f4"
+    },
+    {
+      "path": "docs/consultation/v04-review-6/qc/Review-6-Changes.json",
+      "bytes": 5226,
+      "sha256": "99526a389065d3bf951d225d010e5280dbff4be13dca3fa96b73b6e07b08cbaf"
+    },
+    {
+      "path": "docs/consultation/v04-review-6/qc/Submission-Readiness-and-GitHub-Steps.md",
+      "bytes": 6626,
+      "sha256": "49dd2a9baf80222041decafb19fa65c5c6da310a84c453e1a54d29ffa5d8b85d"
+    },
+    {
+      "path": "docs/consultation/v04-review-6/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-6.docx",
+      "bytes": 60720,
+      "sha256": "57269f8cba1bb6d83816a338790af259fb8d29a63c4f85a5aaa45b7e013d812b"
+    },
+    {
+      "path": "docs/consultation/v04-review-6/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-6.pdf",
+      "bytes": 264615,
+      "sha256": "7ae4bf67073117bc6fe93aa788ac2fece519c34b807ea74264853ae8c1edd5ad"
+    },
+    {
+      "path": "docs/consultation/v04-review-6/sources/DTP-Courtney-Gleeson-Reply-Supplied-2026-10-08.txt",
+      "bytes": 3691,
+      "sha256": "87fcd5f61369f30d12932fb6f759294d2293009a627c7b12571a7481c96c17d0"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/qc/Consultation-v0.4-Review-7-Interview-and-Alignment-Review.pdf",
+      "bytes": 47435,
+      "sha256": "a0271d53537b8f65826ab9be84228f6d1428df30dbe0f064f258a3308ccd5025"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/qc/DECISION_REGISTER.md",
+      "bytes": 18387,
+      "sha256": "23ed2b1ee1a9ff2c1aec22b47e32b90d1a484c4846c752e011e35c513417fba1"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/qc/Final-GitHub-Handoff-Readiness.md",
+      "bytes": 2214,
+      "sha256": "d64a41b50bb992fe286f76a1953e4acd5b6d548e28fc620dc999adb52b992170"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/qc/Review-7-Exact-Changes.json",
+      "bytes": 10635,
+      "sha256": "af107a5d3ce69a8c9a0863064b2482af29883b89107466218567162b2ca51d31"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/qc/Review-7-Interview-and-Alignment-Review.md",
+      "bytes": 5778,
+      "sha256": "903d90f809c3d8322156d53f367ab0e1c8b93425b422d8170281c0b8be4453dd"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-7.docx",
+      "bytes": 61796,
+      "sha256": "d5eb0cbc305b17a19f73aa74162b2d02ab3fc07813bfbf98c8b6e9e94cba9fed"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/review/Carpenters-for-Housing-Reform-Victoria-Consultation-Submission-v0.4-Review-7.pdf",
+      "bytes": 270565,
+      "sha256": "db0bd5b46dca94bc6f45ccdb86a340a8226622275817c23622cf4ca441330405"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/submission/Government-Submission-Receipt-1535134.md",
+      "bytes": 1580,
+      "sha256": "c7206caab5c48c1bf467d4713bfa2d81e7a918efac1246614e48e48e6e895cba"
+    },
+    {
+      "path": "docs/consultation/v04-review-7/submission/engage-victoria-submission-1535134.jpg",
+      "bytes": 86509,
+      "sha256": "e92a944f6e381f1e65e30ac3cdbc494cba843c120156625ff3b3910adcf7a07d"
+    }
+  ]
+}
