@@ -1,0 +1,24 @@
+Final GitHub import preparation: controlled Victorian consultation Review 7
+
+Repository: dantuffy3-cmyk/carpenters-for-housing-reform
+Branch ONLY: copilot/controlled-consultation-submission-v04
+Approved base: 5ffbc77b172938f3a4fda316d552a34b2ceb04c4
+Read-only checkpoint: 3a3d962e9f75906c90f03bdb86b8d0b119103448
+Never use copilot/prepare-victorian-carpentry-consultation-v04.
+Package: Controlled-v04-Submitted-Review-7-GitHub-Package.zip
+
+Government submission is already complete: ID 1535134. Do not submit again or alter the approved PDF. SHA-256 db0bd5b46dca94bc6f45ccdb86a340a8226622275817c23622cf4ca441330405.
+
+This handoff authorises read-only checking and preparation. Public import/push and creating a draft PR require Dan's explicit approval covering this exact package. Merge and deployment require separate specific approval. No reset, force push, discarded work, main edits or broad policy edits.
+
+Check current HEAD and approved-base ancestry; inspect intervening changes; read AGENTS.md, any nested instructions, PROJECT_POSITION.md and DECISION_REGISTER.md if present. Verify every manifest-listed member's byte length and SHA-256 and safe repository-relative paths. Import only approved listed docs paths; the root prompt is operational reference, not a website page. Retain original Review 3 and v0.3. Reconcile scoped register additions into existing root register without losing history, recording later D02 approval and government lodgement explicitly. Historical candidate/approval-pending wording in unchanged documents is superseded by the separate receipt, not silently edited.
+
+v0.3 DOCX: SHA-256 2dcce3d71ecc7cf53bfc4cbe482f2724acb24dad7b95467d400828ebe5c8aa25; blob daae583dcb02de079a0772c4ea31024c56bd9521.
+v0.3 PDF: SHA-256 43982d86a33a4f234df8e0e6cb35ef172900da79094006dabb6d86aba384afdf; blob dea8294e43d342e8283b0fe055326939ab630ff9.
+
+Keep contrary evidence and alternatives, residential baseline, common competence/separate role requirements, apprenticeship+Cert III baseline and verified existing-worker equivalence with targeted gap training. RRC remains optional pilot candidate with evidence-based modification/discontinuation; no mandatory pre-builder step, government endorsement, appointment, allocation or new contracting authority claimed. No new monetary cap or mandatory exam.
+
+After explicitly authorised import, recheck hashes, baseline bytes/blobs, 13 question headings, five tables and 17 PDF pages. Run applicable repository checks and report limitations honestly. Prepare a scoped commit and push with expected-HEAD protection; report local/remote SHA separately if push fails. Only with explicit approval publish a draft PR; classify Strategic/documentation and record outstanding source/review limits. Do not mark safe to merge until actual diff, checks and Pages effects are assessed. Do not merge or deploy automatically.
+
+Suggested PR title: Archive submitted v0.4 Review 7 consultation and controlled decision history
+Suggested PR description: Records the exact consultation submitted via Engage Victoria (ID 1535134), with historical Reviews 4–6, QC/source records and later approved decisions. Preserves v0.3 unchanged and reconciles register history. Validation: per-member byte/hash checks, exact submitted PDF checksum, original baseline integrity and applicable repository checks. No substantive policy rewrite or website-page changes; publication/deployment effects require specific review before merge.
